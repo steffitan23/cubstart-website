@@ -1,0 +1,42 @@
+{
+  "lecturers": [
+    {
+      "name": "Steffi Tan",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@staph.e"
+    },
+    {
+      "name": "Tyler Sameshima",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@tshong"
+    },
+    {
+      "name": "Tony Hong",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@tshong"
+    }
+  ],
+  "tas": [
+    {
+      "name": "Jordan Yee",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@tshong"
+    },
+    {
+      "name": "Tony Hong",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@tshong"
+    },
+    {
+      "name": "Tony Hong",
+      "title": "Lecturer",
+      "description": "",
+      "social": "@tshong"
+    }
+  ]
+}
