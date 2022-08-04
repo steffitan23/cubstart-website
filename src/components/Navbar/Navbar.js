@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import HomeworkPage from "../HomeworkPage/HomeworkPage";
 
 function Navbar() {
   const [openMobileTab, setOpenMobileTab] = useState(false);
@@ -25,7 +26,7 @@ function Navbar() {
                 src="https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/branding/cubstart.png"
                 alt="Cubstart Logo"
               />
-              <h1>Cubstart DeCal</h1>
+              <h1>Cubstart</h1>
             </div>
             <div
               className={
@@ -54,8 +55,9 @@ function Navbar() {
             <Route path = '/' element={ <SchedulePage/> } />
             <Route path = '/staff' element={ <StaffPage/> } />
             <Route path = '/info' element={ <CourseInfoPage/> } />
+            <Route path = '/hw/:id' element={ <HomeworkPage/> } />
           </Routes>
-        </Router>
+        </Router>        
       </div>
     </div>
   );

@@ -1,9 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Matter';
+    font-family: 'Open Sans', 'sans-serif';
   }
+
+
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
   /* BASIC SETUP */
   
@@ -14,12 +22,34 @@
   
   .nav-wrapper {
     width: 100%;
+    min-height: 1300px;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: var(--main-bg-color);
+  }
+
+  #wave {
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
   }
   
+  #coding-ddoski {
+    width: 20%;
+    position: absolute;
+    opacity: 0.4;
+  }
+
+  table {
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+  }
+
   .grad-bar {
     width: 100%;
     height: 5px;
@@ -32,23 +62,25 @@
   
   /* LOGO */
   .logo-wrapper {
-    width: 280px;
     display: flex;
+    position: absolute;
+    margin: 0 0 0 5px;
     justify-content: center;
     align-items: center;
   }
 
-  .logo-wrapper h1 {
-      padding-top: 10px;
+  .logo-wrapper p {
       float: right;
+      font-weight: 400;
   }
 
   #logo {
-      height: 90px;
+      height: 80px;
   }
   /* NAVIGATION */
   
   .navbar {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
@@ -58,6 +90,8 @@
   
   
   .navbar ul {
+    position: absolute;
+    margin-right: 8%;
     list-style: none;
     display: flex;
     justify-self: end;
@@ -175,7 +209,7 @@
       position: fixed;
       justify-content: start;
       top: 92px;
-      background-color: #fff;
+      background-color: var(--accent-bg-color);
       width: 100%;
       height: calc(100vh - 55px);
       transform: translate(-101%);

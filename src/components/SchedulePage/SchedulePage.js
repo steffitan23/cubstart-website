@@ -28,15 +28,16 @@ function SchedulePage(props) {
             <div class="tab">
             <input type="radio" name="css-tabs" id="tab-2" class="tab-switch" defaultChecked="checked"/>
             <label for="tab-2" class="tab-label">Web</label>
-            <div class="tab-content"><ReactMarkdown children={web} remarkPlugins={[gfm]}/></div>
+            <div class="tab-content"><ReactMarkdown children={web} remarkPlugins={[gfm]}
+            components={{table: ({node, ...props}) => <table className="styled-table" {...props} /> }}/></div>
             </div>
             <div class="tab">
             <input type="radio" name="css-tabs" id="tab-3" class="tab-switch"/>
             <label for="tab-3" class="tab-label">iOS</label>
-            <div class="tab-content"><ReactMarkdown children={ios} remarkPlugins={[gfm]}/></div>
+            <div class="tab-content"><ReactMarkdown children={ios} remarkPlugins={[gfm]}
+            components={{table: ({node, ...props}) => <table className="styled-table" {...props} /> }}/></div>
             </div>
         </div>
-        <p>Example line outside of tab box</p>
         </div> 
     </div>
     );
