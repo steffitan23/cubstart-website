@@ -26,11 +26,6 @@ function FAQPage(props) {
     </label>
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
-      <div class="accordion__title">Who is this DeCal for? Who can apply?</div>
-      <div class="accordion__content">This DeCal is specifically for beginner programmers. We're looking for those who have never coded before, or only have introductory experience in programming. If you feel uncomfortable taking a software project from beginning to end, this DeCal is for you!</div>
-    </label>
-    <label class="accordion__item">
-      <input type="checkbox" name="accordion"/>
       <div class="accordion__title">What is the attendance policy?</div>
       <div class="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. Lab is optional, and serve as office hours for the homework or project.</div>
     </label>
