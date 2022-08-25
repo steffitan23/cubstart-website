@@ -1,6 +1,7 @@
 ## Table of Contents
 
-# Homework 1: HTML Basics
+# HTML Basics
+
 ## Setting up your HTML Files
 Before we start building our website, we need to create a folder that will hold all of the site's content, including its HTML file.
 
@@ -14,7 +15,7 @@ Before we start building our website, we need to create a folder that will hold 
 At the end of setup, your **Cubstart Web** folder should look something like this:
 
 
-# Build Your Own Site 🕸️
+# Build Your Own Site
 
 Now that you're all set up, let's get creating!
 
@@ -44,10 +45,6 @@ _💡 If you're taking a peek at our starter code, make sure to first review the
 </html>
 ~~~
 
-~~~js
-console.log("hello")
-~~~
-
 ## Requirements for Your Site
 
 To make sure you get the hang of the basics we covered in lecture, we'll be checking your final site for the following tags and elements
@@ -74,4 +71,4 @@ _**OPTIONAL**: Want to see the sample site's HTML code? Click the toggle!_
 # Challenge!
 
 
-# Homework Submission! 🌟
+# Homework Submission!

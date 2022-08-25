@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar.js"
-import SchedulePage from "./components/SchedulePage/SchedulePage.js"
-
+import Footer
+ from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">

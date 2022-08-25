@@ -3,3 +3,13 @@
     background-color: #d6eaf1;
     margin: 20px 0;
 }
+
+.a-special {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.a-special:visited {
+    color: var(--accent-color);
+}

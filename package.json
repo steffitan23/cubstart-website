@@ -13,14 +13,18 @@
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
     "react-toc": "^3.0.0",
+    "react-type-animation": "^2.1.0",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
     "remark-slug": "^7.0.1",
     "remark-toc": "^8.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "ci": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
 import ReactMarkdown from "react-markdown";
-import gfm from "https://cdn.skypack.dev/remark-gfm@1.0.0";
+import gfm from "remark-gfm";
 import "./courseinfo.css"
+import "../SchedulePage/SchedulePage.css"
+import "../HomeworkPage/homework.css"
+import Footer from '../Footer/Footer';
 
 function CourseInfoPage() {
   const [content, setContent] = useState("");
@@ -12,9 +15,15 @@ function CourseInfoPage() {
         .then((text) => setContent(text));
     }, []);
   return (
+    <div>
     <div className="text-wrapper">
-      <h1 className="heading">Course Information</h1>
-      <ReactMarkdown children={content} remarkPlugins={[gfm]}/>
+      <div className="header">
+        <h1>Course Information</h1>
+      </div>
+      <ReactMarkdown children={content} remarkPlugins={[gfm]} components={{table: ({node, ...props}) => <table className="styled-table" {...props} />,
+      a: ({node, ...props}) => <a className="a-special" {...props}>{props.children}</a> }}/>
+    </div>
+    <Footer />
     </div>
   );
 }

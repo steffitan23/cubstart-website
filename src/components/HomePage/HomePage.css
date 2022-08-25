@@ -1,0 +1,90 @@
+
+.header-text {
+    background-color: var(--main-bg-color);
+    padding-bottom: 50px;
+}
+
+.hero-wrapper {
+  margin: 60px auto;
+}
+
+.header h1, h2 {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .desc h1 {
+    font-size: 40px!important;
+  }
+}
+
+.hero-flex-wrapper {
+  display: flex;
+  padding: 40px 0;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.flex-item {
+  padding: 0 30px;
+  align-self: center;
+}
+
+.desc h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.desc {
+  max-width: 550px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+  }
+
+.ddoski-hero {
+  padding: 0 20px;
+  max-width: 400px;
+}
+
+.typing-text {
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.desc-section {
+  padding: 40px 0;
+  background-color: var(--main-color);
+}
+
+.desc-section h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+
+.desc-text {
+  margin: auto;
+  padding: 0 20px;
+  color: var(--main-bg-color);
+  max-width: 900px;
+}
+
+.partner-logo {
+  margin: 20px;
+  max-width: 100px;
+}
+
+.bessa {
+  border-radius: 25px;
+}
+
+.footer {
+  text-align: center;
+  background-color:var(--accent-color);
+  color: var(--main-bg-color);
+  font-weight: 500;
+  padding: 20px 0 ;
+}

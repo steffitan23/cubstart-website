@@ -1,28 +1,32 @@
 import './homework.css'
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
-import gfm from "https://cdn.skypack.dev/remark-gfm@1.0.0";
+import gfm from "remark-gfm";
 import { useParams } from 'react-router-dom';
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
-import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism'
 import remarkSlug from 'remark-slug'
+import rehypeRaw from 'rehype-raw'
 import remarkToc from 'remark-toc'
+import Footer from '../Footer/Footer';
 
 function HomeworkPage() {
-    let { id } = useParams()
-
+    let { type, id } = useParams()
     const [homework, setHomework] = useState("");
-    let path = require("../../hw/" + id + ".md")
+    let path = require("../../hw/" + type + "/" + id + ".md")
+    const homeworkNumber = id.replace("hw", "")
+
     useEffect(() => {
         fetch(path)
         .then((res) => res.text())
         .then((text) => setHomework(text));
-    }, []);
+    });
     
     return (
     <div className="text-wrapper">
-        <ReactMarkdown children={homework} remarkPlugins={[gfm, remarkToc, remarkSlug]}
+        <h1>Homework {homeworkNumber}</h1>
+        <ReactMarkdown children={homework} remarkPlugins={[gfm, remarkSlug, remarkToc]} rehypePlugins={[rehypeRaw]}
         components={{em: ({node, ...props}) => <ul className="ul-special" {...props} />, 
+        a: ({node, ...props}) => <a className="a-special" {...props}>{props.children}</a>,
         code({node, inline, className, children, ...props}) {
             const match = /language-(\w+)/.exec(className || '')
             return !inline && match ? (
@@ -37,7 +41,8 @@ function HomeworkPage() {
                 {children}
               </code>
             )
-          } }} />
+          }
+        }} />
     </div>
     );
 }

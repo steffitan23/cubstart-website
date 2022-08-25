@@ -1,10 +1,14 @@
 import './staff.css'
+import '../SchedulePage/SchedulePage.css'
 import { useState, useEffect } from "react";
 import StaffCard from "./StaffCard";
+import Footer from '../Footer/Footer';
+
 function StaffPage() {
     const [staffInfo, setStaffInfo] = useState({
         "lecturers": [
           {
+            "image": "",
             "name": "",
             "title": "",
             "description": "",
@@ -13,6 +17,7 @@ function StaffPage() {
         ],
         "tas": [
           {
+            "image": "",
             "name": "",
             "title": "",
             "description": "",
@@ -30,15 +35,20 @@ function StaffPage() {
     
     return (
     <div className="staff-wrapper">
+        <div className="header">
         <h1>Lecturers</h1>
+        </div>
         <div className="cards-wrapper">
         {staffInfo.lecturers.map((staff) => <StaffCard content={staff}/>)}
         </div>
         <br/>
-        <h1>TAs</h1>
+        <div className="header">
+        <h1>Teaching Assistants</h1>
+        </div>
         <div className="cards-wrapper">
         {staffInfo.tas.map((staff) => <StaffCard content={staff}/>)}
         </div>
+        <Footer />
     </div>
     );
 }

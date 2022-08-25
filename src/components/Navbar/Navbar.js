@@ -3,6 +3,7 @@ import { useState } from "react";
 import SchedulePage from "../SchedulePage/SchedulePage";
 import CourseInfoPage  from "../CourseInfoPage/CourseInfo";
 import StaffPage from "../StaffPage/StaffPage";
+import HomePage from "../HomePage/HomePage";
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,12 +22,13 @@ function Navbar() {
         <Router>
           <nav className="navbar">
             <div className="logo-wrapper">
-              <img
+            <a href="/"><img
                 id="logo"
-                src="https://calhacks-sierra.s3-us-west-2.amazonaws.com/assets/branding/cubstart.png"
+                src="assets/cubstart_logo.png"
                 alt="Cubstart Logo"
-              />
-              <h1>Cubstart</h1>
+              /></a>
+              <a href="/">
+              <h3>Cubstart</h3></a>
             </div>
             <div
               className={
@@ -40,8 +42,11 @@ function Navbar() {
               <span className="bar"></span>
             </div>
             <ul className={openMobileTab ? "nav mobile-nav" : "nav"}>
+            <li className="nav-item">
+                <Link to="/">Home</Link>
+              </li>
               <li className="nav-item">
-                <Link to="/">Schedule</Link>
+                <Link to="/schedule">Schedule</Link>
               </li>
               <li className="nav-item">
                 <Link to="/staff">Staff</Link>
@@ -52,10 +57,11 @@ function Navbar() {
             </ul>
           </nav>
           <Routes>
-            <Route path = '/' element={ <SchedulePage/> } />
+            <Route path = '/' element={ <HomePage/> } />
+            <Route path = '/schedule' element={ <SchedulePage/> } />
             <Route path = '/staff' element={ <StaffPage/> } />
             <Route path = '/info' element={ <CourseInfoPage/> } />
-            <Route path = '/hw/:id' element={ <HomeworkPage/> } />
+            <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
           </Routes>
         </Router>        
       </div>
