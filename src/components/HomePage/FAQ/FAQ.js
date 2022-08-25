@@ -16,7 +16,8 @@ function FAQPage(props) {
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div class="accordion__title">Are there any prerequisites?</div>
-      <div class="accordion__content">We recommend that you take some introductory programming course before or while you're enrolled in Cubstart (e.g. CS10, CS61A, DATA8, E7).<br/><br/>If you've never coded before and aren't concurrently enrolled in a programming course, you might need to put in some extra effort, but you should still be fine!</div>
+      <div class="accordion__content">The Web development track is designed for beginners to programming. Prior experience in programming will help, but isn't needed!
+        <br/><br/>The iOS development track is designed for intermediate and advanced programmers. We encourage those with who have some experience programming to enroll. We still do allow beginner programmers to enroll in the course, but it may take extra effort to keep up with the content during the first few weeks.</div>
     </label>
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
@@ -31,7 +32,7 @@ function FAQPage(props) {
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div class="accordion__title">What is the attendance policy?</div>
-      <div class="accordion__content">All of our lectures and labs will be held synchronously over Zoom, and you'll be expected to attend both lecture and lab each week. If you are living in a time zone where lecture and/or lab is outside of 8am-10pm, you may request individual accommodations in the first week.</div>
+      <div class="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. Lab is optional, and serve as office hours for the homework or project.</div>
     </label>
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
