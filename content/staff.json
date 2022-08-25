@@ -1,0 +1,48 @@
+{
+  "lecturers": [
+    {
+      "image": "assets/steffi.jpg",
+      "name": "Steffi Tan",
+      "title": "Lecturer",
+      "description": "Hi! I'm a second year studying Computer Science and Cognitive Science. I like crocheting, lockpicking, Valorant, soup, and Kung Fu Panda 3.",
+      "social": "@staph.e"
+    },
+    {
+      "image": "assets/tyler.jpg",
+      "name": "Tyler Sameshima",
+      "title": "Tyler Sameshima",
+      "description": "I am Tyler Sameshima.",
+      "social": "@tysameshima"
+    },
+    {
+      "image": "assets/tony.jpg",
+      "name": "Tony Hong",
+      "title": "Lecturer",
+      "description": "Hello! I'm Tony and I'm currently a junior studying EECS. Some of my academic/industry interests are backend engineering and systems engineering. I also enjoy playing badminton, watching kdramas/anime, and listening to music during my free time.",
+      "social": "@tshong"
+    },
+    {
+      "image": "assets/jordan.jpg",
+      "name": "Jordan Yee",
+      "title": "Lecturer",
+      "description": "Hi! My name is Jordan. I’m a third year studying EECS. At Cal, I’m involved in Cal Hacks, Product Space, and ANOVA. In my free time, you can generally find me playing basketball/football, working out, or just chilling at the beach. Feel free to reach out if you wanna talk gym, product management, or anything else!",
+      "social": "@jordantyee"
+    }
+  ],
+  "tas": [
+    {
+      "image": "assets/andy.jpg",
+      "name": "Andy Huang",
+      "title": "iOS TA",
+      "description": "Hi! I’m Andy and I’m a third year studying computer science. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
+      "social": "@andyy_huang"
+    },
+    {
+      "image": "assets/alex.jpg",
+      "name": "Alexander Goldberg",
+      "title": "Web TA",
+      "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
+      "social": "@alex.gberg"
+    }
+  ]
+}
