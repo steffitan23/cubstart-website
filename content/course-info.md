@@ -16,7 +16,7 @@ The course content is split into lectures, optional labs, homework, and a final 
 
 ## Lectures (Thursdays 6-7pm PT)
 
-The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Lectures for this track, web, will be held in Evans 60. Attendance will be recorded.
+The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
 
 ## Labs (Fridays 6-8pm PT)
 
@@ -29,14 +29,15 @@ The weekly homeworks are mini-projects that have a detailed, step-by-step spec f
 Quality: So that you may gain the working knowledge of the relevant technologies
 Uniqueness: So that you may have a stand-out project for your resume/portfolio with many talking points
 We understand that you have other obligations throughout the semester, which is why we have optional weekly labs on Thursdays, so that you may receive credit for the project the day before it is due (Friday) if you can not commit to a project for a certain week. However, the project spec is instructional enough so that you can follow each step without too much trouble all the way until the finished product, from which you are expected to add a few creative modifications for credit. You are allowed to collaborate your team on these projects, but you are expected to submit these homeworks individually.
-Final Project
+
+## Final Project
 
 The last 4 weeks will be dedicated to your final project, which is ideating and building a viable product/application. You’ll be expected to meet with your project team regularly to work towards meeting the checkpoints throughout. You will have a chance to demo your project for industry experts and professionals as your final at Demo Day, which will take place on Thursday, 5/5. We will be offering extensive Office Hours support as you and your team take on this final project.
 
 ## Learning Goals
-Tackling detailed project specs
-Project ideation and developing software in a team
-Achieving full stack web development proficiency
+- Tackling detailed project specs
+- Project ideation and developing software in a team
+- Achieving full stack web development proficiency
 
 ## Grading Breakdown
 
