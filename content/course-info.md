@@ -1,6 +1,6 @@
 **Course Designation:** CS 198-075, CS 198-750
 
-**Facilitators:** Steffi Tan, Tyler Sameshima
+**Facilitators:** Steffi Tan, Tyler Sameshima, Jordan Yee, Tony Hong
 
 **EECS Dept. Sponsor:** Professor John Denero
 
