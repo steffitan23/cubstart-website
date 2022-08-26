@@ -17,7 +17,7 @@ function FAQPage(props) {
       <input type="checkbox" name="accordion"/>
       <div class="accordion__title">Are there any prerequisites?</div>
       <div class="accordion__content">The Web development track is designed for beginners to programming. Prior experience in programming will help, but isn't needed!
-        <br/><br/>The iOS development track is designed for intermediate and advanced programmers. We encourage those with who have some experience programming to enroll. We still do allow beginner programmers to enroll in the course, but it may take extra effort to keep up with the content during the first few weeks.</div>
+        <br/><br/>The iOS development track is designed for intermediate and advanced programmers. We encourage those who have some experience programming to enroll. We still do allow beginner programmers to enroll in the course, but it may take extra effort to keep up with the content during the first few weeks.</div>
     </label>
     <label class="accordion__item">
       <input type="checkbox" name="accordion"/>
