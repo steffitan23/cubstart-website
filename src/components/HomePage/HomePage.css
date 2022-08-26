@@ -4,6 +4,36 @@
     padding-bottom: 50px;
 }
 
+.button-container {
+  margin-top: 40px;
+}
+
+.applybutton {
+	color: white;
+	background-color: var(--main-color);
+	border: 5px solid transparent;
+	transition: .7s ease;
+	border-radius: 50px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.applybutton:hover {
+	color: var(--main-color);
+	background-color: var(--main-bg-color);
+	transform: scale(1.1);
+	border: 5px solid var(--main-color);
+}
+
+.herelink {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.herelink:hover {
+  color: var(--accent-color);
+}
+
 .hero-wrapper {
   margin: 60px auto;
 }

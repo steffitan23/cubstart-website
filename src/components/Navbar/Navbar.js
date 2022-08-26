@@ -5,7 +5,7 @@ import CourseInfoPage  from "../CourseInfoPage/CourseInfo";
 import StaffPage from "../StaffPage/StaffPage";
 import HomePage from "../HomePage/HomePage";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link
