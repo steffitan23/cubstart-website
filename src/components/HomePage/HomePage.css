@@ -46,6 +46,11 @@
   .desc h1 {
     font-size: 40px!important;
   }
+
+  .ddoski-hero {
+    padding: 0 20px!important;
+    max-width: 300px!important;
+  }
 }
 
 .hero-flex-wrapper {
