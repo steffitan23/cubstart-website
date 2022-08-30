@@ -7,7 +7,7 @@ Welcome to the iOS development track!
 
 | Week | Lecture                                                         | Lab Section                                       | Homework/Project             |
 | ---- | --------------------------------------------------------------- | ------------------------------------------------- | ---------------------------- |
-| 1    | Introduction, Designing an iOS App w/ Figma                     | Team Formation Activities and XCode/GitHub Set-up | HW 1: Mobile Bookstore       |
+| 1    | Introduction, , Git, Designing an iOS App w/ Figma              | Team Formation Activities and XCode/GitHub Set-up | HW 1: Mobile Bookstore       |
 | 2    | Setting up/Walkthrough XCode, Swift Crash Course w/ Playgrounds | Project OH/Checkoff: Mobile Bookstore             | HW 2: Bullseye w/ Storyboard |
 | 3    | SwiftUI Crash Course                                            | Project OH/Checkoff: Bullseye w/ Storyboard       | HW 3: Bullseye w/ SwiftUI    |
 | 4    | NavigationLink & TabView in SwiftUI                             | Project OH/Checkoff: Bullseye w/ SwiftUI          | HW 4: Waitlist Helper        |
