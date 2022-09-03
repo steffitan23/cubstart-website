@@ -15,7 +15,7 @@ Welcome to the full-stack web development track!
 | 6    | Express/NodeJS                               | Project OH/HW Checkoff | HW 6: Make an API           |
 | 7    | MongoDB, Mongoose                            | Project OH/HW Checkoff | HW 7: Quizlet-ish           |
 | 8    | React                                        | Project OH/HW Checkoff | HW 8: Kanban                |
-| 9    | Firebase                                     | Project OH/HW Checkoff | HW 9: Chat App              |
+| 9    | Authentication                               | Project OH/HW Checkoff | HW 9: Chat App              |
 | 10   | Ideation, Design Fundamentals                | Project OH/HW Checkoff | Ideation, Final Project     |
 | 11   | Final Project OH                             | Final Project OH       | Final Project               |
 | 12   | No Class (Fall Recess)                       |                        |                             |
