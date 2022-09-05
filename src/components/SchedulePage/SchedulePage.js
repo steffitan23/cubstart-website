@@ -38,7 +38,7 @@ function SchedulePage(props) {
             components={{table: ({node, ...props}) => <div className="table-wrapper"><table className="styled-table" {...props} /></div> }}/></div>
             </div>
         </div>
-        </div> 
+        </div>
     </div>
     );
 }

@@ -42,17 +42,6 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
-  .desc h1 {
-    font-size: 40px!important;
-  }
-
-  .ddoski-hero {
-    padding: 0 20px!important;
-    max-width: 300px!important;
-  }
-}
-
 .hero-flex-wrapper {
   display: flex;
   padding: 40px 0;
@@ -122,4 +111,22 @@ h1, h2, h3, h4, h5, h6, p {
   color: var(--main-bg-color);
   font-weight: 500;
   padding: 20px 0 ;
+}
+
+@media only screen and (max-width: 600px) {
+  .desc h1 {
+    font-size: 40px!important;
+  }
+
+  .ddoski-hero {
+    padding: 0 20px!important;
+    max-width: 300px!important;
+  }
+
+  .hero-flex-wrapper {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
 }
