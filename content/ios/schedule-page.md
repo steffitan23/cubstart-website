@@ -1,6 +1,6 @@
 Lecture: Thursdays 6:00pm-7:00pm @ Evans 60
 
-Lab: Fridays 6:00pm-7:00pm @ Soda 306
+Lab: Fridays 6:00pm-8:00pm @ Soda 306
 
 ## Announcements
 Welcome to the iOS development track!
