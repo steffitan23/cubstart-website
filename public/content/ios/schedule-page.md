@@ -1,6 +1,6 @@
 Lecture: Thursdays 6:00pm-7:00pm @ Evans 60
 
-Lab: Fridays 6:00pm-7:00pm @ Soda 306
+Lab: Fridays 6:00pm-8:00pm @ Soda 306
 
 ## Announcements
 Welcome to the iOS development track!
@@ -14,7 +14,7 @@ Welcome to the iOS development track!
 | 5    | Tables, Lists, & Custom Cells in SwiftUI                        | Project OH/Checkoff: Waitlist Helper              | HW 5: Shopping List Part 1   |
 | 6    | Objects, Bindings, & Forms in SwiftUI                           | Project OH/Checkoff: Shopping List Part 1         | HW 6: Shopping List Part 2   |
 | 7    | Alerts & API Integration                                        | Project OH/Checkoff: Shopping List Part 2         | HW 7: News Feed              |
-| 8    | Firebase, Firestore.                                            | Project OH/Checkoff: News Feed                    | HW 8: Quizlet-ish            |
+| 8    | Firebase, Firestore                                             | Project OH/Checkoff: News Feed                    | HW 8: Quizlet-ish            |
 | 9    | Publishing to App Store, Next Steps                             | Project OH/Checkoff: Quizlet-ish                  | Design Mockup - First Draft |
 | 10   | Ideation, Design Fundamentals                                   | Ideation, Final Project OH                        | Final Project                |
 | 11   | Final Project OH                                                | Final Project OH                                  | Final Project                |
