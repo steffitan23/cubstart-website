@@ -17,7 +17,6 @@ Welcome to the full-stack web development track!
 | 8    | React                                        | Project OH/HW Checkoff | HW 8: Kanban                |
 | 9    | Authentication                               | Project OH/HW Checkoff | HW 9: Chat App              |
 | 10   | Ideation, Design Fundamentals                | Project OH/HW Checkoff | Ideation, Final Project     |
-| 11   | Final Project OH                             | Final Project OH       | Final Project               |
-| 12   | No Class (Fall Recess)                       |                        |                             |
-| 13   | Final Project OH                             | Final Project OH       | Prep for Demo Day           |
-| 14   |                                              | Demo Day               |                             |
+| 11   | No Class (Fall Recess)                       |                        |                             |
+| 12   | Final Project OH                             | Final Project OH       | Prep for Demo Day           |
+| 13   | Demo Day                                             | N/A               |                             |
