@@ -16,8 +16,7 @@ Welcome to the iOS development track!
 | 7    | Alerts & API Integration                                        | Project OH/Checkoff: Shopping List Part 2         | HW 7: News Feed              |
 | 8    | Firebase, Firestore                                             | Project OH/Checkoff: News Feed                    | HW 8: Quizlet-ish            |
 | 9    | Publishing to App Store, Next Steps                             | Project OH/Checkoff: Quizlet-ish                  | Design Mockup - First Draft |
-| 10   | Ideation, Design Fundamentals                                   | Ideation, Final Project OH                        | Final Project                |
-| 11   | Final Project OH                                                | Final Project OH                                  | Final Project                |
-| 12   | No Class (Fall Recess)                                          |                                                   |                             |
-| 13   | Final Project OH                                                | Final Project OH                                  | Prep for Demo Day            |
-| 14   |                                                                 | Demo Day                                          |                              |
+| 10   | Ideation, Design Fundamentals                                   | Ideation, Final Project OH                        | Final Project                |               
+| 11   | No Class (Fall Recess)                                          |                                                   |                             |
+| 12   | Final Project OH                                                | Final Project OH                                  | Prep for Demo Day            |
+| 13   |                                                                 | Demo Day                                          |                              |
