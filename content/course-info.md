@@ -22,7 +22,7 @@ The weekly lectures are intended to give an introduction to the contents covered
 
 The weekly labs serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). Labs will be held in Mulford 159 for the Web track and Soda 306 for the iOS track. You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
 
-## Homeworks (Assigned Mondays, Due the Next Friday)
+## Homeworks (Assigned Thursdays, Due the Next Friday)
 
 The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. The way these step-by-step projects have been designed is intended to achieve two things:
 
