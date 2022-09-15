@@ -76,7 +76,7 @@ I’ve provided a template for you that will provide some icons you might find u
 
 First, we want to build the “Welcome Screen” or “Title Screen”. This is the first page that comes up when you open the app. In our case, this page will simply have the title of the app, a logo, and some sort of prompt telling the user to continue.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325254-0116f2d4-f4bf-488f-ac8f-0a6b42edc12c.png">
 
 1. First things first, we need to add in this frame. We will be modeling for an iPhone 13 so click on Frames in the toolbar and select “iPhone 13/13 Pro”
     1. Add the frame to the workspace and title the frame “Welcome Screen”
@@ -99,7 +99,8 @@ These are the elements you must include:
 
 Once again, take creative liberties here. Think about what you would like to see on a log in page and make sure to match the aesthetic of your Welcome screen.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325198-4ab406b7-1941-4001-8f72-fff46a6f39cb.png">
+
 
 Tip: Try to mess around with the rounded corners of rectangles to get button shapes and softer input areas
 
@@ -107,7 +108,7 @@ Tip: Try to mess around with the rounded corners of rectangles to get button sha
 
 In this task, you will create the Shop page as well as the Navigation Bar. The Shop Page should include a title, a search bar, categories of books, and titles of books. 
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325318-c93b5c0a-087e-482f-a815-ff9c9fc12ef5.png">
 
 The NavBar should be located at the bottom and host the icons that can be clicked on to bring the user to other pages. In our case, the NavBar will have “buttons” for Profile, Shop, and Chat.
 
@@ -115,7 +116,7 @@ The NavBar should be located at the bottom and host the icons that can be clicke
 
 The Profile page is a little more involved with a lot more information on it. For this task, practice getting your alignment and centering just right. Also, this is a good opportunity to see how layers and groups work! Follow my example in what should be included. 
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325399-709fd0ec-3171-49fc-aceb-169dc79b7cd1.png">
 
 As an extra challenge, add in another section for your Profile page that isn’t included in mine! Don’t forget the NavBar!
 
@@ -123,7 +124,7 @@ As an extra challenge, add in another section for your Profile page that isn’t
 
 The Chat page is relatively simple. Follow my example below to see the general format and what elements to include.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325452-2660333c-6845-4e93-a388-e0b0bfc31a6f.png">
 
 Just cause, I want you to add in 3 more elements into your Chat page. I made mine very minimalistic and definitely lacks a lot of functionality. It’s your job to fix that.
 
