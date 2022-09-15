@@ -23,7 +23,7 @@ I’ll go into the basics of Figma here that should be enough to get you started
 
 Your screen should look something like this! To create a new file, select “New design file”. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d4e6f5d-edb6-4167-8f57-40bd0f76f682/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324136-37846926-e145-4069-9562-1f7b6fa14a21.png)
 
 You can rename the file by selecting “Untitled” and typing in the name of your file. Save the draft by selecting the drop down arrow next to the title of your file and selecting “move to project”. Select your team and project.
 
@@ -31,7 +31,7 @@ You can rename the file by selecting “Untitled” and typing in the name of yo
 
 Your design file will pop up with the workspace blank and this bar on top.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9566ac3-eaab-4681-800d-b3aadd7d3a8c/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324257-43903a07-3e66-4023-9210-2603ca59fa7e.png)
 
 On this bar, you will see your design tools in the top left. From left to right:
 
@@ -45,7 +45,8 @@ On this bar, you will see your design tools in the top left. From left to right:
 
 *The right panel allows for more precise customization
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1f4115-603a-481c-8741-d71d0975f659/Screen_Shot_2020-09-16_at_12.19.35_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1f4115-603a-481c-8741-d71d0975f659/Screen_Shot_2020-09-16_at_12.19.35_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/190324302-493c594c-0c4d-410d-9a10-49b96deab4a5.png)
+
 
 ### Layers & Groups
 
@@ -53,7 +54,8 @@ Layers and groups appear on the left panel. Every element you add creates its ow
 
 This is one of my old projects. As you can see, the frame “Home” has elements tiered below it. I made groups of “HomeNavBar”, “Ad”, “About Us”, and “How It Works”. Beneath each group title are the elements that are grouped within. One thing to note is the order in which elements are listed. You can see that “Log In” is listed above “Rectangle 12”. This is done so that the “Log In” text is shown on top of the rectangle (see below). If this were flipped, the “Log In” would be hidden behind the rectangle.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c608cb4-da0b-4d35-ba6d-ed00d27887fb/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324346-e93e0e10-f0c0-459e-93c5-463452856ea9.png)
+
 
 # Part 2: Building the Mobile Bookstore 📚
 
@@ -66,7 +68,7 @@ I’ve provided a template for you that will provide some icons you might find u
 1. Click this link: [https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1](https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1)
 2. Click on the drop down arrow next to title and select “Duplicate to your drafts”
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3753dc6-906f-4be0-9bb6-5743fe6c9d05/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324395-e9cd97f9-7cfc-48dc-94e1-ffa8776bf324.png)
     
 3. Open the duplicated draft, save it to your projects, and rename this file to whatever you’d like 
 
@@ -139,7 +141,7 @@ In order to do all of these things, you want to select the Prototype tab on the 
 
 Now, you can click on elements and drag their connections to other pages. You can also select which actions will direct these transitions to happen. Should look something like this when done:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c27da4e-2ce6-4550-93f6-a746c1af7695/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324577-adcd7c27-617c-49ab-996b-2810c5254d22.png)
 
 Once you’ve implemented all of the actions and transitions, press the play button in the top right to demo your app!
 
