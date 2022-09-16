@@ -1,5 +1,3 @@
-## Table of Contents
-
 # HTML Basics
 
 ## Setting up your environment
@@ -68,6 +66,10 @@ If you're viewing your site while you're still making edits, you can refresh the
     
 # Challenge!
 Do you know some CSS? We'll be going over how to beautify our website in a later HW, but if you want to challenge yourself and try it out right now, you can look up some resources on CSS and style your website! We're excited to see how creative you can be! :)
+
+If you're looking for some resources to get a headstart, here are some good sites:
+- [W3Schools](https://www.w3schools.com/css/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Homework Submission!
 There is a gradescope assignment on our class for this homework! You should be able to drag and drop/upload your files to your submission.
