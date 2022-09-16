@@ -2,7 +2,10 @@ Lecture: Thursdays 6:00pm-7:00pm @ Evans 60
 
 Lab: Fridays 6:00pm-7:00pm @ Soda 306
 
+[Attendance Form](https://forms.gle/FTv3misKZ7RPbqxY6)
+
 ## Announcements
+
 Welcome to the iOS development track! Join the [EdStem](https://edstem.org/us/join/tkSA9H).
 
 | Week | Lecture                                                                                                                                                                                                                  | Lab Section                                       | Homework/Project                        |
