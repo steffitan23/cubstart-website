@@ -23,7 +23,7 @@ I’ll go into the basics of Figma here that should be enough to get you started
 
 Your screen should look something like this! To create a new file, select “New design file”. 
 
-![image](https://user-images.githubusercontent.com/71753465/190324136-37846926-e145-4069-9562-1f7b6fa14a21.png)
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324136-37846926-e145-4069-9562-1f7b6fa14a21.png"/>
 
 You can rename the file by selecting “Untitled” and typing in the name of your file. Save the draft by selecting the drop down arrow next to the title of your file and selecting “move to project”. Select your team and project.
 
@@ -31,7 +31,7 @@ You can rename the file by selecting “Untitled” and typing in the name of yo
 
 Your design file will pop up with the workspace blank and this bar on top.
 
-![image](https://user-images.githubusercontent.com/71753465/190324257-43903a07-3e66-4023-9210-2603ca59fa7e.png)
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324257-43903a07-3e66-4023-9210-2603ca59fa7e.png"/>
 
 On this bar, you will see your design tools in the top left. From left to right:
 
@@ -45,7 +45,7 @@ On this bar, you will see your design tools in the top left. From left to right:
 
 *The right panel allows for more precise customization
 
-![image](https://user-images.githubusercontent.com/71753465/190324302-493c594c-0c4d-410d-9a10-49b96deab4a5.png)
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/71753465/190324302-493c594c-0c4d-410d-9a10-49b96deab4a5.png"/>
 
 
 ### Layers & Groups
@@ -68,7 +68,7 @@ I’ve provided a template for you that will provide some icons you might find u
 1. Click this link: [https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1](https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1)
 2. Click on the drop down arrow next to title and select “Duplicate to your drafts”
     
-![image](https://user-images.githubusercontent.com/71753465/190324395-e9cd97f9-7cfc-48dc-94e1-ffa8776bf324.png)
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324395-e9cd97f9-7cfc-48dc-94e1-ffa8776bf324.png"/>
     
 3. Open the duplicated draft, save it to your projects, and rename this file to whatever you’d like 
 
@@ -142,7 +142,7 @@ In order to do all of these things, you want to select the Prototype tab on the 
 
 Now, you can click on elements and drag their connections to other pages. You can also select which actions will direct these transitions to happen. Should look something like this when done:
 
-![image](https://user-images.githubusercontent.com/71753465/190324577-adcd7c27-617c-49ab-996b-2810c5254d22.png)
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324577-adcd7c27-617c-49ab-996b-2810c5254d22.png"/>
 
 Once you’ve implemented all of the actions and transitions, press the play button in the top right to demo your app!
 
@@ -157,7 +157,7 @@ For this final task, I want you to create another page in the app. This page sho
 3. Multiple colors and shapes
 4. Integrated functionality within the prototype
 
-Be Creative!
+Be creative!
 
 # Submission
 

@@ -93,6 +93,31 @@ h1, h2, h3, h4, h5, h6, p {
   min-width: 400px;
 }
 
+.tab-content a {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: ease-in 0.2s;
+  border-radius: 6px;
+  padding: 5px;
+  border: 2px solid var(--accent-bg-color);
+} 
+
+.tab-content td:last-child a {
+  padding: 0!important;
+  border: 0!important;
+}
+
+.tab-content a:hover {
+  border: 2px solid var(--main-color);
+  background-color: var(--accent-bg-color);
+}
+
+.tab-content ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
 .styled-table thead tr {
   background-color: var(--main-color);
   color: var(--accent-bg-color);

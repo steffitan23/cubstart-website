@@ -72,4 +72,4 @@ If you're looking for some resources to get a headstart, here are some good site
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Homework Submission!
-There is a gradescope assignment on our class for this homework! You should be able to drag and drop/upload your files to your submission.
+There is a [Gradescope](https://www.gradescope.com/) assignment on our class for this homework! You should be able to drag and drop/upload your files to your submission.
