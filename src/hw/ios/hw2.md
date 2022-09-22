@@ -8,7 +8,8 @@ The core concept of it is that given a random number, you will try to move the s
 
 Here is an example of the finished product:
 
-[Screen Recording 2022-01-23 at 3.04.09 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b663e6f2-3f69-4c5c-957f-6e1a19eec253/Screen_Recording_2022-01-23_at_3.04.09_AM.mov)
+https://user-images.githubusercontent.com/71753465/191644028-972a2871-b914-49a7-a6d0-46ac250bd317.mov
+
 
 ## Setup 🛠️
 
@@ -26,7 +27,7 @@ If you ever want to set up your own project first Open Xcode → Create a new Xc
 
 Here are the new project options:
 
-![Screen Shot 2022-01-10 at 12.49.54 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43fc9d6b-4641-4547-8ca4-da28e9fb7c1d/Screen_Shot_2022-01-10_at_12.49.54_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191644078-1090c042-52a9-4c6a-9314-59dbe9675c5c.png)
 
 This might change depending on the project you are working on but generally these options will do when working with SwiftUI. Feel free to place the project wherever you like; then click create! 
 
@@ -36,11 +37,12 @@ This might change depending on the project you are working on but generally thes
 
 A storyboard is a visual representation of the UI of an app. As a developer you are able to manually place different elements of the app using “drag and drop” to build the UI.
 
-![Screen Shot 2022-01-13 at 8.38.38 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5302a2fa-1557-4664-8f9f-5e31bdc93330/Screen_Shot_2022-01-13_at_8.38.38_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191644123-b0971dda-461e-4c6f-90db-bfba50a76934.png)
+
 
 In this course we will not be directly working with storyboards and will be working with SwiftUI instead. If you ever want to use storyboards you can change the “interface” setting to “storyboard” when creating a new project.
 
-![Screen Shot 2022-01-13 at 8.43.23 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb5c3845-c1db-44e7-8c1d-82e3b4a669cd/Screen_Shot_2022-01-13_at_8.43.23_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191644155-49a6b8b6-7ec8-4c2e-904d-3f47be4cd89a.png)
 
 ## Why SwiftUI?
 
@@ -52,7 +54,7 @@ IBActions and IBOutlets result from connecting elements from a storyboard to act
 
 This is how the IBActions and IBOutlets for this homework were initialized using Ctrl + click + drag
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c256f212-6093-430f-b5ab-11adab8e42cb/2connecting.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c256f212-6093-430f-b5ab-11adab8e42cb/2connecting.mov)
+https://drive.google.com/file/d/1OmgHeEBlv2zI4yfMSCSbMEumug4ULGb5/view?usp=sharing
 
 ## [OPTIONAL] Implementing the UI
 
