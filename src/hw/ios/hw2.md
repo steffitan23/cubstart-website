@@ -13,7 +13,41 @@ https://user-images.githubusercontent.com/71753465/191644028-972a2871-b914-49a7-
 
 ## Setup 🛠️
 
-Throughout this course you will be pulling skeleton code from our github repos. To pull the skeleton code for bullseye, type this command below into your terminal on the directory you want the folder in.
+First open your terminal which should already be set up on your laptop:
+
+![image](https://user-images.githubusercontent.com/64179036/191868525-25f7ce78-40e2-4fd0-9bd2-89f536d6e072.png)
+
+It should first look like this when you open it:
+
+![image](https://user-images.githubusercontent.com/64179036/191868549-0ba6617d-b0fc-4146-9fd9-d8ef200dc908.png)
+
+Type in the commands below individually to create a new folder “Cubstart-iOS” in your Desktop folder
+
+```markdown
+cd Desktop
+mkdir Cubstart-iOS
+cd Cubstart-iOS
+```
+
+The “cd <path>” command is changing your current working directory to the specified path and the “mkdir <directory-name>” is creating a folder in your current working directory.
+	
+Your current working directory should be “Cubstart-iOS” before running the next few commands
+	
+![image](https://user-images.githubusercontent.com/64179036/191868565-a79fc05e-aa2f-4c88-96ae-b4c44ab36a85.png)
+	
+We will be creating your very own personal repository on GitHub and we will connect it to your local git: (you don’t need to do this if you already have a git repository set up for Cubstart)
+
+1. Create a [GitHub](https://github.com/) Account if you don't already have one. Use your Berkeley email to sign up
+2. Click the `+` in the upper-right corner, and select `New repository`
+3. Give your repo a name, and leave it public. You can leave other fields set to their default values. Click `Create repository`
+4. Copy the link from the `Quick setup` section
+5. Use the link you copied to connect your local git repository to the one you just made on GitHub using `git remote add <your name> <url>`
+
+Now you should have a git repository set up for Cubstart that is connected to your local computer.
+
+**Note: The sections above should be a one time setup**
+
+Throughout this course you will be pulling skeleton code from our github repos. This next command will pull code from Tony’s personal repository into your local computer. To pull the skeleton code for bullseye, type this command below into your terminal on the directory you want the folder in (Cubstart-iOS).
 
 ```markdown
 git clone https://github.com/tonyhong007/bullseye_with_storyboard-skeleton
@@ -510,3 +544,25 @@ https://user-images.githubusercontent.com/71753465/191648524-496a88d3-954d-4fd2-
 
 
 YAY! We are now finished! Hope you had fun with this homework 😎
+
+# Submission:
+
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```markdown
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```markdown
+git status
+git add .
+git commit -m "completed homework 1"
+git push
+```
+
+Upload your code onto gradescope for HW 1 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
