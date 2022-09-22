@@ -22,6 +22,7 @@ function HomeworkPage() {
     });
     
     return (
+      <div>
     <div className="text-wrapper">
         <h1>Homework {homeworkNumber}</h1>
         <ReactMarkdown children={homework} remarkPlugins={[gfm, remarkSlug, remarkToc]} rehypePlugins={[rehypeRaw]}
@@ -44,6 +45,8 @@ function HomeworkPage() {
           }
         }} />
     </div>
+        <Footer/>
+        </div>
     );
 }
 

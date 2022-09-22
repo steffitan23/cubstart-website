@@ -23,7 +23,7 @@ I’ll go into the basics of Figma here that should be enough to get you started
 
 Your screen should look something like this! To create a new file, select “New design file”. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1d4e6f5d-edb6-4167-8f57-40bd0f76f682/Untitled.png)
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324136-37846926-e145-4069-9562-1f7b6fa14a21.png"/>
 
 You can rename the file by selecting “Untitled” and typing in the name of your file. Save the draft by selecting the drop down arrow next to the title of your file and selecting “move to project”. Select your team and project.
 
@@ -31,7 +31,7 @@ You can rename the file by selecting “Untitled” and typing in the name of yo
 
 Your design file will pop up with the workspace blank and this bar on top.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9566ac3-eaab-4681-800d-b3aadd7d3a8c/Untitled.png)
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324257-43903a07-3e66-4023-9210-2603ca59fa7e.png"/>
 
 On this bar, you will see your design tools in the top left. From left to right:
 
@@ -45,7 +45,8 @@ On this bar, you will see your design tools in the top left. From left to right:
 
 *The right panel allows for more precise customization
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1f4115-603a-481c-8741-d71d0975f659/Screen_Shot_2020-09-16_at_12.19.35_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee1f4115-603a-481c-8741-d71d0975f659/Screen_Shot_2020-09-16_at_12.19.35_PM.png)
+<img width="633" alt="image" src="https://user-images.githubusercontent.com/71753465/190324302-493c594c-0c4d-410d-9a10-49b96deab4a5.png"/>
+
 
 ### Layers & Groups
 
@@ -53,7 +54,8 @@ Layers and groups appear on the left panel. Every element you add creates its ow
 
 This is one of my old projects. As you can see, the frame “Home” has elements tiered below it. I made groups of “HomeNavBar”, “Ad”, “About Us”, and “How It Works”. Beneath each group title are the elements that are grouped within. One thing to note is the order in which elements are listed. You can see that “Log In” is listed above “Rectangle 12”. This is done so that the “Log In” text is shown on top of the rectangle (see below). If this were flipped, the “Log In” would be hidden behind the rectangle.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c608cb4-da0b-4d35-ba6d-ed00d27887fb/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/190324346-e93e0e10-f0c0-459e-93c5-463452856ea9.png)
+
 
 # Part 2: Building the Mobile Bookstore 📚
 
@@ -66,7 +68,7 @@ I’ve provided a template for you that will provide some icons you might find u
 1. Click this link: [https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1](https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1)
 2. Click on the drop down arrow next to title and select “Duplicate to your drafts”
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3753dc6-906f-4be0-9bb6-5743fe6c9d05/Untitled.png)
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324395-e9cd97f9-7cfc-48dc-94e1-ffa8776bf324.png"/>
     
 3. Open the duplicated draft, save it to your projects, and rename this file to whatever you’d like 
 
@@ -74,7 +76,7 @@ I’ve provided a template for you that will provide some icons you might find u
 
 First, we want to build the “Welcome Screen” or “Title Screen”. This is the first page that comes up when you open the app. In our case, this page will simply have the title of the app, a logo, and some sort of prompt telling the user to continue.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325254-0116f2d4-f4bf-488f-ac8f-0a6b42edc12c.png">
 
 1. First things first, we need to add in this frame. We will be modeling for an iPhone 13 so click on Frames in the toolbar and select “iPhone 13/13 Pro”
     1. Add the frame to the workspace and title the frame “Welcome Screen”
@@ -97,7 +99,8 @@ These are the elements you must include:
 
 Once again, take creative liberties here. Think about what you would like to see on a log in page and make sure to match the aesthetic of your Welcome screen.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325198-4ab406b7-1941-4001-8f72-fff46a6f39cb.png">
+
 
 Tip: Try to mess around with the rounded corners of rectangles to get button shapes and softer input areas
 
@@ -105,7 +108,7 @@ Tip: Try to mess around with the rounded corners of rectangles to get button sha
 
 In this task, you will create the Shop page as well as the Navigation Bar. The Shop Page should include a title, a search bar, categories of books, and titles of books. 
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325318-c93b5c0a-087e-482f-a815-ff9c9fc12ef5.png">
 
 The NavBar should be located at the bottom and host the icons that can be clicked on to bring the user to other pages. In our case, the NavBar will have “buttons” for Profile, Shop, and Chat.
 
@@ -113,7 +116,7 @@ The NavBar should be located at the bottom and host the icons that can be clicke
 
 The Profile page is a little more involved with a lot more information on it. For this task, practice getting your alignment and centering just right. Also, this is a good opportunity to see how layers and groups work! Follow my example in what should be included. 
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325399-709fd0ec-3171-49fc-aceb-169dc79b7cd1.png">
 
 As an extra challenge, add in another section for your Profile page that isn’t included in mine! Don’t forget the NavBar!
 
@@ -121,7 +124,7 @@ As an extra challenge, add in another section for your Profile page that isn’t
 
 The Chat page is relatively simple. Follow my example below to see the general format and what elements to include.
 
-IMAGE
+<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325452-2660333c-6845-4e93-a388-e0b0bfc31a6f.png">
 
 Just cause, I want you to add in 3 more elements into your Chat page. I made mine very minimalistic and definitely lacks a lot of functionality. It’s your job to fix that.
 
@@ -139,7 +142,7 @@ In order to do all of these things, you want to select the Prototype tab on the 
 
 Now, you can click on elements and drag their connections to other pages. You can also select which actions will direct these transitions to happen. Should look something like this when done:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c27da4e-2ce6-4550-93f6-a746c1af7695/Untitled.png)
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324577-adcd7c27-617c-49ab-996b-2810c5254d22.png"/>
 
 Once you’ve implemented all of the actions and transitions, press the play button in the top right to demo your app!
 
@@ -154,8 +157,8 @@ For this final task, I want you to create another page in the app. This page sho
 3. Multiple colors and shapes
 4. Integrated functionality within the prototype
 
-Be Creative!
+Be creative!
 
 # Submission
 
-To submit this project, take a screen recording of your prototyping of your Figma file. Click through all of the transitions so that all the pages are shown and interacted with. Save this screen recording and submit to Gradescope.
+To submit this project, take a screen recording of your prototyping of your Figma file. Click through all of the transitions so that all the pages are shown and interacted with. Save this screen recording and submit to [Gradescope](https://www.gradescope.com/courses/444363).

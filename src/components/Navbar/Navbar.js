@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 import HomeworkPage from "../HomeworkPage/HomeworkPage";
+// import AttendancePage from "../AttendancePage/AttendancePage"
 
 function Navbar() {
   const [openMobileTab, setOpenMobileTab] = useState(false);
@@ -54,6 +55,9 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
+              {/* <li className="nav-item">
+                <Link to="/attendance">Attendance</Link>
+              </li> */}
             </ul>
           </nav>
           <Routes>
@@ -61,6 +65,7 @@ function Navbar() {
             <Route path = '/schedule' element={ <SchedulePage/> } />
             <Route path = '/staff' element={ <StaffPage/> } />
             <Route path = '/info' element={ <CourseInfoPage/> } />
+            {/* <Route path = '/attendance' element={ <AttendancePage/> } /> */}
             <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
           </Routes>
         </Router>        
