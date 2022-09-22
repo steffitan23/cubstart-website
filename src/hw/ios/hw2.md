@@ -557,11 +557,12 @@ cd Cubstart-iOS
 Then type in these commands to push your code onto your personal repository:
 
 ```markdown
-git status
 git add .
 git commit -m "completed homework 1"
 git push
 ```
+
+You can also type `git status` to verify which files you are pushing.
 
 Upload your code onto gradescope for HW 1 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
 
