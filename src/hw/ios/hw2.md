@@ -66,7 +66,7 @@ First, navigate to “Main”. Then add a label, a button, and a slider!
 
 You can either press the + button at the top right or use the shortcut Cmd+Shift+L to search for the elements.
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/836a9828-90eb-4df6-8d93-afcc476514c1/1addingobjects.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/836a9828-90eb-4df6-8d93-afcc476514c1/1addingobjects.mov)
+https://drive.google.com/file/d/1_qRZ7mo_2bNR4qvGiIaeV3B4BRobxTgX/view?usp=sharing
 
 ### Connecting to the View Controller
 
@@ -80,11 +80,15 @@ Slider as an Outlet: `numSlider`
 
 Slider as an Action: `sliderValueChanged`
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c256f212-6093-430f-b5ab-11adab8e42cb/2connecting.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c256f212-6093-430f-b5ab-11adab8e42cb/2connecting.mov)
+https://drive.google.com/file/d/1knV2dQabXv2n1s7ymEhZoQcF_yGaWxfQ/view?usp=sharing
+
+
+https://user-images.githubusercontent.com/71753465/191647615-201d6a92-af80-4404-8ce3-1ff265ed4dd8.mp4
+
 
 If you mess up, don't fret! You can click the element, and under the connections inspector, you are able to delete and redo any messed up connections!
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c079760b-5b0e-45a5-89c5-5d364ce5face/fix.mp4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c079760b-5b0e-45a5-89c5-5d364ce5face/fix.mp4)
+
 
 ### The Slider
 
@@ -100,7 +104,9 @@ You will see the values between 0 and 1 printed in your terminal...that's not wh
 
 Click on the slider element and you can change the range of values:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1229c2b5-f653-4daa-970f-7fc41712a763/Screen_Shot_2020-08-17_at_4.56.36_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1229c2b5-f653-4daa-970f-7fc41712a763/Screen_Shot_2020-08-17_at_4.56.36_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191648963-2cf8ffc3-16de-453c-bb1e-48cd117dd0f9.png)
+
+
 
 Value represents where the slider circle begins, and min and max represent the smallest and largest values possible for the slider.
 
@@ -108,11 +114,11 @@ If we run again, we see the values are between 1 and 100 but are decimals! How d
 
 **Fix + String Interpolation**
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d291254-b7e9-49f3-8b90-3738ef2d9cb1/stringinterp2.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d291254-b7e9-49f3-8b90-3738ef2d9cb1/stringinterp2.mov)
+https://drive.google.com/file/d/1bgTrl-vLGGRhKw3zVs4vx-a25GQqnYdE/view?usp=sharing
 
 Try running again and...Yay! now our slider should be working
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9894e75-e9bb-47d1-9441-283eab3608e7/3sliderworking.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9894e75-e9bb-47d1-9441-283eab3608e7/3sliderworking.mov)
+https://user-images.githubusercontent.com/71753465/191647762-e6442fe4-c416-4abc-8bbf-2c28d089c4b1.mov
 
 ### Adding the Switch
 
@@ -122,15 +128,15 @@ That is why we will add an exact switch! If the exact game mode is off, then we 
 
 First, let's add a switch:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7aadcdd-1429-46d9-8cf7-4d527f28887d/Screen_Shot_2020-08-17_at_5.43.16_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7aadcdd-1429-46d9-8cf7-4d527f28887d/Screen_Shot_2020-08-17_at_5.43.16_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191649108-de98adae-c1c5-4ad6-86f5-e0c1e4df8fe6.png)
 
 I placed the switch at the bottom of the screen along with a label above it just to let users know what it does.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/231aa012-d5d6-4022-adba-b4a6af6b1dc2/Screen_Shot_2020-08-17_at_5.46.20_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/231aa012-d5d6-4022-adba-b4a6af6b1dc2/Screen_Shot_2020-08-17_at_5.46.20_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191649147-73ea8fc4-1a41-485d-b583-db7411a332a8.png)
 
 …and turn it off for now
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5217af1-daee-4455-b9c2-7d54c46a17f5/Screen_Shot_2020-08-17_at_5.47.31_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5217af1-daee-4455-b9c2-7d54c46a17f5/Screen_Shot_2020-08-17_at_5.47.31_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191649184-3b3eb82d-5f59-46e6-aa57-067684be490f.png)
 
 Then create an IB outlet called exactSwitch for it. We set it as an outlet and not an action, because the "Check?" button will check the property of the switch to see if it is on or off.
 
@@ -138,7 +144,7 @@ Then create an IB outlet called exactSwitch for it. We set it as an outlet and n
 
 The “High Score”, “Current Level”, and “Result Label” labels were added and connected to the code using the same method as shown above. The UI of the code when run should initially look like this except “Result Label” will be invisible on your screen and you will see why soon!
 
-![Screen Shot 2022-01-18 at 6.47.08 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01b37bd8-61a2-47e5-9fad-61b3a635ecbf/Screen_Shot_2022-01-18_at_6.47.08_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/191649214-2dbd6a3c-d53e-41f8-be30-df5d46ffe966.png)
 
 That concludes the UI for this homework!
 
@@ -146,7 +152,7 @@ That concludes the UI for this homework!
 
 First, navigate to “Main” to view the storyboard. All of the UI should be completed and should appear as shown except for “Result Label”:
 
-![Screen Shot 2022-01-21 at 2.24.17 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ea61b6c-f5bf-4e1c-8392-1ead10d3b5a1/Screen_Shot_2022-01-21_at_2.24.17_AM.png)
+![image](https://user-images.githubusercontent.com/71753465/191649263-95b5d34f-3c32-4aac-b72b-29674caa8993.png)
 
 Note that “Result Label” will be invisible (empty text) on your screen. This was purposely done and you will see why soon!
 
@@ -184,9 +190,10 @@ Imported from Foundation, arc4random gives us a decimal number *under* 101, and 
     This has to do with a concept called scoping. By declaring the variable outside `viewDidLoad()`, other functions are able to access and modify `randomNumber` as well. If `randomNumber` were declared inside of `viewDidLoad()`, the variable would not be accessible inside other functions. You can read more about scoping [here](https://learnappmaking.com/scope-context-swift-how-to/)! If you're in CS 61A or CS 88,  [environment diagrams](http://composingprograms.com/pages/13-defining-new-functions.html#environments) go into this in depth.
     
 
+
 Your application should now look like this:
 
-[Screen Recording 2022-01-21 at 1.44.28 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3548b3a8-8702-497d-828a-b005777b5efc/Screen_Recording_2022-01-21_at_1.44.28_AM.mov)
+https://user-images.githubusercontent.com/71753465/191647947-0acaf720-8668-424c-abef-439edd63b93f.mov
 
 We do not need the view to update when moving the slider, so go ahead and remove the code from sliderValueChanged.
 
@@ -222,7 +229,11 @@ Our goal is to check if the randomNumber we generated is equal to the number of 
 
 Run, and your app should now look like this. Don't worry if the spacing is a little off! This could be fixed with something called “constraints”, but since we will be using SwiftUI from now on we won’t be dealing with it here.
 
-[Screen Recording 2022-01-21 at 2.01.13 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ee470db-5601-4182-82b1-61fe34e39f49/Screen_Recording_2022-01-21_at_2.01.13_AM.mov)
+
+
+https://user-images.githubusercontent.com/71753465/191648184-96cfe711-4b8f-4f8c-8b1c-df5fa12185cb.mov
+
+
 
 Notice how the result label displays text after clicking “check”. We could not show text before the user clicked “check” which is why we initialized result label to be an empty string!
 
@@ -262,7 +273,11 @@ Right now we can't play again unless we rerun on Xcode 😢 That doesn't make se
 
 The “Play Again” button shouldn't show up unless we have already played a round, so the property of the Hidden property of the button was initially set to true.
 
-[https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c64e55f-9371-4dd1-b227-4e36b9ff0be3/6hidden.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c64e55f-9371-4dd1-b227-4e36b9ff0be3/6hidden.mov)
+
+
+https://user-images.githubusercontent.com/71753465/191648236-132892a1-6b74-49bb-a72b-9db084b96d7f.mov
+
+
 
 After you check your slider value, "Play Again" should appear, so change the property at the end of the checkValue function.
 
@@ -293,7 +308,11 @@ Many things have to happen when the "Play Again" button is tapped:
 
 This is how your app should look now:
 
-[Screen Recording 2022-01-21 at 2.28.40 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40479ede-4e64-47ed-a6fd-f170ce1aa5ca/Screen_Recording_2022-01-21_at_2.28.40_AM.mov)
+
+
+https://user-images.githubusercontent.com/71753465/191648278-382c091c-e5b2-4317-87f6-708c7e145994.mov
+
+
 
 ## Exercise 2E: Levels
 
@@ -325,7 +344,11 @@ override func viewDidLoad() {
 
 Your app should now look like this:
 
-[Screen Recording 2022-01-21 at 11.45.46 PM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20de4afa-10d6-45d7-8237-b9438b8dfe53/Screen_Recording_2022-01-21_at_11.45.46_PM.mov)
+
+https://user-images.githubusercontent.com/71753465/191648321-ec51c131-c2b9-4ea1-ab5b-9bee3eccea4e.mov
+
+
+
 
 You might notice that we aren’t actually changing the “Current Level” or “Range” labels as the user advances in levels. To do this we should add code in the checkValue() function since this function is called whenever the user wants to check for bullseye. When the user hits the bullseye we can update the values like how I did below:
 
@@ -426,7 +449,11 @@ You might notice that we aren’t actually changing the “Current Level” or �
 
 Your app should now look like this:
 
-[Screen Recording 2022-01-23 at 2.46.35 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9659f5ea-826c-42ca-b065-cae0bd8392f2/Screen_Recording_2022-01-23_at_2.46.35_AM.mov)
+
+
+https://user-images.githubusercontent.com/71753465/191648396-4f8305f3-37bb-4323-aaea-60482956b06a.mov
+
+
 
 There is one more function we have to edit. You might’ve noticed that when I missed the bullseye in the video above and pressed “Play Again”, the current level was still 2 and the range was still 150. We should add code so that when a user “loses”, the level will reset to 1 and the range will reset to 100.
 
@@ -451,7 +478,11 @@ There is one more function we have to edit. You might’ve noticed that when I m
 
 Your app should now look like this:
 
-[Screen Recording 2022-01-23 at 2.47.51 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f063448c-04b1-4214-8fbe-f8884d2eadf3/Screen_Recording_2022-01-23_at_2.47.51_AM.mov)
+
+https://user-images.githubusercontent.com/71753465/191648468-037c3afc-3f3d-4a77-b948-f44fce4ac078.mov
+
+
+
 
 ## Exercise 2F: High score
 
@@ -472,6 +503,10 @@ Hint 4: Inside the if statement I assigned the “x” to be the current level a
 
 Your app should look like this!
 
-[Screen Recording 2022-01-23 at 3.04.09 AM.mov](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b663e6f2-3f69-4c5c-957f-6e1a19eec253/Screen_Recording_2022-01-23_at_3.04.09_AM.mov)
+
+
+https://user-images.githubusercontent.com/71753465/191648524-496a88d3-954d-4fd2-8dd0-b66264b7124d.mov
+
+
 
 YAY! We are now finished! Hope you had fun with this homework 😎
