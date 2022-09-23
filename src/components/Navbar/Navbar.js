@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 import HomeworkPage from "../HomeworkPage/HomeworkPage";
+import LabPage from "../LabPage/LabPage";
 // import AttendancePage from "../AttendancePage/AttendancePage"
 
 function Navbar() {
@@ -67,6 +68,7 @@ function Navbar() {
             <Route path = '/info' element={ <CourseInfoPage/> } />
             {/* <Route path = '/attendance' element={ <AttendancePage/> } /> */}
             <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
+            <Route path = '/lab/:type/:id' element={ <LabPage/> } />
           </Routes>
         </Router>        
       </div>
