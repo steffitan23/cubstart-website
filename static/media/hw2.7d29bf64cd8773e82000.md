@@ -89,10 +89,7 @@ IBActions and IBOutlets result from connecting elements from a storyboard to act
 
 This is how the IBActions and IBOutlets for this homework were initialized using Ctrl + click + drag
 
-<video width="400" controls autoplay>
-    <source src="https://drive.google.com/file/d/1OmgHeEBlv2zI4yfMSCSbMEumug4ULGb5/view?usp=sharing" type="video/mp4">
-</video>
-
+<iframe src="https://drive.google.com/file/d/1OmgHeEBlv2zI4yfMSCSbMEumug4ULGb5/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## [OPTIONAL] Implementing the UI
 
@@ -103,9 +100,8 @@ You may read through this section if you are interested in seeing how the UI was
 First, navigate to “Main”. Then add a label, a button, and a slider! 
 
 You can either press the + button at the top right or use the shortcut Cmd+Shift+L to search for the elements.
-<video width="400" controls autoplay>
-    <source src="https://drive.google.com/file/d/1_qRZ7mo_2bNR4qvGiIaeV3B4BRobxTgX/view?usp=sharing" type="video/mp4">
-</video>
+
+<iframe src="https://drive.google.com/file/d/1_qRZ7mo_2bNR4qvGiIaeV3B4BRobxTgX/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ### Connecting to the View Controller
 
@@ -119,9 +115,8 @@ Slider as an Outlet: `numSlider`
 
 Slider as an Action: `sliderValueChanged`
 
-<video width="400" controls autoplay>
-    <source src="https://drive.google.com/file/d/1knV2dQabXv2n1s7ymEhZoQcF_yGaWxfQ/view?usp=sharing" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1knV2dQabXv2n1s7ymEhZoQcF_yGaWxfQ/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 <video width="400" controls autoplay>
     <source src="https://user-images.githubusercontent.com/71753465/191647615-201d6a92-af80-4404-8ce3-1ff265ed4dd8.mp4" type="video/mp4">
@@ -156,11 +151,13 @@ If we run again, we see the values are between 1 and 100 but are decimals! How d
 
 **Fix + String Interpolation**
 
-https://drive.google.com/file/d/1bgTrl-vLGGRhKw3zVs4vx-a25GQqnYdE/view?usp=sharing
+<iframe src="https://drive.google.com/file/d/1bgTrl-vLGGRhKw3zVs4vx-a25GQqnYdE/preview" width="640" height="480" allow="autoplay"></iframe>
 
 Try running again and...Yay! now our slider should be working
 
-https://user-images.githubusercontent.com/71753465/191647762-e6442fe4-c416-4abc-8bbf-2c28d089c4b1.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191647762-e6442fe4-c416-4abc-8bbf-2c28d089c4b1.mov" type="video/mp4">
+</video>
 
 ### Adding the Switch
 
@@ -369,15 +366,15 @@ We will introduce the concept of levels. Users will start at level 1 and progres
 
 To implement this functionality we will need to initially create new variables and initialize new labels in the viewDidLoad() function. Below your “randomNumber” variable, create two new variables. The “range” variable will allow us to keep track of the max range of the slider and the “level” variable will allow us to keep track of what level the user is on!
 
-```markdown
+~~~swift
 var range = 100
     
 var level = 1
-```
+~~~
 
 In the viewDidLoad() function we will be assigning these variables above to the text of their respective label so it can be displayed to the user. Remember that viewDidLoad() is always run whenever a user opens the app!
 
-```markdown
+~~~swift
 override func viewDidLoad() {
     super.viewDidLoad()
     randomNumber = Int(arc4random_uniform(101))
@@ -387,7 +384,7 @@ override func viewDidLoad() {
     rangeLabel.text = String(range)
     currentLevel.text = String(level)
 }
-```
+~~~
 
 Your app should now look like this:
 
@@ -501,8 +498,6 @@ Your app should now look like this:
 </video>
 
 
-
-
 There is one more function we have to edit. You might’ve noticed that when I missed the bullseye in the video above and pressed “Play Again”, the current level was still 2 and the range was still 150. We should add code so that when a user “loses”, the level will reset to 1 and the range will reset to 100.
 
 ~~~swift
@@ -525,12 +520,10 @@ There is one more function we have to edit. You might’ve noticed that when I m
 ~~~
 
 Your app should now look like this:
+
 <video width="400" controls autoplay>
     <source src="https://user-images.githubusercontent.com/71753465/191648468-037c3afc-3f3d-4a77-b948-f44fce4ac078.mov" type="video/mp4">
 </video>
-
-
-
 
 
 ## Exercise 2F: High score
@@ -555,7 +548,6 @@ Your app should look like this!
 <video width="400" controls autoplay>
     <source src="https://user-images.githubusercontent.com/71753465/191648524-496a88d3-954d-4fd2-8dd0-b66264b7124d.mov" type="video/mp4">
 </video>
-
 
 
 
