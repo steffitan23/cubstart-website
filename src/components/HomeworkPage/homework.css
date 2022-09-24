@@ -13,3 +13,7 @@
 .a-special:visited {
     color: var(--accent-color);
 }
+
+img {
+    max-width: 600px;
+}

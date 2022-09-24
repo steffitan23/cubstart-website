@@ -8,8 +8,9 @@ The core concept of it is that given a random number, you will try to move the s
 
 Here is an example of the finished product:
 
-https://user-images.githubusercontent.com/71753465/191644028-972a2871-b914-49a7-a6d0-46ac250bd317.mov
-
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191644028-972a2871-b914-49a7-a6d0-46ac250bd317.mov" type="video/mp4">
+</video>
 
 ## Setup 🛠️
 
@@ -88,7 +89,10 @@ IBActions and IBOutlets result from connecting elements from a storyboard to act
 
 This is how the IBActions and IBOutlets for this homework were initialized using Ctrl + click + drag
 
-https://drive.google.com/file/d/1OmgHeEBlv2zI4yfMSCSbMEumug4ULGb5/view?usp=sharing
+<video width="400" controls autoplay>
+    <source src="https://drive.google.com/file/d/1OmgHeEBlv2zI4yfMSCSbMEumug4ULGb5/view?usp=sharing" type="video/mp4">
+</video>
+
 
 ## [OPTIONAL] Implementing the UI
 
@@ -99,8 +103,9 @@ You may read through this section if you are interested in seeing how the UI was
 First, navigate to “Main”. Then add a label, a button, and a slider! 
 
 You can either press the + button at the top right or use the shortcut Cmd+Shift+L to search for the elements.
-
-https://drive.google.com/file/d/1_qRZ7mo_2bNR4qvGiIaeV3B4BRobxTgX/view?usp=sharing
+<video width="400" controls autoplay>
+    <source src="https://drive.google.com/file/d/1_qRZ7mo_2bNR4qvGiIaeV3B4BRobxTgX/view?usp=sharing" type="video/mp4">
+</video>
 
 ### Connecting to the View Controller
 
@@ -114,10 +119,13 @@ Slider as an Outlet: `numSlider`
 
 Slider as an Action: `sliderValueChanged`
 
-https://drive.google.com/file/d/1knV2dQabXv2n1s7ymEhZoQcF_yGaWxfQ/view?usp=sharing
+<video width="400" controls autoplay>
+    <source src="https://drive.google.com/file/d/1knV2dQabXv2n1s7ymEhZoQcF_yGaWxfQ/view?usp=sharing" type="video/mp4">
+</video>
 
-
-https://user-images.githubusercontent.com/71753465/191647615-201d6a92-af80-4404-8ce3-1ff265ed4dd8.mp4
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191647615-201d6a92-af80-4404-8ce3-1ff265ed4dd8.mp4" type="video/mp4">
+</video>
 
 
 If you mess up, don't fret! You can click the element, and under the connections inspector, you are able to delete and redo any messed up connections!
@@ -128,11 +136,11 @@ If you mess up, don't fret! You can click the element, and under the connections
 
 Let's try out the slider! If you run the build after inputting the code below (Cmd R).
 
-```markdown
+~~~swift
 @IBAction func sliderValueChanged(_ sender: Any) {
         print(numSlider.value)
     }
-```
+~~~
 
 You will see the values between 0 and 1 printed in your terminal...that's not what we want.
 
@@ -200,12 +208,12 @@ Please run the code on the iPhone 12 Pro **ONLY.** This is because of spacing is
 
 At the top under your IB outlets, go ahead and add a random number variable; this will be the value we try to match on the slider.
 
-```markdown
+~~~swift
 //at the very top after UIKit
 import Foundation
-```
+~~~
 
-```markdown
+~~~swift
 var randomNumber = 0
 
 override func viewDidLoad() {
@@ -213,9 +221,9 @@ override func viewDidLoad() {
         randomNumber = Int(arc4random_uniform(101))
 				numLabel.text = String(randomNumber)
 }
-```
+~~~
 
-Imported from Foundation, arc4random gives us a decimal number *under* 101, and wrapping it in Int converts it to an integer by rounding down to the nearest whole number, similar to the rounding we did to the slider number. We then set the random number in our viewDidLoad function.
+Imported from Foundation, arc4random gives us a decimal number under 101, and wrapping it in Int converts it to an integer by rounding down to the nearest whole number, similar to the rounding we did to the slider number. We then set the random number in our viewDidLoad function.
 
 *Notice how we used string interpolation to evaluate randomNumber within the text!*
 
@@ -227,7 +235,10 @@ Imported from Foundation, arc4random gives us a decimal number *under* 101, and 
 
 Your application should now look like this:
 
-https://user-images.githubusercontent.com/71753465/191647947-0acaf720-8668-424c-abef-439edd63b93f.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191647947-0acaf720-8668-424c-abef-439edd63b93f.mov" type="video/mp4">
+</video>
+
 
 We do not need the view to update when moving the slider, so go ahead and remove the code from sliderValueChanged.
 
@@ -239,19 +250,19 @@ Our goal is to check if the randomNumber we generated is equal to the number of 
 
 *I will begin to write in pseudocode, because you have all the knowledge you need to write this :) Practice makes progress!*
 
-```markdown
+~~~swift
 @IBAction func checkValue(_ sender: Any) {
 				write your if statement here {
 						...
         }
     }
-```
+~~~
 
 *Hint: make sure to round your numSlider value to an integer!*
 
 *Hint2: to compare two values you can use ==*
 
-```markdown
+~~~swift
 @IBAction func checkValue(_ sender: Any) {
         your if statement here {
             set the text of your resultLabel to "Bullseye!"
@@ -259,13 +270,13 @@ Our goal is to check if the randomNumber we generated is equal to the number of 
             set the resultLabel text to indicate the user missed
         }
     }
-```
+~~~
 
 Run, and your app should now look like this. Don't worry if the spacing is a little off! This could be fixed with something called “constraints”, but since we will be using SwiftUI from now on we won’t be dealing with it here.
 
-
-
-https://user-images.githubusercontent.com/71753465/191648184-96cfe711-4b8f-4f8c-8b1c-df5fa12185cb.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648184-96cfe711-4b8f-4f8c-8b1c-df5fa12185cb.mov" type="video/mp4">
+</video>
 
 
 
@@ -283,7 +294,7 @@ if `exactSwitch.isOn` is **false**, we run this set of statements based on the �
 
 if `exactSwitch.isOn` is **true**, we run our original if else statements where it decides based on if randomNumber = numSlider.value
 
-```markdown
+~~~swift
 @IBAction func checkValue(_ sender: Any) {
         if exactSwitch.isOn == false {
             if randomNumber - 3 <= Int(numSlider.value) && randomNumber + 3 >= Int(numSlider.value) {
@@ -299,7 +310,7 @@ if `exactSwitch.isOn` is **true**, we run our original if else statements where 
 		        }
         }
     }
-```
+~~~
 
 ## Exercise 2D: Play Again
 
@@ -308,20 +319,21 @@ Right now we can't play again unless we rerun on Xcode 😢 That doesn't make se
 The “Play Again” button shouldn't show up unless we have already played a round, so the property of the Hidden property of the button was initially set to true.
 
 
-
-https://user-images.githubusercontent.com/71753465/191648236-132892a1-6b74-49bb-a72b-9db084b96d7f.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648236-132892a1-6b74-49bb-a72b-9db084b96d7f.mov" type="video/mp4">
+</video>
 
 
 
 After you check your slider value, "Play Again" should appear, so change the property at the end of the checkValue function.
 
-```markdown
+~~~swift
 @IBAction func checkValue(_ sender: Any) {
         ...
 				resultLabel.isHidden = false //we'll come back to this
 				playAgainButton.isHidden = false
     }
-```
+~~~
 
 Many things have to happen when the "Play Again" button is tapped:
 
@@ -330,7 +342,7 @@ Many things have to happen when the "Play Again" button is tapped:
 - Hide the result label from the previous round
 - Hide the play again label
 
-```markdown
+~~~swift
 @IBAction func playAgain(_ sender: Any) {
         numSlider.setValue(50.0, animated: false)
         randomNumber = Int(arc4random_uniform(101))
@@ -338,13 +350,14 @@ Many things have to happen when the "Play Again" button is tapped:
         resultLabel.isHidden = true //must reappear next time it is checked ^
         playAgainButton.isHidden = true
     }
-```
+~~~
 
 This is how your app should look now:
 
 
-
-https://user-images.githubusercontent.com/71753465/191648278-382c091c-e5b2-4317-87f6-708c7e145994.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648278-382c091c-e5b2-4317-87f6-708c7e145994.mov" type="video/mp4">
+</video>
 
 
 
@@ -378,15 +391,15 @@ override func viewDidLoad() {
 
 Your app should now look like this:
 
-
-https://user-images.githubusercontent.com/71753465/191648321-ec51c131-c2b9-4ea1-ab5b-9bee3eccea4e.mov
-
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648321-ec51c131-c2b9-4ea1-ab5b-9bee3eccea4e.mov" type="video/mp4">
+</video>
 
 
 
 You might notice that we aren’t actually changing the “Current Level” or “Range” labels as the user advances in levels. To do this we should add code in the checkValue() function since this function is called whenever the user wants to check for bullseye. When the user hits the bullseye we can update the values like how I did below:
 
-```markdown
+~~~swift
 @IBAction func checkValue(_ sender: Any) {
     if exactSwitch.isOn == false {
         if randomNumber - 3 <= Int(numSlider.value) && randomNumber + 3 >= Int(numSlider.value) {
@@ -479,19 +492,20 @@ You might notice that we aren’t actually changing the “Current Level” or �
         
     resultLabel.isHidden = false
 }
-```
+~~~
 
 Your app should now look like this:
 
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648396-4f8305f3-37bb-4323-aaea-60482956b06a.mov" type="video/mp4">
+</video>
 
-
-https://user-images.githubusercontent.com/71753465/191648396-4f8305f3-37bb-4323-aaea-60482956b06a.mov
 
 
 
 There is one more function we have to edit. You might’ve noticed that when I missed the bullseye in the video above and pressed “Play Again”, the current level was still 2 and the range was still 150. We should add code so that when a user “loses”, the level will reset to 1 and the range will reset to 100.
 
-```markdown
+~~~swift
 @IBAction func playAgain(_ sender: Any) {
     numSlider.setValue(50.0, animated: false)
     randomNumber = Int(arc4random_uniform(101))
@@ -508,12 +522,13 @@ There is one more function we have to edit. You might’ve noticed that when I m
     level = 1
     currentLevel.text = String(level)
 }
-```
+~~~
 
 Your app should now look like this:
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648468-037c3afc-3f3d-4a77-b948-f44fce4ac078.mov" type="video/mp4">
+</video>
 
-
-https://user-images.githubusercontent.com/71753465/191648468-037c3afc-3f3d-4a77-b948-f44fce4ac078.mov
 
 
 
@@ -537,9 +552,10 @@ Hint 4: Inside the if statement I assigned the “x” to be the current level a
 
 Your app should look like this!
 
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/191648524-496a88d3-954d-4fd2-8dd0-b66264b7124d.mov" type="video/mp4">
+</video>
 
-
-https://user-images.githubusercontent.com/71753465/191648524-496a88d3-954d-4fd2-8dd0-b66264b7124d.mov
 
 
 
