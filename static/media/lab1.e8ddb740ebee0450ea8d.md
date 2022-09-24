@@ -1,9 +1,5 @@
 # Playing with Git
 
-Related to Schedule (Resource): https://www.notion.so/Lab-2-Playing-w-Git-f686ec8a5998469a8b6c2b1037b49743, https://www.notion.so/Lab-2-Playing-w-Git-be0ec4630e904c9f9fb6386d3f0619d9, https://www.notion.so/Lab-2-Playing-w-Git-ab3f866bb25c463bb7f75bb76915639f, https://www.notion.so/Lab-2-Playing-w-Git-125318d64da04490b314579f7cc03733
-Track: Both
-Week: Week 1
-
 # Part 1: Installing Xcode
 
 1. Make sure you have a macOS device
@@ -29,9 +25,9 @@ Words in `<>` you should fill in with your own information.
 
 If you're using a Mac computer, verify that you have Git installed. You can also run these commands on Windows after you've installed Git Bash to double-check that Git is installed.
 
-1. Open up Terminal. It should like like this.
+1. Open up Terminal. It should look like this.
     
-    ![Lab%201%20Playing%20with%20Git%20cadc9fbcdec843549bf082e1f75d1a7f/Screen_Shot_2020-05-29_at_5.34.24_PM.png](Lab%201%20Playing%20with%20Git%20cadc9fbcdec843549bf082e1f75d1a7f/Screen_Shot_2020-05-29_at_5.34.24_PM.png)
+    ![lab-terminal-1.png](/assets/lab-terminal-1.png)
     
 2. Type in this command 
     
