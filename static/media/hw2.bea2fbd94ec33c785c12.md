@@ -111,9 +111,10 @@ If we want to use fonts outside of the default fonts (Arial, Times New Roman, Ve
 
 1. Go to [fonts.google.com](fonts.google.com) and pick a font you like!
 2. Click on the font and scroll down to see all the font weights.
-
+<img src="/assets/hw2/google-fonts.png" style="width: 50%; padding: 20px 0;"/>
 3. Click on all the font weights you want (just click all of them if you're not sure!).
 4. Copy the <link ..> provided in the panel of the right, and paste it into the <**head**> of **index.html**.
+<img src="/assets/hw2/google-fonts-1.png" style="width: 50%; padding: 20px 0;"/>
 5. You can use CSS rules to get text to use the font you imported!
 ~~~css
 /* Example CSS for using fonts: */
