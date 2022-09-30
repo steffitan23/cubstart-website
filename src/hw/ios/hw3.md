@@ -26,13 +26,12 @@ SwiftUI is a recently developed framework that is still rapidly developing. It i
 
 ## Initial Takeaways
 
-![Screen Shot 2022-01-26 at 11.12.54 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8cdbbf7-d75a-48d1-aa1b-145ba94b2d1c/Screen_Shot_2022-01-26_at_11.12.54_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/193163361-bf546864-60a0-4684-a271-70429a3db1ca.png)
 
 When you first open the project you should see “ContentView” on the left side of your screen and the preview on the right side of your screen. Let’s quickly break this down!
 
 For most single screen applications we will mainly be working with the “ContentView” file. When working with SwiftUI we must always import the SwiftUI framework:
-
-![Screen Shot 2022-01-26 at 11.20.45 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9993791-4965-4712-bb99-9da227897947/Screen_Shot_2022-01-26_at_11.20.45_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/193163396-0e6f39f7-892e-43b4-83eb-58f0382a7b74.png)
 
 For any view we work with in SwiftUI, we must wrap any UI elements within “var body: some View {}” and we must wrap everything else + the body within “struct ViewName: View {}”:
 
@@ -49,23 +48,23 @@ struct ViewName: View {
 
 Now you might be wondering what in the world is:
 
-![Screen Shot 2022-01-26 at 11.38.16 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/82f4df4a-dcd8-4516-9e81-61b0e7564eda/Screen_Shot_2022-01-26_at_11.38.16_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/193163430-a5473a4e-7cef-4433-963c-a0a28a8bbb0b.png)
 
 This is basically SwiftUI’s way of allowing us to view the UI as we’re typing in code without having to run it on a simulator. Click “Resume” on the top right corner to view the current UI.
 
 Your screen should now look like this:
 
-![Screen Shot 2022-01-26 at 11.54.45 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a73b3b39-0948-49e1-b7ce-46b994a29127/Screen_Shot_2022-01-26_at_11.54.45_PM.png)
+![image](https://user-images.githubusercontent.com/71753465/193163455-79052014-76da-40d9-af69-fd8fdf83904a.png)
 
 Now the preview on the right hand side will automatically be updated as we add in code! In this course however, we won’t be relying on the preview functionality to run our code and will instead continue to run it on the simulator. You can use the preview functionality if you want but be careful because it can display the wrong UI in some cases so it isn’t as reliable as the simulator. Go ahead and delete this piece of code.
 
 Your screen should now look like this:
 
-![Screen Shot 2022-01-27 at 12.08.13 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8fd2bc24-8f25-4954-95a0-f721d4f48cdf/Screen_Shot_2022-01-27_at_12.08.13_AM.png)
+![image](https://user-images.githubusercontent.com/71753465/193163487-a0125971-d51a-48a1-ad0d-aa95fd407eee.png)
 
 You might also be wondering what the purpose of the "SwiftUI_BullseyeApp" file on the left side is. This file is basically an entry point for SwiftUI which means it will be the first file that will run and displayed in the simulator. In the picture below ContentView() is called since we'll mainly be working in that file and we want that file to be the first file displayed when running the simulator.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19020d7d-395b-42c6-aa0c-c8b56160c97f/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163517-ed13795a-4b58-48df-8c6f-7fc04ce818db.png)
 
 # Part 1: Implementing the UI 🎨
 
@@ -73,15 +72,15 @@ You might also be wondering what the purpose of the "SwiftUI_BullseyeApp" file o
 
 Let's break down the UI into separate components starting with the "High Score" and "Current Level" labels on the top right and left corners.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef24f916-26c4-4a08-b1dd-4d6306a81f44/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163545-ac3c48fd-c7dc-432b-8ec9-128e88bf6116.png)
 
 To implement this we'll be using a combination of HStacks and VStacks. An HStack is essentially a view that arranges any elements placed inside it in a horizontal order and a VStack is a view that arranges any elements placed inside it in a vertical order. Take a look at this example:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb54bb27-02a8-4981-bb57-764d6dd2c703/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163576-cf4ed132-1b83-41d5-8772-8f4c76ac8aec.png)
 
 We have a VStack with two Text elements inside it. This would display the two "Hello World" texts stacked on top of each other:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de1f4345-da65-4ff5-a73b-00a9e9a191b7/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163626-908ee0f4-aedb-4790-a26c-bbf9b89a860c.png)
 
 Based on the image of what's expected, we can see that "High Score" and "0" would be in a VStack while "Current Level" and "1" would also be in a VStack. Let's go ahead and add two VStack elements to the body:
 
@@ -106,7 +105,7 @@ struct ContentView: View {
 
 Your app should now look like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f10e6258-3fb4-4129-b46f-28d4ea653146/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163667-035e11df-306c-422b-a962-73e4f1076396.png)
 
 We now have "High Score" on top of "0" and "Current Level" on top of "1" which we want, but we want to have these VStack elements be ordered horizontally. We could use a HStack for this. In SwiftUI we're able to nest VStacks and HStacks which comes in handy. In this case we could nest our VStack elements inside an HStack.
 
@@ -133,15 +132,15 @@ struct ContentView: View {
 
 Your app should now look like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc5078e5-e016-4b9e-857d-587eedf25ca3/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163702-2a239bce-7e24-4dd0-9700-1a81b54b90b3.png)
 
 All our elements are now perfectly aligned vertically and horizontally! Now we have to work on getting the correct spacing. We can use different tools like Spacer(), .padding(), and more but we'll be using Spacer() and .padding() for this. Spacer() essentially fills up as much space as possible in the specified direction. Take a look at this example:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfce893c-f790-4f9b-a527-b838794e5870/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163735-aeccef68-4222-4022-8fda-64591d88e488.png)
 
 We added Spacer() in between the two VStack elements. What this would do is it would create as much space as possible between the two VStack elements horizontally. It occupies as much space as possible horizontally because it is within an HStack. If it was within a VStack it would occupy space vertically. This is what the app should look like with the Spacer():
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a3a6013-05c8-463d-b1e9-ae8ae649fe27/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163771-1f1a0b41-3524-49e6-ba67-2247b184a404.png)
 
 Notice how Spacer() maximized the white space between the two VStack elements. This is what we want initially before we use .padding() to move the two elements to look slightly better. Now we want to push everything all the way to the top and a way to do this would be to maximize space between the two VStack elements and the bottom of the screen. However, we don't yet have a VStack encasing everything which we need in order to add a Spacer() vertically. You could implement it like this:
 
@@ -174,7 +173,7 @@ struct ContentView: View {
 
 Notice how we wrapped everything we had before inside another VStack. This will be useful when we add more elements below the HStack and for when we want to add Spacers. Your app should now look like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/507a281e-cc9d-4a39-8d32-f189b8489d5d/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163790-667af756-05b6-4339-b68a-19558d3314fc.png)
 
 We're almost there! Now we just need to move the VStack elements slightly inward to make it look nicer. We can do this by using .padding(). .padding() is used to add space around a single element. We can specify which side of the element we want padding on and how many pixels of padding we want. For example:
 
@@ -208,7 +207,7 @@ struct ContentView: View {
 
 Notice how we added ".padding(.leading, 20)" below the first VStack. This essentially made 20 pixels of space between the left side of the phone screen and the VStack itself. Also note that any property beginning with " . " is always added to the bottom of a single element unless it is within another property like .padding() and .leading. Your app should now look like this:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ad93be1-c1d2-4e58-b75d-67c774bb6bd9/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163822-60a70058-04c0-4f21-939d-f96879b69113.png)
 
 Notice how there is clearly more space between the left side of the phone screen and the VStack. Now that you have all this information, try to add additional padding() to mimic the app below!
 
@@ -218,7 +217,7 @@ Ex: .padding(.leading, 20) and .padding(.top, 20)
 
 Please add three additional .padding() properties!
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21856235-d4a2-4ba9-a950-9e72931a3b92/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163858-b27900e0-f097-410f-8aa6-6611c84f14ac.png)
 
 ## ****Other Components****
 
@@ -226,7 +225,7 @@ We've basically covered everything that's needed to complete the rest of the UI.
 
 Your app should look like this by the time you finish this homework
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/332f6a48-b1be-41ae-b05a-d08179ee48fb/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163900-dd7a0859-6073-4df5-b871-dfd802293ca4.png)
 
 Let's start by listing what additional components we'll need.
 
@@ -239,7 +238,7 @@ Let's start by listing what additional components we'll need.
 
 These elements are in order of how they should be coded and all of these elements are within the outermost VStack and below the last Spacer() we used.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b0ebc2f-aaa4-4aea-9f24-9751478fe475/Untitled.png)
+![image](https://user-images.githubusercontent.com/71753465/193163927-b99ca816-b230-4511-b64d-b24f308a0291.png)
 
 Before we continue there are a few concepts that we haven't yet covered in this homework.
 
@@ -267,3 +266,26 @@ Hint #4: You can initialize these two variables outside of the body to use for t
 Notice how these two variables have "@State" attached to it. @State is used for variables that often change while an app is running. Let's say that we have a name variable initialized to "Tony". If we wanted to change this variable to "Jordan" while the app is running, we would need to add the @State wrapper to the name variable in order to have it automatically be changed and displayed on the app in real time. Without the @State wrapper, we would not be able to modify "Tony" at all and it surely wouldn't instantly update to "Jordan" on the app. We need to use @State on these variables because the value of the slider can change if the user interacts with the slider and the toggle button can also toggle on and off based on how the user interacts with it. We want these updates to instantly show up on the app which is why we use the @State wrapper.
 
 You should now have all the information you need to complete this app. Feel free to come to lab if you have any questions or make a piazza post!
+
+# Submission:
+
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```markdown
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```markdown
+git add .
+git commit -m "completed homework 3"
+git push
+```
+
+You can also type `git status` to verify which files you are pushing.
+
+Upload your code onto gradescope for HW 1 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
