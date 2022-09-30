@@ -36,7 +36,7 @@ For most single screen applications we will mainly be working with the “Conten
 
 For any view we work with in SwiftUI, we must wrap any UI elements within “var body: some View {}” and we must wrap everything else + the body within “struct ViewName: View {}”:
 
-```markdown
+```swift
 struct ViewName: View {
 
 		// variables, functions, etc. here
@@ -85,7 +85,7 @@ We have a VStack with two Text elements inside it. This would display the two "H
 
 Based on the image of what's expected, we can see that "High Score" and "0" would be in a VStack while "Current Level" and "1" would also be in a VStack. Let's go ahead and add two VStack elements to the body:
 
-```markdown
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -110,7 +110,7 @@ Your app should now look like this:
 
 We now have "High Score" on top of "0" and "Current Level" on top of "1" which we want, but we want to have these VStack elements be ordered horizontally. We could use a HStack for this. In SwiftUI we're able to nest VStacks and HStacks which comes in handy. In this case we could nest our VStack elements inside an HStack.
 
-```markdown
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -145,7 +145,7 @@ We added Spacer() in between the two VStack elements. What this would do is it w
 
 Notice how Spacer() maximized the white space between the two VStack elements. This is what we want initially before we use .padding() to move the two elements to look slightly better. Now we want to push everything all the way to the top and a way to do this would be to maximize space between the two VStack elements and the bottom of the screen. However, we don't yet have a VStack encasing everything which we need in order to add a Spacer() vertically. You could implement it like this:
 
-```markdown
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -178,7 +178,7 @@ Notice how we wrapped everything we had before inside another VStack. This will 
 
 We're almost there! Now we just need to move the VStack elements slightly inward to make it look nicer. We can do this by using .padding(). .padding() is used to add space around a single element. We can specify which side of the element we want padding on and how many pixels of padding we want. For example:
 
-```markdown
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -258,7 +258,7 @@ Hint #4: You can initialize these two variables outside of the body to use for t
     - [https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-toggle-switch](https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-toggle-switch)
     - [https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-slider-and-read-values-from-it](https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-slider-and-read-values-from-it)
 
-```markdown
+```swift
 @State var num: Double = 50
     
 @State var toggle = false
@@ -272,14 +272,14 @@ You should now have all the information you need to complete this app. Feel free
 
 To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
 
-```markdown
+```swift
 cd Desktop
 cd Cubstart-iOS
 ```
 
 Then type in these commands to push your code onto your personal repository:
 
-```markdown
+```swift
 git add .
 git commit -m "completed homework 3"
 git push
