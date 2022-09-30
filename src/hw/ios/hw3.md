@@ -31,6 +31,7 @@ SwiftUI is a recently developed framework that is still rapidly developing. It i
 When you first open the project you should see “ContentView” on the left side of your screen and the preview on the right side of your screen. Let’s quickly break this down!
 
 For most single screen applications we will mainly be working with the “ContentView” file. When working with SwiftUI we must always import the SwiftUI framework:
+
 ![image](https://user-images.githubusercontent.com/71753465/193163396-0e6f39f7-892e-43b4-83eb-58f0382a7b74.png)
 
 For any view we work with in SwiftUI, we must wrap any UI elements within “var body: some View {}” and we must wrap everything else + the body within “struct ViewName: View {}”:
