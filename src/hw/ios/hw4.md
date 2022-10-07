@@ -347,5 +347,26 @@ ZStack {
     <source src="https://user-images.githubusercontent.com/71753465/194473697-a62d0436-f447-4b90-ac13-65b3e6bf3474.mov" type="video/mp4">
 </video>
 
+# Submission:
 
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```swift
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```swift
+git add .
+git commit -m "completed homework 3"
+git push
+```
+
+You can also type `git status` to verify which files you are pushing.
+
+Upload your code onto gradescope for HW 4 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
 
