@@ -26,11 +26,11 @@ An alert might pop-up on your browser asking if you want to open Github Desktop.
 
 On this screen, make sure the Github account name and email address are correct. After that, click "Finish" here.
 
-<img src="/assets/hw4/github-desktop-4.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-4.png" style="width: 60%; padding: 20px 0;"/>
 
 Click "Create a New Repository on your hard drive". Fill in the name and description however you want. 
 
-<img src="/assets/hw4/github-desktop-5.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-5.png" style="width: 60%; padding: 20px 0;"/>
 
 You can edit your repository by opening it in Visual Studio Code. You can also view the files of your repository in your file explorer.
 
@@ -38,7 +38,7 @@ Now that we're done with set-up, we can start by adding our files to our reposit
 
 ## Adding Our Files
 
-<img src="/assets/hw4/github-desktop-5.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-5.png" style="width: 60%; padding: 20px 0;"/>
 
 View the files of your repository in your file explorer. Then, drag your **index.html** and **styles.css** into that file.
 
@@ -62,11 +62,11 @@ You can either navigate to [Github](https://www.github.com) yourself or click "V
 
 Then, go to your Settings.
 
-<img src="/assets/hw4/github-desktop-11.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-11.png" style="width: 60%; padding: 20px 0;"/>
 
 Now, under "General", you can scroll down to the bottom to see the **Danger Zone**. This allows you to change the visibility of your repository so everyone has access to the files. 
 
-<img src="/assets/hw4/github-desktop-12.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-12.png" style="width: 60%; padding: 20px 0;"/>
 
 Just type your name/repo-name to confirm this.
 
