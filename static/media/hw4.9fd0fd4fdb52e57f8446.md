@@ -1,4 +1,4 @@
-HW4: Waitlist Helper
+## Waitlist Helper
 # Introduction👋
 
 Hello Hello! It’s Week 4 of Cubstart. Wooooo! Congrats for making it this far. Halfway point of homework :)). Hope you’ve been having fun and are learning a lot this semester. This week, your HW will be focusing creating multiple pages/screens in SwiftUI and navigating them with Swift. We will be mainly utilizing Navigation Views and Tab Views. The project we will be building is called Waitlist Helper. It will allow the user to input a waitlist position and class size, and then display a percentage chance of them getting into the class!
@@ -204,9 +204,9 @@ This code essentially does three things when the variable calculate is set to tr
 3. Does not bring any element into the UI (EmptyView()) so that we can control this link with a button of our own instead
 
 
-
-https://user-images.githubusercontent.com/71753465/194473268-c1c5cb4f-f800-41f2-832c-bd2d4dad8705.mov
-
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/194473697-a62d0436-f447-4b90-ac13-65b3e6bf3474.mov" type="video/mp4">
+</video>
 
 
 This is what you should be able to do! We have already provided the UI for ResultView.
@@ -237,9 +237,9 @@ The NavigationView and Link provide you with a basic default back button that wo
 **This is all you need! Currently, I have here a simple white arrow as the custom back button but I invite you to customize this yourself and mess around with other looks. And with that, we have completed the UI Navigation part of this project! Good job :))**
 
 
-
-https://user-images.githubusercontent.com/71753465/194473385-eb2b4707-dc97-4c48-944a-e2c672948908.mov
-
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/194473385-eb2b4707-dc97-4c48-944a-e2c672948908.mov" type="video/mp4">
+</video>
 
 
 # Part 4: Calculation Functionality
@@ -280,9 +280,9 @@ Once you have done this, you are going to want to call calculateProbability when
 **CONGRATS! Your app is fully functioning now and should look a little something like this:**
 
 
-
-https://user-images.githubusercontent.com/71753465/194473460-647ae76b-62e1-486f-933d-9cab86743e3b.mov
-
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/194473460-647ae76b-62e1-486f-933d-9cab86743e3b.mov" type="video/mp4">
+</video>
 
 
 
@@ -343,7 +343,30 @@ ZStack {
 ```
 
 
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/71753465/194473697-a62d0436-f447-4b90-ac13-65b3e6bf3474.mov" type="video/mp4">
+</video>
 
-https://user-images.githubusercontent.com/71753465/194473697-a62d0436-f447-4b90-ac13-65b3e6bf3474.mov
+# Submission:
 
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```swift
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```swift
+git add .
+git commit -m "completed homework 3"
+git push
+```
+
+You can also type `git status` to verify which files you are pushing.
+
+Upload your code onto gradescope for HW 4 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
 
