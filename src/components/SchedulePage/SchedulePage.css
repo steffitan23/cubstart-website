@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p {
   transition: ease-in 0.2s;
   border-radius: 6px;
   padding: 5px;
-  border: 2px solid var(--accent-bg-color);
+  border: 2px solid #49c5f79c;
 } 
 
 .tab-content td:last-child a {
