@@ -23,5 +23,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run predeploy
-      - run: npm run run deploy
+      - run: npm run deploy
       
