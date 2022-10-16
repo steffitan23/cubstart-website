@@ -3,7 +3,9 @@ import './HomePage.css';
 import DescSection from './DescSection/DescSection';
 import { TypeAnimation } from 'react-type-animation';
 import FAQPage from './FAQ/FAQ';
+import SponsorSection from './SponsorSection/SponsorSection';
 import Footer from '../Footer/Footer';
+import InfoSection from './InfoSection/InfoSection';
 
 function HomePage(props) {
 
@@ -40,7 +42,20 @@ function HomePage(props) {
                     </div> */}
                     </div>
                 </div>
+                {/* <div class="flex-wrapper">
+                    <div class="flex-item">
+                        <b>50% Female or Non-Binary</b> Representation
+                    </div>
+                    <div class="flex-item">
+                        <b>12.5% of our 2022 cohort are URMs</b>
+                    </div>
+                    <div class="flex-item">
+                        <b>50% Better Hispanic/Latinx Representation</b> than the CS industry
+                    </div>
+                </div> */}
             </div>
+            <InfoSection/>
+            <SponsorSection/>
             <DescSection/>
             <FAQPage/>
         </div>

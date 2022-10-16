@@ -80,7 +80,24 @@ h1, h2, h3, h4, h5, h6, p {
 
 .desc-section {
   padding: 40px 0;
+  color: var(--main-bg-color);
   background-color: var(--main-color);
+}
+
+.spons-section {
+  padding: 40px 0;
+  background-color: var(--main-bg-color);
+}
+
+.spons-section h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.sponsor-logo {
+  margin: 20px 0;
+  max-width: 300px;
+  width: 70vw;
 }
 
 .desc-section h2 {
@@ -92,8 +109,7 @@ h1, h2, h3, h4, h5, h6, p {
 .desc-text {
   margin: auto;
   padding: 0 20px;
-  color: var(--main-bg-color);
-  max-width: 900px;
+  max-width: 47rem;
 }
 
 .partner-logo {
@@ -113,6 +129,22 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 20px 0 ;
 }
 
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+#cubstart-img {
+  max-width: 400px;
+  width: 90vw;
+  margin: 10px 0;
+  border-radius: 40px;
+}
+
+.info-section a {
+  color : var(--main-bg-color);
+}
+
 @media only screen and (max-width: 600px) {
   .desc h1 {
     font-size: 40px!important;
@@ -130,3 +162,4 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap; 
   }
 }
+
