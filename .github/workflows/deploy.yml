@@ -23,5 +23,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm run ci
       - run: npm run predeploy
+      - run: git config user.email "steffitlw@berkeley.edu"
+      - run: git config user.email "steffi"
       - run: npm run deploy
       
