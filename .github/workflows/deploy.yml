@@ -2,9 +2,9 @@ name: Deploy CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -23,4 +23,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run predeploy
-      - run: npm run run deploy
+      - run: npm run deploy
+      
