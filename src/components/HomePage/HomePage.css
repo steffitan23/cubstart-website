@@ -1,7 +1,6 @@
 
 .header-text {
     background-color: var(--main-bg-color);
-    padding-bottom: 50px;
 }
 
 .button-container {
@@ -69,12 +68,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
 .ddoski-hero {
-  padding: 0 20px;
-  max-width: 400px;
+  max-width: 450px!important;
 }
 
 .typing-text {
-  color: var(--main-color);
+  color: #DF5F17;
   font-weight: 500;
 }
 
@@ -151,7 +149,6 @@ a {
   }
 
   .ddoski-hero {
-    padding: 0 20px!important;
     max-width: 300px!important;
   }
 
@@ -161,5 +158,16 @@ a {
     justify-content: center;
     flex-wrap: wrap; 
   }
+}
+
+.stats-wrapper {
+  margin: auto;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+}
+
+.stats-item img{
+  height: 100px;
 }
 

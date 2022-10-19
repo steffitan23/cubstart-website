@@ -36,23 +36,23 @@ function HomePage(props) {
                         repeat={Infinity}
                         className="typing-text"
                         /></h1>
-                    <p>Cubstart is a web/mobile development course for beginner developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
+                    <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
                     {/* <div className='button-container'>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFPctypeWtFvdSxMjg34j-_Esq0z2lNP0Yew0b9V6-bnPoEg/viewform?usp=sf_link" className="applybutton">Apply now!</a>
                     </div> */}
+                    <div className="stats-wrapper">
+                        <div className="stats-item">
+                            <img src="assets/stats-semester.svg"/>
+                        </div>
+                        <div className="stats-item">
+                            <img src="assets/stats-female-nonbinary.svg"/>
+                        </div>
+                        <div className="stats-item">
+                            <img src="assets/stats-partner-urm.svg"/>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                {/* <div class="flex-wrapper">
-                    <div class="flex-item">
-                        <b>50% Female or Non-Binary</b> Representation
-                    </div>
-                    <div class="flex-item">
-                        <b>12.5% of our 2022 cohort are URMs</b>
-                    </div>
-                    <div class="flex-item">
-                        <b>50% Better Hispanic/Latinx Representation</b> than the CS industry
-                    </div>
-                </div> */}
             </div>
             <InfoSection/>
             <SponsorSection/>
