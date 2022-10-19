@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "CI=false npm run build && cp CNAME build/CNAME",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "ci": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
