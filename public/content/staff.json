@@ -3,14 +3,14 @@
     {
       "image": "assets/steffi.jpg",
       "name": "Steffi Tan",
-      "title": "Web Lecturer",
+      "title": "Course Lead, Web Lecturer",
       "description": "Hi! I'm a second year studying Computer Science and Cognitive Science. I like crocheting, lockpicking, Valorant, soup, and Kung Fu Panda 3.",
       "social": "@staph.e"
     },
     {
       "image": "assets/tyler.jpg",
       "name": "Tyler Sameshima",
-      "title": "Web Lecturer",
+      "title": "Course Lead, Web Lecturer",
       "description": "Hey all! I'm Tyler, a third year majoring in CS. In my free time, I like playing video games, listening to music, and learning new languages. Feel free to reach out if you want to talk!",
       "social": "@tysameshima"
     },
@@ -43,6 +43,13 @@
       "title": "Web TA",
       "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
       "social": "@alex.gberg"
+    },
+    {
+      "image": "assets/oliver.jpg",
+      "name": "Oliver Carmont",
+      "title": "Web TA",
+      "description": "Hi! I’m Oliver. I’m a sophomore studying CS. I’m an international student from Spain and Australia. At Berkeley, I’m involved in Cal Hacks, Codeology and IM Soccer.",
+      "social": "@oliver.cz"
     }
   ]
 }

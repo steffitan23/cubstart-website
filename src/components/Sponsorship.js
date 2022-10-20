@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 function Sponsorship() {
+    useEffect(() => {
+        console.log("hi")
+        document.querySelector('body').scrollTo(0, 0);
+      });
     return (
-        <div class="sponsor-packet">
+        <div className="sponsor-packet">
             <iframe src="https://drive.google.com/file/d/1xp5_XQQzraUHhPUXspwv4PbBtrinWWvO/preview" allow="autoplay"></iframe>
         </div>
     );

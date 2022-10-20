@@ -8,13 +8,13 @@ function CarouselComponent() {
     return (
             <Carousel className="carousel" autoplay infiniteLoop transitionTime="100" showIndicators={false} showThumbs={false} showStatus={false}>
                 <div>
-                    <img src="assets/demoday-1.jpg" class="carousel-img"/>
+                    <img src="assets/demoday-1.jpg" className="carousel-img"/>
                 </div>
                 <div>
-                    <img src="assets/demoday-2.jpg"class="carousel-img" />
+                    <img src="assets/demoday-2.jpg"className="carousel-img" />
                 </div>
                 <div>
-                    <img src="assets/cubstart-discussion.jpg" class="carousel-img"/>
+                    <img src="assets/cubstart-discussion.jpg" className="carousel-img"/>
                 </div>
             </Carousel>
         );
