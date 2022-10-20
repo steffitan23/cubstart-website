@@ -8,3 +8,7 @@
 .carousel {
     margin: 25px 0;
 }
+
+.carousel .control-arrow {
+    background-color: transparent!important;
+}

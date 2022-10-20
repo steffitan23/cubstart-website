@@ -34,7 +34,7 @@
 }
 
 .hero-wrapper {
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 .header h1, h2 {
@@ -43,7 +43,7 @@
 
 .hero-flex-wrapper {
   display: flex;
-  padding: 40px 0;
+  padding: 10px 0;
   justify-content: center;
   flex-wrap: wrap; 
 }
@@ -171,9 +171,20 @@ a {
 
 .stats-item {
   width: 125px;
+  transition: 0.3s;
 }
 
 .stats-item img{
-  height: 100px;
+  height: 130px;
 }
 
+.stats-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
