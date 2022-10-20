@@ -8,11 +8,11 @@ import {
   HashRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 import HomeworkPage from "../HomeworkPage/HomeworkPage";
 import LabPage from "../LabPage/LabPage";
-// import AttendancePage from "../AttendancePage/AttendancePage"
+import Sponsorship from "../Sponsorship";
 
 function Navbar() {
   const [openMobileTab, setOpenMobileTab] = useState(false);
@@ -56,9 +56,6 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
-              {/* <li className="nav-item">
-                <Link to="/attendance">Attendance</Link>
-              </li> */}
             </ul>
           </nav>
           <Routes>
@@ -69,6 +66,7 @@ function Navbar() {
             {/* <Route path = '/attendance' element={ <AttendancePage/> } /> */}
             <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
             <Route path = '/lab/:type/:id' element={ <LabPage/> } />
+            <Route path='/sponsorship' element={ <Sponsorship />}/>
           </Routes>
         </Router>        
       </div>
