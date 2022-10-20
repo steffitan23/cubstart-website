@@ -14,7 +14,7 @@ First things first, you'll need to define the relevant elements in the DOM with 
 ```html
 <!-- Part 1: -->
 <!-- Add h1 with the id "count-display" here. -->
-<button className="button" id="subtract">-</button>
+<button class="button" id="subtract">-</button>
 <!-- Add button with the id "add" and the class "button", containing the text "+" here. -->
 ```
 
@@ -72,8 +72,8 @@ _Fill in the blank for the input element :) Make the type "text" and the id "tas
 <!-- Create an "input" HTML element, with type "text" and the id "task-name": -->
 <!-- YOUR CODE HERE -->
 <div id="input-handlers">
-    <button className="button" id="submit">Submit</button>
-    <button className="button" id="clear">Clear</button>
+    <button class="button" id="submit">Submit</button>
+    <button class="button" id="clear">Clear</button>
 </div>
 <ul id="tasks"></ul>
 ```
