@@ -6,7 +6,7 @@ Ddoski made this cool app that lets you find the weather in a certain city/count
 
 But he lost some parts of his code in a storm! 
 
-_[Help him. (Download skeleton code here.)](assets/hw5/hw5-skeleton.zip)_
+_[Help him. (Download skeleton code here.)](assets/hw5/hw-5-skeleton-updated.zip)_
 **Note: Only edit script.js.**
 
 # CLUE 1
