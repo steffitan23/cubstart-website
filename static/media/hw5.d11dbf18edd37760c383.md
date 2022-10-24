@@ -27,7 +27,7 @@ _[Lecture 3](https://docs.google.com/presentation/d/1OV4TMladevhoc5WVB7TARH2X2YR
 To submit the homework folder, you have to zip it first. 
 
 **To zip a folder:**
-_**Windows:** Right-click the folder **hw3-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder **hw3-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
+_**Windows:** Right-click the folder **hw5-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder **hw5-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com/courses/437611) :)
