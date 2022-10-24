@@ -1,4 +1,4 @@
-# ****HW6: Shopping List Part 2****
+# ****Shopping List Part 2****
 # ****Introduction****
 
 Today we will be building on shopping list part 1! This homework builds off of the knowledge from the lecture, but we will recap the basic concepts so don't worry if you forgot anything. In the previous project we built a static shopping list app where the user wasn't able to add or delete items. In this project, we'll be implementing functionality for users to add or delete items in order to build a fully usable app!
@@ -11,7 +11,7 @@ To fetch the skeleton, you will git clone the skeleton repository into your `cu
  directory. While at your `cubstart`
  directory, run the following bash command:
 
-```markdown
+```bash
 git clone --depth=1 --branch=master https://github.com/tonyhong007/shopping_list_part2 hw6 && rm -rf ./hw6/.git
 ```
 
@@ -88,13 +88,13 @@ Try running your app and adding multiple items to the shopping list to verify th
 
 You might've noticed that when a user clicks the button without writing anything into the text fields the app starts to generate blank cells. Try adding an if statement in the button element that will prevent the user from generating blank cells if either textfield is empty.
 
-Hint: Both tempItemName and tempQuantity are initialized to "" when the user hasn't typed in anything.
+_Hint: Both tempItemName and tempQuantity are initialized to "" when the user hasn't typed in anything._
 
 # ****Part 3: Deleting Entries from the Shopping List****
 
 Your last task is to allow the user to delete the most recent entry in the shopping list. For example, if a user adds apples to the shopping list it should reflect this change on the app. If the user immediately presses the delete button, it will remove apples from the list and this change should be reflected on the app. If the user presses delete again, it will remove the entry that was added right before apples.
 
-Hint: Add another button below the "Add New Item" button that calls a helper function. The helper function should remove the last element inside "list" using removeLast().
+_Hint: Add another button below the "Add New Item" button that calls a helper function. The helper function should remove the last element inside "list" using removeLast()._
 
 That's it for homework 6!! Great job for finishing :DD
 
@@ -102,14 +102,14 @@ That's it for homework 6!! Great job for finishing :DD
 
 To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
 
-```swift
+```bash
 cd Desktop
 cd Cubstart-iOS
 ```
 
 Then type in these commands to push your code onto your personal repository:
 
-```swift
+```bash
 git add .
 git commit -m "completed homework 6"
 git push
