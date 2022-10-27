@@ -49,7 +49,7 @@ node index.js
 ```
 to run your API. Then, we can use cURL and Postman to send requests to it.
 
-# Examples: Functionality
+# Part 3: Examples: Functionality
 
 ## Add cards with "/new" endpoint
 Here in Postman, we've set the request to POST instead of GET, sending a JSON with "front" and "back" set to the front and the back text of the flashcard respectively.
