@@ -41,7 +41,16 @@ Here is a summary of all the functionalities:
 - Retrieve a specific card by their id with "/cards/ID_HERE" endpoint
 - Retrieves a random card with "/random" endpoint
 - Deletes a specific card by their id with "/delete/ID_HERE" endpoint
-</br></br></br>
+
+# IMPORTANT: Running your API
+When you're done, do 
+```bash
+node index.js
+```
+to run your API. Then, we can use cURL and Postman to send requests to it.
+
+# Part 3: Examples: Functionality
+
 ## Add cards with "/new" endpoint
 Here in Postman, we've set the request to POST instead of GET, sending a JSON with "front" and "back" set to the front and the back text of the flashcard respectively.
 
