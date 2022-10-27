@@ -47,7 +47,7 @@ When you're done, do
 ```bash
 node index.js
 ```
-to run your API. Then, we can use cURL and Postman to send requests to it.
+to run your API. Then, we can use cURL and Postman to send requests to it. **You have to rerun this every time you change something in index.js. Remember to save the file and do "node index.js" again.**
 
 # Part 3: Examples: Functionality
 
