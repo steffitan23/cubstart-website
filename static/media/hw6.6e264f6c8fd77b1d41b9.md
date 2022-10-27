@@ -6,7 +6,7 @@ Ddoski needs help with his final project. He wants to build a flashcard website,
 _[Download skeleton code.](assets/hw6/hw6-skeleton.zip)_
 
 # Part 1: Set up your Project
-After extracting your skeleton code zip file, in your "hw6-skeleton" folder (the folder index.js is in), run these commands in your terminal:
+After extracting your skeleton code zip file, in your "hw6-skeleton" folder (create a folder with the extracted index.js file in it), run these commands in your terminal:
 ```bash
 npm init
 ```
