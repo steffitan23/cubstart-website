@@ -255,3 +255,25 @@ Edit the ContentView with the following to put together the Views you already ma
 
 <img width="738" alt="Screen%20Shot%202022-03-27%20at%2010 21 41%20PM" src="https://user-images.githubusercontent.com/71753465/198496295-7eb975d5-f8cb-4300-99d5-8a670c888f10.png">
 
+# Submission:
+
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```bash
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```bash
+git add .
+git commit -m "completed homework 7"
+git push
+```
+
+You can also type `git status` to verify which files you are pushing.
+
+Upload your code onto gradescope for HW 7 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
