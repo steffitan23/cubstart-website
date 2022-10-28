@@ -6,6 +6,8 @@ Ddoski needs help with his final project. He wants to build a flashcard website,
 _[Download skeleton code.](assets/hw6/hw6-skeleton.zip)_
 
 # Part 1: Set up your Project
+First, download [Node.js](https://nodejs.org/en/download/).
+
 After extracting your skeleton code zip file, in your "hw6-skeleton" folder (create a folder with the extracted index.js file in it), run these commands in your terminal:
 ```bash
 npm init
@@ -112,7 +114,7 @@ $ curl http://localhost:3000/random
 </br></br></br>
 
 # Submission
-To submit the homework folder, you have to zip it first. 
+To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**.
 
 **To zip a folder:**
 _**Windows:** Right-click the folder **hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
