@@ -767,3 +767,26 @@ Click Publish. That’s it! All done! Now you can demo the project. The screensh
 # Part 7: Demo Screenshots
 
 Here are the solutions: [https://github.com/jy73/quizlet-ish](https://github.com/jy73/quizlet-ish)
+
+# Submission:
+
+To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
+
+```bash
+cd Desktop
+cd Cubstart-iOS
+```
+
+Then type in these commands to push your code onto your personal repository:
+
+```bash
+git add .
+git commit -m "completed homework 8"
+git push
+```
+
+You can also type `git status` to verify which files you are pushing.
+
+Upload your code onto gradescope for HW 8 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
+
+![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
