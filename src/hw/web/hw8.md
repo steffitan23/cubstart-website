@@ -75,13 +75,13 @@ You should see each comment appears on the screen!
 ## Part 7: Let's try to break a link ;)
 On your website (localhost:3000/), click the button at the bottom of the page that says "Go to My Profile":
 
-<img src="/assets/hw8/goToProfile.jpg" style="width:30%; margin-top:10px;" />
-
 You will now see Ddoski's profile page that you saw in part 2.
 
 If you now go back to your code editor, **you will find the next bug in Profile.js on line 7.**
 
-The error Ddoski is getting is that there's a link on the page that we don't want to work.
+The error Ddoski is getting is that there's a link on the page that we don't want to work:
+
+<img src="/assets/hw8/linkShoudlntWork.jpg" style="width:30%; margin-top:10px;" />
 
 However, Ddoski forgot which event object (e) function does that. Check last week's slides on React, specifically on Methods and Event Handlers!
 
