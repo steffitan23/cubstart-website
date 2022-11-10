@@ -8,7 +8,7 @@ Since you've already downloaded Node.js in the last homework, we're just going t
 
 _[Download the skeleton here.](assets/hw8/hw8-skeleton.zip)_
 
-Extract the skeleton .zip. Go to your terminal in your hw7-skeleton folder and run the command:
+Extract the skeleton .zip. Go to your terminal in your hw8-skeleton folder and run the command:
 ```bash
 npm install
 ```
