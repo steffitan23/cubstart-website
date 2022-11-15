@@ -56,9 +56,9 @@ npm install
 
 <img src="/assets/hw9/firestore.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-14. Select "Test mode", and select the recommended "nam" (North America) region. Create your database!
+14. Select "Test mode", and select the recommended "nam5" (North America) region. Create your database!
 
-<img src="/assets/hw9/test-mode.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+<img src="/assets/hw9/test-mode.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
 15. Click "Start Collection".
 
@@ -66,13 +66,13 @@ npm install
 
 16. Set its "Collection ID" to "entries". 
 
-<img src="/assets/hw9/collection-name.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+<img src="/assets/hw9/collection-name.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
 15. Click "Auto-ID", then hit "Save".
 
 <img src="/assets/hw9/autoid.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-16. Go to the Gear icon next to "Project Overview" and hit "Project Settings". Make sure the Default GCP resource Location is set, otherwise, just set it to the nam region we set it to before.
+16. Go to the Gear icon next to "Project Overview" and hit "Project Settings". Make sure the Default GCP resource Location is set, otherwise, just set it to the "nam5" region we set it to before.
 
 <img src="/assets/hw9/project-settings.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
@@ -97,17 +97,17 @@ firebase init
 
 4. Make sure to select by using your Up and Down arrow keys, space to select, and enter to confirm all choices. Select "Firestore: Configure security rules and indexes files for Firestore" and "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys".
 
-<img src="/assets/hw9/firebase-init.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+<img src="/assets/hw9/firebase-init.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
 5. Select "Use an existing project", and then select the project that you created.
 
-<img src="/assets/hw9/use-existing.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+<img src="/assets/hw9/use-existing.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-6. Just hit enter for everything else to use the defaults.
+6. Just hit enter for everything else to use the defaults, **EXCEPT when they prompt you to overwrite the index.html**. **Do not overwrite index.html.** **Also, make sure to decline when they prompt: “Set up automatic builds and deploys with GitHub?".**
 
-This is how your terminal should look li ke:
-<img src="/assets/hw9/terminal-1.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
-<img src="/assets/hw9/terminal-2.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+This is how your terminal should look like:
+<img src="/assets/hw9/terminal-1.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
+<img src="/assets/hw9/terminal-2.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
 7. Lastly, paste in the code you saved for the Firebase configuration in **app.js**, Question 1.
 
