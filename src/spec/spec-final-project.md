@@ -32,7 +32,7 @@ This week, you'll be mocking up the design of your application using any design 
 
 1. Come up with **3 different designs** to demonstrate your project idea! These don't have to look great (no color, just basic shapes, placeholder text, etc.), but we want you to explore different ways to design your app! These designs should each be variations of the same screen(s). Below is an example of what this might look like if you're building an iOS app. If you're developing a web app, yours will look very similar, just with different frame dimensions.
 
-<img src="/assets/spec-frame.png" style="padding: 30px;"/>
+<img src="/assets/spec-frame.PNG" style="padding: 30px;"/>
 
 2. Pick 1 design that your team thinks is the best for your project, and bring your vision to life! Add colors, try different fonts, mess with corner radius or effects like drop shadows.
 
