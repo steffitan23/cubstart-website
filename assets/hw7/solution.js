@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 connect().catch(err => console.log(err))
 
 async function connect() {
-  await mongoose.connect('mongodb+srv://steffitan23:cubstart@cluster0.o1uteiq.mongodb.net/test')
+  await mongoose.connect('YOUR_MONGODB_URL')
 }
 
 const flashcardSchema = new mongoose.Schema({
