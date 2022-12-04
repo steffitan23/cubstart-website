@@ -43,7 +43,7 @@ This week, you'll be mocking up the design of your application using any design 
 ## Part 2: Final Project Presentation
 _<b>Deadline:</b> 5 December 2022, <b>40 points</b>_
 
-Demo Day will be held on **Monday, 5 December 2022**, location and time TBC. (Pizza for lunch after will be included!)
+Demo Day will be held on **Thursday, 8 December 2022, from 11pm to 12.30pm at Soda 306**. (Pizza for lunch after will be included!)
 
 You'll be given **3 minutes to present + 1 minute for Q&A.** We will set up a Gradescope assignment to submit your slides and your iOS/Web application files.
 
