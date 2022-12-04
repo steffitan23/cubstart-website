@@ -41,7 +41,7 @@ This week, you'll be mocking up the design of your application using any design 
 4. Submit it in the form above.
 
 ## Part 2: Final Project Presentation
-_<b>Deadline:</b> 5 December 2022, <b>40 points</b>_
+_<b>Deadline:</b> 8 December 2022, <b>40 points</b>_
 
 Demo Day will be held on **Thursday, 8 December 2022, from 11pm to 12.30pm at Soda 306**. (Pizza for lunch after will be included!)
 
