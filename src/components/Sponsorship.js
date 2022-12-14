@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 function Sponsorship() {
     useEffect(() => {
-        console.log("hi")
         document.querySelector('body').scrollTo(0, 0);
       });
     return (

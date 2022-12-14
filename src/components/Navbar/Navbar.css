@@ -94,6 +94,8 @@
     list-style: none;
     display: flex;
     justify-self: end;
+    display: -webkit-flex;
+    -webkit-justify-self: end;
   }
   
   .nav-item {
