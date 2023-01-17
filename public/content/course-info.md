@@ -4,7 +4,7 @@
 
 **EECS Dept. Sponsor:** Professor John Denero
 
-**Course Catalog:** Fall 2022
+**Course Catalog:** Spring 2023
 
 ## Course Overview
 
@@ -14,20 +14,23 @@ Central to many aspects of software engineering, full stack web development usin
 
 The course content is split into lectures, optional labs, homework, and a final project. You are expected to form teams of up to 4 at the start of the semester, who will be your group to navigate homework projects and deliver a final project with.
 
-## Lectures (Thursdays 6-7pm PT)
+## Lectures (Tuesdays 5-6pm PT)
 
 The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
 
-## Labs (Fridays 6-8pm PT)
+## Labs (Thursday 5-7pm PT)
 
-The weekly labs serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). Labs will be held in Mulford 159 for the Web track and Soda 306 for the iOS track. You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
+The weekly labs serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
+
+You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
 
 ## Homeworks (Assigned Thursdays, Due the Next Friday)
 
 The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. The way these step-by-step projects have been designed is intended to achieve two things:
 
-Quality: So that you may gain the working knowledge of the relevant technologies
-Uniqueness: So that you may have a stand-out project for your resume/portfolio with many talking points
+**Quality:** So that you may gain the working knowledge of the relevant technologies
+
+**Uniqueness:** So that you may have a stand-out project for your resume/portfolio with many talking points
 We understand that you have other obligations throughout the semester, which is why we have optional weekly labs on Thursdays, so that you may receive credit for the project the day before it is due (Friday) if you can not commit to a project for a certain week. However, the project spec is instructional enough so that you can follow each step without too much trouble all the way until the finished product, from which you are expected to add a few creative modifications for credit. You are allowed to collaborate your team on these projects, but you are expected to submit these homeworks individually.
 
 ## Final Project

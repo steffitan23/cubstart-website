@@ -37,9 +37,10 @@ function HomePage(props) {
                         className="typing-text"
                         /></h1>
                     <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
-                    {/* <div className='button-container'>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFPctypeWtFvdSxMjg34j-_Esq0z2lNP0Yew0b9V6-bnPoEg/viewform?usp=sf_link" className="applybutton">Apply now!</a>
-                    </div> */}
+                    <div className='button-container'>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1GzSg45wwQhyDKDZBpd9Oh6V7BH8QqIWIaFRe9ZgzxUaMnA/viewform" className="applybutton">Apply now!</a>
+                    </div>
+                    <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">
                             <img src="assets/stats-semester.svg"/>

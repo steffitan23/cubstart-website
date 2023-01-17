@@ -57,9 +57,9 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/spec">Final Project</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <Routes>
