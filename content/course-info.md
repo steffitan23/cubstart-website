@@ -24,9 +24,31 @@ The weekly labs serve as a means of introducing the homework assignment (that wa
 
 You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
 
+## Learning Goals
+- Tackling detailed project specs
+- Project ideation and developing software in a team
+- Achieving full stack web development proficiency
+
+## Grading Breakdown
+
+| **Weight**  | **Assignment**                          |
+| ----------- | --------------------------------------- |
+| 20%         | Lecture Attendance                      |
+| 30%         | Weekly Homeworks                        |
+| 5%          | Final Project Checkpoint: Design Mockup |
+| 45%         | Final Project: Demo Day                 |
+
+This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. 
+
+Absences beyond our limit will automatically result in a grade of NP.
+
 ## Homeworks (Assigned Thursdays, Due the Next Friday)
 
-The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. The way these step-by-step projects have been designed is intended to achieve two things:
+The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. 
+
+You have **2 homework drops**, but any more than that and your homework grade will be affected.(See the grade breakdown below.)
+
+The way these step-by-step projects have been designed is intended to achieve two things:
 
 **Quality:** So that you may gain the working knowledge of the relevant technologies
 
@@ -35,27 +57,11 @@ We understand that you have other obligations throughout the semester, which is 
 
 ## Final Project
 
-The last 4 weeks will be dedicated to your final project, which is ideating and building a viable product/application. You’ll be expected to meet with your project team regularly to work towards meeting the checkpoints throughout. You will have a chance to demo your project for industry experts and professionals as your final at Demo Day, which will take place on Thursday, 5/5. We will be offering extensive Office Hours support as you and your team take on this final project.
-
-## Learning Goals
-- Tackling detailed project specs
-- Project ideation and developing software in a team
-- Achieving full stack web development proficiency
-
-## Grading Breakdown
-
-| **Points** | **Assignment**                          |
-| ---------- | --------------------------------------- |
-| 15         | Lecture Attendance                      |
-| 40         | Weekly Homeworks (5 pts. each)          |
-| 5          | Final Project Checkpoint: Design Mockup |
-| 40         | Final Project: Demo Day                 |
-
-This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to 2 excused and 2 unexcused absences across lectures. Excused absences require at least 6 hours notice; please email cubstart@calhacks.io with the subject line “[CUBSTART] EXCUSED ABSENCE REQUEST - YOUR FULL NAME.” In the body of the email, please include the reason for the request. Absences beyond our limit will automatically result in a grade of NP.
+The last 4 weeks will be dedicated to your final project, which is ideating and building a viable product/application. You’ll be expected to meet with your project team regularly to work towards meeting the checkpoints throughout. We will be offering extensive Office Hours support as you and your team take on this final project.
 
 ## Late Work
 
-Each student is allowed up to 3 slip days throughout the semester. Slip days are applicable to the homeworks. Each slip day is equivalent to a 24-hour extension. You may use multiple slip days back-to-back. Using a slip day does not require any notice; they will simply be applied at the end of the semester to maximize your overall grade. Slip days will be subtracted from each student on the team at the same time. Outside of slip days, late work will receive a 10% grade deduction for every day after the deadline that the work is submitted.
+Each student is allowed up to **3 slip days** throughout the semester. Slip days are applicable to the homeworks. Each slip day is equivalent to a 24-hour extension. You may use multiple slip days back-to-back. Using a slip day does not require any notice; they will simply be applied at the end of the semester to maximize your overall grade. Slip days will be subtracted from each student on the team at the same time. Outside of slip days, late work will receive a 10% grade deduction for every day after the deadline that the work is submitted.
 
 ## Academic Honesty
 
