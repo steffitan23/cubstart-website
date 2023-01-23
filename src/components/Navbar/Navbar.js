@@ -14,6 +14,7 @@ import HomeworkPage from "../HomeworkPage/HomeworkPage";
 import LabPage from "../LabPage/LabPage";
 import Sponsorship from "../Sponsorship";
 import ProjectSpecPage from "../ProjectSpecPage/ProjectSpecPage";
+import SolutionsPage from "../SolutionsPage/SolutionsPage";
 
 function Navbar() {
   const [openMobileTab, setOpenMobileTab] = useState(false);
@@ -71,6 +72,7 @@ function Navbar() {
             <Route path = '/lab/:type/:id' element={ <LabPage/> } />
             <Route path = '/spec' element={ <ProjectSpecPage/> } />
             <Route path='/sponsorship' element={ <Sponsorship />}/>
+            <Route path='/solutions' element={ <SolutionsPage />}/>
           </Routes>
         </Router>        
       </div>
