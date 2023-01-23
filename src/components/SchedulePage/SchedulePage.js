@@ -15,6 +15,8 @@ function SchedulePage(props) {
         fetch("content/web/schedule-page.md")
         .then((res) => res.text())
         .then((text) => setWeb(text));
+
+        document.querySelector('body').scrollTo(0, 0);
     }, []);
 
     return (

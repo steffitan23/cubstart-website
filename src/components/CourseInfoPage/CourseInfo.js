@@ -13,6 +13,7 @@ function CourseInfoPage() {
         fetch("content/course-info.md")
         .then((res) => res.text())
         .then((text) => setContent(text));
+        document.querySelector('body').scrollTo(0, 0);
     }, []);
   return (
     <div>
