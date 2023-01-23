@@ -32,7 +32,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">How do I apply?</div>
-      <div className="accordion__content">Applications are open for Spring 2023, deadline TBD.</div>
+      <div className="accordion__content">Applications are open for Spring 2023, deadline is 2/5, 11:59PM.</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
