@@ -42,6 +42,15 @@ function StaffPage() {
         {staffInfo.lecturers.map((staff) => <StaffCard content={staff}/>)}
         </div>
         <br/>
+
+        <div className="header">
+        <h1>Logistics</h1>
+        </div>
+        <div className="cards-wrapper">
+        {staffInfo.logistics.map((staff) => <StaffCard content={staff}/>)}
+        </div>
+        <br/>
+
         <div className="header">
         <h1>Teaching Assistants</h1>
         </div>
