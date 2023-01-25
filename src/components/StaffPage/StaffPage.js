@@ -23,6 +23,15 @@ function StaffPage() {
             "description": "",
             "social": ""
           }
+        ],
+        "logistics": [
+          {
+            "image": "",
+            "name": "",
+            "title": "",
+            "description": "",
+            "social": ""
+          }
         ]
       }
       );
