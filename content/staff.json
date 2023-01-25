@@ -8,25 +8,18 @@
       "social": "@staph.e"
     },
     {
-      "image": "assets/tyler.jpg",
-      "name": "Tyler Sameshima",
-      "title": "Course Lead, Web Lecturer",
-      "description": "Hey all! I'm Tyler, a third year majoring in CS. In my free time, I like playing video games, listening to music, and learning new languages. Feel free to reach out if you want to talk!",
-      "social": "@tysameshima"
+      "image": "assets/oliver.jpg",
+      "name": "Oliver Carmont",
+      "title": "Web Lecturer",
+      "description": "Hi! I’m Oliver. I’m a sophomore studying CS. I’m an international student from Spain and Australia. At Berkeley, I’m involved in Cal Hacks, Codeology and IM Soccer.",
+      "social": "@oliver.cz"
     },
     {
-      "image": "assets/tony.jpg",
-      "name": "Tony Hong",
+      "image": "assets/juliet.jpg",
+      "name": "Juliet Kim",
       "title": "iOS Lecturer",
-      "description": "Hello! I'm Tony and I'm currently a junior studying EECS. Some of my academic/industry interests are backend engineering and systems engineering. I also enjoy playing badminton, watching kdramas/anime, and listening to music during my free time.",
-      "social": "@tshong"
-    },
-    {
-      "image": "assets/jordan.jpg",
-      "name": "Jordan Yee",
-      "title": "iOS Lecturer",
-      "description": "Hi! My name is Jordan. I’m a third year studying EECS. At Cal, I’m involved in Cal Hacks, Product Space, and ANOVA. In my free time, you can generally find me playing basketball/football, working out, or just chilling at the beach. Feel free to reach out if you wanna talk gym, product management, or anything else!",
-      "social": "@jordantyee"
+      "description": "Hey! I'm Juliet and I'm a senior studying CS from LA. I love journaling, baking, hitting that 12-3-30, and matcha lemonade <3. Super excited to meet everyone this semester!",
+      "social": "@julietkim_"
     }
   ],
   "tas": [
@@ -43,13 +36,22 @@
       "title": "Web TA",
       "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
       "social": "@alex.gberg"
+    }
+  ],
+  "logistics": [
+    {
+      "image": "assets/tyler.jpg",
+      "name": "Tyler Sameshima",
+      "title": "Course Lead, Logistics",
+      "description": "Hey all! I'm Tyler, a third year majoring in CS. In my free time, I like playing video games, listening to music, and learning new languages. Feel free to reach out if you want to talk!",
+      "social": "@tysameshima"
     },
     {
-      "image": "assets/oliver.jpg",
-      "name": "Oliver Carmont",
-      "title": "Web TA",
-      "description": "Hi! I’m Oliver. I’m a sophomore studying CS. I’m an international student from Spain and Australia. At Berkeley, I’m involved in Cal Hacks, Codeology and IM Soccer.",
-      "social": "@oliver.cz"
+      "image": "assets/tony.jpg",
+      "name": "Tony Hong",
+      "title": "iOS Lead, Logistics",
+      "description": "Hello! I'm Tony and I'm currently a junior studying EECS. Some of my academic/industry interests are backend engineering and systems engineering. I also enjoy playing badminton, watching kdramas/anime, and listening to music during my free time.",
+      "social": "@tshong"
     }
   ]
 }
