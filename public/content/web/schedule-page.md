@@ -5,7 +5,7 @@ Lab: Thursdays 5:00pm-7:00pm @ Wheeler 212
 [Attendance Form](https://forms.gle/5REaGHkrjmcmBBMN7)
 
 ## Announcements
-Welcome to the full-stack web development track. Class hasn't started yet, be sure to apply and we'll get back to you soon!
+Welcome to the full-stack web development track. 
 
 Join the [EdStem](https://edstem.org/us/join/HBYrcK) and [Discord](https://discord.gg/RfGp5zDrtC).
 
