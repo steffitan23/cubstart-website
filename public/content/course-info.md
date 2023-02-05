@@ -40,7 +40,7 @@ You do not need to attend these labs if you feel comfortable that you can comple
 
 This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. 
 
-Absences beyond our limit will automatically result in a grade of NP.
+**More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
 
 ## Homeworks (Assigned Thursdays, Due the Next Friday)
 
