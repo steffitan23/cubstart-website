@@ -1,6 +1,6 @@
 **Course Designation:** CS 198-075, CS 198-750
 
-**Facilitators:** Steffi Tan, Tyler Sameshima, Jordan Yee, Tony Hong
+**Facilitators:** Steffi Tan, Tyler Sameshima, Tony Hong
 
 **EECS Dept. Sponsor:** Professor John Denero
 
@@ -18,9 +18,11 @@ The course content is split into lectures, optional labs, homework, and a final 
 
 The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
 
-## Labs (Thursday 5-7pm PT)
+## Labs (Thursday 5-7pm PT) (Optional but Recommended)
 
-The weekly labs serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
+Labs are a fun way to learn and practice the content in a more hands-on way! They are recommended for those starting out in programming and web development, who want to put what they've learned in lecture into practice. We have all sorts of exciting exercises for you to make your own demos and small apps.
+
+They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
 
 You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
 
@@ -40,7 +42,7 @@ You do not need to attend these labs if you feel comfortable that you can comple
 
 This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. 
 
-Absences beyond our limit will automatically result in a grade of NP.
+**More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
 
 ## Homeworks (Assigned Thursdays, Due the Next Friday)
 
