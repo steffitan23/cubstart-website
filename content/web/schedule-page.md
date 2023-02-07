@@ -11,7 +11,7 @@ Join the [EdStem](https://edstem.org/us/join/k4UPks).
 
 | Week | Lecture                                                                 | Lab Section            | Homework/Project             |
 |------|-------------------------------------------------------------------------|------------------------|------------------------------|
-| 1    | Introduction to HTML and the Web                                        | No lab                 | HW 1: HTML Basics            |
+| 1    | Introduction to HTML and the Web                                        | No lab                 | [HW 1: HTML Basics](#/hw/web/hw1)            |
 | 2    | CSS Basics and Browser Developer Tools                                  | Fun Lab Exercise + HW Help | HW 2: Personal Portfolio     |
 | 3    | Javascript Basics                                                       | Fun Lab Exercise + HW Help | HW 3: JavaScript Playground  |
 | 4    | Figma and Design Basics + Using Git and Deployment (with Github Pages)  | Fun Lab Exercise + HW Help | HW 4: Deployment             |
