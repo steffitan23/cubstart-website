@@ -12,7 +12,7 @@ Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 
 | Week | Lecture                                                         | Lab Section                                       | Homework/Project             |
 |------|-----------------------------------------------------------------|---------------------------------------------------|------------------------------|
-| 1    | Introduction, Git, Designing an iOS App w/ Figma                | Team Formation Activities and XCode/GitHub Set-up | HW 1: Mobile Bookstore       |
+| 1    | Introduction, Git, Designing an iOS App w/ Figma                | Team Formation Activities and XCode/GitHub Set-up | [HW 1: Mobile Bookstore](/#/hw/ios/hw1)       |
 | 2    | Swift/SwiftUI Crash Course                                      | Playing with Git                                  | HW 2: TBD                    |
 | 3    | Wrappers, Objects, and Bindings in SwiftUI                      | Project OH/Checkoff                               | HW 3: TBD                    |
 | 4    | NavigationLinks, TabViews, and Custom Cells in SwiftUI          | Project OH/Checkoff                               | HW 4: TBD                    |
