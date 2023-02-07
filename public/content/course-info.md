@@ -1,6 +1,6 @@
 **Course Designation:** CS 198-075, CS 198-750
 
-**Facilitators:** Steffi Tan, Tyler Sameshima, Jordan Yee, Tony Hong
+**Facilitators:** Steffi Tan, Tyler Sameshima, Tony Hong
 
 **EECS Dept. Sponsor:** Professor John Denero
 
@@ -18,9 +18,11 @@ The course content is split into lectures, optional labs, homework, and a final 
 
 The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
 
-## Labs (Thursday 5-7pm PT)
+## Labs (Thursday 5-7pm PT) (Optional but Recommended)
 
-The weekly labs serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
+Labs are a fun way to learn and practice the content in a more hands-on way! They are recommended for those starting out in programming and web development, who want to put what they've learned in lecture into practice. We have all sorts of exciting exercises for you to make your own demos and small apps.
+
+They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
 
 You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
 
@@ -38,22 +40,15 @@ You do not need to attend these labs if you feel comfortable that you can comple
 | 5%          | Final Project Checkpoint: Design Mockup |
 | 45%         | Final Project: Demo Day                 |
 
-This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. 
+This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. If you have an extenuating circumstance and have used up your 2 unexcused absences, please email us at cubstart@calhacks.io.
 
-Absences beyond our limit will automatically result in a grade of NP.
+**More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
 
 ## Homeworks (Assigned Thursdays, Due the Next Friday)
 
 The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. 
 
-You have **2 homework drops**, but any more than that and your homework grade will be affected.(See the grade breakdown below.)
-
-The way these step-by-step projects have been designed is intended to achieve two things:
-
-**Quality:** So that you may gain the working knowledge of the relevant technologies
-
-**Uniqueness:** So that you may have a stand-out project for your resume/portfolio with many talking points
-We understand that you have other obligations throughout the semester, which is why we have optional weekly labs on Thursdays, so that you may receive credit for the project the day before it is due (Friday) if you can not commit to a project for a certain week. However, the project spec is instructional enough so that you can follow each step without too much trouble all the way until the finished product, from which you are expected to add a few creative modifications for credit. You are allowed to collaborate your team on these projects, but you are expected to submit these homeworks individually.
+You have **2 homework drops**, but any more than that and your homework grade will be affected.
 
 ## Final Project
 
