@@ -2,12 +2,12 @@ Lecture: Tuesday 5:00pm-6:00pm @ MCCN141
 
 Lab: Thursdays 5:00pm-7:00pm @ Wheeler 212
 
-[Attendance Form](https://forms.gle/5REaGHkrjmcmBBMN7)
+[Attendance Form](https://forms.gle/hhrjxXDXsHa9tGKeA)
 
 ## Announcements
 Welcome to the full-stack web development track. 
 
-Join the [EdStem](https://edstem.org/us/join/HBYrcK) and [Discord](https://discord.gg/RfGp5zDrtC).
+Join the [EdStem](https://edstem.org/us/join/k4UPks).
 
 | Week | Lecture                                                                 | Lab Section            | Homework/Project             |
 |------|-------------------------------------------------------------------------|------------------------|------------------------------|

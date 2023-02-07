@@ -2,13 +2,13 @@ Lecture: Tuesday 5:00pm-6:00pm @ VLSB2060
 
 Lab: Thursdays 5:00pm-7:00pm @ VLSB2060
 
-[Attendance Form](https://forms.gle/FTv3misKZ7RPbqxY6)
+[Attendance Form](https://forms.gle/hBqe5hsfnFuTZsB67)
 
 ## Announcements
 
 Welcome to the iOS development track. Class hasn't started yet, be sure to apply and we'll get back to you soon!
 
-Join the [EdStem](https://edstem.org/us/join/tkSA9H).
+Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 
 | Week | Lecture                                                         | Lab Section                                       | Homework/Project             |
 |------|-----------------------------------------------------------------|---------------------------------------------------|------------------------------|
