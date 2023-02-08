@@ -27,12 +27,12 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">What is the attendance policy?</div>
-      <div className="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. Lab is optional, and serve as office hours for the homework or project.</div>
+      <div className="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. Labs are optional, but are a good way to learn hands-on and get help with the homework for that week.</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">How do I apply?</div>
-      <div className="accordion__content">Applications are open for Spring 2023, deadline is 2/5, 11:59PM.</div>
+      <div className="accordion__content"><b>Applications have closed for Spring 2023. We'll see you in Fall! </b></div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>

@@ -5,7 +5,7 @@ Lab: Fridays 6:00pm-8:00pm @ Mulford 159
 [Attendance Form](https://forms.gle/5REaGHkrjmcmBBMN7)
 
 ## Announcements
-Welcome to the full-stack web development track! Join the [EdStem](https://edstem.org/us/join/HBYrcK) and [Discord](https://discord.gg/9AyPkfTNmW).
+Welcome to the full-stack web development track! Join the [EdStem](https://edstem.org/us/join/HBYrcK) and [Discord](https://discord.gg/RfGp5zDrtC).
 
 | Week | Lecture                                                                                                                                         | Lab Section            | Homework/Project                  |
 |------|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------------------------|
