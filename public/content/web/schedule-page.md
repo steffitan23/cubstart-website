@@ -1,4 +1,4 @@
-Lecture: Tuesday 5:00pm-6:00pm @ MCCN141
+Lecture: Tuesday 5:00pm-6:00pm @ McCone Hall 141
 
 Lab: Thursdays 5:00pm-7:00pm @ Wheeler 212
 
@@ -7,7 +7,7 @@ Lab: Thursdays 5:00pm-7:00pm @ Wheeler 212
 ## Announcements
 Welcome to the full-stack web development track. 
 
-Join the [EdStem](https://edstem.org/us/join/k4UPks).
+Join the [EdStem](https://edstem.org/us/join/k4UPks), [Discord](https://discord.com/invite/RfGp5zDrtC) and the [Gradescope](https://gradescope.com) (Join Code: J3JBB5).
 
 | Week | Lecture                                                                 | Lab Section            | Homework/Project             |
 |------|-------------------------------------------------------------------------|------------------------|------------------------------|
