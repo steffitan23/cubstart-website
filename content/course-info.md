@@ -12,7 +12,7 @@ Central to many aspects of software engineering, full stack web development usin
 
 ## Course Material
 
-The course content is split into lectures, optional labs, homework, and a final project. You are expected to form teams of up to 4 at the start of the semester, who will be your group to navigate homework projects and deliver a final project with.
+The course content is split into lectures, optional labs, homework, and a final project. Your final project will be in teams of up to 4, so you can team up with friends or find teammates in lab and lecture. We will also have an option for random groupiings for those who don't have groups.
 
 ## Lectures (Tuesdays 5-6pm PT)
 
