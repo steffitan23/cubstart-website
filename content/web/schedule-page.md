@@ -1,17 +1,17 @@
-Lecture: Tuesday 5:00pm-6:00pm @ McCone Hall 141
+Lecture: Tuesday 5:00pm-6:00pm @ MCCN141
 
 Lab: Thursdays 5:00pm-7:00pm @ Wheeler 212
 
-[Attendance Form](https://forms.gle/hhrjxXDXsHa9tGKeA)
+[Attendance Form](https://forms.gle/5REaGHkrjmcmBBMN7)
 
 ## Announcements
 Welcome to the full-stack web development track. 
 
-Join the [EdStem](https://edstem.org/us/join/k4UPks), [Discord](https://discord.com/invite/RfGp5zDrtC) and the [Gradescope](https://gradescope.com) (Join Code: J3JBB5).
+Join the [EdStem](https://edstem.org/us/join/HBYrcK) and [Discord](https://discord.gg/RfGp5zDrtC).
 
 | Week | Lecture                                                                 | Lab Section            | Homework/Project             |
 |------|-------------------------------------------------------------------------|------------------------|------------------------------|
-| 1    | Introduction to HTML and the Web [Slides](https://docs.google.com/presentation/d/19vGc47fYunPBSALIEE1Omj7y3T8KDrNYOlz1imfURq0/edit?usp=sharing) [Demo](assets/lecture1demo.html) [Recording](https://drive.google.com/file/d/1LaoVcslRvGMQnjzI0hQxN-pcSilnZuL0/view?usp=sharing)                                       | No lab                 | [HW 1: HTML Basics](#/hw/web/hw1)            |
+| 1    | Introduction to HTML and the Web                                        | No lab                 | HW 1: HTML Basics            |
 | 2    | CSS Basics and Browser Developer Tools                                  | Fun Lab Exercise + HW Help | HW 2: Personal Portfolio     |
 | 3    | Javascript Basics                                                       | Fun Lab Exercise + HW Help | HW 3: JavaScript Playground  |
 | 4    | Figma and Design Basics + Using Git and Deployment (with Github Pages)  | Fun Lab Exercise + HW Help | HW 4: Deployment             |

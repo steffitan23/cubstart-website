@@ -23,27 +23,12 @@
     }
   ],
   "tas": [
-      {
-      "image": "assets/abinaya.png",
-      "name": "Abinaya Dinesh",
-      "title": "iOS TA",
-      "description": "Hi! I'm Abinaya - a first year double majoring in Data Science and CRS. I'm really interested in climate tech and food systems, and I love croissants, embroidery, journalling, and coding on the weekends. Super excited to meet you all and see where we go this semester <3 ",
-      "social": "513-293-4206"
-    },
-      
     {
       "image": "assets/andy.jpg",
       "name": "Andy Huang",
       "title": "iOS TA",
       "description": "Hi! I’m Andy and I’m a third year studying computer science. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
       "social": "@andyy_huang"
-    },
-    {
-    "image": "assets/enya.jpg",
-    "name": "Enya Do",
-    "title": "iOS TA",
-    "description": "Hello, I'm Enya! I'm a first year studying computer science. I love digital art/design, consuming ungodly amounts of caffeine in all forms, and cubstart (of course)!",
-    "social": "@enyaado"
     },
     {
       "image": "assets/alex.jpg",
