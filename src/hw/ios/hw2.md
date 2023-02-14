@@ -83,7 +83,7 @@ struct ContentView_Previews (which you shouldn't change!) --> used to preview ou
 ### how to load images in your app
 
 1. find Assets in the project directory and click on it. Your screen should look like this!
-   <img src="/ASSETSDIR/.png" style="width: 90%; padding: 20px 0;"/>
+   <img src="/src/hw/assets/ASSETSDIR.png" style="width: 90%; padding: 20px 0;"/>
 
 2. Save the image you want, locally, to your computer.
 
