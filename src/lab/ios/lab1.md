@@ -15,9 +15,9 @@ Git and GitHub are hugely important parts of working on collaborative programmin
 
 Words in `<>` you should fill in with your own information. 
 
-[General Terminal Commands](https://www.notion.so/5543cd4a27bd4cad9bc23933984f7dcc)
+[General Terminal Commands](https://www.notion.so/Terminal-Git-Commands-17a39b971f53410a95a67c994639d085?pvs=4)
 
-[Git Commands](https://www.notion.so/fbb0ee6917674ef9a6aec7b58c749213)
+[Git Commands](https://www.notion.so/Git-Commands-78a934d1bfa64e43bddeb04872725445?pvs=4)
 
 ## Set up Git
 
@@ -25,9 +25,7 @@ Words in `<>` you should fill in with your own information.
 
 If you're using a Mac computer, verify that you have Git installed. You can also run these commands on Windows after you've installed Git Bash to double-check that Git is installed.
 
-1. Open up Terminal. It should look like this.
-    
-    ![lab-terminal-1.png](/assets/lab-terminal-1.png)
+1. Open up Terminal.
     
 2. Type in this command 
     
@@ -42,10 +40,7 @@ If you're using a Mac computer, verify that you have Git installed. You can also
     git version 2.20.1
     ```
     
-    <aside>
-    💡 Lines that start with a $ are commands that we type in. Lines that don't start with $ are responses we get from Terminal
-    
-    </aside>
+_💡 Lines that start with a $ are commands that we type in. Lines that don't start with $ are responses we get from Terminal_
     
 4. If your response does not look like this^, install Git from here: [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
@@ -60,10 +55,7 @@ If you're using a Mac computer, verify that you have Git installed. You can also
         Use `cd <path>` 
         
     
-    <aside>
-    💡 On Macs, you can get the path of a directory by dragging the folder icon from the Finder window into the Terminal Window
-    
-    </aside>
+    _💡 On Macs, you can get the path of a directory by dragging the folder icon from the Finder window into the Terminal Window._
     
 
 3. Initialize an empty Git repository within this directory.
@@ -131,10 +123,7 @@ Fast-forward
 
 This pulls the master branch of your remote `origin` (GitHub) repo into the master branch of your local repo. In this case, the only change was adding a `README.md` file.
 
-<aside>
-💡 **ALWAYS** use `git pull <source> <destination>` before you start working on a new feature or before you push, so that you can prevent conflicts. Also, **COMMUNICATE** with your teammates to make sure you're not editing the same files at the same time.
-
-</aside>
+_💡 **ALWAYS** use `git pull <source> <destination>` before you start working on a new feature or before you push, so that you can prevent conflicts. Also, **COMMUNICATE** with your teammates to make sure you're not editing the same files at the same time._
 
 ## Exercise 2D: Resolving Merge Conflicts
 
