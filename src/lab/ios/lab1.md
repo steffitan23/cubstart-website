@@ -15,9 +15,9 @@ Git and GitHub are hugely important parts of working on collaborative programmin
 
 Words in `<>` you should fill in with your own information. 
 
-[General Terminal Commands](https://www.notion.so/5543cd4a27bd4cad9bc23933984f7dcc)
+[General Terminal Commands](https://www.notion.so/Terminal-Git-Commands-17a39b971f53410a95a67c994639d085?pvs=4)
 
-[Git Commands](https://www.notion.so/fbb0ee6917674ef9a6aec7b58c749213)
+[Git Commands](https://www.notion.so/Git-Commands-78a934d1bfa64e43bddeb04872725445?pvs=4)
 
 ## Set up Git
 
@@ -25,9 +25,7 @@ Words in `<>` you should fill in with your own information.
 
 If you're using a Mac computer, verify that you have Git installed. You can also run these commands on Windows after you've installed Git Bash to double-check that Git is installed.
 
-1. Open up Terminal. It should look like this.
-    
-    ![lab-terminal-1.png](/assets/lab-terminal-1.png)
+1. Open up Terminal.
     
 2. Type in this command 
     
