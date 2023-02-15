@@ -67,7 +67,7 @@ Go to Practice.swift and follow the directions there!
 
 ## Exercise 2: Make your own profile!
 
-- Head back to ContentView.swift and follow the instructions. For help, COME TO LABS. If that's impossible, take a peek at ProfileAnswers.swift
+- Head back to ContentView.swift and follow the instructions. For help, COME TO LABS.
 
 - Here is a bit about the project structure. We have:
     1. struct Person:
