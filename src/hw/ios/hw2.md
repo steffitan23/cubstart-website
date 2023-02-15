@@ -9,7 +9,7 @@ The core concept of it is a grid that displays random facts about yourself and s
 Here is an example of the finished product:
 
 <video width="400" controls autoplay>
-    <source src="https://user-images.githubusercontent.com/71753465/191644028-972a2871-b914-49a7-a6d0-46ac250bd317.mov" type="video/mp4">
+    <source src="https://user-images.githubusercontent.com/64179036/218925526-df4d789a-2c82-4230-8919-7ffbc1e1cf78.mov" type="video/mp4">
 </video>
 
 ## Setup 🛠️
@@ -101,6 +101,6 @@ At the start of next lecture, we are going to spend 5 minutes sharing our apps w
 
 To submit your homework, open your Finder and navigate to the directory that includes BOTH your homework folder and a "homework".xcodeproj file like so:
 
-![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
+<img width="778" alt="hw2submission" src="https://user-images.githubusercontent.com/64179036/218925267-bfb302f2-ef95-423c-950d-ce514af06c64.png">
 
 Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 2.
