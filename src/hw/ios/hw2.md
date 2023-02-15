@@ -61,11 +61,11 @@ Here are the new project options:
 
 This might change depending on the project you are working on but generally these options will do when working with SwiftUI. Feel free to place the project wherever you like; then click create!
 
-## Exercise 1: Making Structures, ForEach loops, and displaying their contents!
+# Exercise 1: Making Structures, ForEach loops, and displaying their contents!
 
 Go to Practice.swift and follow the directions there!
 
-## Exercise 2: Make your own profile!
+# Exercise 2: Make your own profile!
 
 - Head back to ContentView.swift and follow the instructions. For help, COME TO LABS.
 
