@@ -40,10 +40,7 @@ If you're using a Mac computer, verify that you have Git installed. You can also
     git version 2.20.1
     ```
     
-    <aside>
-    💡 Lines that start with a $ are commands that we type in. Lines that don't start with $ are responses we get from Terminal
-    
-    </aside>
+_💡 Lines that start with a $ are commands that we type in. Lines that don't start with $ are responses we get from Terminal_
     
 4. If your response does not look like this^, install Git from here: [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
@@ -58,10 +55,7 @@ If you're using a Mac computer, verify that you have Git installed. You can also
         Use `cd <path>` 
         
     
-    <aside>
-    💡 On Macs, you can get the path of a directory by dragging the folder icon from the Finder window into the Terminal Window
-    
-    </aside>
+    _💡 On Macs, you can get the path of a directory by dragging the folder icon from the Finder window into the Terminal Window._
     
 
 3. Initialize an empty Git repository within this directory.
@@ -129,10 +123,7 @@ Fast-forward
 
 This pulls the master branch of your remote `origin` (GitHub) repo into the master branch of your local repo. In this case, the only change was adding a `README.md` file.
 
-<aside>
-💡 **ALWAYS** use `git pull <source> <destination>` before you start working on a new feature or before you push, so that you can prevent conflicts. Also, **COMMUNICATE** with your teammates to make sure you're not editing the same files at the same time.
-
-</aside>
+_💡 **ALWAYS** use `git pull <source> <destination>` before you start working on a new feature or before you push, so that you can prevent conflicts. Also, **COMMUNICATE** with your teammates to make sure you're not editing the same files at the same time._
 
 ## Exercise 2D: Resolving Merge Conflicts
 
