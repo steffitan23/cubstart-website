@@ -61,11 +61,11 @@ Here are the new project options:
 
 This might change depending on the project you are working on but generally these options will do when working with SwiftUI. Feel free to place the project wherever you like; then click create!
 
-# Exercise 1: Making Structures, ForEach loops, and displaying their contents!
+## Exercise 1: Making Structures, ForEach loops, and displaying their contents!
 
 Go to Practice.swift and follow the directions there!
 
-# Exercise 2: Make your own profile!
+## Exercise 2: Make your own profile!
 
 - Head back to ContentView.swift and follow the instructions. For help, COME TO LABS.
 
@@ -83,7 +83,7 @@ Go to Practice.swift and follow the directions there!
     6. struct ContentView_Previews
         - (which you shouldn't change!) --> used to preview our app in XCode
 
-### how to load images in your app
+### How to load images in your app
 
 1. find Assets in the project directory and click on it. Your screen should look like this!
 <img width="1378" alt="ASSETSDIR" src="https://user-images.githubusercontent.com/64179036/218925892-60447f2f-8f31-46da-822e-e202386b8066.png">
