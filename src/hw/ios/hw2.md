@@ -8,9 +8,7 @@ The core concept of it is a grid that displays random facts about yourself and s
 
 Here is an example of the finished product:
 
-<video width="400" controls autoplay>
-    <source src="https://user-images.githubusercontent.com/64179036/218925526-df4d789a-2c82-4230-8919-7ffbc1e1cf78.mov" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/64179036/218925769-d2689f5b-9b8b-4297-bd17-c2029d3d1f00.mov
 
 ## Setup 🛠️
 
@@ -32,7 +30,7 @@ cd Cubstart-iOS
 
 The “cd <path>” command is changing your current working directory to the specified path and the “mkdir <directory-name>” is creating a folder in your current working directory.
 Your current working directory should be “Cubstart-iOS” before running the next few commands
-![image](https://user-images.githubusercontent.com/64179036/191868565-a79fc05e-aa2f-4c88-96ae-b4c44ab36a85.png)
+
 We will be creating your very own personal repository on GitHub and we will connect it to your local git: (you don’t need to do this if you already have a git repository set up for Cubstart)
 
 1. Create a [GitHub](https://github.com/) Account if you don't already have one. Use your Berkeley email to sign up
@@ -83,8 +81,8 @@ struct ContentView_Previews (which you shouldn't change!) --> used to preview ou
 ### how to load images in your app
 
 1. find Assets in the project directory and click on it. Your screen should look like this!
-   <img src="assets/ASSETSDIR.png" style="width: 90%; padding: 20px 0;"/>
-
+<img width="1378" alt="ASSETSDIR" src="https://user-images.githubusercontent.com/64179036/218925892-60447f2f-8f31-46da-822e-e202386b8066.png">
+  
 2. Save the image you want, locally, to your computer.
 
 3. Drag the image from Finder (or the Windows photos directory) over to the Assets folder here. It should populate immediately!
