@@ -95,27 +95,12 @@ struct ContentView_Previews (which you shouldn't change!) --> used to preview ou
 
 YAY! We are now finished! Hope you had fun with this 😎
 
-At the start of next lecture, we are going to spent 5 minutes sharing our apps with people we've never met before - hopefully this helps you make more friends in the class!
+At the start of next lecture, we are going to spend 5 minutes sharing our apps with people we've never met before - hopefully this helps you make more friends in the class!
 
 # Submission:
 
-To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
-
-```markdown
-cd Desktop
-cd Cubstart-iOS
-```
-
-Then type in these commands to push your code onto your personal repository:
-
-```markdown
-git add .
-git commit -m "completed homework 2"
-git push
-```
-
-You can also type `git status` to verify which files you are pushing.
-
-Upload your code onto gradescope for HW 2 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
-
+To submit your homework, open your Finder and navigate to the directory that includes BOTH your homework folder and a "homework".xcodeproj file like so:
+   
 ![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
+
+Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 2 like so.
