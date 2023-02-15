@@ -8,7 +8,9 @@ The core concept of it is a grid that displays random facts about yourself and s
 
 Here is an example of the finished product:
 
-https://user-images.githubusercontent.com/64179036/218925769-d2689f5b-9b8b-4297-bd17-c2029d3d1f00.mov
+<video width="400" controls autoplay>
+    <source src="https://user-images.githubusercontent.com/64179036/218925769-d2689f5b-9b8b-4297-bd17-c2029d3d1f00.mov" type="video/mp4">
+</video>
 
 ## Setup 🛠️
 
@@ -22,7 +24,7 @@ It should first look like this when you open it:
 
 Type in the commands below individually to create a new folder “Cubstart-iOS” in your Desktop folder
 
-```markdown
+```bash
 cd Desktop
 mkdir Cubstart-iOS
 cd Cubstart-iOS
@@ -45,7 +47,7 @@ Now you should have a git repository set up for Cubstart that is connected to yo
 
 Throughout this course you will be pulling skeleton code from our github repos. This next command will pull code from Abinaya's personal repository into your local computer. To pull the skeleton code for bullseye, type this command below into your terminal on the directory you want the folder in (Cubstart-iOS).
 
-```markdown
+```bash
 git clone https://github.com/abinayadinesh1/MiniProfilePage.git
 ```
 
@@ -65,18 +67,21 @@ Go to Practice.swift and follow the directions there!
 
 ## Exercise 2: Make your own profile!
 
-Head back to ContentView.swift and follow the instruction
-For help, COME TO LABS. If that's impossible, take a peek at ProfileAnswers.swift
+- Head back to ContentView.swift and follow the instructions. For help, COME TO LABS. If that's impossible, take a peek at ProfileAnswers.swift
 
-Here is a bit about the project structure. We have:
-struct Person --> describes what kind of info we have about a person (like their name, age)
-struct PersonView --> describes HOW we want to render someone's info (like in a Text())
-
-struct Fact --> describes what kind of info we have about a fact (like its description)
-struct FactView --> describes HOW we want to render specific attributes of the fact (like in an Image())
-
-struct ContentView --> describes the entire View (what we see). We can call other views in this View!
-struct ContentView_Previews (which you shouldn't change!) --> used to preview our app in XCode
+- Here is a bit about the project structure. We have:
+    1. struct Person:
+        - describes what kind of info we have about a person (like their name, age)
+    2. struct PersonView:
+        - describes HOW we want to render someone's info (like in a Text())
+    3. struct Fact:
+        - describes what kind of info we have about a fact (like its description)
+    4. struct FactView 
+        - describes HOW we want to render specific attributes of the fact (like in an Image())
+    5. struct ContentView 
+        - describes the entire View (what we see). We can call other views in this View!
+    6. struct ContentView_Previews
+        - (which you shouldn't change!) --> used to preview our app in XCode
 
 ### how to load images in your app
 
