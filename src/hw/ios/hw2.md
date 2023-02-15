@@ -83,7 +83,7 @@ struct ContentView_Previews (which you shouldn't change!) --> used to preview ou
 ### how to load images in your app
 
 1. find Assets in the project directory and click on it. Your screen should look like this!
-   <img src="/src/hw/assets/ASSETSDIR.png" style="width: 90%; padding: 20px 0;"/>
+   <img src="assets/ASSETSDIR.png" style="width: 90%; padding: 20px 0;"/>
 
 2. Save the image you want, locally, to your computer.
 
@@ -100,7 +100,7 @@ At the start of next lecture, we are going to spend 5 minutes sharing our apps w
 # Submission:
 
 To submit your homework, open your Finder and navigate to the directory that includes BOTH your homework folder and a "homework".xcodeproj file like so:
-   
+
 ![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
 
 Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 2.
