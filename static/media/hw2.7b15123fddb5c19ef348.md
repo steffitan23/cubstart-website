@@ -83,7 +83,7 @@ Go to Practice.swift and follow the directions there!
     6. struct ContentView_Previews
         - (which you shouldn't change!) --> used to preview our app in XCode
 
-### how to load images in your app
+### How to load images in your app
 
 1. find Assets in the project directory and click on it. Your screen should look like this!
 <img width="1378" alt="ASSETSDIR" src="https://user-images.githubusercontent.com/64179036/218925892-60447f2f-8f31-46da-822e-e202386b8066.png">
