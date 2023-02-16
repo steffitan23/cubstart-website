@@ -19,6 +19,7 @@ function LabPage() {
         fetch(path)
         .then((res) => res.text())
         .then((text) => setHomework(text));
+        document.querySelector('body').scrollTo(0, 0);
     });
     
     return (

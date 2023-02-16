@@ -1,3 +1,4 @@
+## Happy Hour and Disney+
 Welcome to Lab! Today, we have 2 optional activities to help you gain more experience with HTML and CSS! These activities are completely optional and are for extra practice.
 
 ## Setting up your Files
