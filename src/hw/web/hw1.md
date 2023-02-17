@@ -72,4 +72,10 @@ If you're looking for some resources to get a headstart, here are some good site
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Homework Submission!
-There is a [Gradescope](https://www.gradescope.com/) assignment on our class for this homework! You should be able to drag and drop/upload your files to your submission.
+To submit the homework folder, you have to zip it first. 
+
+**To zip a folder:**
+_**Windows:** Right-click the folder with your HTML and all files like images on your website, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder with your HTML and all files like images on your website or tap it using two fingers, then choose Compress from the shortcut menu._
+
+Upload the .zip file to [Gradescope](https://www.gradescope.com/) and you're done!
