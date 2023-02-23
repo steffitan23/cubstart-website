@@ -6,7 +6,7 @@ Lab: Thursdays 5:00pm-7:00pm @ VLSB2060
 
 ## Announcements
 
-Welcome to the iOS development track. Class hasn't started yet, be sure to apply and we'll get back to you soon!
+Welcome to the iOS development track.
 
 Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 
