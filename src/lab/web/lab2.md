@@ -30,17 +30,19 @@ _<strong>Hint: </strong> <strong>randInt</strong> should be a random integer gre
 
 _<strong>Hint:</strong> <strong>randJoke</strong> should be a string from jokesArray at index <strong>randInt.</strong>_
 
-_<strong>Hint: </strong> For line 30 in <strong>index.js,</strong> we want to modify the content of our HTML file so anyone viewing our site can see the joke! You will need to get an HTML element with a specific id (look through your HTML file to figure out what the id is called!) and use the innerHTML property. This [link](https://www.w3schools.com/js/js_htmldom_html.asp) is super helpful!_
+_<strong>Hint: </strong> For line 30 in <strong>index.js,</strong> we want to modify the content of our HTML file so anyone viewing our site can see the joke! You will need to get an HTML element with a specific id (look through your HTML file to figure out what the id is called!) and use the textContent property. This [link](https://www.w3schools.com/jsref/prop_node_textcontent.asp) is super helpful!_
 
 ### <strong>Task 3</strong>
+Fill in line 34 to get an HTML element with the specified id of “joke_btn” (similar to the last part of Task 2).
 
 _<strong>Hint: </strong> Check out this [link](https://www.w3schools.com/jsref/met_document_getelementbyid.asp)._
 
 ### <strong>Task 4</strong>
+Add an event listener to the button so that when it is clicked, the replaceJoke function is called. 
 
 _<strong>Hint: </strong> Here is another [link](https://www.w3schools.com/js/js_htmldom_eventlistener.asp). If you get really stuck, highlight the line below._
 
-<span style="color:white">button.addEventListener(“click”, replaceJoke);</span>
+<span style="color:black; background-color:black;">button.addEventListener(“click”, replaceJoke);</span>
 
 ## Congrats on completing Lab 2!
 Try out your joke generator by clicking on the index.html file on your computer! Add some of your most knee-slapping dad jokes to the array if you’d like!

@@ -37,7 +37,7 @@ If you want something to happen when an element is clicked, in this case your bu
 ```javascript
 function increaseCount() {
     count += 1;
-    countDisplay.innerHTML = count;
+    countDisplay.textContent = count;
 }
 addButton.addEventListener("click", increaseCount);
 ```
@@ -48,7 +48,7 @@ If you want to be a little fancier, here's an [arrow function](https://developer
 ```javascript
 addButton.addEventListener("click", () => {
     count += 1;
-    countDisplay.innerHTML = count;
+    countDisplay.textContent = count;
 }));
 ```
 
@@ -94,7 +94,7 @@ const taskList = document.getElementById("tasks");
 ## Part 6: Dynamic Element Creation
 This part will be more guided to allow you some explanation and experience with some more complex JavaScript methods. Once again, you want a list element to be added to the todo list when the submit button is clicked. So you need an event listener on the submit button to do just that. 
 
-The logical flow of what to expect when carrying out this action is as follows: if there is a valid task name in the text input field, then create a <code><mark>li</mark></code> list item element and set its [**innerHTML**](https://www.w3schools.com/jsref/prop_html_innerhtml.asp) to be the text in the input field. Then add this element to the enclosing <code><mark>ul</mark></code> parent element with <mark><code>appendChild()</code></mark>.
+The logical flow of what to expect when carrying out this action is as follows: if there is a valid task name in the text input field, then create a <code><mark>li</mark></code> list item element and set its [**textContent**](https://www.w3schools.com/jsref/prop_node_textcontent.asp) to be the text in the input field. Then add this element to the enclosing <code><mark>ul</mark></code> parent element with <mark><code>appendChild()</code></mark>.
 
 ```javascript
 // Part 6:
@@ -102,7 +102,7 @@ submitButton.addEventListener("click", () => {
     if (taskName.value != "") {
         // Initialize a const variable named "task", and set it equal to a new li element. 
         /* YOUR CODE HERE */
-        task.innerHTML = taskName.value; // Here you set the li element you created to have the text value in the input field!
+        task.textContent = taskName.value; // Here you set the li element you created to have the text value in the input field!
         // Add this task to the end of taskList (this is the list you initialized earlier!).
         taskList./*YOUR CODE HERE*/
     }
