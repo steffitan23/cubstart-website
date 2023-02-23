@@ -1,8 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', 'sans-serif';
   }
 
+  /* TODO: should probably use a reset or normalize stylesheet instead */
+  html, body, form, fieldset, table, tr, td, img, input, button, select, textarea, optgroup, option {
+    font-family: 'Open Sans', sans-serif;
+  }
 
   html,body
 {
