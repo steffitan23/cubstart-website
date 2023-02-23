@@ -21,7 +21,7 @@ Briefly look through all of the files and read the comments. Take a look at <str
 ### <strong>Task 1</strong>
 Fill in the <strong>getRandomInt</strong> function body. 
 
-_<strong>Hint:</strong> You will need to use Javascript’s built-in math.Random() and math.Floor() functions. [Here](https://www.w3schools.com/js/js_random.asp) is a helpful link, please check it out!_
+_<strong>Hint:</strong> You will need to use Javascript’s built-in Math.random() and Math.floor() functions. [Here](https://www.w3schools.com/js/js_random.asp) is a helpful link, please check it out!_
 
 ### <strong>Task 2</strong>
 Fill in the <strong>replaceJoke</strong> function body. 

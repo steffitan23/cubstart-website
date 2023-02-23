@@ -32,7 +32,7 @@ const addButton = /* YOUR CODE HERE */
 ```
 
 ## Part 3: Event Listeners
-If you want something to happen when an element is clicked, in this case your buttons, you want to use what's known as an event listener. An event listener generally accepts 2 parameters, the first being the type of event (e.g. "click"), and the second being the function that executes when the event occurs on the associated element. In JavaScript, another way to define anonymous functions is to use ES6 arrow syntax. <mark><code>() => {// function body here}</code></mark> where the parentheses are for parameters and the braces indicate the function's body. Within this function, you want to increment your count variable (pre-defined and assigned to 0) and then update the contents of your counter display to be the new count value!
+If you want something to happen when an element is clicked, in this case your buttons, you want to use what's known as an event listener. An event listener generally accepts 2 parameters, the first being the type of event (e.g. "click"), and the second being the function that executes when the event occurs on the associated element. In JavaScript, another way to define anonymous functions is to use ES6 arrow syntax. <mark><code>() => {/* function body here */}</code></mark> where the parentheses are for parameters and the braces indicate the function's body. Within this function, you want to increment your count variable (pre-defined and assigned to 0) and then update the contents of your counter display to be the new count value!
 
 ```javascript
 function increaseCount() {
