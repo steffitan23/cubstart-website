@@ -8,10 +8,10 @@ Welcome to Lab! Today, you will be creating a random joke generator, similar to 
 
 ## Setting up your Files
 <ol>
-  <li>Download the skeleton for the homework <a href="./assets/lab2/lab2-skeleton.zip" download>here</a>. </li>
+  <li>Download the skeleton for the lab <a href="./assets/lab2/lab2-skeleton.zip" download>here</a>. </li>
   <li>Unzip the file.</li>
   <li>Run your text editor of choice. </li>
-  <li>Open the lab 3 zip folder. We will only be editing <strong>index.js.</strong></li>
+  <li>Open the lab2 folder. We will only be editing <strong>index.js.</strong></li>
 </ol>
 
 ## Instructions
