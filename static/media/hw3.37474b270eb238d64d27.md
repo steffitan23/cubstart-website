@@ -293,4 +293,4 @@ To submit your homework, open your Finder and navigate to the directory that inc
 
 <img width="778" alt="hw2submission" src="https://user-images.githubusercontent.com/64179036/218925267-bfb302f2-ef95-423c-950d-ce514af06c64.png">
 
-Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 2.
+Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 3.
