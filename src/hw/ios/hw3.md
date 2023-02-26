@@ -286,3 +286,11 @@ It’s finally time to add in our actual “Calculate Total Price” button! In 
 Your app should now be fully functioning. YAYY GREAT JOB!!! Now it’s time to customize your menu to your hearts content. Play around with font sizes, pictures, colors, types, the name of your cafe, the design of your buttons, whatever you want!  menu should NOT look identical to the example one!
 
 ### Congrats on making it to the end of this week’s homework and completing a super cool app!! Feel free to come to lab if you have any questions (attending will also grant you a hw checkoff) <33
+
+# Submission:
+
+To submit your homework, open your Finder and navigate to the directory that includes BOTH your homework folder and a "homework".xcodeproj file like so:
+
+<img width="778" alt="hw2submission" src="https://user-images.githubusercontent.com/64179036/218925267-bfb302f2-ef95-423c-950d-ce514af06c64.png">
+
+Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope for HW 2.
