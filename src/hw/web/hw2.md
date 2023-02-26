@@ -163,4 +163,4 @@ To submit the homework folder, you have to zip it first.
 _**Windows:** Right-click the folder **hw2-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
 _**macOS:** Control-click the folder **hw2-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
 
-Upload the .zip file to [Gradescope](https://www.gradescope.com/courses/437611) and you're done!
+Upload the .zip file to [Gradescope](https://www.gradescope.com/) and you're done!
