@@ -1,4 +1,4 @@
-# Deployment (Optional)
+# Deployment
 
 ## Objective
 The objective for this week's homework is to deploy your own personal website! This can be something you made yourself or what you made in Homework 2. You should at least have a folder with the files **index.html** and **styles.css** in it. This is what we will be using for the rest of the homework. You can use **[HW2 solution](assets/hw2/answers.zip)** to check through your current index.html and styles.css.
