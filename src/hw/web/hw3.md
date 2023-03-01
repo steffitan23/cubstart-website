@@ -49,10 +49,10 @@ If you want to be a little fancier, here's an [arrow function](https://developer
 addButton.addEventListener("click", () => {
     count += 1;
     countDisplay.textContent = count;
-}));
+});
 ```
 
-**Now implement an arrow function for the subtract button on your own!** Try playing around with your counter and you should see that it's now fully functional :)
+**Now implement an arrow function for the subtract button on your own!**
 
 ```javascript
 // Part 3:
@@ -127,8 +127,7 @@ taskName.addEventListener("input", () => {
 });
 ```
 
-## You're done! :D
-
+## You're done! :D Try playing around with your playground.html site!
 
 # Homework Submission!
 To submit the homework folder, you have to zip it first. 
