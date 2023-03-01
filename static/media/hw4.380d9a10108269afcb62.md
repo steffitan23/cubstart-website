@@ -50,7 +50,7 @@ When we switch back to our Github Desktop window, we see all the files and lines
 
 Make sure the changed files are ticked, add a **Summary** and **Commit to main**. Commits allow Github to track changes between commits, so it's essentially saving your work between iterations.
 
-<img src="/assets/hw4/github-desktop-8.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-8.PNG" style="padding: 20px 0;"/>
 
 Finally, publish your repository! This allows you to access you repository from Github online.
 
@@ -76,7 +76,7 @@ Just type your name/repo-name to confirm this.
 
 The Settings bar has a "Pages" tab. Click on it.
 
-<img src="/assets/hw4/github-desktop-14.PNG" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-14.PNG" style=padding: 20px 0;"/>
 
 Now, you can finally **deploy your branch**!
 
