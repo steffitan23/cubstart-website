@@ -14,7 +14,7 @@ By the end of this homework you will have built a simple [text-based game](https
 Here is a demo of the final product:
 
 <video width="400" controls autoplay>
-    <source src="src/hw/assets/Screen_Recording_2023-03-03_at_3.44.48_AM.mov" type="video/mp4">
+    <source src="https://user-images.githubusercontent.com/29685826/222801205-f66fdcdb-26ed-4ecd-b522-84f5ec5ac397.mov" type="video/mp4">
 </video>
 
 Take a second to analyze the demo and think about how you would implement it! This will give you a good idea of what to expect later on in this assignment.
