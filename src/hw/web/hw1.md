@@ -34,11 +34,11 @@ But if you need some help, here's some starter code below:
 <!DOCTYPE HTML>
 <html>
     <head>
-    <title> ... </title>
+        <title> ... </title>
     </head>
 
     <body>
-    ...
+        ...
     </body>
 </html>
 ~~~

@@ -51,6 +51,34 @@
       "title": "Web TA",
       "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
       "social": "@alex.gberg"
+    },
+    {
+      "image": "assets/jessica.jpg",
+      "name": "Jessica Ng",
+      "title": "Web TA",
+      "description": "Hi! I’m Jessica, a first-year intended CS major! You can usually find me reading, playing Tetris or Catan, or binge-watching reality dating shows. I’m excited to be a part of the Cubstart Web team this semester!",
+      "social": "@jessican_1212"
+    },
+    {
+      "image": "assets/bryan.jpeg",
+      "name": "Bryan Chu",
+      "title": "Web TA",
+      "description": "Hi! I’m a junior studying CS from Saratoga, California. In my free time, I like to be active and exercise as well as binge k-dramas. I’m also a big Warriors and 49ers fan. Feel free to reach out to me about anything!",
+      "social": "@bryannchu"
+    },
+    {
+      "image": "assets/nick.jpg",
+      "name": "Nick Jiang",
+      "title": "Web TA",
+      "description": "Hello! I’m a second year CS and philosophy student passionate about building high-impact products. I love biking, reading, and talking with people in all places and times!",
+      "social": "@nickhjiang"
+    },
+    {
+      "image": "assets/pratyush.png",
+      "name": "Pratyush Sharma",
+      "title": "Web TA",
+      "description": "Hello, my name is Pratyush, I am a third year student majoring in Computer Science. Feel free to reach out if you have any questions about the course!",
+      "social": ""
     }
   ],
   "logistics": [
