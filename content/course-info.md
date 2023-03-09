@@ -40,7 +40,7 @@ You do not need to attend these labs if you feel comfortable that you can comple
 | 5%          | Final Project Checkpoint: Design Mockup |
 | 45%         | Final Project: Demo Day                 |
 
-This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. If you have an extenuating circumstance and have used up your 2 unexcused absences, please email us at cubstart@calhacks.io.
+This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to **2 unexcused absences across lectures**. If you have an extenuating circumstance and have used up your 2 unexcused absences, please make a private Ed post on [EdStem](https://edstem.org/us/join/k4UPks).
 
 **More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
 
