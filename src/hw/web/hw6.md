@@ -3,6 +3,8 @@
 ## Ddoski needs your help... again!
 Ddoski needs help with his final project. He wants to build a flashcard website, but so far he's only built the front-end (the webpage with HTML and CSS)! His project partner, Leland, was supposed to be working on the API, but he has gone MIA :(. Ddoski sees he started on some parts of the code. Can you finish it?
 
+**NOTE: Every task after line 63 in index.js is optional!**
+
 _[Download skeleton code.](assets/hw6/hw6-skeleton.zip)_
 
 # Part 1: Set up your Project
@@ -19,6 +21,8 @@ We have to install some dependencies for our project. Run these commands in your
 npm install express
 npm install body-parser
 npm install cors
+npm install jsonwebtoken
+npm install dotenv
 ```
 
 You can explore more packages [here](https://www.npmjs.com).
@@ -111,8 +115,107 @@ $ curl http://localhost:3000/random
 ## Deletes a specific card by their id with "/delete/ID_HERE" endpoint
 
 <img src="/assets/hw6/postman-7.PNG" style="width: 100%; padding: 20px 0;"/>
-</br></br></br>
+</br>
 
+# Part 4: Optional Questions
+
+If you're interested in getting extra experience working with APIs, this section will cover how to add security to stop unwanted people from accessing your API. In most cases, this is due to API usage quotas (e.g. limit of 100 requests per user) or to prevent non-paying users from using an API.
+
+***Quick Advice:** When you finish, make sure to read through all the code and understand what it's doing!*
+
+## Part 4a: Adding Basic Security to Your API Methods
+
+In this section, we'll see how to you can send a username and password into an API request to authenticate a user. This is a bad way to authenticate requests because you are sending your username and password in plain-text that can easily be stolen.
+
+### But First: Set your custom username and password!
+
+Before starting the tasks, make sure to update the username and password variables on line 22 to your choosing. Make sure to remember these for later!
+### Optional Task 1: Use res.send() to tell the user they're already signed in.
+
+Update the code inside the if statement to let the user know they're already signed in. If you can't find it, look for the /* OPTIONAL TASK 1 */ line.
+
+### Optional Task 2: Set the value of enteredUsername and enteredPassword
+
+Set the value of enteredUsername and enteredPassword equal to username and password from req.headers. This will let us detect whether the username and password passed in was correct or not. Once again, if you can't find it, look for the /* OPTIONAL TASK 2 */ line.
+
+### Optional Task 3: Use an If/Else Block to Check User Authentication
+
+Lastly, use an If/Else block with the value of the variable signedIn to check if the user is signed in or not. If they are, we want to use res.send() to send back the flashcards. Otherwise, we want to tell the user that they're not signed in.
+
+### Test Your Code!
+
+Run "node index.js" on your terminal and then open up Postman. Run the following GET request ("/sign-in-with-basic-security") with the appropriate header! You should set the "auth" header equal to **(YOUR USERNAME):(YOUR PASSWORD)**. (The same username/password you defined at the top of the file!)
+
+**Postman:**
+<img src="/assets/hw6/postman-8.jpg" style="width: 100%; padding: 20px 0;"/>
+
+Then try signing out (no headers are required!). Use the "/sign-out-with-basic-security" method:
+
+**Postman:**
+<img src="/assets/hw6/postman-9.jpg" style="width: 100%; padding: 20px 0;"/>
+
+
+## Part 4b: Adding Advanced Security to Your API Methods
+
+In this section, we'll see how you can use modern and secure web-development methods to add authentication to your API requests.
+We'll be using a node package called JWT or JSON Web Token to make sure your user's credentials are secure.
+
+### Create a .env file
+
+Before we start our advanced security, we want to create a .env file that will store a value called **ACCESS_TOKEN_SECRET**. To do this, first head to [this link](https://generate-random.org/api-token-generator?count=1&length=64&type=mixed-numbers-symbols&prefix=) and generate a 64-bit randomized API token:
+
+**Token Generator:**
+<img src="/assets/hw6/random-token-generator.jpg" style="width: 100%; padding: 20px 0;"/>
+
+Then create a new file in your project directory called ".env" and paste your token exactly like I have (set the value of ACCESS_TOKEN_SECRET):
+
+**Creating a .env File**
+<img src="/assets/hw6/dotenvfile.jpg" style="width: 100%; padding: 20px 0;"/>
+
+You're now ready to start the first and last task of this section.
+
+### Optional Task 4: Set the value of enteredUsername and enteredPassword
+
+Before starting this task, let's quickly read over the "/sign-in-secure" method.
+
+<img src="/assets/hw6/secure-sign-in-code.jpg" style="width: 100%; padding: 20px 0;"/>
+
+This method takes in a username and password header, and will use it to create a user object. 
+
+Then, using jwt.sign(), we will encrypt this user object in the form of a long string of characters. This string can only be deciphered using our ACCESS_TOKEN_SECRET, so only us and that user will know the username and password of a user. 
+
+This long string of characters token is called a JWT token and it's going to be sent back to us. 
+
+Let's test this out. Send the following request to "/sign-in-secure":
+
+**Postman:**
+<img src="/assets/hw6/postman-10.jpg" style="width: 100%; padding: 20px 0;"/>
+
+Copy the JWT token that was returned (called accessToken).
+
+When we use this JWT token in further requests, we want to append a string "Bearer " to the front of it.
+
+This is what this next task is about. Because our JWT token will have the form: "Bearer G!yn2Qw....", we only want to get the second part of the string separated by a space, which is our actual token. 
+
+**Here's your task:** use .split() and array indexing to get the token value from the variable auth. Look for /* OPTIONAL TASK 4 */ in your code.
+
+Let's now test this authentication using a new GET method called "/cards-with-good-security". This will do exactly the same as our previous "/cards" method, but it'll only return the card if the user is signed in with our secure JWT token method.
+
+Run the following Postman request with a header "authorization" equal to "Bearer (YOUR JWT TOKEN HERE)". This is what it should look like:
+
+**Postman:**
+<img src="/assets/hw6/postman-11.jpg" style="width: 100%; padding: 20px 0;"/>
+
+**Note:** I'm getting an empty array back because I created no cards. If you have a list of cards or an empty array, then it's working!
+
+Then, try changing your JWT token to something else. See how our request is not longer valid:
+
+**Postman:**
+<img src="/assets/hw6/postman-12.jpg" style="width: 100%; padding: 20px 0;"/>
+
+### You've Now Finished The Optional Task!
+
+</br></br></br>
 # Submission
 To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**.
 
