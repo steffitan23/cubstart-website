@@ -7,6 +7,9 @@ Ddoski needs help with his final project. He wants to build a flashcard website,
 
 _[Download skeleton code.](assets/hw6/hw6-skeleton.zip)_
 
+## Some Notes on Homework
+If you need help with the homework, make a private post on EdStem or pull up to [virtual office hours](https://berkeley.zoom.us/j/3732485321) on Thursdays and Fridays (5.30pm - 6.30pm).
+
 # Part 1: Set up your Project
 First, download [Node.js](https://nodejs.org/en/download/).
 
@@ -117,7 +120,16 @@ $ curl http://localhost:3000/random
 <img src="/assets/hw6/postman-7.PNG" style="width: 100%; padding: 20px 0;"/>
 </br>
 
-# Part 4: Optional Questions
+# Submission
+To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**.
+
+**To zip a folder:**
+_**Windows:** Right-click the folder **hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder **hw6-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
+
+Upload the .zip file to [Gradescope](https://www.gradescope.com/) :)
+
+# Part 4: Optional Questions! 
 
 If you're interested in getting extra experience working with APIs, this section will cover how to add security to stop unwanted people from accessing your API. In most cases, this is due to API usage quotas (e.g. limit of 100 requests per user) or to prevent non-paying users from using an API.
 
@@ -215,12 +227,4 @@ Then, try changing your JWT token to something else. See how our request is not 
 
 ### You've Now Finished The Optional Task!
 
-</br></br></br>
-# Submission
-To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**.
-
-**To zip a folder:**
-_**Windows:** Right-click the folder **hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder **hw6-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
-
-Upload the .zip file to [Gradescope](https://www.gradescope.com/courses/437611) :)
+To submit, go to the [Gradescope](https://gradescope.com) assignment called "Homework 6 Optional"! You'll be able to get some extra points and maybe we'll even see your stuff in lecture. :)
