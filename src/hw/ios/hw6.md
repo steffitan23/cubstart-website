@@ -135,7 +135,7 @@ If you plan to build more complicated apps in the future, it is highly recommend
 
 ## 2b: Building the API Call
 
-After defining the model, we can finally get to making the actual API request and decoding the returned JSON. In Api.swift, finish implementing fetchDog(), which should return an optional Dog. Your API request URL should be 
+After defining the model, we can finally get to making the actual API request and decoding the returned JSON. In Api.swift, finish implementing fetchDog(), which should return an optional Dog. Your API request URL should be [https://dog.ceo/api/breeds/image/random](https://dog.ceo/api/breeds/image/random).
 
 **Note:** You will be able to test whether your API call works after finishing Part 3a.
 
