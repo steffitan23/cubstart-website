@@ -17,7 +17,7 @@ Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 | 3    | Wrappers, Objects, and Bindings in SwiftUI [Slides](https://docs.google.com/presentation/d/17MLVb17e9cwhlZnUGs-vNjXoGlrIfg54Eq_hGKVRO-U/edit?usp=sharing)  [Recording](https://youtu.be/hxfpYZUMZnk) | Project OH/Checkoff | [HW 3: Coffee Shop Menu](/#/hw/ios/hw3)           |
 | 4    | NavigationLinks, TabViews, and Custom Cells in SwiftUI [Slides](https://docs.google.com/presentation/d/1ySBDc6uDeNfrIbNZDF5xSR4nYzImFHaWZQ5p8fqBKcw/edit?usp=share_link) [Lecture Recording](https://www.youtube.com/watch?v=xegPiD0oaz0) [Demo Recording](https://www.youtube.com/watch?v=MfGAkA8g0Lc) | Project OH/Checkoff | [HW 4: Maze Game](/#/hw/ios/hw4) |
 | 5    | Sheets, Forms, and Tables in SwiftUI   [Slides](https://docs.google.com/presentation/d/1zN28rT4tKRx-V4K9JD1kSI_YHk0FDXDYTIzhM1t-_8I/edit?usp=sharing) | Project OH/Checkoff | [HW 5: Biography](/#/hw/ios/hw5) |
-| 6    | Alerts, Notifications, and API Integration [Slides] (https://docs.google.com/presentation/d/13sQ4lIpJ3fNXQaeC0WOHgqpGyEm8gF10iZLt-p967W8/edit?usp=sharing) [Recording] (https://youtu.be/q_ZLHcI6Wow)| Project OH/Checkoff | [HW 6: Guess the Dog!](/#/hw/ios/hw6) |
+| 6    | Alerts, Notifications, and API Integration [Slides](https://docs.google.com/presentation/d/13sQ4lIpJ3fNXQaeC0WOHgqpGyEm8gF10iZLt-p967W8/edit?usp=sharing) [Recording](https://youtu.be/q_ZLHcI6Wow)| Project OH/Checkoff | [HW 6: Guess the Dog!](/#/hw/ios/hw6) |
 | 7    | Firebase, Firestore | Project OH/Checkoff | HW 7: TBD |
 | 8    | No Class (Spring Recess) | | |
 | 9    | Architecture of a Full Scale Project and Animations | Project OH/Checkoff | HW 8: TBD + Due 4/3: Design Mockup - Figma |
