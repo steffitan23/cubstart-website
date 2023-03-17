@@ -24,8 +24,6 @@ We have to install some dependencies for our project. Run these commands in your
 npm install express
 npm install body-parser
 npm install cors
-npm install jsonwebtoken
-npm install dotenv
 ```
 
 You can explore more packages [here](https://www.npmjs.com).
@@ -134,6 +132,16 @@ Upload the .zip file to [Gradescope](https://www.gradescope.com/) :)
 If you're interested in getting extra experience working with APIs, this section will cover how to add security to stop unwanted people from accessing your API. In most cases, this is due to API usage quotas (e.g. limit of 100 requests per user) or to prevent non-paying users from using an API.
 
 ***Quick Advice:** When you finish, make sure to read through all the code and understand what it's doing!*
+
+We first have to install some extra dependencies for our authentication. Run these commands in your terminal:
+```bash
+npm install jsonwebtoken
+npm install dotenv
+```
+
+Then, add this line of code to the top of your file:
+
+```require('dotenv').config()```
 
 ## Part 4a: Adding Basic Security to Your API Methods
 
