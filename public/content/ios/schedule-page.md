@@ -20,8 +20,8 @@ Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 | 6    | Alerts, Notifications, and API Integration [Slides](https://docs.google.com/presentation/d/13sQ4lIpJ3fNXQaeC0WOHgqpGyEm8gF10iZLt-p967W8/edit?usp=sharing) [Recording](https://youtu.be/q_ZLHcI6Wow)| Project OH/Checkoff | [HW 6: Guess the Dog!](/#/hw/ios/hw6) |
 | 7    | Firebase, Firestore | Project OH/Checkoff | HW 7: TBD |
 | 8    | No Class (Spring Recess) | | |
-| 9    | Architecture of a Full Scale Project and Animations | Project OH/Checkoff | HW 8: TBD + Due 4/3: Design Mockup - Figma |
+| 9    | Architecture of a Full Scale Project and Animations | Project OH/Checkoff | HW 8: TBD + Due 4/3: Figma Prototype |
 | 10   | Guest Lecture | Ideation, Final Project OH | |
 | 11   | Guest Lecture | | Due 4/17: Final Project Checkpoint | 
 | 12   | Final Project OH | Final Project OH | Prep for Demo Day! |
-| 13   | No Lecture (Demo Week) | Demo Day: TBD | Due 5/1: Final Project (App, Slide-deck, Write-up)
+| 13   | No Lecture (Demo Week) | Demo Day: TBD | Due 5/1: Final Project (App + Slide deck)
