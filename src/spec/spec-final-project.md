@@ -1,12 +1,14 @@
 # Final Project Specification
 
+Fill in the [Team Formation](https://x.calhacks.io/web-groups) form by 3/22 (Wednesday), 11:59PM.
+
 ## Part 1: Project Proposal + Design Mockup 
-_<b>Deadline:</b> 26 November 2022, <b>5 points</b>_
+_<b>Deadline:</b> 7 April 2022, <b>5 points</b>_
 
 The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it and what tools/skills you need, and receive feedback on the feasibility of your idea.
 
 ### Project Proposal
-_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/UdXUU9hro758xuHx6) to address each of the following points with a brief description by 26 November 2022._
+_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/4NeXsDK1Ek3k5FaD8) to address each of the following points with a brief description by 7 April 2023._
 - **Basic information**
 
 - **Names of each group member**
@@ -38,12 +40,12 @@ This week, you'll be mocking up the design of your application using any design 
 
 3. Make **at least 2 fleshed out screens** that are different from the one you made in **Part 1**. We encourage you to keep going and finish designing as much of your app as you can. The more work you do now, the less you'll have to do in the future!
 
-4. Submit it in the form above.
+4. Submit it in Gradescope.
 
 ## Part 2: Final Project Presentation
-_<b>Deadline:</b> 8 December 2022, <b>40 points</b>_
+_<b>Deadline:</b> 2 May 2023, <b>40 points</b>_
 
-Demo Day will be held on **Thursday, 8 December 2022, from 11pm to 12.30pm at Soda 306**. (Pizza for lunch after will be included!)
+Demo Day will be held on **2 May 2023**. (Details tbc)
 
 You'll be given **3 minutes to present + 1 minute for Q&A.** We will set up a Gradescope assignment to submit your slides and your iOS/Web application files.
 
