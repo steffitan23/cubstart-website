@@ -1,6 +1,6 @@
 # Final Project Specification
 
-Fill in the [Team Formation](https://x.calhacks.io/web-groups) form by 3/22 (Wednesday), 11:59PM.
+Fill in the [Team Formation](https://forms.gle/abwppheGnA8hifzw8) form by 3/26 (Sunday), 11:59PM.
 
 ## Part 1: Project Proposal + Design Mockup 
 _<b>Deadline:</b> 7 April 2022, <b>5 points</b>_
