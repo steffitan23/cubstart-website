@@ -18,7 +18,7 @@ Join the [EdStem](https://edstem.org/us/join/cw4Evx).
 | 4    | NavigationLinks, TabViews, and Custom Cells in SwiftUI [Slides](https://docs.google.com/presentation/d/1ySBDc6uDeNfrIbNZDF5xSR4nYzImFHaWZQ5p8fqBKcw/edit?usp=share_link) [Lecture Recording](https://www.youtube.com/watch?v=xegPiD0oaz0) [Demo Recording](https://www.youtube.com/watch?v=MfGAkA8g0Lc) | Project OH/Checkoff | [HW 4: Maze Game](/#/hw/ios/hw4) |
 | 5    | Sheets, Forms, and Tables in SwiftUI   [Slides](https://docs.google.com/presentation/d/1zN28rT4tKRx-V4K9JD1kSI_YHk0FDXDYTIzhM1t-_8I/edit?usp=sharing) [Recording](https://youtu.be/xRYu3SiAHFs) | Project OH/Checkoff | [HW 5: Biography](/#/hw/ios/hw5) |
 | 6    | Alerts, Notifications, and API Integration [Slides](https://docs.google.com/presentation/d/13sQ4lIpJ3fNXQaeC0WOHgqpGyEm8gF10iZLt-p967W8/edit?usp=sharing) [Recording](https://youtu.be/q_ZLHcI6Wow)| Project OH/Checkoff | [HW 6: Guess the Dog!](/#/hw/ios/hw6) |
-| 7    | Firebase, Firestore | Project OH/Checkoff | HW 7: TBD |
+| 7    | Firebase, Firestore [Slides](https://docs.google.com/presentation/d/1r-oNpM56royNNyQB8AZX1f3OEuG64L_UD0jq68fmY4E/edit?usp=sharing) [Recording](https://www.youtube.com/watch?v=LjoXQkgP2gs)| Project OH/Checkoff | HW 7: TBD |
 | 8    | No Class (Spring Recess) | | |
 | 9    | Architecture of a Full Scale Project and Animations | Project OH/Checkoff | HW 8: TBD + Due 4/3: Figma Prototype |
 | 10   | Guest Lecture | Ideation, Final Project OH | |
