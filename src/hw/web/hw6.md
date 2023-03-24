@@ -49,6 +49,8 @@ Here is a summary of all the functionalities:
 - Retrieves a random card with "/random" endpoint
 - Deletes a specific card by their id with "/delete/ID_HERE" endpoint
 
+## Now, look in index.js, and try to fill in the methods wit Ddoski's help! We will be testing these endpoints you create in Part 3. :)
+
 # IMPORTANT: Running your API
 When you're done, do 
 ```bash
