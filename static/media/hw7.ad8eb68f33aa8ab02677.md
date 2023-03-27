@@ -44,7 +44,7 @@ Some part of this will be done the firebase console, and some will be setting up
 3. Click on **Continue**, you can add Google Analytics if you want. I added it, although we won’t be using it in this assignment.
 4. Finally, click on **'Create project'.** When it's done, click on **Continue** and you'll see the **dashboard**.
 
-Yay! You should see now see the console. Try clicking on the **settings** icon and go to **project settings**. Then scroll down to **\*\*\*\***Your Apps**\*\*\*\*** and find the “iOS” button. It should look like this:
+Yay! You should see now see the console. Try clicking on the **settings** icon and go to **project settings**. Then scroll down to **Your Apps** and find the “iOS” button. It should look like this:
 
 <img src="/assets/hw7/pic1.png" style="width: 60%; padding: 20px 0;"/>
 
@@ -58,7 +58,7 @@ Open the skeleton code you got from Github as a new XCode project. Double click 
 
 <img src="/assets/hw7/pic2.png" style="width: 60%; padding: 20px 0;"/>
 
-Under \***\*TARGETS\*\***, select your project name. Find the Bundle Identifier and copy the value here. Mine is **\*\***\***\*\***abinaya.HW7,**\*\***\***\*\*** but yours should be completely different!
+Under \***\*TARGETS\*\***, select your project name. Find the Bundle Identifier and copy the value here. Mine is **abinaya.HW7**, but yours should be completely different!
 
 <img src="/assets/hw7/pic3.png" style="width: 60%; padding: 20px 0;"/>
 
@@ -86,21 +86,23 @@ Once this is done, do NOT use the code they provide to integrate Firebase into X
 
 In this step, we’ll be using Firebase to add authentication to our app. Head back to the Firebase console, click on Build >> **Authentication >> Set up Sign in Method OR Get Started**
 
-<img src="/assets/hw7/pic7.png" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw7/pic8.png" style="width: 60%; padding: 20px 0;"/>
 
 We’ll be adding email/password authentication today, but in your final project, we encourage you to try implementing a different kind of authentication! (For example, google sign on is extremely common)
 
 # **Creating User**
 
-Firebase works by storing \***\*\*\*\*\***user data\***\*\*\*\*\*** in it. A user, like me and you, is differentiated from another user by their unique email/password combination. We will be manually creating a user so we can test if the authentication we make will work!
+Firebase works by storing **user data** in it. A user, like me and you, is differentiated from another user by their unique email/password combination. We will be manually creating a user so we can test if the authentication we make will work!
 
 To create a user, click on **'Users'** and then **'Add user'.** Fill in an accurate email (for testing) as well as a fake password,  then click on the **'Add user'** button.
 
-<img src="/assets/hw7/pic8.png" style="width: 60%; padding: 20px 0;"/>
+<img src="/assets/hw7/pic9.png" style="width: 60%; padding: 20px 0;"/>
 
 There should be a new data entry with an automatically populated userid! This id is the unique identifier to every person: any action taken by this person will be done under this userID.
 
-### \***\*Login Screen\*\***
+### **Login Screen**
+
+Navigate to ContentView.swift and:
 
 1. Create two new variables, one to store the email and password.
 2. Create a TextField and a SecureTextField for users to input this information
@@ -108,13 +110,13 @@ There should be a new data entry with an automatically populated userid! This id
 
 The logic for login() is already implemented for you, but make sure to read the code to understand what it does as we will be using similar functionality to catch errors later!
 
-Now, run this code in your simulator. Try entering the same username and password you chose in your Users collection in firebase, and see what happens. Most importantly: check your console in XCode. What does it say?
+Now, run this code in your simulator. Try entering the same username and password you chose in your Users collection in firebase, and see what happens. Most importantly: check your **console in XCode**. What does it say?
 
 ## Navigation after Sign-In
 
 It seems pretty natural to want to move to another screen after signing into your application, so lets try to figure out how that works!
 
-In the past, you’ve learned how to navigate through NavigationStacks and NavigationLinks. This is definitely the industry standard, but in reality, the code looks a bit messy when we try to piece those all together.
+In the past, you’ve learned how to navigate through NavigationStacks and NavigationLinks. This is definitely the industry standard, but for this project, the code looks a bit messy when we try to piece those all together.
 
 Instead, we’ll opt for a much simpler if-statement within the body of our view.
 
