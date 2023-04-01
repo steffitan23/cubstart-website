@@ -1,14 +1,15 @@
 # Final Project Specification
 
-Fill in the [Team Formation](https://forms.gle/abwppheGnA8hifzw8) form by 3/26 (Sunday), 11:59PM.
+Teams are [here](assets/teams.pdf)!
 
 ## Part 1: Project Proposal + Design Mockup 
-_<b>Deadline:</b> 7 April 2022, <b>5 points</b>_
+_<b>Deadline:</b> 7 April 2022, <b>5 points</b></br>
+<b>🥳Extended to 9 April 2022🥳</b>_
 
 The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it and what tools/skills you need, and receive feedback on the feasibility of your idea.
 
 ### Project Proposal
-_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/4NeXsDK1Ek3k5FaD8) to address each of the following points with a brief description by 7 April 2023._
+_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/4NeXsDK1Ek3k5FaD8) to address each of the following points with a brief description by 7 April 2023 (extended to 9 April instead)._
 - **Basic information**
 
 - **Names of each group member**
