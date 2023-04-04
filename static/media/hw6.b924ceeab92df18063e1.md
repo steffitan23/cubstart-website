@@ -15,7 +15,7 @@ By the end of this homework you will have built an app that pulls images of dogs
 
 Here is a demo of the final product:
 
-<video width="400" controls autoplay>
+<video width="250" controls autoplay>
     <source src="/assets/hw6ios/demo.mp4" type="video/mp4">
 </video>
 

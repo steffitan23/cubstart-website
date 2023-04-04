@@ -13,7 +13,7 @@ By the end of this homework you will have built a simple [text-based game](https
 
 Here is a demo of the final product:
 
-<video width="400" controls autoplay>
+<video width="250" controls autoplay>
     <source src="https://user-images.githubusercontent.com/29685826/222801205-f66fdcdb-26ed-4ecd-b522-84f5ec5ac397.mov" type="video/mp4">
 </video>
 
