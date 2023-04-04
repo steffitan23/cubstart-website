@@ -1,792 +1,227 @@
-# Quizlet-ish💯
-# Introduction👋
+# HW8: Coin Toss
 
-OKAY LAST PROJECT YO. This is your final assignment for this class (other than your final team project of course). You will be building Quizlet-ish - an app that allows you to make flashcards for study use. In this project, we will be incorporating Google Firebase and Firestore to add persistence to the app.
+Track: Swift, SwiftUI
+Week: Week 9
 
-Adapted from raywenderlich.com
+# Introduction 💰
 
-## Setup🛠
+**Hi there! Congrats, you made it to the last homework assignment! 🥳**
 
-For this project, I won’t be providing a skeleton code file for you to clone. You will be starting from scratch because I want you to be able to go through the full setup of Firebase and Firestore. Don’t worry. I will still be providing most of the code and will also link my GitHub link to the solutions at the end of the project.
+For this homework, we will be implementing 3 different animations! Thus, this homework will be split up into three parts, one for each animation respectively. Tools required to complete this homework include knowledge of implicit and explicit animations in SwiftUI. This homework builds off of the knowledge from the lecture, but we will recap the basic concepts so don't worry if you forgot anything. If you are confused, **referencing the lecture slides or demo may be helpful (especially for this homework)**!
 
-1. Open up Xcode 
-2. Click on File > New > Project
-3. Select App
-4. Name the product “Quizlet-ish”
-5. Put com.YOURNAME as the organization id
-6. Interface should be SwiftUI and the language should be Swift. Leave the boxes unchecked. (see below) Write down the bundle identifier somewhere. You will need it in a later part.
-7. Hit Next and then on the next page, make sure the selected folder at the top is your cubstart directory that you normally clone into. This is important. Otherwise, you won’t be able to push your code to GitHub and submit to Gradescope. Check the git repo option. See below
-8. Click create
-9. Now we want to add a remote repo to your project. Click on the Source Control navigator on the top left (see below for the icon). Open up the Quizlet-ish drop down. Right click Remotes. Select “New “Quizlet-ish” remote”. Hit create.
+# Overview 🪙
 
-<img width="736" alt="hw1" src="https://user-images.githubusercontent.com/71753465/199916578-dfc11e57-7c4c-40cf-9edf-e0b3df9e317c.png">
-<img width="736" alt="hw2" src="https://user-images.githubusercontent.com/71753465/199916607-74607cd8-20b8-4491-8297-465dc77c1218.png">
-<img width="268" alt="hw3" src="https://user-images.githubusercontent.com/71753465/199916630-40e9a782-106e-4752-bf8a-6038f9e716f3.png">
+By the end of this homework you will have built three different interactable animations! For the first animation, you will animate a 3D rotating circle and changing color. For the second animation, you will animate a square traversing the screen’s border clockwise while rotating. For the third animation, you will implement a coin toss!
 
+Here are demos for the three animations you will be building:
 
-# Part 1: Setting up Firebase and Firestore
+<video width="250" controls autoplay>
+    <source src="/assets/hw8ios/greenCircle.mp4" type="video/mp4">
+</video>
 
-## Firebase
+<video width="250" controls autoplay>
+    <source src="/assets/hw8ios/rollingSquare.mp4" type="video/mp4">
+</video>
 
-To get started with this project, you are going to need to create a Firebase account. The following steps will walk you through how to do this:
+<video width="250" controls autoplay>
+    <source src="/assets/hw8ios/coinToss.mp4" type="video/mp4">
+</video>
 
-**Setting Up Account**
+Take a second to analyze each animation and think about how you would implement it! This will give you an idea of what to expect later on in this assignment.
 
-1. Go to the Firebase website: [https://firebase.google.com/](https://firebase.google.com/)
-2. At the top right, click on go to console and log in with your Google Account ***Use your personal account, NOT YOUR BERKELEY ACCOUNT***
+## Setup 🛠️
 
-**Creating a Project**
+Pull the skeleton code using this command:
 
-1. Click on “Add Project”
-2. Type in “Quizlet-ish” for the name of the project
-3. Disable Google Analytics (we will not be using this in this project)
-4. Click continue and you should be at the dashboard
-
-**Adding Your App**
-
-1. Select the iOS circle above “Add an app to get started”
-2. For the iOS bundle ID field, enter the bundle ID you wrote down earlier
-3. Follow the instructions provided on downloading “GoogleService-Info.plist” and adding it to the project. Check “Copy Items if needed”
-4. Follow the instructions on adding the Firebase SDK to your iOS App
-5. Skip the initialization code instructions that are provided. Instead add the following code to your “Quizlet-ishApp” file and import Firebase. It should look like the following. Click next until you are back at the dashboard.
-
-```jsx
-init() {
-        FirebaseApp.configure()
-      }
+```markdown
+git clone https://github.com/AndyyHuang/Coin_Toss-HW.git
 ```
 
-<img width="303" alt="hw4" src="https://user-images.githubusercontent.com/71753465/199916701-92a6fc75-6fba-455b-8a75-6b1a3ed838ec.png">
+To open the project, open Xcode → Open a Project or File → Navigate to hw8.xcodeproj
 
+**Important note if you plan to push this project into your own repo:** After cloning the repo, delete the hidden .git folder inside Coin_Toss-HW. It has been known to cause issues pushing changes into your remote due to nested .git folders. You can reveal hidden folders in your finder on Mac via [Shift + Cmd + .]. On Windows via View > Options > Change folder and search options then select the View tab and, in Advanced settings, select show hidden files, folders, and drives and OK.
 
+# Part 0: Logistics 📜
 
-## Firestore
+As you might of noticed, animations can be implemented in more than one way, although some ways may be simpler than others. Thus, feel free to disregard the spec and animate each part however you prefer as long as your solution your captures the main behavior of the animation from the demo.
 
-Now to set up Firestore Database!
+Code you will write for this homework assignment is split up into three files: q1.swift, q2.swift, and q3.swift. Optionally, you can do q4.swift as well if you want more practice with animations. Each file corresponds to a different animation you will implement. You do **not** need to implement anything in ****ContentView.swift for this homework.
 
-1. In the console on the left, under Build, select Firestore Database
-2. Click on Create Database
-3. Follow the instructions provided: Select “test mode” and "nam5(us-central)” when prompted
+Lines of code from the original solution are replaced with TODO: comments, so please keep an eye out.
 
-Okay, that should be all the setup! Now, for the actual coding.
+Feel free to add any additional features that you like, however, the bare minimum requirement to finish this project is implementing all features that were present in the demo. Mimicking the spacing of the original solution can be tedious, thus spacing will not matter in the final submission. Without further delay let's jump in!
 
-# Part 2: MVVM and Database Basics
+# Part 1: Spinny Spin! 😵‍💫
 
-## MVVM SetUp
+For this part, you will be using **implicit** animations to animate circle to spin and change colors! You will be implementing this in q1.swift.
 
-Once again, we will be using a MVVM app set up. For this project, we will have Model, Views, View Model, and Repository
+## 1a. The Circle
 
-**Model** - hold the app data
+First, let's create the green circle around the button by placing some view modifiers on the `Button`.
 
-**Views** - display the app data
+Some modifiers that will come in handy for this are:
 
-**View Model** - transform the data from the models to the views
+- `.clipShape(Circle())`
+- `.background(color)`
+- `.frame(width: 200, height: 200)`
 
-**Repository** - handle data source communication
+Remember that modifier order matters, so play around with the order until you find one that creates a green circle!
 
-Follow the image below and create the Groups and Files exactly how it is shown.
+## 1b. 3D Rotation + Animation Modifier
 
-<img width="259" alt="hw5" src="https://user-images.githubusercontent.com/71753465/199916738-c73d5888-5a67-4ba4-908d-c5963e109a88.png">
+Next, let’s add the modifiers responsible for changing the state and animating the button.
 
+Some modifiers that will come in handy for this are:
 
-## Cloud Firestore Database
+- `.rotation3DEffect(…)`
+- `.animation(…)`
 
-A quick overview on Firestore...
+`.rotation3DEffect(…)` is a modifier that rotates the view in 3D space given an angle of rotation and axis to rotate about.
 
-Cloud Firestore is a NoSQL database that uses collections and documents to structure data.
-
-**Collections** - hold the documents
-
-**Documents** - have fields that constitute the entities of the app
-
-In our case, a card will be a document and a group of cards will be the collection. We will be writing queries to manipulate the data from the collections.
-
-# Part 3: Playing with Cards
-
-### **Creating the Card Model**
-
-In the Card.swift file under Models, add the following code:
-
-This is just setting up the Card model. Nothing complicated.
+Here is an example of how you use it:
 
 ```swift
-import FirebaseFirestoreSwift
+Text("Hello")
+.rotation3DEffect(Angle(degrees: 180), axis: (x: 0, y: 0, z: 1))
+```
 
-struct Card: Identifiable, Codable {
-  @DocumentID var id: String?
-  var question: String
-  var answer: String
-  var successful: Bool = true
-  var userId: String?
+In the example above, `.rotation3DEffect(…)` will rotate the text “Hello” 180 degrees around the z-axis. As a result, “Hello” and the circle will be upside down. This is because the z-axis is the axis pointing out of the screen towards the user.
+
+To further explain each axis:
+
+- The x-axis represents the **horizontal** axis across the screen (left-to-right)
+- The y-axis represents the **vertical** axis across the screen (top-to-bottom)
+- The z-axis corresponds to the axis pointing **outwards** of the screen towards the user.
+
+It might help to think about each axis like a skewer that you poke through the circle and the rotation angle is how much you want to turn the skewer! With this in mind, what axis is the circle rotating around? Take a look at the demo again if you need a refresher! Additionally, instead of setting the degree of rotation to a constant 180, we would like to put a variable there, so we can later change the value of that variable to rotate the circle in the button logic. Changing the degree of rotation is a state change that can be animated!
+
+After adding `.rotation3DEffect(…)`, add the `.animation(…)` modifiers to the view. Note that animation for the color changing is **different** than the animation for the circle spinning so you will need to attach two different `.animation(…)` modifiers to your view! There is nothing special about the color changing, however if you look closely at the rotation of the circle, it bounces back and forth after rotating.
+
+Thus, you will want to attach:
+
+- One `.animation(…)` modifier somewhere on the Button with an animation style of `.default` for animating the color
+- And another `.animation(…)` modifier elsewhere on the Button with an animation style of `interpolatingSpring(…)` for animating the spin. The demo uses a stiffness of 30 and damping of 5 for the interpolating spring.
+
+The value that you want each `.animation(…)` to watch can either be `rotation` or `color` since both of those values will change when button is clicked!
+
+Finally, because we want to give the color changing a different animation than the rotation, we want to carefully place each `.animation()` modifier in the correct order to animate the respective parts successfully. If you are unsure how to do this, I recommend taking a look at lecture slides, specifically the implicit animation example in “The Animation Stack” part of lecture.
+
+Don’t worry if you are unsure whether your implementation of the `.animation(…)` is correct! You will be able to test it after finishing 1b! As a sanity check, the solution has six view modifiers attached to the Button.
+
+## 1c. Button Logic
+
+Phew! We finally got our view modifiers setup. Time to change some values to trigger a state change!
+
+First, let's handle changing the value of `rotation` to make the circle spin one full revolution! How many degrees is in a full revolution? Increment `rotation` by that amount! Then, let's change the color of the circle! Use an if statement that swaps the Color stored in `color`. The circle swaps between `Color.red` and `Color.green`. 
+
+Hint: If `color` is equal to `Color.green` then set color to `Color.red`. Otherwise, set it to `Color.green`. You can use the `==` operator to compare two colors.
+
+# Part 2: A square, rolling?! 🤯
+
+For this part, you will be using **explicit** animations to create an animation that moves a square from corner to corner. You will be implementing this in q2.swift.
+
+## 2a. 4-Step Animation
+
+In this part, you will have to implement four explicit animations that are responsible for animating the movement of the square traveling from corner to corner. This may seem like an arduous task, but don’t worry it's a lot simpler than it looks! The implementation of the first explicit animation is done for you. If you run the simulator and click on the square, it should roll to its left.
+
+In the demo, the square moves from corner to corner in a clockwise fashion. The trick to this is animating each movement towards a corner as a SEPARATE explicit animation with an input delay AND specifying how long it takes for the square to get to each corner using the `duration:` parameter of the `.linear` animation style. To add an input delay for an animation, attach `.delay(…)` to the animation style. 
+
+For simplicity, the time it takes for the square to travel from a corner to the next will be **0.5 seconds**, which may seem odd since the vertical length of the screen is longer than the horizontal length of the screen. If you look closely at the demo, you may notice the square moves slower when traveling horizontally than vertically. This is because the square is only given 0.5 seconds ****to travel different distances.
+
+Now that we know how long exactly each animation takes (0.5 seconds), how long should we stagger/delay the start of the other animations? You should have a total of four calls to `withAnimation` with each call taking the square from a corner and to the next.
+
+The offset values for each corner of the screen are:
+
+- Bottom-Right: (90.0, 300.0)
+- Bottom-Left: (-90.0, 300.0)
+- Top-Left: (-90.0, -300.0)
+- Top-Right: (90.0, -300.0)
+
+Use these offset values to correctly set `offset_x` and/or `offset_y` in each call to `withAnimation.` Additionally, in each call to `withAnimation` increment the `rotation` by half a revolution (180), so the square will look like its rolling or spinning to each corner!
+
+Tip: Start with implementing one call to `withAnimation` first! This call will change and animate the square’s position from the bottom-left to the top-left. It would also be helpful to reference the “N-step Animations” part of lecture for this part if you are confused.
+
+Hint:
+
+Let us consider implementing the 2-step animation of the square going from the bottom-right → bottom-left → top-left (the square starts at the bottom-right). This is done with two calls to `withAnimation`. The first call to `withAnimation` is provided for you. 
+
+- The first call should change and animate the the square’s position from bottom-right → bottom-left.
+- The second call should change and animate the square’s position from bottom-left→top-left.
+
+Q: How long will it take the square to travel from the bottom-right → bottom-left?
+
+A: Exactly 0.5 seconds because the `duration` of `.linear` is 0.5. Furthermore, it should take the square 0.5 seconds to travel from a corner to the next as stated earlier.
+
+Q: If it takes the square 0.5 seconds to travel from the bottom-right → bottom-left, then how long should we stagger/delay start of the second animation (second call)? Additionally, where should it place the square on the screen?
+
+A: We should delay the start of the second animation by 0.5 seconds and it should put the square at the top-left (-90.0, -300.0).
+
+Thus, the second call to `withAnimation` is:
+
+```swift
+// Second call to withAnimation (notice that the delay is 0.5)
+withAnimation(.linear(duration: 0.5).delay(0.5)) {
+	offset_y = -300.0
+	rotation += 180.0
 }
 ```
 
-### **Adding New Cards w/ the Repository**
+If you click on the square now, you should see that the square smoothly transitions to the top-left after it reaches the bottom-left corner. Note that we don’t change `offset_x` because we are just moving the square upwards!
 
-Navigate to your Repository file and add the following code:
+Using the same logic, implement the other two calls to `withAnimation`! Be careful, as the delay for each call is not the same, it is in fact accumulating! (Why?)
 
-```swift
+# Part 3: Your Penny, Your Fate. 🍀
 
-import FirebaseFirestore
-import FirebaseFirestoreSwift
-import Combine 
+For this part, you will be using **explicit** animations to create an animation that simulates a coin toss. You will be implementing this in q3.swift.
 
-class CardRepository: ObservableObject {
-  private let path: String = "cards"
-  private let store = Firestore.firestore()
-  func add(_ card: Card) {
-    do {
-      _ = try store.collection(path).addDocument(from: card)
-    } catch {
-      fatalError("Unable to add card: \(error.localizedDescription).")
-    }
-  }
-}
-```
+This part should be fairly straight forward if you completed Part 1 and Part 2!
 
-This code is doing several things:
+## 3a. 3D Rotation + Offset Modifier
 
-1. You are importing all of those things in order to get access to the Firestore API and the commands needed to use it
-    1. FirebaseFirestore - access to the API
-    2. FirebaseFirestoreSwift - lets you convert Cards into documents and back
-    3. Combine - set of declarative APIs for Swift
-2. Define `CardRepository` . Then, declare `path` and assigned the value `card` which is the collection name in Firestore.
-3. Declare `store` and assign a reference to the `Firestore` instance.
-4. Next, you define `add(_:)` and use a do-catch block to capture any errors thrown by the code
-5. Create a reference to the cards collection using `path`, and then pass `card` to `addDocument(from:encoder:completion:)`. This adds a new card to the collection.
+Add the `.rotation3DEffect(…)` and `.offset(…)` modifiers to the Text and between the `.clipShape(…)` the `.tapGesture` modifiers. The order that you apply the rotation and offset matters here. You will get a totally unexpected result if you place them in the incorrect order!
 
-### Connecting the Model w/ the Views
+Remember to correctly set the axis that the penny will be rotating about. Check the demo if you need a refresher. Take a look at the provided variables: `rotation` and `offset_y`. Don’t forget to pass them into `.rotation3DEffect(…)` and `.offset(…)`.
 
-Go to CardListViewModel.swift in your ViewModels group and add the following code:
+## 3b. 2-Step Animation
 
-```swift
-import Combine
+Animate the penny being tossed up and falling back down. This can be done with as a 2-step animation! The code provided for you in `.tapGesture` sets face to an empty string when the coin is tossed and randomly re-sets it to either heads or tails right before the coin lands. This makes the simulation a bit more realistic because the coin is generally indistinguishable during mid-flight in real life.
 
-class CardListViewModel: ObservableObject {
-  @Published var cardRepository = CardRepository()
+Animating the coin toss can be done by creating one call to `withAnimation` that is responsible for tossing the penny up and another call to `withAnimation` that is responsible for dropping the penny back down. 
 
-  func add(_ card: Card) {
-    cardRepository.add(card)
-  }
-}
-```
+- Both animations will have a duration of **1 second** each.
+- Both animations will rotate the penny three times. So, the penny rotates three times going up and three times going down. To do this, increment `degree` by three revolutions (1080.0 degrees) in both calls to `withAnimation`.
+- Stagger/delay the second animation using `.delay(…)`. (When should the coin begin falling down?)
+- The offset positions for the penny are (0.0, 0.0) and (0.0, -300.0).
 
-Open up NewCardForm.swift and add the following code:
+The animation style for tossing the penny upwards will be `.easeOut` and the animation style for dropping the penny down will be `.easeIn`. This creates a subtle, but nice detail of the penny being momentarily suspended in the air at the apex of the toss which gives a bit more realism to our simulation! This is because `.easeOut` slows down the animation towards the end and `.easeIn` starts the animation off slow. Don’t forget to set the duration for both of these animation styles!
 
-```swift
-import SwiftUI
+After finishing this, you should have a fully functional coin toss simulator to help decide your fate during your hardest times of indecision!
 
-struct NewCardForm: View {
-  @State var question: String = ""
-  @State var answer: String = ""
-  @Environment(\.presentationMode) var presentationMode
-  @ObservedObject var cardListViewModel: CardListViewModel
+# [Optional] Part 4: Wifi, Histogram, or Stairs? 🤨
 
-  var body: some View {
-    VStack(alignment: .center, spacing: 30) {
-      VStack(alignment: .leading, spacing: 10) {
-        Text("Question")
-          .foregroundColor(.gray)
-        TextField("Enter the question", text: $question)
-          .textFieldStyle(RoundedBorderTextFieldStyle())
-      }
-      VStack(alignment: .leading, spacing: 10) {
-        Text("Answer")
-          .foregroundColor(.gray)
-        TextField("Enter the answer", text: $answer)
-          .textFieldStyle(RoundedBorderTextFieldStyle())
-      }
-      Button(action: addCard) {
-        Text("Add New Card")
-          .foregroundColor(.blue)
-      }
-      Spacer()
-    }
-    .padding(EdgeInsets(top: 80, leading: 40, bottom: 0, trailing: 40))
-  }
-}
+For this part, you will be using **implicit** animations to create a nice staircase animation with rectangles. You will be implementing this in q4.swift.
 
-private func addCard() {
-    let card = Card(question: question, answer: answer)
-    cardListViewModel.add(card)
-    presentationMode.wrappedValue.dismiss()
-  }
-}
+There won’t be much of a spec for this section as it is left sparse on purpose as a challenge!
 
-struct NewCardForm_Previews: PreviewProvider {
-  static var previews: some View {
-    NewCardForm(cardListViewModel: CardListViewModel())
-  }
-}
-```
+Here is a short demo of what it looks like:
 
-This code creates a `Card` using the `question` and `answer` properties already declared at the top, adds the new `card` using the view model, and then dismisses the current view.
+<video width="250" controls autoplay>
+    <source src="/assets/hw8ios/wifi.mp4" type="video/mp4">
+</video>
 
-Finally, go to CardListView.swift and add in the following code:
+## 4a. Useful Stuff
 
-```swift
-import SwiftUI
+There are several ways to implement this but the solution uses a `ForEach` loop to create each `Rectangle()` and implicit animations.
 
-struct CardListView: View {
-  var cards: [Card] = []
-  @State var showForm = false
+Some helpful modifiers may be:
 
-  var body: some View {
-    NavigationView {
-      VStack {
-        Spacer()
-        VStack {
-          GeometryReader { geometry in
-            ScrollView(.horizontal) {
-              HStack(spacing: 10) {
-                ForEach(cards, id: \.id) { card in
-                  CardView(card: card)
-                    .padding([.leading, .trailing])
-                }
-              }.frame(height: geometry.size.height)
-            }
-          }
-        }
-        Spacer()
-      }
-      .sheet(isPresented: $showForm) {
-        NewCardForm(cardListViewModel: CardListViewModel())
-      }
-      .navigationBarTitle("💯 Quizlet-ish")
-        .navigationBarItems(trailing: Button(action: { showForm.toggle() }) {
-          Image(systemName: "plus")
-            .font(.title)
-        })
-    }
-    .navigationViewStyle(StackNavigationViewStyle())
-  }
-}
+- .fill(Color.indigo)
+- .frame(…)
+- .scaleEffect(x: y: anchor:)
+- .animation(…)
 
-struct CardListView_Previews: PreviewProvider {
-  static var previews: some View {
-    CardListView(cards: testData)
-  }
-}
-```
+# Submission 🎉:
 
-### Displaying Cards
+To submit your homework, open your Finder and navigate to the directory that includes BOTH your homework folder and a "homework".xcodeproj file. Right click the folder (NOT the .xcodeproj file) and compress it. Upload your compressed file onto gradescope.
 
-**Setting up the CardViewModel**
-
-In your CardViewModel.swift add the following code:
-
-```swift
-import Combine
-
-class CardViewModel: ObservableObject, Identifiable {
-  private let cardRepository = CardRepository()
-  @Published var card: Card
-  private var cancellables: Set<AnyCancellable> = []
-  var id = ""
-
-  init(card: Card) {
-    self.card = card
-    $card
-      .compactMap { $0.id }
-      .assign(to: \.id, on: self)
-      .store(in: &cancellables)
-  }
-}
-```
-
-Here you are declaring `CardViewModel` . `Cancellables` is used to store subscriptions so you can cancel them later. The code at the end is binding for card between the id of the card and the view model’s id and then storing it in cancellables.
-
-**Setting up the Repository**
-
-Navigate to your CardRepository.swift file and add the following code below the property definitions from before:
-
-```swift
-@Published var cards: [Card] = []
-
-init() {
-  get()
-}
-
-func get() {
-  store.collection(path)
-    .addSnapshotListener { querySnapshot, error in
-      if let error = error {
-        print("Error getting cards: \(error.localizedDescription)")
-        return
-      }
-
-        self.cards = querySnapshot?.documents.compactMap { document in
-        try? document.data(as: Card.self)
-      } ?? []
-    }
-}
-```
-
-This code is essentially grabbing the data from Firestore and mapping the documents to Cards that you can use.
-
-**Setting up CardListViewModel**
-
-Open up CardListViewModel and add the following code:
-
-```swift
-@Published var cardViewModels: [CardViewModel] = []
-private var cancellables: Set<AnyCancellable> = []
-
-init() {
-  cardRepository.$cards.map { cards in
-    cards.map(CardViewModel.init)
-  }
-  .assign(to: \.cardViewModels, on: self)
-  .store(in: &cancellables)
-}
-```
-
-This code listens to cards and creates an array of CardViewModel’s by mapping each Card element into an array. It then assigns the results to cardViewModels and stores into cancellables so that the cards are cancelled when they are deinitialized.
-
-**Setting up CardView**
-
-Add the following code to CardView.swift:
-
-```swift
-import SwiftUI
-
-struct CardView: View {
-
-	var cardViewModel: CardViewModel  @State var showContent: Bool = false
-  @State var viewState = CGSize.zero
-  @State var showAlert = false
-
-  var body: some View {
-    ZStack(alignment: .center) {
-      backView.opacity(showContent ? 1 : 0)
-      frontView.opacity(showContent ? 0 : 1)
-    }
-    .frame(width: 250, height: 400)
-    .background(Color.orange)
-    .cornerRadius(20)
-    .shadow(color: Color(.blue).opacity(0.3), radius: 5, x: 10, y: 10)
-    .rotation3DEffect(.degrees(showContent ? 180.0 : 0.0), axis: (x: 0, y: -1, z: 0))
-    .offset(x: viewState.width, y: viewState.height)
-    .animation(.spring(response: 0.6, dampingFraction: 0.8, blendDuration: 0))
-    .onTapGesture {
-      withAnimation {
-        showContent.toggle()
-      }
-    }
-    .gesture(
-      DragGesture()
-        .onChanged { value in
-          viewState = value.translation
-        }
-      .onEnded { value in
-        if value.location.y < value.startLocation.y - 40.0 {
-          self.showAlert.toggle()
-        }
-        viewState = .zero
-      }
-    )
-      .alert(isPresented: $showAlert) {
-        Alert(
-          title: Text("Remove Card"),
-          message: Text("Are you sure you want to remove this card?"),
-          primaryButton: .destructive(Text("Remove")) {
-          },
-          secondaryButton: .cancel()
-        )
-      }
-  }
-
-  var frontView: some View {
-    VStack(alignment: .center) {
-      Spacer()
-			Text(cardViewModel.card.question)        
-				.foregroundColor(.white)
-        .font(.system(size: 20))
-        .fontWeight(.bold)
-        .multilineTextAlignment(.center)
-        .padding(20.0)
-      Spacer()
-    }
-  }
-
-  var backView: some View {
-    VStack(alignment: .center) {
-      Spacer()
-      Text(cardViewModel.card.answer)
-        .foregroundColor(.white)
-        .font(.body)
-        .padding(20.0)
-        .multilineTextAlignment(.center)
-        .animation(.easeInOut)
-      Spacer()
-    }
-    .rotation3DEffect(.degrees(180), axis: (x: 0.0, y: 1.0, z: 0.0))
-  }
-}
-```
-
-This is the UI for the CardView and also sets up your code to pull from the View Model rather than the Card model.
-
-**Setting up CardListView**
-
-Replace your code in CardListView with this:
-
-```swift
-import SwiftUI
-
-struct CardListView: View {
-  @ObservedObject var cardListViewModel = CardListViewModel()
-  @State var showForm = false
-
-  var body: some View {
-    NavigationView {
-      VStack {
-        Spacer()
-        VStack {
-          GeometryReader { geometry in
-            ScrollView(.horizontal) {
-              HStack(spacing: 10) {
-                ForEach(cardListViewModel.cardViewModels) { cardViewModel in
-                  CardView(cardViewModel: cardViewModel)
-                    .padding([.leading, .trailing])
-                }
-              }.frame(height: geometry.size.height)
-            }
-          }
-        }
-        Spacer()
-      }
-      .sheet(isPresented: $showForm) {
-        NewCardForm(cardListViewModel: CardListViewModel())
-      }
-      .navigationBarTitle("💯 Quizlet-ish")
-        // swiftlint:disable multiple_closures_with_trailing_closure
-        .navigationBarItems(trailing: Button(action: { showForm.toggle() }) {
-          Image(systemName: "plus")
-            .font(.title)
-        })
-    }
-    .navigationViewStyle(StackNavigationViewStyle())
-  }
-}
-```
-
-Here you are changing the wrapping list view so that it’ll work with the Card View Model now instead of just the Card View. The ForEach statement is iterating over the array of CardViewModels and creating a CardView for each one so that they are displayed in your view.
-
-# Part 4: Updating Cards
-
-Another aspect of this app that we want to put in place is the ability to mark if you got an answer right or wrong. This way you can see if your studying is working!
-
-**Card ID**
-
-Change Card.swift to look like this:
-
-```swift
-import Foundation
-import FirebaseFirestoreSwift
-
-struct Card: Identifiable, Codable {
-  @DocumentID var id: String?
-  var question: String
-  var answer: String
-  var successful: Bool = true
-  var userId: String?
-}
-```
-
-This code just makes sure that, when we convert documents to Cards, we map the id from the Cloud Firestore to an id in our code.
-
-**Updating Cards**
-
-In CardRepository.swift add in the following function:
-
-```swift
-func update(_ card: Card) {
-    guard let cardId = card.id else { return }
-
-    do {
-      try store.collection(path).document(cardId).setData(from: card)
-    } catch {
-      fatalError("Unable to update card: \(error.localizedDescription).")
-    }
-  }
-```
-
-This function first checks that `card.id` has a value. Then using `path` and `cardId`, it gets a reference to the document in the cards collection, then updates the fields by passing `card` to `setData(from:encoder:completion:)`
-
-You also need to update the view model now. Go to CardViewModel.swift and add the method below:
-
-```swift
-func update(card: Card) {
-    cardRepository.update(card)
-  }
-```
-
-**Updating CardView**
-
-In CardView, add in the following code after the second Spacer() in frontView:
-
-```swift
-if !cardViewModel.card.successful {
-        Text("You answered this one incorrectly before")
-          .foregroundColor(.white)
-          .font(.system(size: 11.0))
-          .fontWeight(.bold)
-          .padding()
-      }
-```
-
-Add the following methods to CardView as well:
-
-```swift
-private func markCardAsUnsuccesful() {
-    var updatedCard = cardViewModel.card
-    updatedCard.successful = false
-    update(card: updatedCard)
-  }
-
-  private func markCardAsSuccesful() {
-    var updatedCard = cardViewModel.card
-    updatedCard.successful = true
-    update(card: updatedCard)
-  }
-
-  func update(card: Card) {
-    cardViewModel.update(card: card)
-    showContent.toggle()
-  }
-```
-
-This methods take care of successful answer cases, unsuccessful answer cases, and updating the card.
-
-Now, replace the backView with the following:
-
-```swift
-var backView: some View {
-    VStack {
-      // 1
-      Spacer()
-      Text(cardViewModel.card.answer)
-        .foregroundColor(.white)
-        .font(.body)
-        .padding(20.0)
-        .multilineTextAlignment(.center)
-        .animation(.easeInOut)
-      Spacer()
-      // 2
-      HStack(spacing: 40) {
-        Button(action: markCardAsSuccesful) {
-          Image(systemName: "hand.thumbsup.fill")
-            .padding()
-            .background(Color.green)
-            .font(.title)
-            .foregroundColor(.white)
-            .clipShape(Circle())
-        }
-        Button(action: markCardAsUnsuccesful) {
-          Image(systemName: "hand.thumbsdown.fill")
-            .padding()
-            .background(Color.blue)
-            .font(.title)
-            .foregroundColor(.white)
-            .clipShape(Circle())
-        }
-      }
-      .padding()
-    }
-    .rotation3DEffect(.degrees(180), axis: (x: 0.0, y: 1.0, z: 0.0))
-  }
-```
-
-# Part 5: Removing Cards
-
-We will cover the process of removing a card here.
-
-**Deleting the Card from Firestore**
-
-Go to CardRepository.swift and add in the remove method at the bottom (within the CardRepository class):
-
-```swift
-func remove(_ card: Card) {
-    guard let cardId = card.id else { return }
-
-    store.collection(path).document(cardId).delete { error in
-      if let error = error {
-        print("Unable to remove card: \(error.localizedDescription)")
-      }
-    }
-  }
-```
-
-This method accesses the collection in our Firestore database by the path passed in. It then finds the card with the cardID and attempts to delete the document associated with it, printing an error if it can’t.
-
-In your CardViewModel.swift, add in the remove method:
-
-```swift
-func remove() {
-    cardRepository.remove(card)
-  }
-```
-
-Finally, update the Alert in CardView.swift so it looks like this:
-
-```swift
-Alert(
-          title: Text("Remove Card"),
-          message: Text("Are you sure you want to remove this card?"),
-          primaryButton: .destructive(Text("Remove")) {
-            cardViewModel.remove()
-          },
-          secondaryButton: .cancel())
-```
-
-Together, this code calls the remove method on the cardViewModel and executes the logic to remove the card from the Firestore database. The cards are removed by dragging them to the top of the screen and clicking remove when the alert pops up.
-
-# Part 6: Security and Authentication
-
-## Anonymous Authentication
-
-To provide security to our app, we will take advantage of Firebase’s Anonymous Authentication which lets users authenticate into the app.
-
-**Activating Authentication Mode**
-
-1. Go to Firebase Console
-2. Select Authentication on the side bar
-3. Select Sign-in method
-4. Go to the bottom of the Providers List
-5. Select Anonymous and enable it
-6. Click Save
-
-## Creating an Authentication Service
-
-In AuthenticationService.swift add the following code:
-
-```swift
-import Foundation
-import Firebase
-
-class AuthenticationService: ObservableObject {
-  @Published var user: User?
-  private var authenticationStateHandler: AuthStateDidChangeListenerHandle?
-
-  init() {
-    addListeners()
-  }
-
-  static func signIn() {
-    if Auth.auth().currentUser == nil {
-      Auth.auth().signInAnonymously()
-    }
-  }
-
-  private func addListeners() {
-    if let handle = authenticationStateHandler {
-      Auth.auth().removeStateDidChangeListener(handle)
-    }
-
-    authenticationStateHandler = Auth.auth()
-      .addStateDidChangeListener { _, user in
-        self.user = user
-      }
-  }
-}
-```
-
-In “Quizlet-ishApp” file, after FIrebaseApp.configure(), add:
-
-```swift
-AuthenticationService.signIn()
-```
-
-In CardRepository.swift, at the top of the class, add the following properties:
-
-```swift
-var userId = ""
-private let authenticationService = AuthenticationService()
-private var cancellables: Set<AnyCancellable> = []
-```
-
-Change init() and add() to the following:
-
-```swift
-init() {
-    authenticationService.$user
-      .compactMap { user in
-        user?.uid
-      }
-      .assign(to: \.userId, on: self)
-      .store(in: &cancellables)
-
-    authenticationService.$user
-      .receive(on: DispatchQueue.main)
-      .sink { [weak self] _ in
-        self?.get()
-      }
-      .store(in: &cancellables)
-  }
-```
-
-```swift
-func add(_ card: Card) {
-    do {
-      var newCard = card
-      newCard.userId = userId
-      _ = try store.collection(path).addDocument(from: newCard)
-    } catch {
-      fatalError("Unable to add card: \(error.localizedDescription).")
-    }
-  }
-```
-
-Finally, before .addSnapshotListener in get(), add the following:
-
-```swift
-.whereField("userId", isEqualTo: userId)
-```
-
-## Security Rules
-
-1. Go to Firebase console
-2. Go to Cloud Firestore
-3. Click Rules
-4. Replace the code with the following:
-
-```swift
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if request.auth != null;
-    }
-  }
-}
-```
-
-Click Publish. That’s it! All done! Now you can demo the project. The screenshots below show what the workflow should look like. Check your Firestore Database to make sure that you are storing the data as shown below and that the data is removed when you remove a card.
-
-# Part 7: Demo Screenshots
-
-Here are the solutions: [https://github.com/jy73/quizlet-ish](https://github.com/jy73/quizlet-ish)
-
-# Submission:
-
-To submit your homework. Go back to your terminal and navigate to your “Cubstart-iOS” directory using these commands:
-
-```bash
-cd Desktop
-cd Cubstart-iOS
-```
-
-Then type in these commands to push your code onto your personal repository:
-
-```bash
-git add .
-git commit -m "completed homework 8"
-git push
-```
-
-You can also type `git status` to verify which files you are pushing.
-
-Upload your code onto gradescope for HW 8 like so. Choose your personal repository we created in the beginning of the homework under “repository” and choose “main/master” under branch.
-
-![image](https://user-images.githubusercontent.com/64179036/191868700-7a68570a-bf24-403a-9fbf-89dc57cf9d1b.png)
+### Congrats on making it to the end of this week’s homework and completing a super cool app!! Feel free to come to lab if you have any questions (attending will also grant you a hw checkoff)
