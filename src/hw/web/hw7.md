@@ -85,7 +85,7 @@ If you successfully get everything working, you can open **index.html** in your 
 
 **Even if you restart the server and index.html, the data will remain in your database!**
 
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/hw7/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="assets/hw7/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 **Good job!**
 
