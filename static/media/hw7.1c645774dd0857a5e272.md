@@ -3,6 +3,9 @@
 ## A sneaky project
 You've decided to steal Ddoski's idea from right under his nose. But, execution is everything. You're going to make a flashcards app but **better**. To improve Ddoski's project, you're going to connect a database to the API so that you can **persist flashcard data**.
 
+This is the finished product:
+<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="assets/hw7/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Part 1: Set up your project
 Since you've already downloaded Node.js in the last homework, we're just going to set up a project with an existing package.json.
 
@@ -85,7 +88,7 @@ If you successfully get everything working, you can open **index.html** in your 
 
 **Even if you restart the server and index.html, the data will remain in your database!**
 
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/hw7/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="assets/hw7/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 **Good job!**
 
