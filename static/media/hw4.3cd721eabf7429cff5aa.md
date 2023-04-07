@@ -76,7 +76,7 @@ Just type your name/repo-name to confirm this.
 
 The Settings bar has a "Pages" tab. Click on it.
 
-<img src="/assets/hw4/github-desktop-14.PNG" style=padding: 20px 0;"/>
+<img src="/assets/hw4/github-desktop-14.PNG" style="padding: 20px 0;"/>
 
 Now, you can finally **deploy your branch**!
 

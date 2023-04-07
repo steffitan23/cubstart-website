@@ -28,7 +28,7 @@ _**macOS:** Double-click the .zip file. The unzipped item appears in the same fo
 Now that you're all set up, let's get creating!
 
 The skeleton in **index.html** looks like this:
-<img src="/assets/hw2/skeleton-hw2.png" style="width: 90%; padding: 20px 0;"/>
+<img src="/assets/hw2/skeleton-hw2.PNG" style="width: 90%; padding: 20px 0;"/>
 
 Answer the questions in **index.html** from top to bottom by editing the HTML code. There is extra information on each questions below if you need help!
 
@@ -82,14 +82,14 @@ You can also right-click anywhere on the page and click **"Inspect"**.
 
 Your browser window should now look something like this:
 
-<img src="/assets/hw2/dev-tools-1.png" style="width: 90%; padding: 20px 0;"/>
+<img src="/assets/hw2/dev-tools-1.PNG" style="width: 90%; padding: 20px 0;"/>
 
 You can double-click on any HTML tag and it will allow you to edit the code, showing the changes it would make to the site live. Similarly, you can double-click on the panel with the CSS, and it wll allow you to edit attributes, add them, and more!
 
 If you click the icon on the top left of the developer tools panel, you're then able to click on anything on the actual website and see which part of the HTML it corresponds to. (The corresponding HTML tag is highlighted in blue!) Hovering over it will also let you see the width and height of the element, as well as its margin and padding.
 
 <img src="/assets/hw2/dev-tools-2.png" style="width: 50%; padding: 20px 0;"/>
-<img src="/assets/hw2/dev-tools-4.png" style="width: 90%; padding: 20px 0;"/>
+<img src="/assets/hw2/dev-tools-4.PNG" style="width: 90%; padding: 20px 0;"/>
 
 If you click the second icon on the top left, you can expand or shrink the website window to see how your website reacts to different screen sizes. 
 
@@ -99,7 +99,7 @@ If you click the second icon on the top left, you can expand or shrink the websi
 
 You can see how it would look on iPhone, tablets, and more specifically using the dropdown at the top as well.
 
-<img src="/assets/hw2/dev-tools-6.png" style="width: 50%; padding: 20px 0;"/>
+<img src="/assets/hw2/dev-tools-6.PNG" style="width: 50%; padding: 20px 0;"/>
 
 ## Part 2: CSS
 Now we're moving on to the more fun, pretty part of web development: styling!
@@ -116,7 +116,7 @@ If we want to use fonts outside of the default fonts (Arial, Times New Roman, Ve
 <img src="/assets/hw2/google-fonts.png" style="width: 50%; padding: 20px 0;"/>
 3. Click on all the font weights you want (just click all of them if you're not sure!).
 4. Copy the <link ..> provided in the panel of the right, and paste it into the <**head**> of **index.html**.
-<img src="/assets/hw2/google-fonts-1.png" style="width: 50%; padding: 20px 0;"/>
+<img src="/assets/hw2/google-fonts-1.PNG" style="width: 50%; padding: 20px 0;"/>
 5. You can use CSS rules to get text to use the font you imported!
 ~~~css
 /* Example CSS for using fonts: */
