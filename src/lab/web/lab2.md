@@ -2,7 +2,9 @@
 
 Welcome to Lab! Today, you will be creating a random joke generator, similar to the video below! 
 
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/lab2/lab2demo.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<video width="100%" controls>
+  <source src="/assets/lab2/lab2demo.mp4" type="video/mp4">
+</video>
 
 <strong>Note:</strong> Lab is meant to be collaborative! Introduce yourself to the people next to you and work on this lab with 1 or 2 other people!
 

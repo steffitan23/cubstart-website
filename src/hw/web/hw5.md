@@ -2,7 +2,11 @@
 
 ## Ddoski needs your help!
 Ddoski made this cool app that lets you find the weather in a certain city/country using the OpenWeatherMap API.
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/hw5/finished-app.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<video width="100%" controls>
+  <source src="/assets/hw5/finished-app.mp4" type="video/mp4">
+</video>
+
 
 But he lost some parts of his code in a storm! 
 

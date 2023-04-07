@@ -7,7 +7,9 @@ The best way to learn web development is through making your own projects. A per
 
 Here's an example from our friend and Cubstart alum Oski Ddoski:
 
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/hw2/oski-personal-portfolio.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<video width="100%" controls>
+  <source src="/assets/hw2/oski-personal-portfolio.mp4" type="video/mp4">
+</video>
 
 Don't worry, we're going to customize it with our own information and style it how we like!
 
@@ -151,7 +153,10 @@ _Change the background-color, color, font-weight, or whatever you want!_
 _More on media queries [here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). You can add as many breakpoints as you want!_
 
 This should be the result:
-<div style="position: relative; padding-bottom: 53.59375000000001%; height: 0;"><iframe src="/assets/hw2/responsive-oski.mp4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<video width="100%" controls>
+  <source src="/assets/hw2/responsive-oski.mp4" type="video/mp4">
+</video>
 
 # Optional: Do whatever you want!
 You've covered the basics of HTML/CSS, congratulations! Now, make the website yours. Add as many sections as you want, change the colors, add images, and more. We want to see you have fun with it!
