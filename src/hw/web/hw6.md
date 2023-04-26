@@ -82,7 +82,7 @@ OK
 We should be able to retrieve all our flashcards too. 
 
 **Postman:**
-<img src="/assets/hw6/postman-1.PNG" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw6/postman-4.PNG" style="width: 100%; padding: 20px 0;"/>
 
 **Terminal (cURL):**
 ```bash
