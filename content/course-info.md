@@ -28,13 +28,15 @@ If participating in the iOS track, you’ll need a MacBook with macOS 12.5 (Mont
 
 The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
 
-## Labs (Optional but Recommended)
+## Labs
 
-Labs are a fun way to learn and practice the content in a more hands-on way! They are recommended for those starting out in programming and web development, who want to put what they've learned in lecture into practice. We have all sorts of exciting exercises for you to make your own demos and small apps.
+Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps.
 
 They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
 
-You do not need to attend these labs if you feel comfortable that you can complete the homework assignment, or have already completed it.
+Web: Labs consist of a mini-lecture reviewing past topics, introducton of new concepts, and potentially a short lab assignment depending on the week. The first hour is required. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
+
+iOS: Lab is optional.
 
 ## Learning Goals
 - Tackling detailed project specs
