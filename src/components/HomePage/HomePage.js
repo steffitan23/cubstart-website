@@ -11,6 +11,7 @@ function HomePage(props) {
 
     return (
     <div>
+    <div className="banner"><p>Cubstart Fall 2023 applications are open! Click the apply button below!</p></div>
     <div className="hero-wrapper">
         <div className="header">
             <div className='header-text'>
@@ -37,10 +38,10 @@ function HomePage(props) {
                         className="typing-text"
                         /></h1>
                     <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
-                    {/* <div className='button-container'>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1GzSg45wwQhyDKDZBpd9Oh6V7BH8QqIWIaFRe9ZgzxUaMnA/viewform" className="applybutton">Apply by 2/5!</a>
-                    </div> */}
-                    <b>Applications have closed for Spring 2023. We'll see you in Fall! </b>
+                    <div className='button-container'>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>
+                    </div>
+                    {/*<b>Applications have closed for Spring 2023. We'll see you in Fall! </b> */}
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">

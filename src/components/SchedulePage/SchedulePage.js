@@ -23,7 +23,7 @@ function SchedulePage(props) {
     <div className="text-wrapper">
         <div className="header">
             <h1>CS 198-075/750: Introduction to Building Apps</h1>
-            <h2>UC Berkeley, Fall 2023</h2>
+            <h2>UC Berkeley | Fall 2023</h2>
         </div>
         <div class="wrapper">
         <div class="tabs">

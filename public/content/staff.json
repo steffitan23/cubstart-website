@@ -1,25 +1,22 @@
 {
   "lecturers": [
     {
-      "image": "assets/steffi.jpg",
-      "name": "Steffi Tan",
-      "title": "Course Lead, Web Lecturer",
-      "description": "Hi! I'm a second year studying Computer Science and Cognitive Science. I like crocheting, lockpicking, Valorant, soup, and Kung Fu Panda 3.",
-      "social": "@staph.e"
+      "image": "assets/andy.jpg",
+      "name": "Andy Huang",
+      "title": "Course Lead & iOS Lecturer",
+      "description": "Hi! I’m Andy and I’m a fourth year studying CS. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
+      "social": "@andyy_huang"
     },
     {
-      "image": "assets/oliver.jpg",
-      "name": "Oliver Carmont",
-      "title": "Web Lecturer",
-      "description": "Hi! I’m Oliver. I’m a sophomore studying CS. I’m an international student from Spain and Australia. At Berkeley, I’m involved in Cal Hacks, Codeology and IM Soccer.",
-      "social": "@oliver.cz"
+      "name": "Madhav Varshney",
+      "title": "Web Lead & Lecturer"
     },
     {
-      "image": "assets/juliet.jpg",
-      "name": "Juliet Kim",
-      "title": "iOS Lecturer",
-      "description": "Hey! I'm Juliet and I'm a senior studying CS from LA. I love journaling, baking, hitting that 12-3-30, and matcha lemonade <3. Super excited to meet everyone this semester!",
-      "social": "@julietkim_"
+      "image": "assets/jessica.jpg",
+      "name": "Jessica Ng",
+      "title": "Web Lead & Lecturer",
+      "description": "Hi! I’m Jessica, a second-year intended computer science major! You can usually find me reading, crocheting, playing Tetris, or binge-watching Love Island. I'm so excited to meet everyone this semester!",
+      "social": "@jessican_1212"
     }
   ],
   "tas": [
@@ -29,14 +26,6 @@
       "title": "iOS TA",
       "description": "Hi! I'm Abinaya - a first year double majoring in Data Science and CRS. I'm really interested in climate tech and food systems, and I love croissants, embroidery, journalling, and coding on the weekends. Super excited to meet you all and see where we go this semester <3 ",
       "social": "513-293-4206"
-    },
-      
-    {
-      "image": "assets/andy.jpg",
-      "name": "Andy Huang",
-      "title": "iOS TA",
-      "description": "Hi! I’m Andy and I’m a third year studying computer science. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
-      "social": "@andyy_huang"
     },
     {
     "image": "assets/enya.jpg",
@@ -51,13 +40,6 @@
       "title": "Web TA",
       "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
       "social": "@alex.gberg"
-    },
-    {
-      "image": "assets/jessica.jpg",
-      "name": "Jessica Ng",
-      "title": "Web TA",
-      "description": "Hi! I’m Jessica, a first-year intended CS major! You can usually find me reading, playing Tetris or Catan, or binge-watching reality dating shows. I’m excited to be a part of the Cubstart Web team this semester!",
-      "social": "@jessican_1212"
     },
     {
       "image": "assets/bryan.jpeg",
@@ -81,19 +63,23 @@
       "social": ""
     }
   ],
-  "logistics": [
+  "archives": [
+    {
+      "image": "assets/steffi.jpg",
+      "name": "Steffi Tan",
+      "title": "Web Lecturer",
+      "social": "@staph.e"
+    },
     {
       "image": "assets/tyler.jpg",
       "name": "Tyler Sameshima",
-      "title": "Course Lead, Logistics",
-      "description": "Hey all! I'm Tyler, a third year majoring in CS. In my free time, I like playing video games, listening to music, and learning new languages. Feel free to reach out if you want to talk!",
+      "title": "Logistics",
       "social": "@tysameshima"
     },
     {
       "image": "assets/tony.jpg",
       "name": "Tony Hong",
-      "title": "iOS Lead, Logistics",
-      "description": "Hello! I'm Tony and I'm currently a junior studying EECS. Some of my academic/industry interests are backend engineering and systems engineering. I also enjoy playing badminton, watching kdramas/anime, and listening to music during my free time.",
+      "title": "iOS Lecturer, Logistics",
       "social": "@tshong"
     }
   ]
