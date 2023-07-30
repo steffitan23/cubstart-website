@@ -16,8 +16,8 @@ Welcome to the iOS development track.
 | 6    | API Integration  | Discussion 4/OH   | HW 6: Guess the Dog! |
 | 7    | Swift Data  | Discussion 5/OH | HW 7: TBD |
 | 8    | Firebase | Discussion 6/OH  | HW 8: TBD |
-| 9    | Multiplatform Support | Discussion 7/OH | HW 9: TBD |
-| 10   | Publishing to the App Store | Final Project OH | HW 10: Review |
+| 9    | Multiplatform Support | Discussion 7/OH | HW 9: Review |
+| 10   | Publishing to the App Store | Final Project OH | |
 | 11   | No Class (Thanksgiving Holiday) |  | Due TBD: Final Project Checkpoint   |
 | 12   | Guest Lecture | Final Project OH | Prep for Demo Day!  |
 | 13   | No Lecture (Demo Week) | | Due TBD: Final Project |
