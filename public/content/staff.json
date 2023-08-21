@@ -4,8 +4,15 @@
       "image": "assets/andy.jpg",
       "name": "Andy Huang",
       "title": "Course Lead & iOS Lecturer",
-      "description": "Hi! I’m Andy and I’m a fourth year studying CS. I spend way too much time on Netflix and watching anime! Feel free to talk to me if you have show recommendations or have questions regarding iOS development!",
+      "description": "Hi! I'm Andy, a fourth year studying CS.",
       "social": "@andyy_huang"
+    },
+    {
+      "image": "assets/justin.jpg",
+      "name": "Justin Wong",
+      "title": "iOS Lecturer",
+      "description": "Hello World! I'm a second year EECS & HUGEEE 🍎 Fanboy. I love to build iOS apps, delve into geopolitics, and get caffeinated on :coffee:️ in my free time. Feel free to contact me, and let's geek out together!",
+      "social": "@j_wongwiz"
     },
     {
       "name": "Madhav Varshney",
@@ -26,41 +33,6 @@
       "title": "iOS TA",
       "description": "Hi! I'm Abinaya - a first year double majoring in Data Science and CRS. I'm really interested in climate tech and food systems, and I love croissants, embroidery, journalling, and coding on the weekends. Super excited to meet you all and see where we go this semester <3 ",
       "social": "513-293-4206"
-    },
-    {
-    "image": "assets/enya.jpg",
-    "name": "Enya Do",
-    "title": "iOS TA",
-    "description": "Hello, I'm Enya! I'm a first year studying computer science. I love digital art/design, consuming ungodly amounts of caffeine in all forms, and cubstart (of course)!",
-    "social": "@enyaado"
-    },
-    {
-      "image": "assets/alex.jpg",
-      "name": "Alexander Goldberg",
-      "title": "Web TA",
-      "description": "I'm a second year CS + Legal Studies major. Ask me about fencing, hiking, cooking, or the circadian rhythms of malaria parasites.",
-      "social": "@alex.gberg"
-    },
-    {
-      "image": "assets/bryan.jpeg",
-      "name": "Bryan Chu",
-      "title": "Web TA",
-      "description": "Hi! I’m a junior studying CS from Saratoga, California. In my free time, I like to be active and exercise as well as binge k-dramas. I’m also a big Warriors and 49ers fan. Feel free to reach out to me about anything!",
-      "social": "@bryannchu"
-    },
-    {
-      "image": "assets/nick.jpg",
-      "name": "Nick Jiang",
-      "title": "Web TA",
-      "description": "Hello! I’m a second year CS and philosophy student passionate about building high-impact products. I love biking, reading, and talking with people in all places and times!",
-      "social": "@nickhjiang"
-    },
-    {
-      "image": "assets/pratyush.png",
-      "name": "Pratyush Sharma",
-      "title": "Web TA",
-      "description": "Hello, my name is Pratyush, I am a third year student majoring in Computer Science. Feel free to reach out if you have any questions about the course!",
-      "social": ""
     }
   ],
   "archives": [
