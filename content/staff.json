@@ -4,7 +4,7 @@
       "image": "assets/andy.jpg",
       "name": "Andy Huang",
       "title": "Course Lead & iOS Lecturer",
-      "description": "Hi! I'm Andy, a fourth year studying CS. I like playing badminton and eating hot pot! 🍲🏸",
+      "description": "Hi there! I'm Andy, a fourth year studying CS. I like playing badminton and eating hot pot! 🍲🏸",
       "social": "@andyy_huang"
     },
     {
@@ -33,6 +33,13 @@
       "title": "iOS TA",
       "description": "Hi! I'm Abinaya - a second year double majoring in Data Science and CRS. I'm really interested in climate tech and food systems, and I love croissants, embroidery, journalling, and coding on the weekends. Super excited to meet you all and see where we go this semester <3 ",
       "social": "513-293-4206"
+    },
+    {
+      "image": "assets/kartik.jpg",
+      "name": "Kartik Punia",
+      "title": "iOS TA",
+      "description": "Hi! I’m Kartik, a third year CS major. I love spending time in nature 🌲, playing basketball 🏀, and eating mexican food 🌯! Reach out if you need anything.",
+      "social": "@_kartikpunia"
     }
   ],
   "archives": [
