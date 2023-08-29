@@ -41,6 +41,7 @@ function HomePage(props) {
                     <div className='button-container'>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>
                     </div>
+                    <p><em>*Decisions will be released 1-3 days after applications close</em></p>
                     {/*<b>Applications have closed for Spring 2023. We'll see you in Fall! </b> */}
                     <br/>
                     <div className="stats-wrapper">

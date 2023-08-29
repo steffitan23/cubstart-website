@@ -1,6 +1,6 @@
 **Course Designation:** CS 198-075, CS 198-750
 
-**Facilitators:** Andy Huang, Jessica Ng, Madhav Varshney
+**Facilitators:** Andy Huang, Madhav Varshney, Jessica Ng
 
 **EECS Dept. Sponsor:** Justin Yokota
 
@@ -8,11 +8,11 @@
 
 ## Course Overview
 
-Central to many aspects of software engineering, full stack web development using modern tech stacks is often overlooked by traditional course offerings. The difficulty of acquiring these developmental skillsets is undeniable, especially for those with no prior/limited experience wanting to break into tech. CS 198-75 provides unique weekly guided full-stack projects, mentorship, and technical workshops. The final project of the semester will be dedicated to applying your skills to develop a viable product/application with a team.
+Central to many aspects of software engineering, full stack development using modern tech stacks is often overlooked by traditional course offerings. The difficulty of acquiring these developmental skillsets is undeniable, especially for those with no prior/limited experience wanting to break into tech. Cubstart provides unique weekly guided full-stack projects, mentorship, and technical workshops. The final project of the semester will be dedicated to applying your skills to develop a viable product/application with a team.
 
 ## Course Material
 
-The course content is split into lectures, optional labs, homework, and a final project. Your final project will be in teams of up to 4, so you can team up with friends or find teammates in lab and lecture. We will also have an option for random groupiings for those who don't have groups.
+The course content is split into lectures, labs, homework, and a final project. Your final project will be in teams of up to 4, so you can team up with friends or find teammates in lab and lecture. We will also have an option for random groupiings for those who don't have groups.
 
 ## Course Requirements
 
@@ -30,9 +30,7 @@ The weekly lectures are intended to give an introduction to the contents covered
 
 ## Labs
 
-Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps.
-
-They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. Those who do not wish to complete an assignment in its entirety for a certain week, can come to the lab section and attempt the homework for the entire duration. You can receive full credit for the homework assignment regardless of completion (based on effort, TAs will check you off). 
+Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps. They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. 
 
 Web: Labs consist of a mini-lecture reviewing past topics, introducton of new concepts, and potentially a short lab assignment depending on the week. The first hour is required. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
 
@@ -73,7 +71,7 @@ The last 4 weeks will be dedicated to your final project, which is ideating and 
 
 ## Late Work
 
-Each student is allowed up to **3 slip days** throughout the semester. Slip days are applicable to the homeworks. Each slip day is equivalent to a 24-hour extension. You may use multiple slip days back-to-back. Using a slip day does not require any notice; they will simply be applied at the end of the semester to maximize your overall grade. Slip days will be subtracted from each student on the team at the same time. Outside of slip days, late work will receive a 10% grade deduction for every day after the deadline that the work is submitted. There are no slip days for Final Project: Demo Day, as your project must be completed and ready by the presentation date.
+No late work is accepted. Homework and the final project must be turned in on time or you will receive no credit. If you need an extension, email cubstart@calhacks.io.
 
 ## Academic Honesty
 
