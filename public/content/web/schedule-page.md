@@ -8,7 +8,7 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
-| 1    | Introduction to HTML and the Web   | Lab 1  | [HW 1: HTML Basics](#/hw/web/hw1)     |
+| 1    | Introduction to HTML and the Web   | Lab 1  | HW 1: HTML Basics     |
 | 2    | CSS Basics and Browser Developer Tools                             | Lab 2   | HW 2: Personal Portfolio |
 | 3    | Javascript Basics  | Lab 3 | HW 3: JavaScript Playground                                    |
 | 4    | Using Git and Deployment (with Github Pages) & Introduction to APIs     | Lab 4            | HW 4: Deployment   |

@@ -1,39 +1,3 @@
-.banner {
-  width: 100vw;
-  height: 100px;
-  background-color: var(--main-color);
-  color: white;
-  font-weight: 700;
-  font-size: 23px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: grow 1s ease-in-out;
-  border-top: 2px solid var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
-}
-
-.banner p{
-  animation: fadeIn 2s ease;
-  margin: 0;
-}
-
-@keyframes grow {
-  0% { height: 0px;
-  }
-  100% {
-    height: 100px;
-  }
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .header-text {
     background-color: var(--main-bg-color);
 }
