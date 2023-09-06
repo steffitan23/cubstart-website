@@ -6,6 +6,8 @@ Lab: Fridays 4:00pm-6:00pm @ Physics 3
 Welcome to the full-stack web development track.
 Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gradescope.com) with code 2PGYZV. 
 
+First day of lecture: Sept 11, 2023
+
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
 | 1    | Introduction to HTML and the Web   | Lab 1  | HW 1: HTML Basics     |
