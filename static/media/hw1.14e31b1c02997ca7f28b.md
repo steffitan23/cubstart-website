@@ -9,7 +9,7 @@ We need to create a folder that will hold all of the site's content, including i
 2. Open your text editor of choice in the folder and create a new file. 
 3. Save (Ctrl/Command + S) that new file in your "Cubstart Web" folder and name it **index.html**.
     - Think of this as the homepage of your site!
-4. **OPTIONAL**: If you want to use your own images on your site, create a new folder within your "Cubstart Web" folder named "**assets**".
+4. Create a new folder within your "Cubstart Web" folder named "**assets**".
     - This "assets" folder is where you can put images from your local computer that you want to display on your site (e.g. a selfie)
 
 At the end of setup, your **Cubstart Web** folder should look something like this:
@@ -45,16 +45,17 @@ But if you need some help, here's some starter code below:
 
 ## Requirements for Your Site
 
-To make sure you get the hang of the basics we covered in lecture, we'll be checking your final site for the following tags and elements
+To make sure you get the hang of the basics we covered in lecture, we'll be checking your final site for the following tags and elements:
 
 - A **title** tag in the HTML `<head>` → Name your site.
 - At least 2 sets of **div tags** → Organize your website into sections.
 - **Headings** → Let us know what each section is about.
 - **Paragraph** tags → What do you have to say about your site?
+- Bolded, italicized, or underlined text using the appropriate HTML tags.
+- A **list** of anything! You can list your top musical artists, the your personal ranking of the best libraries at Cal, etc.
 - An **image** → Spice up your site with some visual elements! 🔥
-    - You can use images from your own computer or from the internet with a url! If you need help, feel free to ask any of the course staff.
+    - You can use images from your own computer or from the internet with a url. If you need help, make an Ed post!
 - A **link** to a site of your choice → use the `<a>` tags to link your favorite Youtube videos, a Spotify playlist, your social media handles, etc.
-    - You can make text or images into a link!
 
 ## Viewing Your Site
 
