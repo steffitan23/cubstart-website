@@ -8,13 +8,13 @@ Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                                                                                                                                                                                                 | Lab Section                                       | Homework/Project                                  |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1    | Introduction, Git, Designing an iOS App w/ Figma                                                                                               | Discussion 1/OH | HW 1: TBD           |
+| 1    | Introduction, Git, Designing an iOS App w/ Figma                                                                                               | Discussion 1/OH | HW 1: Figma           |
 | 2    | Swift and SwiftUI Fundamentals  | Discussion 2/OH  | HW 2: Tic-Tac-Toe |
 | 3    | Dataflow, MVVM, and Lists | Discussion 3/OH | HW 3: Checklist |
 | 4    | Navigation and Presentation | Discussion 4/OH | HW 4: TBD  |
 | 5    | Intro to Animations   | Discussion 5/OH      | HW 5: Coin Toss |
 | 6    | API Integration  | Discussion 6/OH   | HW 6: Guess the Dog! |
-| 7    | Swift Data  | Discussion 7/OH | HW 7: TBD |
+| 7    | Swift Data  | Discussion 7/OH | HW 7: Flash Cards |
 | 8    | Firebase | Discussion 8/OH  | HW 8: TBD |
 | 9    | Multiplatform Support | Discussion 9/OH | HW 9: Review |
 | 10   | Publishing to the App Store | Final Project OH | |
