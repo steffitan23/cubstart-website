@@ -1,164 +1,176 @@
-# Introduction👋
+# Introduction 👋
 
-Welcome to CS198-75! For your first homework, you’ll be designing an iOS app that functions as a mobile bookstore. There will be no coding involved. This HW is simply to get you familiar with UI design using Figma and introduce you to common elements of iOS apps. You can expect the format of all released homeworks here on out to be in this guided doc format. Feel free to collaborate with your teammates on this homework, but remember that everyone has to submit their own homework.
+Welcome to Cubstart! For your first homework, you’ll be designing an iOS app of your choosing! There will be no coding involved and you will just be familiarizing yourself with UI design using Figma. Feel free to collaborate with your teammates on this homework, but remember that everyone has to submit their own homework.
 
-## Setup🛠
+---
 
-For this project (and all projects), you will have a project skeleton to work off of. Majority of the time, the skeleton will be actual code to pull from GitHub. However, since there is no code involved in this project, we have provided a link to a Figma template instead (later on). Please follow the instructions below. They will walk you through creating a Figma account and setting yourself up for the HW! If you have any trouble with the process, email jordan@calhacks.io. I’ll try to help you out from there.
-
-# Part 1: Getting Started w/ Figma 🖍
-
-No real tasks here. Just make sure you are able to create an account and familiarize yourself with the basic tools Figma has to offer. Feel free to reference this section as you navigate the rest of the homework! 
+# Getting Started 📝
 
 ## Creating an Account
 
-- Go to this link: [https://www.figma.com/signup](https://www.figma.com/signup)
-- Make an account with your BERKELEY email. Students get the PRO plan for free which just means you can have unlimited collaborators. But make sure to confirm your email!
+- Go to [figma.com/signup](http://figma.com/signup)
+- Use your Berkeley email to access your free Figma Pro Plan
 
-## Basics of Figma
+## Figma Basics
 
-I’ll go into the basics of Figma here that should be enough to get you started. A lot of it is pretty intuitive and gets easier with practice (as all things are). However, if you do get stuck or want to read more in depth on what you can do with Figma, I definitely recommend checking out this article: [https://uxplanet.org/figma-all-you-need-to-know-156b52b88e54](https://uxplanet.org/figma-all-you-need-to-know-156b52b88e54)
+Once you’re logged into your Figma account, create a new “New design file” by clicking on the button at the top of your homepage.
 
-### Creating a New File
+<img src="/assets/hw1ios/start.png"/>
 
-Your screen should look something like this! To create a new file, select “New design file”. 
+At the top of your screen is your toolbar. You can also rename your file here.
 
-<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324136-37846926-e145-4069-9562-1f7b6fa14a21.png"/>
+<img src="/assets/hw1ios/tools.png"/>
 
-You can rename the file by selecting “Untitled” and typing in the name of your file. Save the draft by selecting the drop down arrow next to the title of your file and selecting “move to project”. Select your team and project.
+From left to right, here is a brief description of each of your tools:
 
-### Editing Your File
+- Move tool 🚗 - Allows you to interact with elements
+- Frame tool 🖼️ - Imports frames for you to design
+- Rectangle tool 🟥 - Inserts rectangles and other shapes/images
+- Pen tool 🖋️ - Draws/writes directly onto the design
+- Text tool ✏️ - Inserts text onto the design
+- Resources tool 🧩 - Allows you to access different resources/plugins
+- Hand tool ✋ - Allows you to grab and move elements
+- Comment tool 💬 - Adds comments
 
-Your design file will pop up with the workspace blank and this bar on top.
+Select the Frame tool.
 
-<img width="833" alt="image" src="https://user-images.githubusercontent.com/71753465/190324257-43903a07-3e66-4023-9210-2603ca59fa7e.png"/>
+<img src="/assets/hw1ios/frame.png" style="width: 40%; height: 100%; padding: 20px 0;"/>
 
-On this bar, you will see your design tools in the top left. From left to right:
+Create an iPhone 14 frame by selecting it on the righthand menu.
 
-- The arrow is your select tool
-- The hashtag allows you to select frames to import (we will use this in the next part!)
-- The square lets you add in shapes
-- The pen nib is your pen/writing utensil
-- The T is to add text
-- The hand lets you grab and move elements around
-- The chat bubble lets you add comments to your file (useful when collaborating!)
+<img src="/assets/hw1ios/prototype.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
 
-*The right panel allows for more precise customization
+Use the Rectangle tool to shape a basic button. Explore the different design tools that are available to you on the right menu, the most important ones are captioned.
 
-<img width="633" alt="image" src="https://user-images.githubusercontent.com/71753465/190324302-493c594c-0c4d-410d-9a10-49b96deab4a5.png"/>
+<img src="/assets/hw1ios/capsule.png" style="width: 75%; height: 75%; padding: 20px 0;"/>
 
+Next use the Text tool to label the button. Explore the design tools available to you, although most of them are the same as the Rectangle tool. There is a unique text editing section that should look familiar to you. Here you can control font, size, bolding, etc.
 
-### Layers & Groups
+<img src="/assets/hw1ios/text.png" style="width: 75%; height: 75%; padding: 20px 0;"/>
 
-Layers and groups appear on the left panel. Every element you add creates its own new layer. You can drag and drop layers in the left panel to change how the elements present themselves in respect to other elements. You can also group elements together so that they can be manipulated all at once. I would recommend getting comfortable with using layers and groups to keep your designs organized and manageable.
+Create another iPhone 14 frame and then select the Prototype tab on the top-right of the righthand menu. Here you can map out which frames interacting with an element will take you to.
 
-This is one of my old projects. As you can see, the frame “Home” has elements tiered below it. I made groups of “HomeNavBar”, “Ad”, “About Us”, and “How It Works”. Beneath each group title are the elements that are grouped within. One thing to note is the order in which elements are listed. You can see that “Log In” is listed above “Rectangle 12”. This is done so that the “Log In” text is shown on top of the rectangle (see below). If this were flipped, the “Log In” would be hidden behind the rectangle.
+<img src="/assets/hw1ios/share.png" style="width: 40%; height: 40%; padding: 20px 0;"/>
 
-![image](https://user-images.githubusercontent.com/71753465/190324346-e93e0e10-f0c0-459e-93c5-463452856ea9.png)
+Select the “Next button” and drag and drop the arrow to the second frame.
 
+<img src="/assets/hw1ios/flow.png" style="width: 75%; height: 75%; padding: 20px 0;"/>
 
-# Part 2: Building the Mobile Bookstore 📚
+Here you can also change the type of interaction required to trigger the frame change as well as the animation used in the frame change.
 
-In this homework, you will be designing and prototyping an app that functions as a mobile bookstore. You will be designing the “Welcome Screen”, “Log In” Page, “Shop” Page, “Profile”, and “Chat”. You will also practice creating flow to actually prototype and present the app as if it was fully functional. Throughout this task, I will share what I created. However, I want you to take creative liberties and make this app your own. Feel free to deviate from my designs and elaborate on what I have. I want to see everyone’s unique takes on the task. This is your opportunity to mess around and try things out :)
+Finally, click on the play button in the top right to simulate your prototype!
 
-## Task 1: Setup
+<img src="/assets/hw1ios/play.png" style="width: 40%; height: 40%; padding: 20px 0;"/>
 
-I’ve provided a template for you that will provide some icons you might find useful in designing your app!
+Now it’s your turn!
 
-1. Click this link: [https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1](https://www.figma.com/file/bamNPIXphcj4Dwv8rMTkpi/HW1-Template?node-id=0%3A1)
-2. Click on the drop down arrow next to title and select “Duplicate to your drafts”
-    
-<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324395-e9cd97f9-7cfc-48dc-94e1-ffa8776bf324.png"/>
-    
-3. Open the duplicated draft, save it to your projects, and rename this file to whatever you’d like 
+---
 
-## Task 2: Welcome Screen
+# Creating Your App 🤖
 
-First, we want to build the “Welcome Screen” or “Title Screen”. This is the first page that comes up when you open the app. In our case, this page will simply have the title of the app, a logo, and some sort of prompt telling the user to continue.
+Today you will be designing an app of your choosing! However, there are some requirements on the pages and elements included, which I’ll help guide you through. We’ll also be creating the design flow so that the app’s UI can be presented as a functional prototype. Be creative since this is your chance to mess around and learn how to use Figma!
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325254-0116f2d4-f4bf-488f-ac8f-0a6b42edc12c.png">
+## Welcome Screen
 
-1. First things first, we need to add in this frame. We will be modeling for an iPhone 13 so click on Frames in the toolbar and select “iPhone 13/13 Pro”
-    1. Add the frame to the workspace and title the frame “Welcome Screen”
-2. I would suggest you fill the frame with a color. This can be done in the right panel when you click on your frame. Alternatively (and this is what I would prefer you try out), add in some shapes and design your welcome screen! My example is pretty boring with just the red, if I do say so myself.
-3. Add in a logo too! I stole an image off the internet and edited it for mine. But you can play around with shapes and make your own, or there are a lot of websites that offer free icons as well.
-    1. [https://www.flaticon.com/packs?search-type=packs&order_by=2&color=1&stroke=2](https://www.flaticon.com/packs?search-type=packs&order_by=2&color=1&stroke=2)
-    2. [https://www.notion.vip/icons/](https://www.notion.vip/icons/)
-4. Finally, use the Text tool to give your welcome screen a title and prompt for user interaction
+Let’s start by building a welcome screen for our app. Here you should display your app’s logo and name as well as a button/prompt to go to the next screen.
 
-## Task 3: Log In
+<p align="center">
+  <img src="/assets/hw1ios/bearShop.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-Next up: Log In Page! Here you will be creating the log in page for users of your app. This is an essential page to any app so make sure you are comfortable with the various elements that go into this design.
+For my app, I will be designing a local shopping platform called bearShop! Remember, to begin your project create a new iPhone 14 frame using the Frame tool. Use the Text and Rectangle tools to add any elements or images that you need. Please check the Getting Started section if you forgot how to use a tool.
 
-These are the elements you must include:
+<p align="center">
+  <img src="/assets/hw1ios/assets.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-1. Log In title
-2. Username and Password input areas
-3. Sign In button
-4. Sign Up button
+You can also change the background color of the frame by selecting it in the lefthand menu and changing the fill in the righthand menu.
 
-Once again, take creative liberties here. Think about what you would like to see on a log in page and make sure to match the aesthetic of your Welcome screen.
+You can find a logo for your app on the internet or design your own. [Here’s a site](https://icons8.com/) where you can find free-to-use images for your logo or any other icons in your app.
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325198-4ab406b7-1941-4001-8f72-fff46a6f39cb.png">
+## Log-in Screen
 
+Next you’ll be creating a log-in screen for your users. Here you must include elements where a user could enter their username, password, and then log-in. While prototyping in Figma however, you don’t actually have to be able to type into the boxes.
 
-Tip: Try to mess around with the rounded corners of rectangles to get button shapes and softer input areas
+<p align="center">
+  <img src="/assets/hw1ios/login.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-## Task 4: Shop + NavBar
+You can also create additional frames for “Forgot password?” and “Sign up” buttons for extra practice.
 
-In this task, you will create the Shop page as well as the Navigation Bar. The Shop Page should include a title, a search bar, categories of books, and titles of books. 
+## Main Page
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325318-c93b5c0a-087e-482f-a815-ff9c9fc12ef5.png">
+This is where the main functionality of your app should go. In my example, this is where users can shop for different categories of products. Make sure to use aesthetically pleasing colors and elements to make the UI look good for the user!
 
-The NavBar should be located at the bottom and host the icons that can be clicked on to bring the user to other pages. In our case, the NavBar will have “buttons” for Profile, Shop, and Chat.
+<p align="center">
+  <img src="/assets/hw1ios/shop.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-## Task 5: Profile
+You are also expected to include a navigation bar with at least four icons at the bottom of the page. I’ll be guiding you through the creation of two of the other pages, but the fourth one will be up to you! Remember you can look [here](https://icons8.com/) for icons to use.
 
-The Profile page is a little more involved with a lot more information on it. For this task, practice getting your alignment and centering just right. Also, this is a good opportunity to see how layers and groups work! Follow my example in what should be included. 
+## Profile
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325399-709fd0ec-3171-49fc-aceb-169dc79b7cd1.png">
+Here you will be creating a profile page for the user. You should make sure to include space for a profile picture, the user’s account information, a log-out button, and at least one other section relevant to your app. Feel free to reference my example to see what should be included.
 
-As an extra challenge, add in another section for your Profile page that isn’t included in mine! Don’t forget the NavBar!
+<p align="center">
+  <img src="/assets/hw1ios/profile.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-## Task 6: Chat
+## Settings
 
-The Chat page is relatively simple. Follow my example below to see the general format and what elements to include.
+Here you will creating a settings page for the user. The users should see some basic settings that they can control relevant to your app. There should be at least four different setting options/buttons on this page.
 
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/71753465/190325452-2660333c-6845-4e93-a388-e0b0bfc31a6f.png">
+<p align="center">
+  <img src="/assets/hw1ios/settings.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-Just cause, I want you to add in 3 more elements into your Chat page. I made mine very minimalistic and definitely lacks a lot of functionality. It’s your job to fix that.
+## Your Page
 
-## Task 7: Prototype Flow
+Lastly, you will be creating a page unique to your app that you’re interested in adding! As an example, in my app I added a chat page.
 
-Finally, we want to be able to turn this a somewhat functional app! Or at least a prototype that you can present showing what the app should do... 
+<p align="center">
+  <img src="/assets/hw1ios/chat.png" style="width: 30%; height: 30%; padding: 20px 0;"/>
+</p>
 
-Here’s what should be possible: (using my design as an example)
+Feel free to create whatever page you see fit, but make sure you have at least five unique elements on this page. Try to be creative and utilize any tools you haven’t explored yet. If you are unsure of what you want your page to be, feel free to create your own version of a chat page.
 
-1. Pressing “Tap to Begin” brings you to the Log In Screen
-2. Pressing “Go!” brings you to the Profile Page
-3. On NavBar, no matter what screen is showing at the time, pressing the User Icon brings you to the Profile Page, pressing the Shopping Cart brings you to the Shop Page, and pressing the Chat Bubble brings you to the Chat Page.
+---
 
-In order to do all of these things, you want to select the Prototype tab on the right side.
+# Design Flow 🌊
 
-Now, you can click on elements and drag their connections to other pages. You can also select which actions will direct these transitions to happen. Should look something like this when done:
+Finally, we will wrap this Figma prototype up by creating our design flow. As you may recall from earlier, all you need to do is select the “Prototype” tab in the top-right and then drag and drop arrows from elements to frames! Here’s an example of what your finished product should look like.
 
-<img width="433" alt="image" src="https://user-images.githubusercontent.com/71753465/190324577-adcd7c27-617c-49ab-996b-2810c5254d22.png"/>
+<p align="center">
+  <img src="/assets/hw1ios/complete.png" style="width: 75%; height: 75%; padding: 20px 0;"/>
+</p>
 
-Once you’ve implemented all of the actions and transitions, press the play button in the top right to demo your app!
+To begin with, make sure that you can tap on your welcome screen to go to the log-in screen. Then you should be able to press your log-in button to go to your main page. At this point you should assign flows for each of your many interactions. In particular, ensure that your navigation bar is fully functional in every frame and can take you to any other page on the bar. Feel free to play with the interaction and animation types of any of the flows. The result should be a fully-functional prototype of your app’s UI!
 
-# Part 3: Get Creative 🖼️
+---
 
-## Task 1: Your Own Page
+# Submission 🎉
 
-For this final task, I want you to create another page in the app. This page should be of your own design and have a separate function than that of which you already made. These are the following requirements and what we will look for when grading:
+You’ve finished your first homework assignment! To submit, please take a video of your fully-functional Figma prototype and submit it to Gradescope. Make sure that all your frames are interacted with in the video!
 
-1. New icon on NavBar
-2. At least 7 elements
-3. Multiple colors and shapes
-4. Integrated functionality within the prototype
+If you want to make sure you’ve completed all the assignment’s requirements, please reference this checklist:
 
-Be creative!
-
-# Submission
-
-To submit this project, take a screen recording of your prototyping of your Figma file. Click through all of the transitions so that all the pages are shown and interacted with. Save this screen recording and submit to [Gradescope](https://www.gradescope.com/courses/444363).
+- [ ]  Welcome screen
+    - [ ]  App name
+    - [ ]  Logo
+- [ ]  Log-in screen
+    - [ ]  Username/password fields
+    - [ ]  Log-in button
+- [ ]  Main page
+- [ ]  Profile page
+    - [ ]  Profile picture
+    - [ ]  Profile information
+    - [ ]  Log-out button
+    - [ ]  At least 1 more unique section
+- [ ]  Settings page
+    - [ ]  At least 4 unique settings options/buttons
+- [ ]  “Your” page
+    - [ ]  At least 5 unique elements
+    - [ ]  Relevant to your app
+- [ ]  Navigation bar
+    - [ ]  At least 4 icons
+- [ ]  Functional design flow
