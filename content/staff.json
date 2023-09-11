@@ -15,8 +15,11 @@
       "social": "@j_wongwiz"
     },
     {
+      "image": "assets/madhav.jpg",
       "name": "Madhav Varshney",
-      "title": "Web Lead & Lecturer"
+      "title": "Web Lead & Lecturer",
+      "description": "Hello! I'm Madhav, a fourth-year CS major. I enjoy building stuff, often webapps, and like to hike or play musical instruments in my free time. I'm excited to meet you all!",
+      "social": "@madhavarshney"
     },
     {
       "image": "assets/jessica.jpg",
