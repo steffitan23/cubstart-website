@@ -8,7 +8,7 @@ Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                                                                                                                                                                                                 | Lab Section                                       | Homework/Project                                  |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1    | Introduction, Git, Designing an iOS App w/ Figma                                                                                               | Discussion 1/OH | [HW 1: Figma](/#/hw/ios/hw1)           |
+| 1    | Introduction, Git, Designing an iOS App w/ Figma [Slides](https://docs.google.com/presentation/d/1XpSawpMiuogNzjQaUC2v8Y0IGLR-WnHuU1mZzR49AvM/edit?usp=sharing)                                                                                               | Discussion 1/OH | [HW 1: Figma](/#/hw/ios/hw1)           |
 | 2    | Swift and SwiftUI Fundamentals  | Discussion 2/OH  | HW 2: Tic-Tac-Toe |
 | 3    | Dataflow, MVVM, and Lists | Discussion 3/OH | HW 3: Checklist |
 | 4    | Navigation and Presentation | Discussion 4/OH | HW 4: TBD  |
