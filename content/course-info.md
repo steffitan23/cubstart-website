@@ -53,7 +53,7 @@ iOS: Lab is optional.
 | 5%          | Final Project Checkpoint: Design Mockup |
 | 45%         | Final Project: Demo Day                 |
 
-This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to 2 unexcused absences across lectures. If you have an extenuating circumstance and have used up your 2 unexcused absences, please make a private Ed post on EdStem.
+This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to 2 unexcused absences across lectures. If you have an extenuating circumstance and have used up your 2 unexcused absences, please fill out our excused absences form. Excused absences do not impact your grade.
 
 **More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
 
@@ -61,7 +61,7 @@ This course is fast-paced and highly cumulative. Your success will depend on you
 
 ## Homeworks
 
-The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. 
+The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. Homeworks are graded on completion.
 
 You have **2 homework drops**, but any more than that and your homework grade will be affected.
 
