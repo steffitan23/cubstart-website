@@ -5,14 +5,14 @@ Before we even get into the HTML, we will need to set up a couple things. First,
 
 We need to create a folder that will hold all of the site's content, including its HTML file.
 
-1. Create a folder on your computer called **"Cubstart Web"** or whatever you want to name it.
+1. Create a folder on your computer called **"cubstart_web"** or whatever you want to name it.
 2. Open your text editor of choice in the folder and create a new file. 
-3. Save (Ctrl/Command + S) that new file in your "Cubstart Web" folder and name it **index.html**.
+3. Save (Ctrl/Command + S) that new file in your "cubstart_web" folder and name it **index.html**.
     - Think of this as the homepage of your site!
-4. Create a new folder within your "Cubstart Web" folder named "**assets**".
+4. Create a new folder within your "cubstart_web" folder named "**assets**".
     - This "assets" folder is where you can put images from your local computer that you want to display on your site (e.g. a selfie)
 
-At the end of setup, your **Cubstart Web** folder should look something like this:
+At the end of setup, your **cubstart_web** folder should look something like this:
 
 ![](/assets/hw1-setup.png)
 
