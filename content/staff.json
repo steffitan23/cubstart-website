@@ -64,6 +64,18 @@
       "title": "Web TA",
       "description": "Hi! I’m a junior studying CS from Saratoga, California. In my free time, I like to be active and exercise as well as binge k-dramas. I’m also a big Warriors and 49ers fan. Feel free to reach out to me about anything!",
       "social": "@bryannchu"
+    }, {
+      "image": "assets/matt.png",
+      "name": "Matt Hamilton",
+      "title": "Web TA",
+      "description": "Hey everyone! I’m a senior at UCB majoring in EECS. Fascinated about the outer-space and black holes :hole:.  I love going to the gym & learn something new. Please reach out if you need any help, advise, or just want to know more about some cool web dev libraries. See you soon!",
+      "social": "@matt.here0"
+    }, {
+      "image": "assets/amber.png",
+      "name": "Amber Wang",
+      "title": "Web TA",
+      "description": "Hey y'all! I'm Amber, a second-year CS student from LA. I like playing video games and getting free food. Down to grab a smoothie or smth if you want to talk :)))",
+      "social": "@amberwang002"
     }
   ],
   "archives": [
