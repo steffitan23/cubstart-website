@@ -10,7 +10,7 @@ First day of lecture: Sept 11, 2023
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
-| 1    | Introduction to HTML and the Web   | Lab 1  | HW 1: HTML Basics     |
+| 1    | Introduction to HTML and the Web [Slides](https://docs.google.com/presentation/d/1UcdmKHfwTBa-SnR3G23D9XF4xvvrNzXVHSYczy8U_ug/edit)   | Lab 1  | [HW 1: HTML Basics](#/hw/web/hw1)     |
 | 2    | CSS Basics and Browser Developer Tools                             | Lab 2   | HW 2: Personal Portfolio |
 | 3    | Javascript Basics  | Lab 3 | HW 3: JavaScript Playground                                    |
 | 4    | Using Git and Deployment (with Github Pages) & Introduction to APIs     | Lab 4            | HW 4: Deployment   |
