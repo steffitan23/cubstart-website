@@ -61,7 +61,7 @@ This course is fast-paced and highly cumulative. Your success will depend on you
 
 ## Homeworks
 
-The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. They are graded on completion.
+The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. Homeworks are graded on completion.
 
 You have **2 homework drops**, but any more than that and your homework grade will be affected.
 
