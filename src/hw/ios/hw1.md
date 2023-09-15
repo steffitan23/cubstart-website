@@ -9,7 +9,7 @@ Welcome to Cubstart! For your first homework, you’ll be designing an iOS app o
 ## Creating an Account
 
 - Go to [figma.com/signup](http://figma.com/signup)
-- Use your Berkeley email to access your free Figma Pro Plan
+- Use your Berkeley email to access your free Figma Pro Plan (You DO NOT need Figma Pro for this assignment, getting verified for the Pro Plan may take time)
 
 ## Figma Basics
 
@@ -150,7 +150,7 @@ To begin with, make sure that you can tap on your welcome screen to go to the lo
 
 # Submission 🎉
 
-You’ve finished your first homework assignment! To submit, please take a video of your fully-functional Figma prototype and submit it to Gradescope. Make sure that all your frames are interacted with in the video!
+You’ve finished your first homework assignment! Please submit a link to your fully-functional Figma prototype to Gradescope. Make sure that all your frames can be interacted with!
 
 If you want to make sure you’ve completed all the assignment’s requirements, please reference this checklist:
 
