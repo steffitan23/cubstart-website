@@ -32,7 +32,7 @@ The weekly lectures are intended to give an introduction to the contents covered
 
 Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps. They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. 
 
-Web: Labs consist of a mini-lecture reviewing past topics, introducton of new concepts, and potentially a short lab assignment depending on the week. The first hour is required. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
+Web: The first hour of lab is required. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
 
 iOS: Lab is optional.
 
