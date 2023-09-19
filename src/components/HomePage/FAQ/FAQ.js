@@ -27,7 +27,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">What is the attendance policy?</div>
-      <div className="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. Labs are optional, but are a good way to learn hands-on and get help with the homework for that week.</div>
+      <div className="accordion__content">All of our lectures and labs will be held synchronously in person, and you'll be expected to attend lecture each week. For the iOS track, labs are optional. For the Web track, the first hour of lab is required and the second hour serves as optional OH.</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
