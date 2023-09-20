@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 ## Objective
-This objective of this homework is to help you through the entire process of making a simple website in HTML/CSS, as well as test your knowledge of the box model, flexbox, and media queries.
+The objective of this homework is to help you through the entire process of making a simple website in HTML/CSS, as well as test your knowledge of the box model, flexbox, and other CSS properties.
 
 The best way to learn web development is through making your own projects. A personal, resume-style website is pretty useful and a great starter project, so that's what we're making today. 
 
@@ -16,27 +16,33 @@ Don't worry, we're going to customize it with our own information and style it h
 ## Setting up your Files
 Before we start building our website, we need to create a folder that will hold all of the site's content, with both the HTML and CSS files this time. 
 
-1. Download the skeleton for the homework [here](assets/hw2/hw2-skeleton.zip).
+1. Download the skeleton for the homework [here](assets/hw2/fa23-hw2-skeleton.zip).
 2. Unzip the file. 
 _**Windows:** To unzip the entire folder, right-click the .zip file. Select Extract All, and then follow the instructions._
 _**macOS:** Double-click the .zip file. The unzipped item appears in the same folder as the .zip file. If you want to, you can delete the .zip file._
 3. Run your text editor of choice. We like VSCode.
-4. Open the **hw2-skeleton** folder. We'll be editing **index.html** and **styles.css**.
+4. Open the **hw2-skeleton** folder. We'll be editing **index.html** and **styles.css**. If the CSS file name is red, that means there are errors in that file. Don't worry, you will be fixing those errors later!
+
+## Viewing Your Site
+
+To see what your site looks like in a web browser, double click on the **index.html** file and it should open your page on your default browser! 
+
+If you're viewing your site while you're still making edits, you can refresh the page to see your changes.
 
 ## Part 1: HTML
 
 Now that you're all set up, let's get creating!
 
-The skeleton in **index.html** looks like this:
-<img src="/assets/hw2/skeleton-hw2.PNG" style="width: 90%; padding: 20px 0;"/>
+The **index.html** file looks like this:
+<img src="/assets/hw2/hw2-skel-pic.png" style="width: 90%; padding: 20px 0;"/>
 
-Answer the questions in **index.html** from top to bottom by editing the HTML code. There is extra information on each questions below if you need help!
+Answer the questions in **index.html** skeleton code from top to bottom by editing the HTML code. There is extra information on each questions below if you need help!
 
-### Question 0. Add an image here (a picture of you!) Make sure it's a square.
-_We use img tags to insert images. What HTML attribute can we add to tell the browser where to get our image file from?_
+### Question 0. Add an image of your here.
+_We use img tags to insert images. Review the Lecture 2 slides if you are having trouble defining a path to your image!_
 
-### Question 1. Add headings to each of these sections! Make this heading smaller than your name.
-_Remember what heading tags we've gone through in class (h1, h2, h3, h4, etc.). what happens to the text size as the number after the 'h' gets bigger?_
+### Question 1. Add a unique id to each section wrapper.
+_Make sure that these ids make sense in the context of your web page. Suggested id names would be "education", "experience", "projects", and "contact". After you do this, each element with the class "section-wrapper" will also have an id. This will be useful later when we style each individual section!_
 
 ### Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em).
 _You can experiment with the 3 tags to see which you like best!_
@@ -59,26 +65,16 @@ _You'll have more fun with these wrappers later!_
 ### Question 5. Add a link to your favorite social media account to the text "here".
 _Still remember what anchor tags (a) are? How do we use them within a paragraph tag (p)?_
 
-## Viewing Your Site
-
-Want to see what your site looks like in a web browser? 
-
-Double click on the **index.html** file and it should open your page on your default browser! 
-
-If you're viewing your site while you're still making edits, you can refresh the page to see your changes.
-
-_This will be super useful when doing the CSS part!_ 
-
 ## Browser Developer Tools
 
 We touched on this a little during lecture, but you should try experimenting with browser developer tools a lot more. They help a lot when you're making your own projects, for debugging. 
 
 ### How to access Browser Developer Tools
-Double click on the **index.html** files and it should open your page on your default browser.
+Open your page on a browser by double clicking on the **index.html** file, if you haven't already done so.
 
-In most browsers, the keyboard shortcut is **Ctrl + Shift + I (macOS: ⌘ + ⌥ + I)** to pull up the developer tools. For Internet Explorer and Edge, hit **F12** instead.
+Right-click anywhere on the page and click **"Inspect"**.
 
-You can also right-click anywhere on the page and click **"Inspect"**.
+You can also use a keyboard shortcut. In most browsers, the keyboard shortcut is **Ctrl + Shift + I (macOS: ⌘ + ⌥ + I)** to pull up the developer tools. For Internet Explorer and Edge, hit **F12** instead.
 
 Your browser window should now look something like this:
 
@@ -104,7 +100,7 @@ You can see how it would look on iPhone, tablets, and more specifically using th
 ## Part 2: CSS
 Now we're moving on to the more fun, pretty part of web development: styling!
 
-Go ahead and open the styles.css skeleton. 
+Open the styles.css skeleton. 
 
 ### Question 0: Importing Fonts
 We didn't go through this during lecture, but fonts and typography are a big part of making your website look good!
@@ -123,40 +119,36 @@ If we want to use fonts outside of the default fonts (Arial, Times New Roman, Ve
 font-family: 'Roboto', sans-serif;
 ~~~
 
-### Question 1. Add a hover effect for your h1 tag and img tag! You can change the background-color, color, opacity, or anything you want.
-_Learn more about hovers [here](https://www.w3schools.com/cssref/sel_hover.asp)._
+Inside the body selector, set the text color to be a color of your choosing. Also, center all of the text in the body. To do this, check out the text-align property [here](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
 
-### Question 2. Add margin, padding, and borders to section tags!
-_Learn more about the Box Model [here](https://www.w3schools.com/css/css_boxmodel.asp)._
+### Question 1. Add a border, border radius, box shadow, or whatever other styling you'd like to your image!
+_We recommend doing a quick google search of the property you want to use to find the syntax! MDN Web Docs and W3Schools are both reliable resources._
+
+### Question 2: Select the h1 tag and add a hover effect! You can change the background-color, color, opacity, or anything you want.
+_For a refresher on psuedo-classes and hovers, you can reference the Lecture 2 slides or click [here](https://www.w3schools.com/cssref/sel_hover.asp)._
 
 ### Question 3. Add different background colors for all the different sections, by selecting them via ids.
-_Hint: Use the # symbol._
+_Hint: Use the # symbol to select ids._
 
-### Question 4a. This is a little tougher! Use CSS Flexbox to display your experiences as shown in the diagram.
-_You don't have to get the gap value perfect, it's up to you!_
-If you're stuck, highlight the text below!
-<p style="color:black;background-color:black;width:400px;">gap: 20px;</br>
-    display: flex;</br>
-    flex-wrap: wrap;</br>
-    justify-content: center;</p>
+### Question 4. Add margin, padding, and borders to the section-wrapper class!
+_Learn more about the Box Model [here](https://www.w3schools.com/css/css_boxmodel.asp)._
 
-### Question 4b. Let's take a break! Add a hover effect to each experience-list-item div. 
+### Skip Question 5a for now! You'll learn about Flexbox in Lab 2!
+### Question 5a. This is a little tougher! Use CSS Flexbox to display your experiences as shown in the diagram.
+_Here is more information about [gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap) and [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)._
+
+### Question 5b. Add a background color to the experience-list-item class.
+_Notice how we have not set a background color to the experience-list-item class, but rather these elements have inherited the background color property from one of its parents._
+
+### Question 5c. Let's take a break! Add a hover effect to each experience-list-item div. 
 _Some cool CSS hover effects [here](https://css-tricks.com/css-link-hover-effects/)!_
 
-### Question 5. Use CSS Flexbox or Grid and add hover effects for the Projects Section, but use different hover effects from the Experiences section!
-_Some cool Flexbox/Grid layouts [here](https://1linelayouts.glitch.me/)!_
+### Question 6. Use CSS Flexbox and hover effects for the Projects Section, just as you did for the Experience Section!
+_This should look similar to our CSS code for the Experience Section._
 
-### Question 6. Make your link pretty!
-_Change the background-color, color, font-weight, or whatever you want!_
-
-### Question 7. Let's make this a little more mobile-friendly! Use a media query/breakpoint to make project-list-item and experience-list-item divs have a width of 100% for smaller devices.
-_More on media queries [here](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). You can add as many breakpoints as you want!_
-
-This should be the result:
-
-<video width="100%" controls>
-  <source src="/assets/hw2/responsive-oski.mp4" type="video/mp4">
-</video>
+### Question 7. Make your link pretty!
+_Make your link look like the one below! Hint: set text-decoration to none, add padding, and use the box-shadow property. The background color in the image below is rgb(42, 65, 167)._
+<img src="/assets/hw2/hw2-link.png" style="width: 50%; padding: 20px 0;"/>
 
 # Optional: Do whatever you want!
 You've covered the basics of HTML/CSS, congratulations! Now, make the website yours. Add as many sections as you want, change the colors, add images, and more. We want to see you have fun with it!
