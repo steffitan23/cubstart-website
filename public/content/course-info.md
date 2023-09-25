@@ -12,7 +12,7 @@ Central to many aspects of software engineering, full stack development using mo
 
 ## Course Material
 
-The course content is split into lectures, labs, homework, and a final project. Your final project will be in teams of up to 4, so you can team up with friends or find teammates in lab and lecture. We will also have an option for random groupiings for those who don't have groups.
+The course content is split into lectures, labs, homeworks, and a final project. Your final project will be in teams of up to 4, so you can team up with friends or find teammates in lab and lecture. We will also have an option for random groupings for those who don't have groups.
 
 ## Course Requirements
 
@@ -26,36 +26,42 @@ If participating in the iOS track, you’ll need a MacBook with macOS 12.5 (Mont
 
 ## Lectures
 
-The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. Attendance will be recorded.
+The weekly lectures are intended to give an introduction to the contents covered by the homework due the following week. The general structure will be a conceptual overview of the highlighted topics, use cases, and real-life examples. **Attendance is mandatory** and will be recorded.
 
 ## Labs
 
 Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps. They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. 
 
-Web: The first hour of lab is required. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
+**Web**: The **first hour of lab is required**. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
 
-iOS: Lab is optional.
+**iOS**: Lab is **optional**.
 
 ## Learning Goals
+- Achieving full-stack web development or iOS development proficiency
 - Tackling detailed project specs
 - Project ideation and developing software in a team
 - Crafting a project proposal as well as setting and meeting checkpoints
-- Designing application mockups 
-- Achieving full-stack web development proficiency
+- Designing application mockups
 
 
 ## Grading Breakdown
 
 | **Weight**  | **Assignment**                          |
 | ----------- | --------------------------------------- |
-| 20%         | Lecture Attendance                      |
+| 20%         | Attendance                      |
 | 30%         | Weekly Homeworks                        |
 | 5%          | Final Project Checkpoint: Design Mockup |
 | 45%         | Final Project: Demo Day                 |
 
-This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up, so you are allowed up to 2 unexcused absences across lectures. If you have an extenuating circumstance and have used up your 2 unexcused absences, please fill out our excused absences form. Excused absences do not impact your grade.
+This course is fast-paced and highly cumulative. Your success will depend on your active and consistent participation. However, we understand that emergencies and personal matters do come up.
 
-**More than 2 incomplete homeworks will result in a NP and a failure to complete the final project will result in a NP.**
+**Web**: You are allowed up to **4 unexcused absences across lectures and labs**.
+
+**iOS**: You are allowed up to **2 unexcused absences across lectures**.
+
+If you have extenuating circumstances and have used up your unexcused absences, please fill out our excused absences form. Excused absences do not impact your grade.
+
+**More than 2 incomplete homeworks or failing to complete the final project will result in a NP.**
 
 **If an individual receives unanimously poor peer evaluations from their final project teammates, their grade will be impacted, and consistently low effort will result in a NP.**
 
@@ -63,7 +69,7 @@ This course is fast-paced and highly cumulative. Your success will depend on you
 
 The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. Homeworks are graded on completion.
 
-You have **2 homework drops**, but any more than that and your homework grade will be affected.
+You have **2 homework drops** and your homework grade will be affected if you miss any more than that.
 
 ## Final Project
 
@@ -75,11 +81,11 @@ No late work is accepted. Homework and the final project must be turned in on ti
 
 ## Academic Honesty
 
-You may only work with your teams on the projects. Respect licenses of libraries that you use, and do not sabotage other students (there is no curve). Follow UC Berkeley’s Honor Code.
+Homework assignments should be completed individually. You may only work in teams on the final project. Respect licenses of libraries that you use, and do not sabotage other students (there is no curve). Follow UC Berkeley’s Honor Code.
 
 ## Accomodations
 
-If you need any accommodations, please contact the course staff (cubstart@calhacks.io) with the subject line “[CUBSTART] ACCOMMODATIONS REQUEST -YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
+If you need any accommodations, please contact the course staff (cubstart@calhacks.io) with the subject line “[CUBSTART] ACCOMMODATIONS REQUEST - YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
 
 ## Other Inquiries
 
@@ -88,5 +94,5 @@ Any other inquiries should be directed to Edstem or cubstart@calhacks.io with �
 ## Resources & Tools
 - Edstem - Forum to discuss course content and assignments with your peers.
 - Website - View course content and deadlines.
-- Gradescope - Submit assignments
+- Gradescope - Submit assignments.
 
