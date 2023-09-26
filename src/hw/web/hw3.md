@@ -46,6 +46,7 @@ function increaseCount() {
 }
 ```
 ## Part 3b: EventListeners
+**We will cover EventListeners in Lab 3! Skip parts (3b and 3c) until then.**
 If you want something to happen when an element is clicked, in this case your buttons, you want to use event listeners. An event listener generally accepts 2 parameters, the first being the <mark>type of event</mark> as a string (in this case, <mark>"click"</mark>), and the second being the <mark>name of the function</mark> that executes when the event occurs on the associated element. Click [here](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) for some examples.
 
 ```javascript
@@ -101,7 +102,7 @@ const taskList = document.getElementById("tasks");
 ```
 
 ## Part 6: Dynamic Element Creation
-**Wait until Lab 3 to complete this part of the HW!**
+**If some of this code doesn't make sense to you, wait until Lab 3 to complete this part of the HW.**
 Because we want a list item element to be added to the unordered todo list when the submit button is clicked, we have added an event listener on the submit button to do just that. 
 
 So what specifically should happen when the submit button is clicked? 
