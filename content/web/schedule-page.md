@@ -10,8 +10,8 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
 | 1    | Intro to HTML and the Web [Slides](https://docs.google.com/presentation/d/1UcdmKHfwTBa-SnR3G23D9XF4xvvrNzXVHSYczy8U_ug/edit)   | [Lab 1: HTML & CSS](https://docs.google.com/presentation/d/1tkhwUvDWGnJZLTWv4SCvPtd1XPH0GKAS7aatzZsj2aA/edit?usp=sharing)  | [HW 1: HTML Basics](#/hw/web/hw1)     |
 | 2    | CSS Basics [Slides](https://docs.google.com/presentation/d/1ugHZ98EAWHLxFj5mVykZiH-1CGMEICS2mljBivZ-pW4/edit?usp=sharing)                             | [Lab 2: CSS Part 2](https://docs.google.com/presentation/d/17mnkmwGId_L5ChDgGw7dma11CRWvPfuSPcBpSzKHyso/edit?usp=sharing)   | [HW 2: Personal Portfolio](#/hw/web/hw2) |
-| 3    | JavaScript Basics  | Lab 3 | HW 3: JavaScript Playground                                    |
-| 4    | Intro to APIs, Git, and Deployment (GitHub Pages)     | Lab 4            | HW 4: Deployment   |
+| 3    | [JavaScript Basics](https://docs.google.com/presentation/d/1Im8zmJ5fdH7KwN3bdAO6tGDB6ZWTSaFxDEKE9uyPd2c/edit?usp=sharing)  | Lab 3: JS Part 2 | HW 3: JavaScript Playground                                    |
+| 4    | Intro to APIs     | Lab 4: Git and Deployment (GitHub Pages)            | HW 4: Basic APIs & DOM   |
 | 5    | APIs, JSONs, Postman | Lab 5   | HW 5: OpenWeatherMap API   |
 | 6    | Express/NodeJS    | Lab 6            | HW 6: Quizlet-ish Part 1 |
 | 7    | MongoDB, Mongoose    | Lab 7           | HW 7: Quizlet-ish Part 2 |
