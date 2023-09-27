@@ -107,7 +107,7 @@ We didn't go through this during lecture, but fonts and typography are a big par
 
 If we want to use fonts outside of the default fonts (Arial, Times New Roman, Verdana, etc.) provided, we need to import them so the browser can use them.
 
-1. Go to [fonts.google.com](https://www.fonts.google.com) and pick a font you like!
+1. Go to [fonts.google.com](https://fonts.google.com) and pick a font you like!
 2. Click on the font and scroll down to see all the font weights.
 <img src="/assets/hw2/google-fonts.png" style="width: 50%; padding: 20px 0;"/>
 3. Click on all the font weights you want (just click all of them if you're not sure!).
