@@ -137,7 +137,7 @@ clearButton.addEventListener("click", () => {
 You'll notice there is another event listener on the taskName element which listens on "input." This is an example of another event triggering a function's execution. On "input" means every time the input field is modified (e.g. typing a new letter). So you'll notice that whenever you type the value "Cal Hacks" into your task input field, the count display on your previous counter app turns blue!
  
 ```javascript
-taskName.addEventListener("input", () => {
+inputTask.addEventListener("input", () => {
     if (inputTask.value == "Cal Hacks") {
         countDisplay.style.color = "steelblue";
     }
