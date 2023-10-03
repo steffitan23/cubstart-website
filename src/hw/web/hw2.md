@@ -133,7 +133,6 @@ _Hint: Use the # symbol to select ids._
 ### Question 4. Add margin, padding, and borders to the section-wrapper class!
 _Learn more about the Box Model [here](https://www.w3schools.com/css/css_boxmodel.asp)._
 
-### Skip Question 5a for now! You'll learn about Flexbox in Lab 2!
 ### Question 5a. This is a little tougher! Use CSS Flexbox to display your experiences as shown in the diagram.
 _Here is more information about [gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap) and [justify-content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)._
 
