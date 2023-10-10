@@ -12,7 +12,7 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 | 2    | CSS Basics [Slides](https://docs.google.com/presentation/d/1ugHZ98EAWHLxFj5mVykZiH-1CGMEICS2mljBivZ-pW4/edit?usp=sharing)                             | [Lab 2: CSS Part 2](https://docs.google.com/presentation/d/17mnkmwGId_L5ChDgGw7dma11CRWvPfuSPcBpSzKHyso/edit?usp=sharing)   | [HW 2: Personal Portfolio](#/hw/web/hw2)[Solutions](assets/hw2/fa23-hw2-sols.zip) |
 | 3    | JavaScript Basics [Slides](https://docs.google.com/presentation/d/1Im8zmJ5fdH7KwN3bdAO6tGDB6ZWTSaFxDEKE9uyPd2c/edit?usp=sharing)  | [Lab 3: JS Part 2](https://docs.google.com/presentation/d/1EiH2TaVNuTlPSAgVICgpqxkasS5FHBkQJEB_OgLjZGA/edit?usp=sharing) | [HW 3: JavaScript Playground](#/hw/web/hw3)                                    |
 | 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/15Z_9r2RvC0lpORgY1B36PMHhgbIkXNM1JqkaOLHg-c4/edit?usp=sharing)     | [Lab 4: Git and Deployment (GitHub Pages)](https://docs.google.com/presentation/d/1KprpWhlgZ5rbIASS2qnnD-JidRpqUHWMN1WHkvI_wyE/edit?usp=sharing)            | [HW 4: Basic APIs](https://www.gradescope.com)   |
-| 5    | APIs, JSONs, Postman | Lab 5   | HW 5: OpenWeatherMap API   |
+| 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1ha5HZkX6n1dUgOoSL7OravcbBiPFDkwXZZjLxDOp7Ho/edit?usp=sharing) | Lab 5   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)   |
 | 6    | Express/NodeJS    | Lab 6            | HW 6: Quizlet-ish Part 1 |
 | 7    | MongoDB, Mongoose    | Lab 7           | HW 7: Quizlet-ish Part 2 |
 | 8    | React I   | Lab 8 | HW 8: Social Media Website
