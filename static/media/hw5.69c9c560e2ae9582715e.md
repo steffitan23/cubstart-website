@@ -23,7 +23,7 @@ _Create an [OpenWeatherMap](https://openweathermap.org/) account. Use the defaul
 _How do you access HTML elements in the DOM? Reference Slide 27 of [Lab 3 Slides](https://docs.google.com/presentation/d/1EiH2TaVNuTlPSAgVICgpqxkasS5FHBkQJEB_OgLjZGA/edit#slide=id.g283ffe34518_0_9)_
 
 # CLUE 2
-_Here is the format of the URL for an API call to get coordinates from a location name. <mark>Ignore state code, country code, and limit.</mark> Be sure to set the <b>q</b> parameter to the <i>city</i> argument that's passed into getLatLon and set the <b>appid</b> parameter to your unique apiKey._
+_Here is the format of the URL for an API call to get coordinates from a location name. Everything in orange text are query parameters. <mark>Ignore state code, country code, and limit.</mark> Be sure to set the <b>q</b> parameter to the <i>city</i> argument that's passed into getLatLon and set the <b>appid</b> parameter to your unique apiKey._
 <img src="/assets/hw5/geocoder-api.PNG" style="padding: 20px 0;"/>
 
 # CLUE 3
