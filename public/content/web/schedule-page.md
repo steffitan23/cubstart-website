@@ -12,12 +12,12 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 | 2    | CSS Basics [Slides](https://docs.google.com/presentation/d/1ugHZ98EAWHLxFj5mVykZiH-1CGMEICS2mljBivZ-pW4/edit?usp=sharing)                             | [Lab 2: CSS Part 2](https://docs.google.com/presentation/d/17mnkmwGId_L5ChDgGw7dma11CRWvPfuSPcBpSzKHyso/edit?usp=sharing)   | [HW 2: Personal Portfolio](#/hw/web/hw2)[Solutions](assets/hw2/fa23-hw2-sols.zip) |
 | 3    | JavaScript Basics [Slides](https://docs.google.com/presentation/d/1Im8zmJ5fdH7KwN3bdAO6tGDB6ZWTSaFxDEKE9uyPd2c/edit?usp=sharing)  | [Lab 3: JS Part 2](https://docs.google.com/presentation/d/1EiH2TaVNuTlPSAgVICgpqxkasS5FHBkQJEB_OgLjZGA/edit?usp=sharing) | [HW 3: JavaScript Playground](#/hw/web/hw3)                                    |
 | 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/15Z_9r2RvC0lpORgY1B36PMHhgbIkXNM1JqkaOLHg-c4/edit?usp=sharing)     | [Lab 4: Git and Deployment (GitHub Pages)](https://docs.google.com/presentation/d/1KprpWhlgZ5rbIASS2qnnD-JidRpqUHWMN1WHkvI_wyE/edit?usp=sharing)            | [HW 4: Basic APIs](https://www.gradescope.com)   |
-| 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1ha5HZkX6n1dUgOoSL7OravcbBiPFDkwXZZjLxDOp7Ho/edit?usp=sharing) | [Lab 5](https://docs.google.com/presentation/d/104qL6ysa1rN0Pd_BcSGpo4Sxpz0nemziMy0nCq-UArY/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)   |
-| 6    | Node & Express [Slides](https://docs.google.com/presentation/d/1A7mK0etb0R4Jm3CJkXKHRWdmWKRgjjcOkT-JYMgELQE/edit?usp=sharing)    | Lab 6            | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
+| 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1ha5HZkX6n1dUgOoSL7OravcbBiPFDkwXZZjLxDOp7Ho/edit?usp=sharing) | [Lab 5: API Keys & HW Walkthrough](https://docs.google.com/presentation/d/104qL6ysa1rN0Pd_BcSGpo4Sxpz0nemziMy0nCq-UArY/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)   |
+| 6    | Node & Express [Slides](https://docs.google.com/presentation/d/1A7mK0etb0R4Jm3CJkXKHRWdmWKRgjjcOkT-JYMgELQE/edit?usp=sharing)    | [Lab 6: Building an API with Express](https://docs.google.com/presentation/d/1gMRWMoVL2xXBnthyaMY8ySSu9v_8Jm3-IuoShh-ptBU/edit)            | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
 | 7    | MongoDB, Mongoose    | Lab 7           | HW 7: Quizlet-ish Part 2 |
 | 8    | React I   | Lab 8 | HW 8: Social Media Website
-| 9    | React II | Lab 9            | HW 9: TBD    |
-| 10   | Auth0   | Lab 10           | Final Project |
-| 11   | No Class (Thanksgiving Holiday)  
-| 12   | Final Project OH        | Final Project OH                      | Prep for Demo Day  |
-| 13   | Demo Day!  |
+| 9    | React II | Lab 9: Review + Project | Project Checkpoint    |
+| 10   | Comprehensive Review   | Project OH           | Project Work |
+| 11   | No Class (Thanksgiving)
+| 12   | Project OH        | Demo Day!                      |   |
+| 13   | Wohoo 🎉  |
