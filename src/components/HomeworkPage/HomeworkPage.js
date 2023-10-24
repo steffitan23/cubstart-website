@@ -25,7 +25,6 @@ function HomeworkPage() {
     return (
       <div>
     <div className="text-wrapper">
-        <h1>Homework {homeworkNumber}</h1>
         <ReactMarkdown children={homework} remarkPlugins={[gfm, remarkSlug, remarkToc]} rehypePlugins={[rehypeRaw]}
         components={{em: ({node, ...props}) => <ul className="ul-special" {...props} />, 
         a: ({node, ...props}) => <a className="a-special" {...props}>{props.children}</a>,

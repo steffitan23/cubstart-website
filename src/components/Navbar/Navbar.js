@@ -70,7 +70,6 @@ function Navbar() {
             <Route path = '/info' element={ <CourseInfoPage/> } />
             <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
             <Route path = '/lab/:type/:id' element={ <LabPage/> } />
-            <Route path = '/spec' element={ <ProjectSpecPage/> } />
             <Route path='/sponsorship' element={ <Sponsorship />}/>
             <Route path='/solutions' element={ <SolutionsPage />}/>
           </Routes>
