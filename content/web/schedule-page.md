@@ -3,8 +3,7 @@ Lecture: Mondays 5:00pm-6:00pm @ Soda 306
 Lab: Fridays 4:00pm-6:00pm @ Physics 3
 
 ## Announcements
-Welcome to the full-stack web development track.
-Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gradescope.com) with code 2PGYZV. Lecture & lab recordings will be published [here](https://drive.google.com/drive/folders/1XAtjL4oDUdC0uf3Nsrkdogoi8p3U37nr?usp=drive_link).
+Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gradescope.com) with code 2PGYZV. Recordings will be published [here](https://drive.google.com/drive/folders/1XAtjL4oDUdC0uf3Nsrkdogoi8p3U37nr?usp=drive_link).
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
