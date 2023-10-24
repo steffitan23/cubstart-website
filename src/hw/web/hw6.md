@@ -73,8 +73,8 @@ We should be able to retrieve all our flashcards too. Don't forget to set the re
 <img src="/assets/hw6/postman-4.PNG" style="width: 100%; padding: 20px 0;"/>
 
 </br></br></br>
-## Retrieve a specific card by their id with "/cards/:index" endpoint
-Sending a GET request to "/cards/2" should retrieve the card at index 2 in the flashcards array (unless your array has less than 3 cards).
+## Retrieve a specific card by their id with "/card/:index" endpoint
+Sending a GET request to "/card/2" should retrieve the card at index 2 in the flashcards array (unless your array has less than 3 cards).
 
 <img src="/assets/hw6/postman-5.PNG" style="width: 100%; padding: 20px 0;"/>
 
@@ -92,7 +92,7 @@ In the example below, we have deleted the card at index 1 and our API responded 
 </br>
 
 # Submission
-For HW 6, <mark>**only submit your index.js file**</mark>. This is because node_modules is quite a large folder and might some time to upload. Zip your index.js file and submit to Gradescope!
+For HW 6, <mark>**only submit your index.js file**</mark>. This is because node_modules is quite a large folder and it might take some time to upload. Zip your index.js file and submit to Gradescope!
 
 **To zip a folder/file:**
 _**Windows:** Right-click the folder **fa23-hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
