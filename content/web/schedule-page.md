@@ -13,7 +13,7 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 | 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/15Z_9r2RvC0lpORgY1B36PMHhgbIkXNM1JqkaOLHg-c4/edit?usp=sharing)     | [Lab 4: Git and Deployment (GitHub Pages)](https://docs.google.com/presentation/d/1KprpWhlgZ5rbIASS2qnnD-JidRpqUHWMN1WHkvI_wyE/edit?usp=sharing)            | [HW 4: Basic APIs](https://www.gradescope.com)   |
 | 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1ha5HZkX6n1dUgOoSL7OravcbBiPFDkwXZZjLxDOp7Ho/edit?usp=sharing) | [Lab 5: API Keys & HW Walkthrough](https://docs.google.com/presentation/d/104qL6ysa1rN0Pd_BcSGpo4Sxpz0nemziMy0nCq-UArY/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)   |
 | 6    | Node & Express [Slides](https://docs.google.com/presentation/d/1A7mK0etb0R4Jm3CJkXKHRWdmWKRgjjcOkT-JYMgELQE/edit?usp=sharing)    | [Lab 6: Building an API with Express](https://docs.google.com/presentation/d/1gMRWMoVL2xXBnthyaMY8ySSu9v_8Jm3-IuoShh-ptBU/edit)            | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
-| 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1kc3av3aQUS5Bgjg98HzY377VKWyeJ4lQcVywC6D-rTM/edit#slide=id.g17893090c69_0_142)    | Lab 7           | HW 7: Quizlet-ish Part 2 |
+| 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1kc3av3aQUS5Bgjg98HzY377VKWyeJ4lQcVywC6D-rTM/edit#slide=id.g17893090c69_0_142)    | Lab 7           | [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) |
 | 8    | Backend Continued   | Lab 8 | HW 8: Social Media Website
 | 9    | Intro to React | Lab 9: Review + Project | Project Checkpoint    |
 | 10   | Comprehensive Review   | Project OH           | Project Work |
