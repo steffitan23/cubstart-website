@@ -3,23 +3,26 @@
 ## Minimum Requirements
 Your goal is to design and develop a web application that incorporates the following:
 
-1. Structure and Style (HTML + CSS)
-2. Functionality (JavaScript)
+1. Content, Structure, and Style (HTML + CSS)
+2. Interactivity (JavaScript)
 3. An API (whether that be a pre-existing API or a custom server)
 
-Other than that, the final project is very open-ended! Be creative and build anything you want!
+Other than that, the final project is very open-ended! Be creative and build anything you want.
 
 If you meet these 3 requirements, then you will receive a passing grade. If you do not meet these minimum requirements but we notice that you've put in substantial effort into the final project and have dedicated time to Cubstart through lecture/lab/OH attendance and homework submissions, then you will also pass!
 
 For those with prior programming/web dev experience, we encourage you to go above and beyond the minimum requirements! Impress us!
 <br></br>
+
 ## Part 1: Final Project Checkpoint (Project Proposal + Design Mockup)
-<b>Deadline:</b> 3 November 2023, 10 points</br>
+**Deadline:** Friday, November 10
+
+**Grade:** 10 points
 
 The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it and what tools/skills you need, and receive feedback on the feasibility of your idea.
 
 ### Project Proposal
-_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/BjVdnTa2j91xUDWL7) to address each of the following points by 3 November 2023._
+_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/BjVdnTa2j91xUDWL7) to address each of the following points by Friday, November 10._
 - **Group number**
 
 - **Names of each group member**
@@ -34,9 +37,6 @@ _<b>Action Item:</b> With your project team, submit [this Google Form](https://f
 
 - **Design Mockup PDF**: Choose one group member to submit a PDF file of your design mockup (specifications below).
 
-<hr/>
-
-<br>
 
 ### Design Mockup
 
@@ -54,7 +54,7 @@ Use any design tool that you'd like! We recommend Figma.
 
 Demo Day will be held on **1 December 2023**. You will present your project to the class! You'll be given **2 minutes to present your project + 1 minute for Q&A.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon if you had more time, other functionalities that would be cool to implement, etc. You are welcome to create a slide deck if desired. We may give out prizes :)
 
-We will set up a Gradescope assignment to submit your web application files.
+We will set up a Gradescope assignment to submit your project code.
 <br></br>
 ## Grading Rubric
 | Points | Category                         | Description                                                                                                                                                  |
