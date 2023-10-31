@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.card p, h3{
+.card p, .card h3{
     margin: 5px;
 }
 
