@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.982e87cf.css",
-    "main.js": "/static/js/main.3573690a.js",
+    "main.js": "/static/js/main.0a5bf60b.js",
     "static/media/hw2.md": "/static/media/hw2.e5e1b67c13433dba9a61.md",
     "static/media/hw6.md": "/static/media/hw6.91d9d85d54a9f0145ccc.md",
     "static/media/hw3.md": "/static/media/hw3.e7fe2e6d12bd2aa82fa4.md",
@@ -10,7 +10,7 @@
     "static/media/hw1.md": "/static/media/hw1.ada8fda450a924959140.md",
     "static/media/hw7.md": "/static/media/hw7.262460d97b9912baa83f.md",
     "static/media/hw5.md": "/static/media/hw5.69c9c560e2ae9582715e.md",
-    "static/media/fa23-hw8.md": "/static/media/fa23-hw8.32235507177bbca82511.md",
+    "static/media/fa23-hw8.md": "/static/media/fa23-hw8.df236a011d62544dcc19.md",
     "static/media/hw9.md": "/static/media/hw9.2b38650321151fe30447.md",
     "static/media/spec.md": "/static/media/spec.8cb67e18df948c264e3c.md",
     "static/media/lab1.md": "/static/media/lab1.9481edd640b8fb24e51d.md",
@@ -18,10 +18,10 @@
     "static/media/lab2.md": "/static/media/lab2.d2b57759e405362ffd8f.md",
     "index.html": "/index.html",
     "main.982e87cf.css.map": "/static/css/main.982e87cf.css.map",
-    "main.3573690a.js.map": "/static/js/main.3573690a.js.map"
+    "main.0a5bf60b.js.map": "/static/js/main.0a5bf60b.js.map"
   },
   "entrypoints": [
     "static/css/main.982e87cf.css",
-    "static/js/main.3573690a.js"
+    "static/js/main.0a5bf60b.js"
   ]
 }

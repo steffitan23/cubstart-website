@@ -125,9 +125,9 @@ _Run **node index.js** in the terminal._
 
 Run **node index.js** and use Postman to test your API. Check your MongoDB collection to ensure that your POST requests are working.
 
-<img src="/assets/hw8/books-post.png" style="width: 100%; padding: 20px 0;"/>
-<img src="/assets/hw8/books-get.png" style="width: 100%; padding: 20px 0;"/>
-<img src="/assets/hw8/books-mongo.png" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw8/book-post.png" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw8/book-get.png" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw8/book-mongo.png" style="width: 100%; padding: 20px 0;"/>
 
 
 Congrats, you are done! Hopefully you have a fully functional server!
