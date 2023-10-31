@@ -1,6 +1,6 @@
 # Create your own API!
 
-In this homework, you will practice creating a basic API server using Node, Express, MongoDB, and mongoose. This time, there's no skeleton code! But don't worry, we will guide you through this assignment step by step.
+In this homework, you will review how to create an API server using Node, Express, MongoDB, and mongoose. There's no skeleton code. We will guide you through this assignment step by step.
 
 ## Part 0:
 
@@ -98,7 +98,7 @@ app.post("/new", async (req, res) => {
 Define a GET endpoint that will retrieve all documents.
 
 ```js
-app.get("/allBooks", async (req, res) => {
+app.get("/books", async (req, res) => {
     const books = await Book.find()
     res.send(books)
 })
@@ -114,10 +114,10 @@ app.listen(3000, () => {
 
 _Run **node index.js** in the terminal._
 
- If an error occurs, it will be printed in the terminal. If the error looks like this: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted.", then follow these steps:
+ If an error occurs, it will be printed in the terminal. If the error looks like this: <code>"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted."</code>, then follow these steps:
 1. Go to MongoDB and on the side menu, go to Security->Network Access.
 2. Click "+Add IP Address".
-3. Copy your IP Address from [here](https://whatismyipaddress.com/).
+3. Copy your IP Address from [here](https://whatismyipaddress.com/) under IPv4.
 4. Paste it into "Access List Entry" and click "Confirm".
 5. Rerun **node index.js**. If you are getting the same error, click "+Add IP Address" and "Allow Access from Anywhere" and "Confirm".
 
@@ -130,9 +130,9 @@ Run **node index.js** and use Postman to test your API. Check your MongoDB colle
 <img src="/assets/hw8/book-mongo.png" style="width: 100%; padding: 20px 0;"/>
 
 
-Congrats, you are done! Hopefully you have a fully functional server!
+Congrats, you are done! You've created a fully functional server!
 
-## OPTIONAL: Create a Frontend
+## +1 POINT EXTRA CREDIT (OPTIONAL): Create a Frontend
 
 Create an **index.html** and **scripts.js** file. Here is some basic frontend code. Modify it to fit your API.
 
@@ -185,7 +185,7 @@ submitPostReq.addEventListener("click", async function () {
 
 submitGetReq.addEventListener("click", async function () {
     list.replaceChildren()
-    const response = await fetch("http://localhost:3000/allBooks")
+    const response = await fetch("http://localhost:3000/books")
     const data = await response.json()
     for (let index = 0; index < data.length; index = index + 1) {
         const bookTitle = data[index].title
@@ -197,7 +197,7 @@ submitGetReq.addEventListener("click", async function () {
 
 ```
 
-Run **node index.js**. Any errors will appear in the terminal. Use **console.log** in the scripts.js file to debug. Open the **index.html** file on a browser and play around with your app!
+Run **node index.js**. Any errors will appear in the terminal. Use **console.log** in the scripts.js file to debug. Open the **index.html** file in a browser and play around with your app!
 
 # Submission
 For this homework, <mark>only submit your index.js file</mark>.
