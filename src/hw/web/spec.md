@@ -50,9 +50,9 @@ Use any design tool that you'd like! We recommend Figma.
 <br>
 
 ## Part 2: Final Project Development + Presentation
-<b>Deadline:</b> 1 December 2023, 40 points
+<b>Deadline:</b> TBD (1 December 2023 OR during dead week), 40 points
 
-Demo Day will be held on **1 December 2023**. You will present your project to the class! You'll be given **2 minutes to present your project + 1 minute for Q&A.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon if you had more time, other functionalities that would be cool to implement, etc. You are welcome to create a slide deck if desired. We may give out prizes :)
+On Demo Day, you will present your project to the class! You'll be given **2 minutes to present your project + 1 minute for Q&A.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon if you had more time, other functionalities that would be cool to implement, etc. You are welcome to create a slide deck if desired. We may give out prizes :)
 
 We will set up a Gradescope assignment to submit your project code.
 <br></br>
