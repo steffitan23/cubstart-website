@@ -55,7 +55,7 @@ async function connect() {
 }
 ```
 
-**Paste your connection string** into the appropriate place. Use the **same password** from the last homework. Note that this password is NOT your account password, but a user password. If you forgot it, on the side menu, go to Security->Database Access->Edit->Edit Password and create a new password.
+**Paste your connection string** into the appropriate place. Use the **same password** from the last homework. Don't forget quotation marks! Note that this password is NOT your account password, but a user password. If you forgot it, on the side menu, go to Security->Database Access->Edit->Edit Password and create a new password.
 
 ## Part 4: Define a Schema and Model
 
@@ -132,7 +132,7 @@ Run **node index.js** and use Postman to test your API. Check your MongoDB colle
 
 Congrats, you are done! You've created a fully functional server!
 
-## +1 POINT EXTRA CREDIT (OPTIONAL): Create a Frontend
+## +2 POINTS EXTRA CREDIT (OPTIONAL): Create a Frontend
 
 Create an **index.html** and **scripts.js** file. Here is some basic frontend code. Modify it to fit your API.
 
