@@ -9,7 +9,7 @@ Your goal is to design and develop a web application that incorporates the follo
 
 Other than that, the final project is very open-ended! Be creative and build anything you want.
 
-If you meet these 3 requirements, then you will receive a passing grade. If you do not meet these minimum requirements but we notice that you've put in substantial effort into the final project and have dedicated time to Cubstart through lecture/lab/OH attendance and homework submissions, then you will also pass!
+If you meet these 3 requirements, then you will pass this course. If you do not meet these minimum requirements but we notice that you've put in substantial effort into the final project and have dedicated time to Cubstart through lecture/lab/OH attendance and homework submissions, then you will also pass!
 
 For those with prior programming/web dev experience, we encourage you to go above and beyond the minimum requirements! Impress us!
 <br></br>
@@ -35,8 +35,7 @@ _<b>Action Item:</b> With your project team, submit [this Google Form](https://f
 
 - **Timeline:** When do you plan to work on certain portions of your project, and in what order? What work will you aim to complete by certain checkpoints? How will you and your group split up the work? Will your group be setting up regular meetings? If so, will they be virtual or in-person?
 
-- **Design Mockup PDF**: Choose one group member to submit a PDF file of your design mockup (specifications below).
-
+- **Design Mockup PDF**: Choose one group member to submit a PDF file of your design mockup to [Gradescope](gradescope.com) and add all other team members as collaboraters to the gradescope submission.
 
 ### Design Mockup
 
@@ -45,7 +44,7 @@ Use any design tool that you'd like! We recommend Figma.
 1. Come up with a design to demonstrate your project idea. Bring your vision to life! Include colors, try different fonts, mess with corner radius or effects like drop shadows. Here is an example.
 <img src="/assets/mockup.png"/>
 
-2. Choose one group member to submit a PDF of your design to Gradescope.
+2. Choose one group member to submit a PDF of your design to Gradescope and add all other team members as collaboraters to the submission.
 
 <br>
 
@@ -66,7 +65,7 @@ We will set up a Gradescope assignment to submit your project code.
 | 5      | **Creativity**                   | How interesting and creative is your web application?                                                                                                    |
 <br></br>
 ## Tips + Advice
-- If you need any help, please attend lab/OH and post on Ed. We may hold Final Project OH outside of the normal OH times, so look out for that.
+- Attend Project Office Hours (check the schedule for dates/times). 
 - Get started early.
 - Collaborate with your group together in person.
 - Reference the materials we have provided you (slides, homeworks, recordings, etc).
