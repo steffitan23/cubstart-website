@@ -15,7 +15,7 @@ For those with prior programming/web dev experience, we encourage you to go abov
 <br></br>
 
 ## Part 1: Final Project Checkpoint (Project Proposal + Design Mockup)
-**Deadline:** Friday, November 10
+**Deadline:** Sunday Nov 12th
 
 **Grade:** 10 points
 

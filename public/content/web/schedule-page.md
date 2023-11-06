@@ -16,7 +16,7 @@ Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gr
 | 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1ha5HZkX6n1dUgOoSL7OravcbBiPFDkwXZZjLxDOp7Ho/edit?usp=sharing) | [Lab 5: API Keys & HW Walkthrough](https://docs.google.com/presentation/d/104qL6ysa1rN0Pd_BcSGpo4Sxpz0nemziMy0nCq-UArY/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)   |
 | 6    | Node & Express [Slides](https://docs.google.com/presentation/d/1A7mK0etb0R4Jm3CJkXKHRWdmWKRgjjcOkT-JYMgELQE/edit?usp=sharing)    | [Lab 6: Building an API with Express](https://docs.google.com/presentation/d/1gMRWMoVL2xXBnthyaMY8ySSu9v_8Jm3-IuoShh-ptBU/edit)            | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
 | 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1kc3av3aQUS5Bgjg98HzY377VKWyeJ4lQcVywC6D-rTM/edit#slide=id.g17893090c69_0_142)    | Lab 7: MongoDB Review           | [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) |
-| 8    | Backend Continued [Slides](https://docs.google.com/presentation/d/1VahUS8xhRltUkG_IJ_mPXCd4-06NrELkoiwYkmRoWJw/edit)  | Lab 8: Figma + Github |  [Final Project Checkpoint Due](#/hw/web/spec) + [HW 8: Create your own API](#/hw/web/fa23-hw8)
+| 8    | Backend Continued [Slides](https://docs.google.com/presentation/d/1VahUS8xhRltUkG_IJ_mPXCd4-06NrELkoiwYkmRoWJw/edit)  | Lab 8: Figma + Github |  [Final Project Checkpoint Due Nov 12](#/hw/web/spec) + [HW 8: Create your own API](#/hw/web/fa23-hw8)
 | 9    | OPTIONAL Lecture: Intro to React | No Lab (Veteran's Day) | [Final Project](#/hw/web/spec) + OPTIONAL HW 9    |
 | 10   | Comprehensive Review   | OPTIONAL Project OH           | [Final Project](#/hw/web/spec) |
 | 11   | No Class (Thanksgiving) | | [Final Project](#/hw/web/spec)
