@@ -89,10 +89,10 @@ If you need any accommodations, please contact the course staff (cubstart@calhac
 
 ## Other Inquiries
 
-Any other inquiries should be directed to Edstem or cubstart@calhacks.io with “[CUBSTART]” in the subject line.
+Any other inquiries should be directed to Ed or cubstart@calhacks.io with “[CUBSTART WEB]”  or "[CUBSTART IOS]" in the subject line.
 
 ## Resources & Tools
-- Edstem - Forum to discuss course content and assignments with your peers.
+- Ed - Forum to discuss course content and assignments with your peers.
 - Website - View course content and deadlines.
 - Gradescope - Submit assignments.
 

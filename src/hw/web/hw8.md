@@ -1,176 +1,209 @@
-# Your First Social Media With React
+# Create your own API!
 
-## Facebook who?
-Ddoski is trying to make the next big thing: a **social media website** for himself and other college bears like him. Unfortunately, Ddoski spent many hours working on his site but he still couldn't manage to complete it. **Finish the code in his project** to make the social media website work!
+In this homework, you will review how to create an API server using Node, Express, MongoDB, and mongoose. There's no skeleton code. We will guide you through this assignment step by step.
 
-Note: The skeleton code provided may feel daunting at first, but don't be intimidated by it! This page should guide you through completing the code with many hints, so please read through and follow along.
+## Part 0:
 
+_No coding for this part! Brainstorm some ideas: what **data** do you want your API to store? What sort of **fields/properties** do you want each MongoDB document to have? What **endpoints** will you implement?_
 
-## Setting up the project
-Make sure you've downloaded Node.js, which you hopefully did in the last homework. We're going to set up a project with an existing `package.json`.
+**Example:**
+The BooksAPI will store a collection of classic novels. Each piece of data will have an title and year. Endpoints will include a POST request that will add a book and a GET request to retrieve a list of all books.
 
-_[Download the skeleton here.](assets/hw8/hw8-skeleton.zip)_
+<mark>Do NOT use the BooksAPI example above.</mark> If you can't think of anything, implement a movies API.
 
-Extract the skeleton `.zip.` Go to your terminal in the extracted `hw8-skeleton` folder and run the command:
+## Part 1: Project Setup
+
+1. Make sure you have **Node.js** installed and have set up a **MongoDB** account.
+2. Create a new folder for this homework somewhere on your computer
+3. Open this folder in VS Code and create an index.js file for your server
+4. Open up the terminal (Terminal->New Terminal in VS Code or default Mac/Windows terminal and change directories to your newly created folder) and run **npm init** (press enter for all questions)
+5. Run the following line in the terminal to install express, body-parser, cors, and mongoose.
 ```bash
-npm install
+npm install express body-parser cors mongoose
 ```
 
-Note: If you see any error related to React versions, use "`npm install --force`"
+## Part 2: Database Setup
 
-Check that all the dependencies are successfully installed (a `node_modules` folder is created).
+Go to MongoDB. Use the same cluster and database as the last homework. Go to this cluster and click **connect**. <br></br>
+<img src="/assets/hw7/connect-mongodb.png" style="width: 50%; padding: 20px 0;"/>
 
-Finally, run
-```bash
-npm start
+Click **MongoDB for VS Code**. Copy the connection string and save for later.
+<img src="/assets/hw7/mongo-url.png" style="width: 50%; padding: 20px 0;"/>
+
+## Part 3: Import modules + connect to MongoDB
+
+Copy and paste this code into your **index.js file**. This code imports the necessary modules and connects to your MongoDB database.
+
+```js
+const express = require("express")
+const app = express()
+
+var cors = require("cors")
+app.use(cors())
+
+const mongoose = require("mongoose")
+
+const bodyParser = require("body-parser")
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
+connect().catch(err => console.log(err))
+
+async function connect() {
+  await mongoose.connect(/* YOUR CONNECTION STRING HERE */)
+  console.log("Successfully connected to MongoDB")
+}
 ```
-to get your website running on http://localhost:3000!
 
-Your folder should look something like this:
+**Paste your connection string** into the appropriate place. Use the **same password** from the last homework. Don't forget quotation marks! Note that this password is NOT your account password, but a user password. If you forgot it, on the side menu, go to Security->Database Access->Edit->Edit Password and create a new password.
 
-<img src="/assets/hw8/projectFolder.png" style="margin-top:15px;" />
+## Part 4: Define a Schema and Model
 
-Let's get started!
+Define a schema using Mongoose. The schema should include fields that make sense for **your own data and API**. Feel free to **copy-paste** all of the code in the spec, but modify to fit the data you want to store.
 
+```js
+const bookSchema = new mongoose.Schema({
+  title: String,
+  year: Number
+});
+```
 
-## What are routes?
+Define a model using Mongoose.
 
-Most web applications, such as a social media site, are composed of multiple pages. For example, there may be a homepage, a page with a feed, and a settings page. These pages are usually served, or shown, at different paths inside of the URL of a website.
+```js
+const Book = mongoose.model('Books', bookSchema);
+```
 
-In his project, Ddoski has set up a homepage at `/` and a profile page at `/profile`. Additionally, he has a 404 error page set up, which is displayed when the user opens a URL that is not recognized. Ddoski's routes are configured in `src/index.js` using [`react-router`](https://reactrouter.com/), which is a library that allows us to **show different components for different paths**.
+## Part 5: Define a POST endpoint
 
-The component `App`, imported from `src/routes/App.js` is served at the root URL of the website (i.e. http://localhost:3000/), and the component `Profile`, imported from `src/routes/Profile.js`, is served at `/profile` (http://localhost:3000/profile).
+Remember that in a POST request, the data that you want to save to your database will be found in **req.body** as a JavaScript object with key-value pairs.
 
-
-## Warmup: Check out the different pages!
-First, go to http://localhost:3000/ to check the homepage.
-
-Now, go to http://localhost:3000/<Insert_Random_Characters_Here> and http://localhost:3000/profffile.
-
-**You should see this page pop up each time!** This is the 404 page, which is in `src/routes/NotFound.js`.
-
-<img src="/assets/hw8/errorPage.png" style="width:50%; margin-top:15px; margin-bottom:5px;" />
-
-Now, change `/profffile` to `/profile`, and notice that it **routes to the right page!**
-
-<img src="/assets/hw8/profilePage.png" style="width:50%;" />
-
-Anytime a user goes to a page that doesn't exist, you don't want your website to crash. Instead, you want to show an error page like the one we have set up.
-
-
-## Task 1: I can't type anything!
-Go to the homepage of our site, and try typing in the comment box. Huh, nothing happens!
-
-It looks like there is some **incomplete code in `App.js` where the `<input>` element is**. See if you can figure out what to do! Be sure to test your site. <br>
-
-<details>
-<summary>Hint 1</summary>
-
-_We set the `value` property of the `<input>` element to `inputValue`, which is stored using a useState hook at the top of the component. Then, we have an event handler attached to the `change` event which runs when someone types something. <br/><br/> What do we need to do inside the event handler in order for the `value` of the `<input>` element to be updated?_
-
-</details>
-
-<details>
-<summary>Hint 2</summary>
-
-_Note that a component is rerendered by react (reevaluated and displayed to screen) when any props or state change. If we update `inputValue` and `App` is rerendered, then the `<input>` element will have its value set to whatever the updated value for `inputValue` is. What function can we use to update `inputValue`?_
-
-</details>
-
-
-## Task 2: Let's add some comments
-
-Yay! We can now type a comment. But wait a minute, nothing happens when we press "Add Comment!".
-
-**Part (a): Complete the function `addComment()` inside of `App.js`.**
-
-<details>
-<summary>Hint</summary>
-
-_We need to update two different state variables. What functions should we use to do this?_
-
-</details>
-
-
-**Part (b): Now, modify the "Add Comment" `<button>` to use this function.**
-
-<details>
-<summary>Hint</summary>
-
-_We have to attach the function `addComment` as an event handler to the button for some event. What event would be appropriate, and what is the corresponding property we need to set? What function can we set this property to?_
-
-</details>
-
-_Note: You should not see the actual comments just yet, but make sure the comments title / counter on screen is updating!_
-
-
-## Task 3: Who's eating up the comments?
-
-Ok, we can now type a comment and add it. But it isn't actually showing up!
-
-**Complete the code on line 41 in `App.js` to render the `<Comment>` component** for each comment.
-
-You will need to reference `src/components/Comment.js`, which is imported in `App.js`, to see which props to pass. Additionally, look at the slides for an example on rendering lists if you are confused on how to do this task.
-
-_Note: When rendering lists, you need to set the `key` prop in the root element returned by the map function to something unique to that list item. In this case, you can set `key={index}` as the array index is unique to our comment. This will make sure that React does not print an error in the console._
-
-<details>
-<summary>Help! What does .map() do?</summary>
-
-_In JavaScript, `array.map(someFunc)` loops through the array, calls `someFunc(item)` on each item, and then returns an array with the compilation of the return values of someFunc for each item. This is useful in React to take an array and convert it into a list of HTML elements to display on the screen, using JSX markup, which is then rendered. Check the slides for an example!_
-
-</details>
-
-<details>
-<summary>Hint</summary>
-
-_Within the function inside of `.map()`, we want to return some markup of the form `<Comment ...>`. Based on `Comments.js`, what prop do we need to pass? Additionally, what other prop do we need to set (check note above)?_
-
-</details>
-
-
-## Try it Out!
-Hooray! Our homepage should be working now. Try adding some comments!
-
-<img src="/assets/hw8/commentOutput.png" />
-
-
-## Task 4: Add a missing link
-There's just one more bug left to fix!
-
-On your website, click the button at the bottom of the page that says "Go to My Profile". You will now see Ddoski's profile page that you saw earlier.
-
-Try clicking "Back to Home". Nothing happens!
-
-<img src="/assets/hw8/backHomeButton.png" style="width:25%; margin-top:5px;"/>
-
-**On line 20 in Profile.js**, it seems like Ddoski forgot to wrap his button in a tag so the "Back to Home" goes back to the main page. **Fix the code** so that the button goes back to the "`/`" path.
-
-If you're stuck, check the React slides on "Routing". **Or, check how we did this for the button on the App.js page!**
-
-<details>
-<summary>Hint</summary>
-
-_There's an interesting component we have imported from `react-router` that could be useful..._
-
-</details>
-
-
-## HOOOORAY
-You've completed Ddoski's code for his project!
-
-He will be eternally grateful for your contribution to his social media website.
-
-**In exchange, he's decided to give you a 10% stake in his social media company that will one day be worth billions.**
-
-He is still writing up the contract papers, so stay tuned!
-
+```js
+app.post("/new", async (req, res) => {
+    // Here, we create a new Book from the mongoose model
+    // and set its properties to whatever the user sent in the body of the POST request
+    const newBook = new Book({
+        title: req.body.title,
+        year: req.body.year
+    })
+    // Then, we save the newly created document to the database
+    await newBook.save()
+    // Finally, we send the newBook data back to the user as a response in JSON format
+    res.json(newBook) 
+})
+```
+
+## Part 6: Define a GET endpoint
+
+Define a GET endpoint that will retrieve all documents.
+
+```js
+app.get("/books", async (req, res) => {
+    const books = await Book.find()
+    res.send(books)
+})
+```
+
+## Part 6.5: Start your Server
+
+```js
+app.listen(3000, () => {
+    console.log("Listening on port 3000")
+})
+```
+
+_Run **node index.js** in the terminal._
+
+ If an error occurs, it will be printed in the terminal. If the error looks like this: <code>"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted."</code>, then follow these steps:
+1. Go to MongoDB and on the side menu, go to Security->Network Access.
+2. Click "+Add IP Address".
+3. Copy your IP Address from [here](https://whatismyipaddress.com/) under IPv4.
+4. Paste it into "Access List Entry" and click "Confirm".
+5. Rerun **node index.js**. If you are getting the same error, click "+Add IP Address" and "Allow Access from Anywhere" and "Confirm".
+
+## Part 7: Testing
+
+Run **node index.js** and use Postman to test your API. Check your MongoDB collection to ensure that your POST requests are working.
+
+<img src="/assets/hw8/book-post.png" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw8/book-get.png" style="width: 100%; padding: 20px 0;"/>
+<img src="/assets/hw8/book-mongo.png" style="width: 100%; padding: 20px 0;"/>
+
+
+Congrats, you are done! You've created a fully functional server!
+
+## +2 POINTS EXTRA CREDIT (OPTIONAL): Create a Frontend
+
+Create an **index.html** and **scripts.js** file. Here is some basic frontend code. Modify it to fit your API.
+
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <h1>Post a book</h1>
+    <input id="input-title" type="text">
+    <input id="input-year" type="text">
+    <button id="submit-post-request">Submit</button>
+
+    <h1>Get all books</h1>
+    <button id="submit-get-request">Submit</button>
+    <ul id="list"></ul>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+```
+
+<br></br>
+
+```bash
+const inputTitle = document.getElementById("input-title")
+const inputYear = document.getElementById("input-year")
+
+const submitPostReq = document.getElementById("submit-post-request")
+const submitGetReq = document.getElementById("submit-get-request")
+
+const list = document.getElementById("list")
+
+submitPostReq.addEventListener("click", async function () {
+    let data = {"title": inputTitle.value, "year": inputYear.value}
+    await fetch("http://localhost:3000/new", {
+        method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+    })
+    inputTitle.value = ""
+    inputYear.value = ""
+});
+
+submitGetReq.addEventListener("click", async function () {
+    list.replaceChildren()
+    const response = await fetch("http://localhost:3000/books")
+    const data = await response.json()
+    for (let index = 0; index < data.length; index = index + 1) {
+        const bookTitle = data[index].title
+        const listElement = document.createElement("li")
+        listElement.textContent = bookTitle
+        list.appendChild(listElement)
+    }
+});
+
+```
+
+Run **node index.js**. Any errors will appear in the terminal. Use **console.log** in the scripts.js file to debug. Open the **index.html** file in a browser and play around with your app!
 
 # Submission
-To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**. You can do this by moving all your other files for submission into a separate folder and then zipping that folder.
+For this homework, <mark>only submit your index.js file</mark>.
 
-**To zip a folder:**
+**To zip a folder/file:**
 _**Windows:** Right-click the folder, select (or point to) Send to, and then select Compressed (zipped) folder._
 _**macOS:** Control-click the folder  or tap it using two fingers, then choose Compress from the shortcut menu._
 
-Upload the .zip file to [Gradescope](https://www.gradescope.com/courses/437611) :)
+Upload the .zip file to [Gradescope](https://www.gradescope.com) :)
