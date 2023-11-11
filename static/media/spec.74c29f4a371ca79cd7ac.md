@@ -23,7 +23,6 @@ The project proposal and design mockup is how you will flesh out exactly what yo
 
 ### Project Proposal
 _<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/BjVdnTa2j91xUDWL7) to address each of the following points by Friday, November 10._
-- **Group number**
 
 - **Names of each group member**
 
