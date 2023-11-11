@@ -15,9 +15,9 @@ Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gr
 | 5    | Intro to Animations [Slides](https://docs.google.com/presentation/d/110zNepiacJBN3uGctV1hosK7Hsfu5GW7m1mAX1-EnSA/edit?usp=sharing) [Recording](https://drive.google.com/file/d/1-YFDpqkpEUnEiTmK_JQCFm3-DcGE9g0y/view?usp=sharing)   | Discussion 5/OH      | [HW 5: Coin Toss](https://calhacks.notion.site/HW-5-Coin-Toss-7537a4f93d0243989c1c8393b97f0fc9) |
 | 6    | API Integration [Slides](https://docs.google.com/presentation/d/1AP1hQbisd2k84t_B1S1Vx1whsgvCmbcrh2DBM3FJxLg/edit?usp=sharing) [Recording](https://drive.google.com/file/d/1dL5nuDNcENNuSMlawwQ8Mej8bqwBYBce/view?usp=share_link)  | Discussion 6/OH   | [HW 6: Guess the Dog!](https://calhacks.notion.site/HW-6-Guess-the-Dog-ce202342ec9e421e9d9a95d03664ed47?pvs=4) |
 | 7    | Swift Data [Slides](https://drive.google.com/file/d/1IQ0SrsAlSJcUYKCPIh4B5tq_2YGrcvMU/view?usp=share_link) [Recording](https://youtu.be/PhKWM_DNGUU) [Code](https://github.com/cubstart/swiftdata-semester-app) [Discussion Walkthrough](https://youtu.be/ZZVbhoR_ESk?si=s_QssJ2jvNfhQql) | Discussion 7/OH [DailyJournal App](https://github.com/cubstart/dailyjournalapp) | [HW 7: Flash Cards](https://calhacks.notion.site/HW-7-Flash-Cards-3e96581f6bc64d0a893c605d9b215160?pvs=4) |
-| 8    | Firebase [Slides](https://docs.google.com/presentation/d/1K_vcK-CDlfZ-tLDz3XiIhXcJ7nkw8NfdhDRMTcyb3O8/edit?usp=sharing) [Recording](https://drive.google.com/file/d/1kGjNG52_NNDWdBPY3KFFNMlhPLyfAt28/view?usp=sharing) [Code](https://github.com/cubstart/lec8firebasedemo) | Discussion 8/OH  | HW 8: TBD |
-| 9    | Multiplatform Support | Discussion 9/OH | HW 9: Review |
-| 10   | Publishing to the App Store | Final Project OH | |
+| 8    | Firebase [Slides](https://docs.google.com/presentation/d/1K_vcK-CDlfZ-tLDz3XiIhXcJ7nkw8NfdhDRMTcyb3O8/edit?usp=sharing) [Recording](https://drive.google.com/file/d/1kGjNG52_NNDWdBPY3KFFNMlhPLyfAt28/view?usp=sharing) [Code](https://github.com/cubstart/lec8firebasedemo) | Discussion 8/OH  | [No HW] |
+| 9    | [No Lecture] | [Holiday: No Discussion] | [Idea Proposal & Figma Prototype Spec](https://www.notion.so/calhacks/Idea-Proposal-and-Figma-Prototype-Spec-31b8be0f3f48442cb91a6d7d893bcd8d?pvs=4) |
+| 10   | Multiplatform Support | Final Project OH | HW 9: Review |
 | 11   | No Class (Thanksgiving Holiday) |  | Due TBD: Final Project Checkpoint   |
-| 12   | Guest Lecture | Final Project OH | Prep for Demo Day!  |
+| 12   | Publishing to the App Store | Final Project OH | Prep for Demo Day!  |
 | 13   | No Lecture (Demo Week) | | Due TBD: Final Project |
