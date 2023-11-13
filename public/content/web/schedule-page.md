@@ -5,7 +5,7 @@ Lab: Fridays 4:00pm-6:00pm @ Physics 3
 ## Announcements
 Join the [Ed](https://edstem.org/us/join/hAbV5D) and [Gradescope](https://www.gradescope.com) with code 2PGYZV. Recordings will be published [here](https://drive.google.com/drive/folders/1XAtjL4oDUdC0uf3Nsrkdogoi8p3U37nr?usp=drive_link).
 
-[Final Project Checkpoint 1](#/hw/web/spec) is due Friday Nov 10th.
+Demo Day will be held on Tuesday December 5th, 3:00-5:00pm in the Wozniak Lounge.
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
