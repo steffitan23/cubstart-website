@@ -18,7 +18,7 @@ Demo Day will be held on Tuesday December 5th, 3:00-5:00pm in the Wozniak Lounge
 | 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1kc3av3aQUS5Bgjg98HzY377VKWyeJ4lQcVywC6D-rTM/edit#slide=id.g17893090c69_0_142)    | Lab 7: MongoDB Review           | [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) |
 | 8    | Backend Continued [Slides](https://docs.google.com/presentation/d/1VahUS8xhRltUkG_IJ_mPXCd4-06NrELkoiwYkmRoWJw/edit)  | Lab 8: Figma + Github |  [Final Project Checkpoint Due Nov 12](#/hw/web/spec) + [HW 8: Create your own API](#/hw/web/hw8)
 | 9    | OPTIONAL Lecture: Intro to React[Slides](https://docs.google.com/presentation/d/1qLiDAvOlQdZCk1U4uU5eXAcB-3I_kYnmWkR2TO4GSAM/edit?usp=sharing) | NO LAB (Veteran's Day) | [Final Project](#/hw/web/spec) + OPTIONAL [HW 9: Social Media Website](#/hw/web/hw9)    |
-| 10   | Comprehensive Review   | OPTIONAL Project OH           | [Final Project](#/hw/web/spec) |
+| 10   | Comprehensive Review [Slides](https://docs.google.com/presentation/d/1VuC08_0WNJA6Vc1Mz7nLEoqjIiz__PeFrKh63-eh5sk/edit?usp=sharing)   | OPTIONAL Project OH           | [Final Project](#/hw/web/spec) |
 | 11   | OPTIONAL Project OH | No Lab (Thanksgiving) | | [Final Project](#/hw/web/spec)
 | 12   | OPTIONAL Project OH        | OPTIONAL Project OH                     |   |
 | 13   | Demo Day date: TBD 🎉  |
