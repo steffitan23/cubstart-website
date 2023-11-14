@@ -17,7 +17,7 @@ Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gr
 | 7    | Swift Data [Slides](https://drive.google.com/file/d/1IQ0SrsAlSJcUYKCPIh4B5tq_2YGrcvMU/view?usp=share_link) [Recording](https://youtu.be/PhKWM_DNGUU) [Code](https://github.com/cubstart/swiftdata-semester-app) | Discussion 7/OH [Discussion Walkthrough](https://youtu.be/ZZVbhoR_ESk?si=s_QssJ2jvNfhQql) [DailyJournal App](https://github.com/cubstart/dailyjournalapp) | [HW 7: Flash Cards](https://calhacks.notion.site/HW-7-Flash-Cards-3e96581f6bc64d0a893c605d9b215160?pvs=4) |
 | 8    | Firebase [Slides](https://docs.google.com/presentation/d/1K_vcK-CDlfZ-tLDz3XiIhXcJ7nkw8NfdhDRMTcyb3O8/edit?usp=sharing) [Recording](https://drive.google.com/file/d/1kGjNG52_NNDWdBPY3KFFNMlhPLyfAt28/view?usp=sharing) [Code](https://github.com/cubstart/lec8firebasedemo) | Discussion 8/OH  | [No HW] |
 | 9    | [No Lecture] | [Holiday: No Discussion] | [Idea Proposal & Figma Prototype Spec](https://www.notion.so/calhacks/Idea-Proposal-and-Figma-Prototype-Spec-31b8be0f3f48442cb91a6d7d893bcd8d?pvs=4) |
-| 10   | Multiplatform Support [Slides](https://drive.google.com/file/d/1u_fSyDwoHE5UY73JFJ81iLnhQIuOVOHr/view?usp=sharing)| Final Project OH | HW 9: Review |
+| 10   | Multiplatform Support [Slides](https://drive.google.com/file/d/1u_fSyDwoHE5UY73JFJ81iLnhQIuOVOHr/view?usp=sharing) [Recording](https://youtu.be/FFc4DEJtVNY?si=NX13GGKY0bLnICmu)| Final Project OH | HW 9: Review |
 | 11   | No Class (Thanksgiving Holiday) |  | Due TBD: Final Project Checkpoint   |
 | 12   | Publishing to the App Store | Final Project OH | Prep for Demo Day!  |
 | 13   | No Lecture (Demo Week) | | Due TBD: Final Project |
