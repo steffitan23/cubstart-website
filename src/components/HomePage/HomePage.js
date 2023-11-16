@@ -41,8 +41,8 @@ function HomePage(props) {
                     <div className='button-container'>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>
                     </div>
-                    */}
-                    <b>Fall 2023 application have closed. See you next semester! </b>
+                    
+                    <b>Fall 2023 application have closed. See you next semester! </b>*/}
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">
