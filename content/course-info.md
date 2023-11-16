@@ -73,7 +73,7 @@ You have **2 homework drops** and your homework grade will be affected if you mi
 
 ## Final Project
 
-The last 4 weeks will be dedicated to your final project, which is ideating and building a viable product/application. You’ll be expected to meet with your project team regularly to work towards meeting the checkpoints throughout. We will be offering extensive Office Hours support as you and your team take on this final project.
+The last 4 weeks will be dedicated to your final project, which is ideating and building a viable product/application. You’ll be expected to meet with your project team regularly to work towards meeting the checkpoints throughout. We will be offering Office Hours support as you and your team take on this final project.
 
 ## Late Work
 
