@@ -19,5 +19,5 @@ Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gr
 | 9    | [No Lecture] | [Holiday: No Discussion] | [Idea Proposal & Figma Prototype Spec](https://www.notion.so/calhacks/Idea-Proposal-and-Figma-Prototype-Spec-31b8be0f3f48442cb91a6d7d893bcd8d?pvs=4) |
 | 10   | Multiplatform Support [Slides](https://drive.google.com/file/d/1u_fSyDwoHE5UY73JFJ81iLnhQIuOVOHr/view?usp=sharing) [Recording](https://youtu.be/FFc4DEJtVNY?si=NX13GGKY0bLnICmu)| Final Project OH | HW 9: Review |
 | 11   | No Class (Thanksgiving Holiday) |  | Due TBD: Final Project Checkpoint   |
-| 12   | Publishing to the App Store | Final Project OH | Prep for Demo Day!  |
+| 12   | [No Lecture] | Final Project OH | Prep for Demo Day!  |
 | 13   | No Lecture (Demo Week) | | Due TBD: Final Project |
