@@ -200,3 +200,13 @@ a {
   height: 100vh;
   width: 100vw;
 }
+
+.banner {
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  padding: 15px 10px;
+  text-align: center;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+}

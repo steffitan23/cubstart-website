@@ -1,4 +1,4 @@
-# Quizlet-ish (Part 1): Make a Flashcard API
+# HW 6: Quizlet-ish (Part 1): Make a Flashcard API
 
 ## Ddoski needs your help!
 Ddoski wants to build a flashcard website, but so far he's only built the frontend (the webpage with HTML and CSS)! His project partner, Oski, was supposed to be working on the API, but he has gone MIA :(. Ddoski sees he started on some parts of the backend code. Can you finish it?

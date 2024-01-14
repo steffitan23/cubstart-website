@@ -1,4 +1,4 @@
-# OpenWeatherMap API: Help Ddoski with his code!
+# HW 5: OpenWeatherMap API: Help Ddoski with his code!
 
 ## Ddoski needs your help!
 Ddoski made this cool app that lets you find the weather in a certain city/country using the OpenWeatherMap API.

@@ -1,4 +1,4 @@
-# HTML Basics
+# HW 1: HTML Basics
 
 ## Setting up your environment
 Before we even get into the HTML, we will need to set up a couple things. First, we'll need to install a code editor to help us write our HTML. Our recommendation is [VS Code](https://code.visualstudio.com/). It's a free, open source editor that is very popular and has a lot of features. You can download it from the link above. Though, you are welcome to use any editor you like!

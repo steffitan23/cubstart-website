@@ -1,4 +1,4 @@
-# Create your own API!
+# HW 8: Create your own API!
 
 In this homework, you will review how to create an API server using Node, Express, MongoDB, and mongoose. There's no skeleton code. We will guide you through this assignment step by step.
 

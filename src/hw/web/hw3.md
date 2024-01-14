@@ -1,4 +1,4 @@
-# JavaScript Playground
+# HW 3: JavaScript Playground
 
 This week's homework is intended to set you up for the more complex JavaScript-heavy projects to come in future weeks. Here, we'll go through the foundations and allow you to work with manipulating the DOM.
 
