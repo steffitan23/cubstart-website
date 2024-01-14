@@ -4,7 +4,7 @@
 
 **EECS Dept. Sponsor:** Justin Yokota
 
-**Course Catalog:** Fall 2023
+**Course Catalog:** Spring 2024
 
 ## Course Overview
 
@@ -18,7 +18,7 @@ The course content is split into lectures, labs, homeworks, and a final project.
 
 _Prerequisites_
 
-For the web track, we are targeting those with little to no coding experience. This means that while you can take the course as someone with experience, you may ﬁnd it a bit slow. For the iOS track, we recommend that you have some prior coding experience and/or take some introductory programming course before or while you’re enrolled in Cubstart — e.g. CS61A.
+For the Web track, we do not reforce prereqs, but prior coding experience of any kind is highly recommended (high school course, CS10, CS61A, etc). For the iOS track, we recommend that you have some prior coding experience and/or take some introductory programming course before or while you’re enrolled in Cubstart — e.g. CS61A.
 
 _Textbooks and Required Materials_
 
@@ -67,7 +67,7 @@ If you have extenuating circumstances and have used up your unexcused absences, 
 
 ## Homeworks
 
-The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. Homeworks are graded on completion.
+The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow.
 
 You have **2 homework drops** and your homework grade will be affected if you miss any more than that.
 

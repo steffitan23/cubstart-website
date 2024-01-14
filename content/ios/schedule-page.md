@@ -1,10 +1,10 @@
-Lecture: Mondays 4:00pm-5:00pm @ Soda 306
+Lecture: Mondays 5:00pm-6:00pm @ Soda 306
 
-Lab: Fridays 4:00pm-6:00pm @ Soda 306
+Lab: Fridays 5:00pm-7:00pm @ Soda 306
 
 ## Announcements
 Welcome to the iOS development track.
-Join the [Ed](https://edstem.org/us/join/QSrvSj) and [Gradescope](https://www.gradescope.com) with code K3EPRG.
+Join the [Ed] and [Gradescope](https://www.gradescope.com) with code TBD.
 
 | Week | Lecture                                                                                                                                                                                                                                                                                                 | Lab Section                                       | Homework/Project                                  |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |

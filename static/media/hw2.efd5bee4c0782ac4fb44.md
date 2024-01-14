@@ -1,4 +1,4 @@
-# Personal Portfolio
+# HW 2: Personal Portfolio
 
 ## Objective
 The objective of this homework is to help you through the entire process of making a simple website in HTML/CSS, as well as test your knowledge of the box model, flexbox, and other CSS properties.

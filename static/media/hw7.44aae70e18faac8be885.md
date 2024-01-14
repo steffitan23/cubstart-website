@@ -1,4 +1,4 @@
-# Quizlet-ish (Part 2): Connect your API to a Database
+# HW 7: Quizlet-ish (Part 2): Connect your API to a Database
 
 Let's make your flashcards app **better**. You're going to connect a database to the API so that you can **persist flashcard data**.
 
