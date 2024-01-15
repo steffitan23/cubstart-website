@@ -1,4 +1,4 @@
-**Course Designation:** CS 198-075, CS 198-750
+**Course Designation:** CS 198-075 (iOS Track), CS 198-750 (Web Track)
 
 **Facilitators:** Andy Huang, Madhav Varshney, Jessica Ng
 
@@ -77,7 +77,7 @@ The last 4 weeks will be dedicated to your final project, which is ideating and 
 
 ## Late Work
 
-No late work is accepted. Homework and the final project must be turned in on time or you will receive no credit. If you need an extension, email cubstart@calhacks.io.
+No late work is accepted. Homework and the final project must be turned in on time or you will receive no credit. If you need an extension, email cubstart@calhacks.io with "[CUBSTART WEB]" or "[CUBSTART IOS]" in the subject line.
 
 ## Academic Honesty
 
@@ -85,7 +85,7 @@ Homework assignments should be completed individually. You may only work in team
 
 ## Accomodations
 
-If you need any accommodations, please contact the course staff (cubstart@calhacks.io) with the subject line “[CUBSTART] ACCOMMODATIONS REQUEST - YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
+If you need any accommodations, please contact the course staff (cubstart@calhacks.io) with the subject line “[CUBSTART WEB/IOS] ACCOMMODATIONS REQUEST - YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
 
 ## Other Inquiries
 

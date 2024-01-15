@@ -5,7 +5,7 @@ Lab: Thursdays 7:00pm-9:00pm @ Moffit 102 (second half is optional)
 *To get to Moffit 102, take the corridor to the right of the 3rd floor entrance*.
 
 ## Announcements
-Join the [Ed] and [Gradescope](https://www.gradescope.com) with code TBD. Recordings will be published [here].
+Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gradescope.com) with code 2PWJXD. Recordings will be published [here].
 
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |

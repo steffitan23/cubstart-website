@@ -12,7 +12,7 @@ function HomePage(props) {
     return (
     <div>
         <div className="banner">
-            <p>Enroll in Cubstart Spring 2024 NOW using Web Track class #00000 or iOS Track class #00000</p>
+            <p>Enroll in Cubstart Spring 2024 NOW! Web Track: CS 198-750, iOS Track: CS 198-075</p>
         </div>
     <div className="hero-wrapper">
         <div className="header">
@@ -41,7 +41,7 @@ function HomePage(props) {
                         /></h1>
                     <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
                     <p><em>While preprequisites are not enforced, prior coding experience is highly recommmended.</em></p>
-                    <p>Cubstart is <u>open enrollment</u> for Spring 2024! Use class # <b>00000</b> for the Web Track and <b>00000</b> for the iOS Track in the enrollment center in CalCentral to enroll.</p>
+                    <p>Cubstart is <u>open enrollment</u> for Spring 2024! Use course number <b>CS 198-750</b> for the Web Track or <b>CS 198-075</b> for the iOS Track in the enrollment center in CalCentral to enroll.</p>
                     {/*
                     <div className='button-container'>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>

@@ -205,8 +205,9 @@ a {
   background-color: var(--main-color);
   color: white;
   font-weight: bold;
-  padding: 15px 10px;
+  padding: 10px;
   text-align: center;
+  font-size: 20px;
   border-top: black solid 1px;
   border-bottom: black solid 1px;
 }
