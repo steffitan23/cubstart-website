@@ -1,6 +1,8 @@
-Lecture: Mondays 5:00pm-6:00pm @ Soda 306
+Lecture: Mondays 5:00pm-6:00pm @ Soda 306 (HP Auditorium)
 
-Lab: Fridays 5:00pm-7:00pm @ Soda 306
+Lab: Fridays 5:00pm-7:00pm @ Soda 306 (HP Auditorium)
+
+**Instruction begins on the week of January 28.**
 
 ## Announcements
 Welcome to the iOS development track.
