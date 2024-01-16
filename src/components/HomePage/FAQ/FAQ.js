@@ -11,12 +11,12 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">What do you learn in this DeCal?</div>
-      <div className="accordion__content">By taking our DeCal, you'll get to start out by choosing a track: iOS development or web development. All the labs and many of the lectures for the two tracks will be separate. <br/> <br/>Then, over the course of the semester, you'll build unique, resume-quality guided projects every week, learn about project ideation, crafting a project proposal, designing application mockups, developing full-stack web or iOS applications, pitching your final project to experts and professionals, and much more!</div>
+      <div className="accordion__content">By taking our DeCal, you'll get to start out by choosing a track: iOS development or web development. All the lectures and labs for the two tracks will be separate. <br/> <br/>Then, over the course of the semester, you'll build unique, resume-quality guided projects every week, learn about project ideation, crafting a project proposal, designing application mockups, developing full-stack web or iOS applications, pitching your final project to experts and professionals, and much more!</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">Are there any prerequisites?</div>
-      <div className="accordion__content">The Web development track is designed for beginners to programming. While Web does not enforce prereqs, prior programming experience of any kind is highly recommended!
+      <div className="accordion__content">The Web development track is designed for beginner developers. While Web does not enforce prereqs, prior programming experience of any kind is highly recommended!
         <br/><br/>The iOS development track is designed for intermediate and advanced programmers. We encourage those who have some experience programming to enroll. We still do allow beginner programmers to enroll in the course, but it may take extra effort to keep up with the content during the first few weeks.</div>
     </label>
     <label className="accordion__item">
