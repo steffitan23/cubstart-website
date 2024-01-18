@@ -22,5 +22,5 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 10   | Swift Data | Discussion 8/OH  | HW 8: TBD |
 | 11   | Firebase or MongoDB (TBD) | Final Project OH | HW 9: TBD |
 | 12   | Framework Integration and DocC | Final Project OH | Work on Final Project |
-| 13   | In-Class Final Proj OH | Final Project OH | Work on Final Project |
+| 13   | In-Class Final Project OH | Final Project OH | Work on Final Project |
 | 13   | No Lecture (Demo Week) | | Due TBD: Final Project |
