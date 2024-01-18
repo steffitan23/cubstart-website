@@ -5,7 +5,6 @@ Lab: Fridays 5:00pm-7:00pm @ Soda 306 (HP Auditorium)
 **Instruction begins on the week of January 28.**
 
 ## Announcements
-Welcome to the iOS development track.
 Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gradescope.com) with code GPX8V3.
 
 | Week | Lecture | Lab Section | Homework/Project |
