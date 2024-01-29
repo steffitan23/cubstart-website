@@ -1,6 +1,8 @@
-Lecture: Tuesdays 7:00pm-8:00pm @ Moffit 102
+Lecture: Tuesdays 7-8pm @ Moffit 102
 
-Lab: Thursdays 7:00pm-9:00pm @ Moffit 102 (second half is optional)
+Lab: Thursdays 7-8pm @ Moffit 102
+
+Office Hours (optional): Thursdays 8-9pm @ Moffit 102
 
 *To get to Moffit 102, take the corridor to the right of the 3rd floor entrance*.
 
