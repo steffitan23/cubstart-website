@@ -9,7 +9,7 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 
 | Week | Lecture | Lab Section | Homework/Project |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1    | Introduction, Git, Designing an iOS App w/ Figma [Recording](https://drive.google.com/file/d/1KTsx2mbOxT-gFV8cdZrv2F1BUktUxS2O/view?usp=sharing) | Discussion 1/OH | HW 1: Figma |
+| 1    | Introduction, Git, Designing an iOS App w/ Figma [Slides](https://drive.google.com/file/d/1KTsx2mbOxT-gFV8cdZrv2F1BUktUxS2O/view?usp=sharing) | Discussion 1/OH | HW 1: Figma |
 | 2    | Swift and SwiftUI Fundamentals | Discussion 2/OH  | HW 2: CalFinance |
 | 3    | Intro to Dataflow, Lists, and Sheets | Discussion 3/OH | HW 3: File System |
 | 4    | No Lecture (Academic Holiday) | Holiday: No Discussion | No Hw |
