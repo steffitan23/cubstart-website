@@ -13,7 +13,7 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
-| 1    | Intro to HTML and the Web    | Lab 1: HTML & CSS  | HW 1: HTML Basics     |
+| 1    | Intro to HTML and the Web [Slides](https://docs.google.com/presentation/d/1TZakoOsaHnUA_axTgmk4-K6sovMi9XGh4rdz5KNLydc/edit?usp=sharing)    | Lab 1: HTML & CSS  | HW 1: HTML Basics     |
 | 2    | CSS Basics                              | Lab 2: CSS Part 2   | HW 2: Personal Portfolio |
 | 3    | JavaScript Basics   | Lab 3: JS Part 2 | HW 3: JavaScript Playground                                    |
 | 4    | Intro to APIs      | Lab 4: Git and Deployment (GitHub Pages)            | HW 4: Basic APIs   |
