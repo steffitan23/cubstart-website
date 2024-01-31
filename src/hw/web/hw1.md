@@ -1,13 +1,13 @@
 # HW 1: HTML Basics
 
 ## Setting up your environment
-Before we even get into the HTML, we will need to set up a couple things. First, we'll need to install a code editor to help us write our HTML. Our recommendation is [VS Code](https://code.visualstudio.com/). It's a free, open source editor that is very popular and has a lot of features. You can download it from the link above. Though, you are welcome to use any editor you like!
+First, install a code editor if you haven't already! Our recommendation is [VS Code](https://code.visualstudio.com/). It's a free, open source editor that is very popular and has a lot of features. You can download it from the link above.
 
-We need to create a folder that will hold all of the site's content, including its HTML file.
+For this homework, you will be making a basic HTML website. We need to create a folder to hold all of this site's content, including its HTML file.
 
-1. Create a folder on your computer called **"cubstart_web"** or whatever you want to name it.
-2. Open your text editor of choice in the folder and create a new file. 
-3. Save (Ctrl/Command + S) that new file in your "cubstart_web" folder and name it **index.html**.
+1. First, if you haven't already, create a folder on your computer called **"cubstart_web"** or whatever you want to name it. This folder will hold all of your Cubstart-related projects.
+2. Open your code editor of choice in the "cubstart_web" folder and create a new folder. Name it **HW1**.
+3. Inside of the "HW1" folder, create a new file and name it **index.html**.
     - Think of this as the homepage of your site!
 4. Create a new folder within your "cubstart_web" folder named "**assets**".
     - This "assets" folder is where you can put images from your local computer that you want to display on your site (e.g. a selfie)
@@ -26,9 +26,7 @@ In this HW, you will be building your first website in HTML using all of the tag
 
 ## Need some help starting your HTML code?
 
-To learn how to code, it's best to do your own work and see yourself write the code to get familiar with the syntax and format :) 
-
-But if you need some help, here's some starter code below:
+In VS Code, to get boilerplate HTML, you can type "html:5" in your HTML file and press enter. You can also copy and paste the starter code below.
 
 ~~~html
 <!DOCTYPE HTML>
@@ -54,16 +52,14 @@ To make sure you get the hang of the basics we covered in lecture, we'll be chec
 - Bolded, italicized, or underlined text using the appropriate HTML tags.
 - A **list** of anything! You can list your top musical artists, the your personal ranking of the best libraries at Cal, etc.
 - An **image** → Spice up your site with some visual elements! 🔥
-    - You can use images from your own computer or from the internet with a url. If you need help, make an Ed post!
+    - Add an image to your "assets" folder and use a relative URL! Check out Lab 1 slides or make an Ed post for help. 
 - A **link** to a site of your choice → use the `<a>` tags to link your favorite Youtube videos, a Spotify playlist, your social media handles, etc.
 
 ## Viewing Your Site
 
 Want to see what your site looks like in a web browser? 
 
-Double click on the **index.html** file and it should open your page on your default browser! 
-
-If you're viewing your site while you're still making edits, you can refresh the page to see your changes.
+Double click on the **index.html** file and it should open your page on your default browser! Refresh the page to see your changes!
     
 # Challenge!
 Do you know some CSS? We'll be going over how to beautify our website in a later HW, but if you want to challenge yourself and try it out right now, you can look up some resources on CSS and style your website! We're excited to see how creative you can be! :)
@@ -76,7 +72,7 @@ If you're looking for some resources to get a headstart, here are some good site
 To submit the homework folder, you have to zip it first. 
 
 **To zip a folder:**
-_**Windows:** Right-click the folder with your HTML and all files like images on your website, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder with your HTML and all files like images on your website or tap it using two fingers, then choose Compress from the shortcut menu._
+_**Windows:** Right-click the "HW1" folder with your HTML and all files like images on your website, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the "HW1" folder with your HTML and all files like images on your website or click it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com/) and you're done!
