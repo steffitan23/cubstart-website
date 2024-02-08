@@ -32,7 +32,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">How do I apply?</div>
-      <div className="accordion__content">For Spring 2024, Cubstart has open enrollment!</div>
+      <div className="accordion__content">Spring 2024 enrollment is closed. See you next semester!</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
