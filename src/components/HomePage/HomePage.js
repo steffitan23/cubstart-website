@@ -19,7 +19,7 @@ function HomePage(props) {
             <div className='header-text'>
                 <div className='hero-flex-wrapper'>
                     <div className='flex-item'>
-                    <img src="assets/coding_ddoski.svg" className="ddoski-hero">{props.children}</img>
+                    <img src="assets/ddoski11.png" className="ddoski-hero">{props.children}</img>
                     </div>
                     <div className='flex-item desc'>
                     <h1>Cubstart is <TypeAnimation
