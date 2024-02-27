@@ -13,7 +13,7 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 2    | Swift and SwiftUI Fundamentals [Slides](https://drive.google.com/file/d/1082vdMlfG52JUHXUDl7nSnB-T0sIsMes/view?usp=share_link) [Recording](https://youtu.be/4vm3SVf_8yU) | [Discussion 2/OH](https://youtu.be/72FNB2_FD88)  | [HW 2: CalFinance](https://calhacks.notion.site/HW-2-CalFinance-011688233b4a46cba49112f49a87fbd6?pvs=4) |
 | 3    | Intro to Dataflow, Lists, and Sheets [Slides](https://drive.google.com/file/d/1VfZ_QQ30zjiKjF8i190p_Nz9nPEgBRbL/view?usp=sharing) [Recording](https://drive.google.com/file/d/1S9UyrSW2MqI3r1uyVbhOfDX65bZksxbi/view?usp=sharing)| [Discussion 3/OH](https://drive.google.com/file/d/1etJq2wdpPGzD-cmxL4X1_qTNwI2Ykptz/view?usp=sharing) [Recording](https://drive.google.com/file/d/1A2hLK20mbvkZiB0o4qcpsIXMnYYCrYLt/view?usp=sharing) | [HW 3: File System](https://calhacks.notion.site/HW-3-File-System-1aef9c794ce4455e9ef69953be4acfaa?pvs=4) |
 | 4    | No Lecture (Academic Holiday) | Discussion 4/OH | No HW |
-| 5    | Observation and MVVM [Slides](https://drive.google.com/file/d/1nTDa7it4BdxE0zae2Zw0_ufe2oiTzFQS/view?usp=sharing) | Discussion 5/OH | HW 4: Class Planner  |
+| 5    | Observation and MVVM [Slides](https://drive.google.com/file/d/1nTDa7it4BdxE0zae2Zw0_ufe2oiTzFQS/view?usp=sharing) [Recording](https://youtu.be/JVIQTW8oQrA) | Discussion 5/OH | HW 4: Class Planner  |
 | 6    | Navigation and Presentation | Discussion 6/OH | HW 5: TBD |
 | 7    | Animations | Discussion 7/OH | HW 6: Coin Toss |
 | 8    | API Integration | Discussion 8/OH | HW 7: Guess the Dog! |
