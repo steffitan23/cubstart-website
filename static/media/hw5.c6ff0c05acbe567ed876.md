@@ -7,13 +7,13 @@ Ddoski made this cool app that lets you find the weather in a certain city/count
   <source src="/assets/hw5/finished-app.mp4" type="video/mp4">
 </video>
 
-But he lost some parts of his code in a storm! 
+But he lost some parts of his code in a storm!
 
-_[Help him. (Download skeleton code here.)](assets/hw5/fa23-hw-5-skeleton.zip)_
+_[Help him. (Download skeleton code here.)](assets/hw5/sp24-hw5-skeleton.zip)_
 **Note: Only edit script.js.**
 
 ## Some Notes on Homework
-If you need help with the homework, make a post on the HW5 Megathread on Ed or pull up to office hours (second half of lab) on Fridays 5-6pm @ Physics 3.
+If you need help with the homework, make a post on Ed or pull up to office hours (second half of lab).
 
 # CLUE 0
 _Create an [OpenWeatherMap](https://openweathermap.org/) account. Use the default API Key or generate a new one by navigating to your profile and "My API Keys". Input your API Key into scripts.js as a <mark>string</mark>._
@@ -39,7 +39,7 @@ Here is a reminder on how to index into arrays.
 // Here, we've created a list:
 const crazyList = [{myDog: "poodle"}, "G", 3.14, ["three figs", true], "CLK-to-q"]
 
-//Let's index into that list:
+// Let's index into that list:
 const firstElement = crazyList[0];
 console.log(firstElement) //This prints the object {myDog: "poodle"} to the console.
 ```
@@ -53,9 +53,9 @@ const person = {
   age: 33
 };
 
-//Let's access properties from that object:
+// Let's access properties from that object:
 const fullName = person["lastName"] + ", " + person["firstName"];
-console.log(fullName) //This prints "Doe, John" to the console
+console.log(fullName) // This prints "Doe, John" to the console
 ```
 
 # CLUE 5
@@ -80,7 +80,7 @@ htmlElement.innerHTML = "Updated Text!";
 ```
 
 # Submission
-To submit the homework folder, you have to zip it first. 
+To submit the homework folder, you have to zip it first.
 
 **To zip a folder:**
 _**Windows:** Right-click the folder **hw5-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
