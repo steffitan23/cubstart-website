@@ -14,7 +14,7 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 3    | Intro to Dataflow, Lists, and Sheets [Slides](https://drive.google.com/file/d/1VfZ_QQ30zjiKjF8i190p_Nz9nPEgBRbL/view?usp=sharing) [Recording](https://drive.google.com/file/d/1S9UyrSW2MqI3r1uyVbhOfDX65bZksxbi/view?usp=sharing)| [Discussion 3/OH](https://drive.google.com/file/d/1etJq2wdpPGzD-cmxL4X1_qTNwI2Ykptz/view?usp=sharing) [Recording](https://drive.google.com/file/d/1A2hLK20mbvkZiB0o4qcpsIXMnYYCrYLt/view?usp=sharing) | [HW 3: File System](https://calhacks.notion.site/HW-3-File-System-1aef9c794ce4455e9ef69953be4acfaa?pvs=4) |
 | 4    | No Lecture (Academic Holiday) | Discussion 4/OH | No HW |
 | 5    | Observation and MVVM [Slides](https://drive.google.com/file/d/1nTDa7it4BdxE0zae2Zw0_ufe2oiTzFQS/view?usp=sharing) [Recording](https://youtu.be/JVIQTW8oQrA) | Discussion 5/OH | [HW 4: Class Planner](https://calhacks.notion.site/HW-4-Class-Planner-3fab826da29d4ee48e1f81fbcb141483?pvs=4)  |
-| 6    | Navigation and Presentation [Slides](https://drive.google.com/file/d/1kwWanZEPm6gn4wWoTvo3KIYfbPamK5Nt/view?usp=sharing) | Discussion 6/OH | HW 5: TBD |
+| 6    | Navigation and Presentation [Slides](https://drive.google.com/file/d/1kwWanZEPm6gn4wWoTvo3KIYfbPamK5Nt/view?usp=sharing) [Recording](https://youtu.be/yp65ba_T-gA?si=de7SE4p5-edOTgFL) | Discussion 6/OH | HW 5: TBD |
 | 7    | Animations | Discussion 7/OH | HW 6: Coin Toss |
 | 8    | API Integration | Discussion 8/OH | HW 7: Guess the Dog! |
 | 9    | No Lecture (Spring Recess) | No Discussion | No Hw |
