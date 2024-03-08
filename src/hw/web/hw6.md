@@ -36,9 +36,9 @@ If you don't remember how to use Express, you might want to look at a simple gui
 Before you start, you should know what we're trying to achieve. Here are all the functionalities your API should have.
 - Add cards with "/new" endpoint
 - Retrieves cards with "/cards" endpoint
-- Retrieve a specific card by their id with "/cards/:index" endpoint
+- Retrieve a specific card with "/cards/:index" endpoint
 - Retrieves a random card with "/random" endpoint
-- Deletes a specific card by their id with an endpoint that you'll write
+- Deletes a specific card with an endpoint that you'll write
 
 _Go to **index.js**, and fill in Questions 1-4 with Ddoski's help! We will be testing these endpoints you create in Part 3. :)_
 
@@ -69,7 +69,7 @@ We should be able to retrieve all our flashcards too. Don't forget to set the re
 <img src="/assets/hw6/postman-4.PNG" style="width: 100%; padding: 20px 0;"/>
 
 </br></br></br>
-## Retrieve a specific card by their id with "/card/:index" endpoint
+## Retrieve a specific card with "/card/:index" endpoint
 Sending a GET request to "/card/2" should retrieve the card at index 2 in the flashcards array (unless your array has less than 3 cards).
 
 <img src="/assets/hw6/postman-5.PNG" style="width: 100%; padding: 20px 0;"/>
@@ -82,7 +82,7 @@ We might want to randomize a card so that we can learn the content better!
 
 </br></br></br>
 
-## Delete a specific card by its id
+## Delete a specific card
 In the example below, we have deleted the card at index 1 and our API responded with the updated flashcards array after deletion occured.
 <img src="/assets/hw6/postman-7.PNG" style="width: 100%; padding: 20px 0;"/>
 </br>
