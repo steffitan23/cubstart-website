@@ -3,18 +3,18 @@
 ## Ddoski needs your help!
 Ddoski wants to build a flashcard website, but so far he's only built the frontend (the webpage with HTML and CSS)! His project partner, Oski, was supposed to be working on the API, but he has gone MIA :(. Ddoski sees he started on some parts of the backend code. Can you finish it?
 
-_[Download skeleton code.](assets/hw6/fa23-hw6-skeleton.zip)_
+_[Download skeleton code.](assets/hw6/sp24-hw6-skeleton.zip)_
 
 # Part 1: Set up your Project
 First, download [Node.js](https://nodejs.org/en/download/).
 
-After extracting your skeleton code zip file, you will need to run the following commands in your terminal in the fa23-hw6-skeleton folder. We recommend using the VSCode terminal, which you can open by going to Terminal > New Terminal from the menu at the top. An alternative is you can open up Terminal on Mac or GitBash on Windows and change directories (e.g. cd Desktop) into the fa23-hw6-skeleton folder.
+After extracting your skeleton code zip file, you will need to run the following commands in your terminal in the sp24-hw6-skeleton folder. You can use the VSCode terminal, which you can open by going to Terminal > New Terminal from the menu at the top. An alternative is you can open up Terminal on Mac or GitBash on Windows and change directories (e.g. cd Desktop) into the sp24-hw6-skeleton folder.
 
 Run these commands in your terminal:
 ```bash
 npm init
 ```
-This should give you a ton of questions on package-name, description, author, etc.. Fill these in if you want, but **feel free to just press Enter all the way to skip it**. Now your project is created!
+This should give you a couple of questions on package-name, description, author, etc. Fill these in if you want, but **feel free to just press Enter all the way to skip it**. Now your project is created!
 
 We have to install some dependencies for our project. Run these commands in your terminal:
 ```bash
@@ -31,7 +31,7 @@ Your folder should look like this:
 
 
 # Part 2: Make a Flashcard API!
-If you don't remember how to use Express, you might want to look at a simple guide [here](https://expressjs.com/en/starter/basic-routing.html) or at the [Lecture 6 Slides](https://docs.google.com/presentation/d/1A7mK0etb0R4Jm3CJkXKHRWdmWKRgjjcOkT-JYMgELQE/edit?usp=sharing).
+If you don't remember how to use Express, you might want to look at a simple guide [here](https://expressjs.com/en/starter/basic-routing.html) or at the [Lecture/Lab 6 Slides](https://docs.google.com/presentation/d/1n0ersNZPwSVEaPOPSjo4EphlGFBNMzDsf6456ieQB1g/edit?usp=sharing).
 
 Before you start, you should know what we're trying to achieve. Here are all the functionalities your API should have.
 - Add cards with "/new" endpoint
@@ -50,7 +50,7 @@ node index.js
 ```
 You <mark>**MUST**</mark> download the Postman desktop app [here](https://www.postman.com/downloads/) because Postman on a browser will not make requests to localhost. We will use the Postman desktop app to send requests to your flashcards API and make sure that it works as intended.
 
-**Every time you change something in index.js, you have to rerun "node index.js" in your terminal.** To do this, follow these steps:
+**Every time you change something in index.js, you must rerun "node index.js" in your terminal.** To do this, follow these steps:
 1. Save the file in VSCode.
 2. Type Ctrl+C in the terminal to cancel the currently running program.
 3. Run "node index.js" again to restart your server.
@@ -58,13 +58,9 @@ You <mark>**MUST**</mark> download the Postman desktop app [here](https://www.po
 <br><br><br>
 
 ## Add 3 flashcards with the "/new" endpoint
-Make 3 POST requests to the /new endpoint. Here is an example:
+Make 3 POST requests to the /new endpoint using Postman. Set the request type to POST from the dropdown menu. In the Body tab, select "raw" and then "JSON". Then, send some JSON data with "front" and "back" set to the front and the back text of the flashcard respectively. Here is an example:
 
-<video width="100%" controls>
-  <source src="/assets/hw6/postman.mov" type="video/mp4">
-</video>
-
-Set the request to POST instead of GET. In the Body tab, select "raw" and then "JSON" from the dropdown menu. Then, send a JSON with "front" and "back" set to the front and the back text of the flashcard respectively.
+<img src="/assets/hw6/postman-1.PNG" style="width: 100%; padding: 20px 0;"/>
 
 </br></br></br>
 ## Retrieve cards with "/cards" endpoint
@@ -95,7 +91,7 @@ In the example below, we have deleted the card at index 1 and our API responded 
 For HW 6, <mark>**only submit your index.js file**</mark>. This is because node_modules is quite a large folder and it might take some time to upload. Zip your index.js file and submit to Gradescope!
 
 **To zip a folder/file:**
-_**Windows:** Right-click the folder **fa23-hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder **fa23-hw6-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
+_**Windows:** Right-click the folder **sp24-hw6-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder **sp24-hw6-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com/) :)
