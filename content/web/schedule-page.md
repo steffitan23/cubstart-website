@@ -19,7 +19,7 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/1yKQm_XZ4xLvCUIfLFL9whyDn8C7cHM4wstHhzEtT6zA/edit?usp=sharing)      | Lab 4: GitHub Pages Deployment[Slides](https://docs.google.com/presentation/d/1YDNhd5DijbheMaqVlsjrxaX-o27HwrcDzun58i2dHI4/edit?usp=sharing)            | [HW 4: API Quiz on Gradescope](https://www.gradescope.com)   |
 | 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1tLwMNnEupiQjG6TnTQh2Q3x4lacnY1C5bu8talC585k/edit?usp=sharing)  | Lab 5: APIs + Frontend Practice [Slides](https://docs.google.com/presentation/d/1WuwDmlt6fFw8Xc6sgUWitnwHam_0MMfoE7ZVKSMQ1bg/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)       |
 | 6    | *Canceled - Moved to Lab*    | Lecture & Lab 6: Node & Express [Slides](https://docs.google.com/presentation/d/1n0ersNZPwSVEaPOPSjo4EphlGFBNMzDsf6456ieQB1g/edit?usp=sharing)           | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
-| 7    | MongoDB, Mongoose     | Lab 7: Backend Practice           | HW 7: Quizlet-ish Part 2 |
+| 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1FOOB7BvHqc9OfJysvjELBfxbg054zSwdGBFDPiQenuY/edit)     | Lab 7: Backend Practice           | HW 7: Quizlet-ish Part 2 |
 | 8    | Backend Continued   | Lab 8: Figma + Github (TBD) |  Final Project Checkpoint + HW 8: Create your own API
 | 9    | No Lecture (Spring Break)   | No Lab           | Final Project |
 | 10   | Intro to React | Lab 10: TBD | Final Project + HW 9: Social Media Website    |

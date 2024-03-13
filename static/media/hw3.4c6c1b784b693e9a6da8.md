@@ -45,7 +45,7 @@ function increaseCount() {
   countDisplay.textContent = count;
 }
 ```
-## Part 3b: EventListeners
+## Part 3b: Event Listeners
 If you want something to happen when an element is clicked, you want to use event listeners. An event listener generally accepts 2 parameters, the first being the <mark>type of event</mark> as a string, and the second being the <mark>name of the function</mark> that executes when the event is fired. Click [here](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) for some examples.
 
 ```javascript
@@ -73,7 +73,7 @@ Navigate to **playground.html**. Now, you'll build a simple todo list. These are
 
 We have already created an empty unordered list for you with the id "tasks", as well as the submit and clear buttons.
 
-_Fill in the blank for the input element. Make the type "text" and the id "task-name"._
+_Fill in the blank for the input element. Make the type "text" and the id "input-task"._
 
 ```html
 <!-- Part 4: -->
@@ -92,7 +92,7 @@ Go back to the **playground.js** file and scroll to Part 5. Again, initialize yo
 
 ```javascript
 // Part 5:
-const taskName = document.getElementById("task-name");
+const inputTask = document.getElementById("input-task");
 const taskList = document.getElementById("tasks");
 // Initialize the const submitButton:
 /* YOUR CODE HERE */
@@ -134,7 +134,7 @@ clearButton.addEventListener("click", () => {
     inputTask.value = "";
 });
 ```
-You'll notice there is another event listener on the taskName element which listens on "input." This is an example of another event triggering a function's execution. On "input" means every time the input field is modified (e.g. typing a new letter). So you'll notice that whenever you type the value "Cal Hacks" into your task input field, the count display on your previous counter app turns blue!
+You'll notice there is another event listener on the inputTask element which listens on "input." This is an example of another event triggering a function's execution. On "input" means every time the input field is modified (e.g. typing a new letter). So you'll notice that whenever you type the value "Cal Hacks" into your task input field, the count display on your previous counter app turns blue!
  
 ```javascript
 inputTask.addEventListener("input", () => {
