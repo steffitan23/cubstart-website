@@ -106,7 +106,7 @@ Check MongoDB to make sure that your flashcards are being stored in the database
 <img src="/assets/hw7/refresh-database.png" style="width: 100%; padding: 20px 0;"/>
 
 
-## Part 6: Run the Frontend
+## Part 5: Run the Frontend
 
 Once your server is working, you can test the frontend! Note the use of the middleware **express.static** in server.js to serve static files (i.e. HTML/CSS/JS/images/etc.) inside the folder "public". Start the server with **node server.js** and navigate to <http://localhost:3000> to try out your working application!
 
