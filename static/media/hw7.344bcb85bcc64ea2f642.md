@@ -79,9 +79,11 @@ _Make sure you have a DB connection URL!_
 
 ## Part 3: Write code
 
+You will use the URL from above to connect your project to your MongoDB database. Then, you will write a mongoose schema and model, followed by express route handlers for the API.
+
 _Get started on the homework skeleton! Begin by completing **database.js**. Then, finish **server.js**._
 
-You will use the URL from above to connect your project to your MongoDB database. Then, you will write a mongoose schema and model, followed by express route handlers for the API. Take a look at lecture or lab slides if you are stuck!
+Take a look at lecture or lab slides if you are stuck! Feel free to post on Ed if you have any questions or need help.
 
 ## Part 4: Test the API
 
