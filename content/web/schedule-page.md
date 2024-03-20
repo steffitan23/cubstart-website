@@ -14,15 +14,19 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------|
 | 1    | Intro to HTML and the Web [Slides](https://docs.google.com/presentation/d/1TZakoOsaHnUA_axTgmk4-K6sovMi9XGh4rdz5KNLydc/edit?usp=sharing)    | Lab 1: HTML & CSS [Slides](https://docs.google.com/presentation/d/1em2PGMXVms8o_NXlU54pkb19CLLDIduHnNVFqcFFg6k/edit?usp=sharing)  | [HW 1: HTML Basics](#/hw/web/hw1)     |
-| 2    | CSS Basics [Slides](https://docs.google.com/presentation/d/1cI-pR24ZJzLYDNCJFPnWnzyL9arfFQtjrLDG_VsWmi8/edit?usp=sharing)                             | Lab 2: CSS Part 2[Slides](https://docs.google.com/presentation/d/1NRfkrVeIltAyNWseQGSOFE3BAQShZleyPc3xaiJ7G0I/edit?usp=sharing)   | [HW 2: Personal Portfolio](#/hw/web/hw2) |
-| 3    | JavaScript Basics[Slides](https://docs.google.com/presentation/d/1t5bu8RWzyivoGc-xWWst7j3VxZeNupkQXfDpwTS63Js/edit?usp=sharing)   | Lab 3: DOM Manipulation with JS[Slides](https://docs.google.com/presentation/d/10lKBb1PmdKOH7-6mRXiv9pbtUoKbHLk8zwzakLwIUcg/edit?usp=sharing) | [HW 3: JavaScript Playground](#/hw/web/hw3)                                    |
-| 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/1yKQm_XZ4xLvCUIfLFL9whyDn8C7cHM4wstHhzEtT6zA/edit?usp=sharing)      | Lab 4: GitHub Pages Deployment[Slides](https://docs.google.com/presentation/d/1YDNhd5DijbheMaqVlsjrxaX-o27HwrcDzun58i2dHI4/edit?usp=sharing)            | [HW 4: API Quiz on Gradescope](https://www.gradescope.com)   |
+| 2    | CSS Basics [Slides](https://docs.google.com/presentation/d/1cI-pR24ZJzLYDNCJFPnWnzyL9arfFQtjrLDG_VsWmi8/edit?usp=sharing)                             | Lab 2: CSS Part 2 [Slides](https://docs.google.com/presentation/d/1NRfkrVeIltAyNWseQGSOFE3BAQShZleyPc3xaiJ7G0I/edit?usp=sharing)   | [HW 2: Personal Portfolio](#/hw/web/hw2) |
+| 3    | JavaScript Basics[Slides](https://docs.google.com/presentation/d/1t5bu8RWzyivoGc-xWWst7j3VxZeNupkQXfDpwTS63Js/edit?usp=sharing)   | Lab 3: DOM Manipulation with JS [Slides](https://docs.google.com/presentation/d/10lKBb1PmdKOH7-6mRXiv9pbtUoKbHLk8zwzakLwIUcg/edit?usp=sharing) | [HW 3: JavaScript Playground](#/hw/web/hw3)                                    |
+| 4    | Intro to APIs [Slides](https://docs.google.com/presentation/d/1yKQm_XZ4xLvCUIfLFL9whyDn8C7cHM4wstHhzEtT6zA/edit?usp=sharing)      | Lab 4: GitHub Pages Deployment [Slides](https://docs.google.com/presentation/d/1YDNhd5DijbheMaqVlsjrxaX-o27HwrcDzun58i2dHI4/edit?usp=sharing)            | [HW 4: API Quiz on Gradescope](https://www.gradescope.com)   |
 | 5    | APIs, Promises, & Fetch() [Slides](https://docs.google.com/presentation/d/1tLwMNnEupiQjG6TnTQh2Q3x4lacnY1C5bu8talC585k/edit?usp=sharing)  | Lab 5: APIs + Frontend Practice [Slides](https://docs.google.com/presentation/d/1WuwDmlt6fFw8Xc6sgUWitnwHam_0MMfoE7ZVKSMQ1bg/edit?usp=sharing)   | [HW 5: OpenWeatherMap API](#/hw/web/hw5)       |
 | 6    | *Canceled - Moved to Lab*    | Lecture & Lab 6: Node & Express [Slides](https://docs.google.com/presentation/d/1n0ersNZPwSVEaPOPSjo4EphlGFBNMzDsf6456ieQB1g/edit?usp=sharing)           | [HW 6: Quizlet-ish Part 1](#/hw/web/hw6) |
-| 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1FOOB7BvHqc9OfJysvjELBfxbg054zSwdGBFDPiQenuY/edit)     | Lab 7: Backend Practice  [Slides](https://docs.google.com/presentation/d/1kIfvftMkEyDe6ZvmdvbD7dao4Bhizy9MHgD8ZKU0RnQ/edit)          | HW 7: Quizlet-ish Part 2 |
-| 8    | Backend Continued   | Lab 8: TBD *(Figma, GitHub?)* |  HW 8: Create your own API
+| 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1FOOB7BvHqc9OfJysvjELBfxbg054zSwdGBFDPiQenuY/edit)     | Lab 7: MongoDB & Express + Pet Finder  [Slides](https://docs.google.com/presentation/d/1kIfvftMkEyDe6ZvmdvbD7dao4Bhizy9MHgD8ZKU0RnQ/edit)          | No HW |
+| 8    | Backends, Deployment, and Authentication [Slides](https://cubstart.github.io/web-slides/lecture-8/)   | Lab 8: Firebase |  HW 7: Quizlet-ish Part 2
 | 9    | *Spring Break*   | *Spring Break*           | *Spring Break* |
-| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React | Final Project Checkpoint + HW 9: Social Media Website    |
-| 11   | Comprehensive Review | OPTIONAL Project OH | Final Project|
-| 12   | OPTIONAL Project OH        | OPTIONAL Project OH                     | Final Project  |
-| 13   | Demo Day 🎉  |
+| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React | Final Project Checkpoint + HW 8: Social Media Website   |
+| 11   | React Continued | TBD: Review & Project OH | Final Project|
+| 12   | TBD: Project OH        | TBD: Project OH                     | Final Project  |
+| 13   | OPTIONAL Project OH        | OPTIONAL Project OH                     | Final Project  |
+| 14   | Demo Day 🎉  |
+
+
+[comment]: <> "Note: removed HW 8: Create your own API in SP24"
