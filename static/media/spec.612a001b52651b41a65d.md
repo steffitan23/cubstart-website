@@ -18,7 +18,7 @@ For those with prior web dev experience, we encourage you to go above and beyond
 
 **Grade:** 10 points
 
-_<b>Action Item:</b> With your project team, fill out the [Final Project Proposal on Gradescope](https://www.gradescope.com/courses/709491/assignments/4257372) that consists of the parts listed below. Only one person should submit the assignment for your entire team, and then add the other teammates as collaborators._
+_<b>Action Item:</b> With your project team, fill out the [Final Project Checkpoint on Gradescope](https://www.gradescope.com/courses/709491/assignments/4257372) that consists of the parts listed below. Only one person should submit the assignment for your entire team, and then add the other teammates as collaborators._
 
 ### Project Proposal
 
