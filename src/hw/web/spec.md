@@ -22,7 +22,7 @@ For those with prior web dev experience, we encourage you to go above and beyond
 The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it, and plan what technologies/tools/skills you need.
 
 ### Project Proposal
-_<b>Action Item:</b> With your project team, submit [this Google Form](https://forms.gle/EgxkkznzohwgGCaS7) to address each of the following points. Only one person should submit the form for your entire team._
+_<b>Action Item:</b> With your project team, fill out the Final Project Proposal on [Gradescope](https://www.gradescope.com/) to address each of the following points. Only one person should submit the assignment for your entire team, and then add the other teammates as collaborators._
 
 - **Names of each group member**
 
@@ -34,23 +34,24 @@ _<b>Action Item:</b> With your project team, submit [this Google Form](https://f
 
 - **Timeline:** When do you plan to work on certain portions of your project, and in what order? What work will you aim to complete by certain checkpoints? How will you and your team split up the work? Will your team be setting up regular meetings? If so, will they be virtual or in-person?
 
-- **Design Mockup PDF**: Choose one person to submit a PDF file of your design mockup to [Gradescope](gradescope.com) and add all other team members as collaboraters to the gradescope submission.
+- **Design Mockup PDF**: Upload a PDF file of your design mockup (more info in the section below).
+
+Don't forget to add all teammates as collaborators to the Gradescope submission!
 
 ### Design Mockup
 
-Use any design tool that you'd like! We recommend Figma.
-
-1. Come up with a design to demonstrate your project idea. Bring your vision to life! Include colors, try different fonts, mess with corner radius or effects like drop shadows. Here is an example.
+Come up with a design to demonstrate your project idea using any design tool you'd like (we recommend Figma). Bring your vision to life! Include colors, try different fonts, mess with corner radius or effects like drop shadows. Here is an example.
+<br></br>
 <img src="/assets/mockup.png"/>
-
-2. Choose one group member to submit a PDF of your design to Gradescope and add all other team members as collaboraters to the submission.
 
 <br>
 
 ## Part 2: Final Project Development + Presentation
-<b>Deadline:</b> Demo Day (exact date is TBD, but sometime during dead week), 40 points
+<b>Deadline:</b> Demo Day 🎉 (exact date is TBD, but sometime during dead week), 40 points
 
-On Demo Day, you will present your project to the class! Students will be split into cohorts and you will get the chance to see and rank other's projects for prizes! Prepare a **2 minute presentation + demo.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon with more time, other functionalities that would be cool to implement, etc.
+On Demo Day, you will present your project to the class! Students will be split into cohorts and you will get the chance to view and share projects! **Prepare a 2 minute presentation + demo.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon with more time, other functionalities that would be cool to implement, etc.
+
+Food + prizes will be provided 😋
 
 <br></br>
 ## Grading Rubric
