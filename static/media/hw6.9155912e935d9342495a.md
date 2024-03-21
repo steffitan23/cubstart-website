@@ -33,10 +33,10 @@ Your folder should look like this:
 # Part 2: Make a Flashcard API!
 If you don't remember how to use Express, you might want to look at a simple guide [here](https://expressjs.com/en/starter/basic-routing.html) or at the [Lecture/Lab 6 Slides](https://docs.google.com/presentation/d/1n0ersNZPwSVEaPOPSjo4EphlGFBNMzDsf6456ieQB1g/edit?usp=sharing).
 
-Before you start, you should know what we're trying to achieve. Here are all the functionalities your API should have.
+Before you start, you should know what we're trying to achieve. Here is all of the functionality your API should have:
 - Add cards with "/new" endpoint
 - Retrieves cards with "/cards" endpoint
-- Retrieve a specific card with "/cards/:index" endpoint
+- Retrieve a specific card with "/card/:index" endpoint
 - Retrieves a random card with "/random" endpoint
 - Deletes a specific card with an endpoint that you'll write
 
