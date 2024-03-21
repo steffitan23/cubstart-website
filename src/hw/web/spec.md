@@ -1,8 +1,7 @@
 # Final Project Specification
 
-First, fill out the [Team Formation Form](https://forms.gle/QqXi5eJ84rzgP3tR8) DUE SUNDAY MARCH 24th!
+_**Please fill out the [Team Formation Form](https://forms.gle/QqXi5eJ84rzgP3tR8) DUE SUNDAY MARCH 24th!**_
 
-## Minimum Requirements
 Your goal is to design and develop a web application that incorporates the following:
 
 1. Content, Structure, and Style (HTML + CSS)
@@ -11,20 +10,19 @@ Your goal is to design and develop a web application that incorporates the follo
 
 Other than that, the final project is very open-ended! Be creative and build anything you want.
 
-For those with prior web dev experience, we encourage you to go above and beyond the minimum requirements! Impress us!
+For those with prior web dev experience, we encourage you to go above and beyond the minimum requirements. Impress us!
 <br></br>
 
 ## Part 1: Final Project Checkpoint (Project Proposal + Design Mockup)
-**Deadline:** Sunday, April 7th
+**Deadline:** Tuesday, April 9th
 
 **Grade:** 10 points
 
-The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it, and plan what technologies/tools/skills you need.
+_<b>Action Item:</b> With your project team, fill out the [Final Project Proposal on Gradescope](https://www.gradescope.com/courses/709491/assignments/4257372) that consists of the parts listed below. Only one person should submit the assignment for your entire team, and then add the other teammates as collaborators._
 
 ### Project Proposal
-_<b>Action Item:</b> With your project team, fill out the Final Project Proposal on [Gradescope](https://www.gradescope.com/) to address each of the following points. Only one person should submit the assignment for your entire team, and then add the other teammates as collaborators._
 
-- **Names of each group member**
+The project proposal and design mockup is how you will flesh out exactly what you want to build over the next couple weeks, identify why you're building it, and plan what technologies/tools/skills you need.
 
 - **Project Name:** Come up with a cool name for your application!
 
@@ -34,13 +32,9 @@ _<b>Action Item:</b> With your project team, fill out the Final Project Proposal
 
 - **Timeline:** When do you plan to work on certain portions of your project, and in what order? What work will you aim to complete by certain checkpoints? How will you and your team split up the work? Will your team be setting up regular meetings? If so, will they be virtual or in-person?
 
-- **Design Mockup PDF**: Upload a PDF file of your design mockup (more info in the section below).
-
-Don't forget to add all teammates as collaborators to the Gradescope submission!
-
 ### Design Mockup
 
-Come up with a design to demonstrate your project idea using any design tool you'd like (we recommend Figma). Bring your vision to life! Include colors, try different fonts, mess with corner radius or effects like drop shadows. Here is an example.
+Come up with a design to demonstrate your project idea using any design tool you'd like (we recommend Figma), and export it as an image or PDF. Bring your vision to life! Include colors, try different fonts, and mess with corner radius or effects like drop shadows. Here is an example:
 <br></br>
 <img src="/assets/mockup.png"/>
 
