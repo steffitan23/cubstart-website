@@ -1,16 +1,15 @@
 # Personal Diary
 
 ## Background: Ddoski's Secrets
-Ddoski has hired you to create a Personal Diary application for him, for **1 MILLION DOLLARS**. He wants to be able to log in with his Google account and for no one to be able to see what he wrote as entries. 
+Ddoski has hired you to create a Personal Diary application for him, for **1 MILLION DOLLARS**. He wants to be able to log in with his Google account and for no one to be able to see what he wrote as entries.
 
 ## Part 1: Set up your local project
-Since you've already downloaded Node.js in the last homework, we're just going to set up a project with an existing package.json.
 
-_[Download the skeleton here.](assets/hw9/hw9-skeleton.zip)_
+_[Download the skeleton here.](assets/lab8/lab8-starter.zip)_
 
-Extract the skeleton .zip. Go to your terminal in your hw9-skeleton folder and run the command:
+Extract the skeleton .zip. Go to your terminal and run the command:
 ```bash
-npm install
+npm install -g firebase-tools
 ```
 
 ## Part 2: Set up your Firebase project
@@ -38,7 +37,7 @@ npm install
 
 <img src="/assets/hw9/firebase-config.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-9. Click "Next" for the rest. Normally, you would do "npm install firebase" and "npm install -g firebase-tools", but we already installed it earlier when we did "npm install" (our existing skeleton project already has these dependencies).
+9. Click "Next" for the rest. We already installed firebase-tools globally!
 
 10. Go back to your "Project Overview" console. Click "Authentication", then click "Get started".
 
@@ -64,7 +63,7 @@ npm install
 
 <img src="/assets/hw9/start-collection.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-16. Set its "Collection ID" to "entries". 
+16. Set its "Collection ID" to "entries".
 
 <img src="/assets/hw9/collection-name.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
@@ -77,11 +76,11 @@ npm install
 <img src="/assets/hw9/project-settings.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
 <img src="/assets/hw9/firebase-location.png" style="width:70%; margin-top:15px; margin-bottom:5px;" />
- 
+
 **You're done with the console for now!**
 
 ## Part 3: Connecting your local project to your Firebase Project
-1. Open your terminal in the hw9-skeleton folder. 
+1. Open your terminal in the skeleton code folder.
 
 2. Execute these commands:
 ```bash
@@ -93,7 +92,7 @@ firebase login # This will bring up a login window in your browser.
 firebase init
 ```
 
-3. Follow the prompts that come up. 
+3. Follow the prompts that come up.
 
 4. Make sure to select by using your Up and Down arrow keys, space to select, and enter to confirm all choices. Select "Firestore: Configure security rules and indexes files for Firestore" and "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys".
 
@@ -103,7 +102,7 @@ firebase init
 
 <img src="/assets/hw9/use-existing.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-6. Just hit enter for everything else to use the defaults, **EXCEPT when they prompt you to overwrite the index.html**. **Do not overwrite index.html.** **Also, make sure to decline when they prompt: “Set up automatic builds and deploys with GitHub?".**
+6. Just hit enter for everything else to use the defaults, **EXCEPT when they prompt you to overwrite the index.html or firestore.rules**. **Do not overwrite them.** Also, make sure to decline when they prompt: “Set up automatic builds and deploys with GitHub?".
 
 This is how your terminal should look like:
 <img src="/assets/hw9/terminal-1.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
@@ -116,8 +115,8 @@ This is how your terminal should look like:
 Now you can proceed on to Question 2, 3, and 4. Test if your app works by doing
 ```bash
 firebase serve
-``` 
-Go to http://localhost:5000/ on your browser to see! The console in Browser Developer Tools will be useful for some of the questions.
+```
+Go to http://localhost:5000/ (or whatever firebase prints) on your browser to see! The console in Browser Developer Tools will be useful for some of the questions.
 
 # Hint for Questions 3:
 Check [this page](https://firebase.google.com/docs/firestore/query-data/queries) out! Look under the heading "Execute a Query", near the bottom of the page.
@@ -127,16 +126,16 @@ Check [this page](https://firebase.google.com/docs/firestore/manage-data/add-dat
 
 <img src="/assets/hw9/add-doc.PNG" style="width:70%; margin-top:15px; margin-bottom:5px;" />
 
-We need to set **uid** to **user.uid**, **entry** to **entryText.value**, and **timestamp** to **timestamp** (we created a timestamp variable for you).
+We need to set **uid** to **user.uid**, **entry** to **newEntryInput.value**, and **timestamp** to **timestamp** (we created a timestamp variable for you).
 
 ## HOOOORAY
 You're done! If you want, you could do
 ```bash
 firebase deploy
 ```
-in your terminal in the hw9-skeleton folder to see your website live! 
+in your terminal in the code folder to see your website live!
 
-# Submission
+# Submission (Not for Lab!)
 To submit the homework folder, you have to zip it first. Make sure **not to include the "node_modules" folder**. You can do this by moving all your other files for submission into a separate folder and then zipping that folder.
 
 **To zip a folder:**
@@ -144,7 +143,3 @@ _**Windows:** Right-click the folder, select (or point to) Send to, and then sel
 _**macOS:** Control-click the folder  or tap it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com/courses/437611) :)
-
-
-
-
