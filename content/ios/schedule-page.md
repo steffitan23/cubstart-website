@@ -18,7 +18,7 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 7    | Animations [Slides](https://drive.google.com/file/d/1oNS2DKfPR_LcMnWical1SU43aUqZ_IB1/view?usp=sharing) [Recording](https://drive.google.com/file/d/1a6TmEGvPz4U9uX9YEzGB-dfliN1nBYER/view?usp=sharing) | Discussion 7/OH | [HW 6: Animations!](https://calhacks.notion.site/HW-6-Animations-4c8f20647d754f4db62c8c7c67e22dfa?pvs=4) |
 | 8    | API Integration | Discussion 8/OH | HW 7: Guess the Dog! |
 | 9    | No Lecture (Spring Recess) | No Discussion | No HW |
-| 10   | SwiftData [Slides](https://drive.google.com/file/d/1SujPLfvSydh68nGtQFlrN6h4Um7_Z63v/view?usp=sharing) | Discussion 9/OH  | [HW 8: SwiftData](https://drive.google.com/file/d/1gmfCu7ozTGDYNAtFEVZAGg11UteF5E7Y/view?usp=sharing)  |
+| 10   | SwiftData [Slides](https://drive.google.com/file/d/1SujPLfvSydh68nGtQFlrN6h4Um7_Z63v/view?usp=sharing) [Recording](https://youtu.be/d4o4qymeo9k?si=EHCTAQNRNdHjiSJX) | Discussion 9/OH  | [HW 8: SwiftData](https://drive.google.com/file/d/1gmfCu7ozTGDYNAtFEVZAGg11UteF5E7Y/view?usp=sharing)  |
 | 11   | Firebase | Final Project OH | HW 9: TBD |
 | 12   | Framework Integration and DocC | Final Project OH | Work on Final Project |
 | 13   | In-Class Final Project OH | Final Project OH | Work on Final Project |
