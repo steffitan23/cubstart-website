@@ -1,28 +1,28 @@
 {
   "lecturers": [
     {
-      "image": "assets/andy.jpg",
+      "image": "assets/staff/andy.jpg",
       "name": "Andy Huang",
       "title": "Course Lead & iOS Lecturer",
       "description": "Hi there! I'm Andy, a fourth year studying CS. I like playing badminton and eating hot pot! 🍲🏸",
       "social": "@andyy_huang"
     },
     {
-      "image": "assets/justin.jpg",
+      "image": "assets/staff/justin.jpg",
       "name": "Justin Wong",
       "title": "iOS Lecturer",
       "description": "Hello World! I'm a second year EECS & HUGEEE 🍎 Fanboy. I love to build iOS apps, delve into geopolitics, and get caffeinated on ☕️ in my free time. Feel free to contact me, and let's geek out together!",
       "social": "@j_wongwiz"
     },
     {
-      "image": "assets/madhav.jpg",
+      "image": "assets/staff/madhav.jpg",
       "name": "Madhav Varshney",
       "title": "Web Lead & Lecturer",
       "description": "Hello! I'm Madhav, a fourth-year CS major. I enjoy building stuff, often webapps, and like to hike or play musical instruments in my free time. I'm excited to meet you all!",
       "social": "@madhavarshney"
     },
     {
-      "image": "assets/jessica.jpg",
+      "image": "assets/staff/jessica.jpg",
       "name": "Jessica Ng",
       "title": "Web Lead & Lecturer",
       "description": "Hi, I'm Jessica, a second-year CS major! You can usually find me reading, crocheting, playing Tetris, or binge-watching Singles Inferno. I'm super excited to meet everyone :)",
@@ -30,48 +30,29 @@
     }
   ],
   "tas": [
-      {
-      "image": "assets/kaashvi.jpg",
+    {
+      "image": "assets/staff/kaashvi.jpg",
       "name": "Kaashvi Agnihotri",
       "title": "iOS TA",
       "description": "Hi, I'm Kaashvi! I'm a 3rd year CS student pursuing an English Minor. I like to draw, overanalyze murder mystery shows, and play the flute 🎶 Looking forward to meeting ya'll!",
       "social": "@kashew_arts"
     },
     {
-      "image": "assets/kartik.jpg",
+      "image": "assets/staff/kartik.jpg",
       "name": "Kartik Punia",
       "title": "iOS TA",
       "description": "Hi! I’m Kartik, a third year CS major. I love spending time in nature 🌲, playing basketball 🏀, and eating mexican food 🌯! Reach out if you need anything.",
       "social": "@_kartikpunia"
     },
     {
-      "image": "assets/annie.png",
-      "name": "Annie Lin",
-      "title": "iOS TA",
-      "description": "Hi! I’m Annie, a fourth-year Applied Math major from NYC. I love making Spotify playlists, creating art, going on runs, and trying new foods! Super excited to meet everyone. 🫶",
-      "social": "@anni3lin"
-    },
-    {
-      "image": "assets/ryan.jpg",
+      "image": "assets/staff/ryan.jpg",
       "name": "Ryan Reid",
       "title": "iOS TA",
       "description": "Hey everyone! I’m Ryan, a second year studying CS from Las Vegas 🎰. I love to play soccer, travel, and binge watch TV series. I’m looking forward to meeting everyone, feel free to reach out anytime!",
       "social": "@ryreid_"
     },
     {
-      "image": "assets/bryan.jpeg",
-      "name": "Bryan Chu",
-      "title": "Web TA",
-      "description": "Hi! I’m a junior studying CS from Saratoga, California. In my free time, I like to be active and exercise as well as binge k-dramas. I’m also a big Warriors and 49ers fan. Feel free to reach out to me about anything!",
-      "social": "@bryannchu"
-    }, {
-      "image": "assets/matt.png",
-      "name": "Matt Hamilton",
-      "title": "Web TA",
-      "description": "Hey everyone! I’m a senior at UCB majoring in EECS. Fascinated about the outer-space and black holes :hole:.  I love going to the gym & learn something new. Please reach out if you need any help, advise, or just want to know more about some cool web dev libraries. See you soon!",
-      "social": "@matt.here0"
-    }, {
-      "image": "assets/amber.png",
+      "image": "assets/staff/amber.jpg",
       "name": "Amber Wang",
       "title": "Web TA",
       "description": "Hey y'all! I'm Amber, a second-year CS student from LA. I like playing video games and getting free food. Down to grab a smoothie or smth if you want to talk :)))",
@@ -80,19 +61,19 @@
   ],
   "archives": [
     {
-      "image": "assets/steffi.jpg",
+      "image": "assets/staff/steffi.jpg",
       "name": "Steffi Tan",
       "title": "Web Lecturer",
       "social": "@staph.e"
     },
     {
-      "image": "assets/tyler.jpg",
+      "image": "assets/staff/tyler.jpg",
       "name": "Tyler Sameshima",
       "title": "Logistics",
       "social": "@tysameshima"
     },
     {
-      "image": "assets/tony.jpg",
+      "image": "assets/staff/tony.jpg",
       "name": "Tony Hong",
       "title": "iOS Lecturer, Logistics",
       "social": "@tshong"
