@@ -22,7 +22,7 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1FOOB7BvHqc9OfJysvjELBfxbg054zSwdGBFDPiQenuY/edit)     | Lab 7: MongoDB & Express + Pet Finder  [Slides](https://docs.google.com/presentation/d/1kIfvftMkEyDe6ZvmdvbD7dao4Bhizy9MHgD8ZKU0RnQ/edit)          | [*No HW*](https://youtu.be/dQw4w9WgXcQ) |
 | 8    | Backends, Deployment, and Authentication [Slides](https://cubstart.github.io/web-slides/lecture-8/)   | Lab 8: Firebase [Slides](https://docs.google.com/presentation/d/1Rb0fgENC1EF_chbX8Rga8dlyvKGty1n7K1LZHV5Sohg/edit) [Spec](#/hw/web/firebaseHW) |  [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) DUE 4/7 + [Final Project Checkpoint](#/hw/web/spec) DUE 4/9
 | 9    | *Spring Break*   | *Spring Break*           | *Spring Break* |
-| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React | [Final Project](#/hw/web/spec) + HW 8: Social Media Website   |
+| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React [Slides](https://docs.google.com/presentation/d/1Acq_bQXCexFC3whng5EyEaFiWmqTx8qsN9TpLvFFPdw/edit) | [Final Project](#/hw/web/spec) + HW 8: Social Media Website   |
 | 11   | React Continued | TBD: Review & Project OH | [Final Project](#/hw/web/spec)|
 | 12   | TBD: Project OH        | TBD: Project OH                     | [Final Project](#/hw/web/spec)  |
 | 13   | OPTIONAL Project OH        | OPTIONAL Project OH                     | [Final Project](#/hw/web/spec)  |
