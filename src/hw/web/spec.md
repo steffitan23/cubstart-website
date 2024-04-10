@@ -1,6 +1,6 @@
 # Final Project Specification
 
-_**Please fill out the [Team Formation Form](https://forms.gle/QqXi5eJ84rzgP3tR8) DUE SUNDAY MARCH 24th!**_
+<!-- _**Please fill out the [Team Formation Form](https://forms.gle/QqXi5eJ84rzgP3tR8) DUE SUNDAY MARCH 24th!**_ -->
 
 Your goal is to design and develop a web application that incorporates the following:
 
@@ -41,7 +41,7 @@ Come up with a design to demonstrate your project idea using any design tool you
 <br>
 
 ## Part 2: Final Project Development + Presentation
-<b>Deadline:</b> Demo Day 🎉 (exact date is TBD, but sometime during dead week), 40 points
+<b>Deadline:</b> Demo Day 🎉 (Friday May 3rd from 1-3pm), 40 points
 
 On Demo Day, you will present your project to the class! Students will be split into cohorts and you will get the chance to view and share projects! **Prepare a 2 minute presentation + demo.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon with more time, other functionalities that would be cool to implement, etc.
 

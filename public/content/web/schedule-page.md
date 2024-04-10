@@ -9,6 +9,8 @@ Office Hours (optional): Thursdays 8-9pm @ Moffit 102
 **Instruction begins on the week of January 28.**
 
 ## Announcements
+Demo Day is Friday May 3rd, 1-3pm!
+
 Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gradescope.com) with code 2PWJXD. Recordings will be published [here](https://drive.google.com/drive/folders/1vrX7TA2lg4-ujb6c0vJeqtR7tw6Jj0us?usp=sharing).
 
 | Week | Lecture                                                                                                                                                                                                                                                                          | Lab Section                           | Homework/Project                                                                |
@@ -22,11 +24,11 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | 7    | MongoDB, Mongoose [Slides](https://docs.google.com/presentation/d/1FOOB7BvHqc9OfJysvjELBfxbg054zSwdGBFDPiQenuY/edit)     | Lab 7: MongoDB & Express + Pet Finder  [Slides](https://docs.google.com/presentation/d/1kIfvftMkEyDe6ZvmdvbD7dao4Bhizy9MHgD8ZKU0RnQ/edit)          | [*No HW*](https://youtu.be/dQw4w9WgXcQ) |
 | 8    | Backends, Deployment, and Authentication [Slides](https://cubstart.github.io/web-slides/lecture-8/)   | Lab 8: Firebase [Slides](https://docs.google.com/presentation/d/1Rb0fgENC1EF_chbX8Rga8dlyvKGty1n7K1LZHV5Sohg/edit) [Spec](#/hw/web/firebaseHW) |  [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) DUE 4/7 + [Final Project Checkpoint](#/hw/web/spec) DUE 4/9
 | 9    | *Spring Break*   | *Spring Break*           | *Spring Break* |
-| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React [Slides](https://docs.google.com/presentation/d/1Acq_bQXCexFC3whng5EyEaFiWmqTx8qsN9TpLvFFPdw/edit) | [Final Project](#/hw/web/spec) + HW 8: Social Media Website   |
-| 11   | React Continued | TBD: Review & Project OH | [Final Project](#/hw/web/spec)|
+| 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React Part I[Slides](https://docs.google.com/presentation/d/1Acq_bQXCexFC3whng5EyEaFiWmqTx8qsN9TpLvFFPdw/edit) | [Final Project](#/hw/web/spec) + HW 8: Social Media Website   |
+| 11   | Lecture 10: React Part II[Slides](https://docs.google.com/presentation/d/1olL1RT1HI9hGdr8FANC4IHuITz8cqN6lAPivgh9YNBs/edit?usp=sharing)  | TBD: Review & Project OH | [Final Project](#/hw/web/spec)|
 | 12   | TBD: Project OH        | TBD: Project OH                     | [Final Project](#/hw/web/spec)  |
 | 13   | OPTIONAL Project OH        | OPTIONAL Project OH                     | [Final Project](#/hw/web/spec)  |
-| 14   | Demo Day 🎉  |
+| 14   | Demo Day: May 3rd 🎉  |
 
 
 [comment]: <> "Note: removed HW 8: Create your own API in SP24"
