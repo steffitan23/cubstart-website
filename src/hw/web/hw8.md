@@ -146,7 +146,7 @@ Try clicking "Back to Home". Nothing happens!
 
 **On line 20 in Profile.jsx**, it seems like Ddoski forgot to wrap his button in a tag so the "Back to Home" goes back to the main page. **Fix the code** so that the button goes back to the "`/`" path.
 
-If you're stuck, **check how we did this for the button on the App.jsx page!** You could also look through check the React slides on "Routing" or the `react-router` documentation.
+If you're stuck, **check how we did this for the button on the App.jsx page!** You could also check the React slides on "Routing" or the `react-router` documentation.
 
 <details>
 <summary>Hint</summary>
