@@ -9,7 +9,7 @@ Office Hours (optional): Thursdays 8-9pm @ Moffit 102
 **Instruction begins on the week of January 28.**
 
 ## Announcements
-Demo Day is Friday May 3rd, 1-3pm!
+Demo Day is Friday May 3rd, 1-3pm in the Woz (Soda 430)!
 
 Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gradescope.com) with code 2PWJXD. Recordings will be published [here](https://drive.google.com/drive/folders/1vrX7TA2lg4-ujb6c0vJeqtR7tw6Jj0us?usp=sharing).
 

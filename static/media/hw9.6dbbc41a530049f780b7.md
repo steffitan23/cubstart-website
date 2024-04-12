@@ -1,4 +1,4 @@
-# HW 8: Social Media Website With React (OPTIONAL)
+# OPTIONAL HOMEWORK: Social Media Website With React
 
 ## Facebook who?
 Ddoski is trying to make the next big thing: a **social media website** for himself and other college bears like him. Unfortunately, Ddoski spent many hours working on his site but he still couldn't manage to complete it. **Finish the code in his project** to make the social media website work!

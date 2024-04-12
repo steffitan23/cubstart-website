@@ -41,7 +41,7 @@ Come up with a design to demonstrate your project idea using any design tool you
 <br>
 
 ## Part 2: Final Project Development + Presentation
-<b>Deadline:</b> Demo Day 🎉 (Friday May 3rd from 1-3pm), 40 points
+<b>Deadline:</b> Demo Day 🎉 (Friday May 3rd from 1-3pm) in the Woz (Soda 430), 40 points
 
 On Demo Day, you will present your project to the class! Students will be split into cohorts and you will get the chance to view and share projects! **Prepare a 2 minute presentation + demo.** Walk us through a demo of your project, talk about how you created it, what technologies you used, what roadblocks you came across and how you solved them, what you could improve upon with more time, other functionalities that would be cool to implement, etc.
 
