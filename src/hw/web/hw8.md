@@ -1,4 +1,4 @@
-# OPTIONAL HOMEWORK: Social Media Website With React
+# HW 8: Social Media Website With React (OPTIONAL)
 
 ## Facebook who?
 Ddoski is trying to make the next big thing: a **social media website** for himself and other college bears like him. Unfortunately, Ddoski spent many hours working on his site but he still couldn't manage to complete it. **Finish the code in his project** to make the social media website work!
@@ -7,7 +7,7 @@ Note: The skeleton code provided may feel daunting at first, but don't be intimi
 
 
 ## Setting up the project
-Make sure you've downloaded Node.js, which you hopefully did in the last homework. We're going to set up a project with an existing `package.json`.
+Make sure you've downloaded Node.js, which you hopefully did in a previous homework. We're going to set up a project with an existing `package.json`.
 
 _[Download the skeleton here.](assets/hw8/hw8-skeleton.zip)_
 
@@ -16,15 +16,15 @@ Extract the skeleton `.zip.` Go to your terminal in the extracted `hw8-skeleton`
 npm install
 ```
 
-Note: If you see any error related to React versions, use "`npm install --force`"
-
 Check that all the dependencies are successfully installed (a `node_modules` folder is created).
 
 Finally, run
 ```bash
-npm start
+npm run dev
 ```
-to get your website running on http://localhost:3000!
+to get your website running! Click the link shown in the terminal (i.e. http://localhost:5173/) to open your webpage.
+
+<img src="/assets/hw8/viteRunning.png" style="margin-top:15px;width:80%;" />
 
 Your folder should look something like this:
 
@@ -37,17 +37,17 @@ Let's get started!
 
 Most web applications, such as a social media site, are composed of multiple pages. For example, there may be a homepage, a page with a feed, and a settings page. These pages are usually served, or shown, at different paths inside of the URL of a website.
 
-In his project, Ddoski has set up a homepage at `/` and a profile page at `/profile`. Additionally, he has a 404 error page set up, which is displayed when the user opens a URL that is not recognized. Ddoski's routes are configured in `src/index.js` using [`react-router`](https://reactrouter.com/), which is a library that allows us to **show different components for different paths**.
+In his project, Ddoski has set up a homepage at `/` and a profile page at `/profile`. Additionally, he has a 404 error page set up, which is displayed when the user opens a URL that is not recognized. Ddoski's routes are configured in `src/main.jsx` using [`react-router`](https://reactrouter.com/), which is a library that allows us to **show different components for different paths**.
 
-The component `App`, imported from `src/routes/App.js` is served at the root URL of the website (i.e. http://localhost:3000/), and the component `Profile`, imported from `src/routes/Profile.js`, is served at `/profile` (http://localhost:3000/profile).
+The component `App`, imported from `src/routes/App.jsx` is served at the root URL of the website (i.e. http://localhost:5173/), and the component `Profile`, imported from `src/routes/Profile.jsx`, is served at `/profile` (http://localhost:5173/profile).
 
 
 ## Warmup: Check out the different pages!
-First, go to http://localhost:3000/ to check the homepage.
+First, go to http://localhost:5173/ to check the homepage.
 
-Now, go to http://localhost:3000/<Insert_Random_Characters_Here> and http://localhost:3000/profffile.
+Now, go to http://localhost:5173/<Insert_Random_Characters_Here> and http://localhost:5173/profffile.
 
-**You should see this page pop up each time!** This is the 404 page, which is in `src/routes/NotFound.js`.
+**You should see this page pop up each time!** This is the 404 page, which is in `src/routes/NotFound.jsx`.
 
 <img src="/assets/hw8/errorPage.png" style="width:50%; margin-top:15px; margin-bottom:5px;" />
 
@@ -61,7 +61,7 @@ Anytime a user goes to a page that doesn't exist, you don't want your website to
 ## Task 1: I can't type anything!
 Go to the homepage of our site, and try typing in the comment box. Huh, nothing happens!
 
-It looks like there is some **incomplete code in `App.js` where the `<input>` element is**. See if you can figure out what to do! Be sure to test your site. <br>
+It looks like there is some **incomplete code in `App.jsx` where the `<input>` element is**. See if you can figure out what to do! Be sure to test your site. <br>
 
 <details>
 <summary>Hint 1</summary>
@@ -82,7 +82,7 @@ _Note that a component is rerendered by react (reevaluated and displayed to scre
 
 Yay! We can now type a comment. But wait a minute, nothing happens when we press "Add Comment!".
 
-**Part (a): Complete the function `addComment()` inside of `App.js`.**
+**Part (a): Complete the function `addComment()` inside of `App.jsx`.**
 
 <details>
 <summary>Hint</summary>
@@ -108,9 +108,9 @@ _Note: You should not see the actual comments just yet, but make sure the commen
 
 Ok, we can now type a comment and add it. But it isn't actually showing up!
 
-**Complete the code on line 41 in `App.js` to render the `<Comment>` component** for each comment.
+**Complete the code on line 41 in `App.jsx` to render the `<Comment>` component** for each comment.
 
-You will need to reference `src/components/Comment.js`, which is imported in `App.js`, to see which props to pass. Additionally, look at the slides for an example on rendering lists if you are confused on how to do this task.
+You will need to reference `src/components/Comment.jsx`, which is imported in `App.jsx`, to see which props to pass. Additionally, look at the slides for an example on rendering lists if you are confused on how to do this task.
 
 _Note: When rendering lists, you need to set the `key` prop in the root element returned by the map function to something unique to that list item. In this case, you can set `key={index}` as the array index is unique to our comment. This will make sure that React does not print an error in the console._
 
@@ -124,7 +124,7 @@ _In JavaScript, `array.map(someFunc)` loops through the array, calls `someFunc(i
 <details>
 <summary>Hint</summary>
 
-_Within the function inside of `.map()`, we want to return some markup of the form `<Comment ...>`. Based on `Comments.js`, what prop do we need to pass? Additionally, what other prop do we need to set (check note above)?_
+_Within the function inside of `.map()`, we want to return some markup of the form `<Comment ...>`. Based on `Comments.jsx`, what prop do we need to pass? Additionally, what other prop do we need to set (check note above)?_
 
 </details>
 
@@ -144,9 +144,9 @@ Try clicking "Back to Home". Nothing happens!
 
 <img src="/assets/hw8/backHomeButton.png" style="width:25%; margin-top:5px;"/>
 
-**On line 20 in Profile.js**, it seems like Ddoski forgot to wrap his button in a tag so the "Back to Home" goes back to the main page. **Fix the code** so that the button goes back to the "`/`" path.
+**On line 20 in Profile.jsx**, it seems like Ddoski forgot to wrap his button in a tag so the "Back to Home" goes back to the main page. **Fix the code** so that the button goes back to the "`/`" path.
 
-If you're stuck, check the React slides on "Routing". **Or, check how we did this for the button on the App.js page!**
+If you're stuck, **check how we did this for the button on the App.jsx page!** You could also look through check the React slides on "Routing" or the `react-router` documentation.
 
 <details>
 <summary>Hint</summary>
