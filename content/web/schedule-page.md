@@ -25,7 +25,7 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | 8    | Backends, Deployment, and Authentication [Slides](https://cubstart.github.io/web-slides/lecture-8/)   | Lab 8: Firebase [Slides](https://docs.google.com/presentation/d/1Rb0fgENC1EF_chbX8Rga8dlyvKGty1n7K1LZHV5Sohg/edit) [Spec](#/hw/web/firebaseHW) |  [HW 7: Quizlet-ish Part 2](#/hw/web/hw7) DUE 4/7 + [Final Project Checkpoint](#/hw/web/spec) DUE 4/9
 | 9    | *Spring Break*   | *Spring Break*           | *Spring Break* |
 | 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React Part I [Slides](https://docs.google.com/presentation/d/1Acq_bQXCexFC3whng5EyEaFiWmqTx8qsN9TpLvFFPdw/edit) | [Final Project](#/hw/web/spec)   |
-| 11   | Lecture 10: React Part II [Slides](https://docs.google.com/presentation/d/1olL1RT1HI9hGdr8FANC4IHuITz8cqN6lAPivgh9YNBs/edit?usp=sharing)  | Lab 10: React Practice (Optional) [Starter](assets/lab10/lab10-starter.zip) [Solution](assets/lab10/lab10-solution.zip) | [Final Project](#/hw/web/spec) + HW 8: Social Media Website (Optional)|
+| 11   | Lecture 10: React Part II [Slides](https://docs.google.com/presentation/d/1olL1RT1HI9hGdr8FANC4IHuITz8cqN6lAPivgh9YNBs/edit?usp=sharing)  | Lab 10: React Practice (Optional) [Starter](assets/lab10/lab10-starter.zip) [Solution](assets/lab10/lab10-solution.zip) | [Final Project](#/hw/web/spec) + [HW 8: Social Media Website (Optional)](#/hw/web/hw8)|
 | 12   | TBD: Project OH        | TBD: Project OH                     | [Final Project](#/hw/web/spec)  |
 | 13   | OPTIONAL Project OH        | OPTIONAL Project OH                     | [Final Project](#/hw/web/spec)  |
 | 14   | Demo Day: May 3rd 🎉  |
