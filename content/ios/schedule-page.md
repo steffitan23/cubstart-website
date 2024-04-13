@@ -16,10 +16,10 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 5    | Observation and MVVM [Slides](https://drive.google.com/file/d/1nTDa7it4BdxE0zae2Zw0_ufe2oiTzFQS/view?usp=sharing) [Recording](https://youtu.be/JVIQTW8oQrA) | Discussion 5/OH | [HW 4: Class Planner](https://calhacks.notion.site/HW-4-Class-Planner-3fab826da29d4ee48e1f81fbcb141483?pvs=4)  |
 | 6    | Navigation and Presentation [Slides](https://drive.google.com/file/d/1kwWanZEPm6gn4wWoTvo3KIYfbPamK5Nt/view?usp=sharing) [Recording](https://youtu.be/yp65ba_T-gA?si=de7SE4p5-edOTgFL) | Discussion 6/OH | [HW 5: SpeechNav](https://calhacks.notion.site/HW-5-SpeechNav-26ac42e5ff6d4db9b8570ad569659255?pvs=4) |
 | 7    | Animations [Slides](https://drive.google.com/file/d/1oNS2DKfPR_LcMnWical1SU43aUqZ_IB1/view?usp=sharing) [Recording](https://drive.google.com/file/d/1a6TmEGvPz4U9uX9YEzGB-dfliN1nBYER/view?usp=sharing) | Discussion 7/OH | [HW 6: Animations!](https://calhacks.notion.site/HW-6-Animations-4c8f20647d754f4db62c8c7c67e22dfa?pvs=4) |
-| 8    | API Integration [Slides](https://drive.google.com/file/d/1Mfbzk-cqD6DAVOYGDSi7037Hxhx5HKmC/view?usp=sharing) | Discussion 8/OH | HW 7: Guess the Dog! |
+| 8    | API Integration [Slides](https://drive.google.com/file/d/1Mfbzk-cqD6DAVOYGDSi7037Hxhx5HKmC/view?usp=sharing) | Discussion 8/OH | No HW |
 | 9    | No Lecture (Spring Recess) | No Discussion | No HW |
 | 10   | SwiftData [Slides](https://drive.google.com/file/d/1SujPLfvSydh68nGtQFlrN6h4Um7_Z63v/view?usp=sharing) [Recording](https://youtu.be/d4o4qymeo9k?si=EHCTAQNRNdHjiSJX) | Discussion 9/OH  | [HW 8: SwiftData](https://drive.google.com/file/d/1gmfCu7ozTGDYNAtFEVZAGg11UteF5E7Y/view?usp=sharing)  |
-| 11   | Firebase [Slides](https://drive.google.com/file/d/179hG_c7sIlD1hHa_N95UTEzEKyy2H-aw/view?usp=sharing) | Final Project OH | HW 9: TBD |
+| 11   | Firebase [Slides](https://drive.google.com/file/d/179hG_c7sIlD1hHa_N95UTEzEKyy2H-aw/view?usp=sharing) | Final Project OH | No HW |
 | 12   | Framework Integration and DocC | Final Project OH | Work on Final Project |
 | 13   | In-Class Final Project OH | Final Project OH | Work on Final Project |
 | 13   | No Lecture (Demo Week) | | [Final Project](https://calhacks.notion.site/SP24-Cubstart-Final-Project-Spec-68f84323618743709c76a6ff8da2b976?pvs=4) |
