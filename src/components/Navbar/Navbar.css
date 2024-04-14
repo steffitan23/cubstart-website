@@ -73,8 +73,11 @@
   .logo-wrapper h3 {
     margin-top: 10px;
     float: right;
-    font-weight: 400;
-    color: var(--main-color);
+    font-weight: 100;
+    font-size:0.85em;
+    line-height:0.12;
+    width:125px;
+    color: #a1a1a1; /* var(--main-color);*/
   }
 
   #logo {
@@ -253,3 +256,34 @@
     }
     }
 
+    .nav-cubstart-text {
+      font-family: "Oxygen", sans-serif;
+      font-weight: 400;
+      color: var(--main-color);
+      font-size:1.35em;
+    }
+
+  .nav-join-team-bttn {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.25rem; 
+    border-bottom-width: 4px; 
+    border-right:0px;
+    border-left:0px;
+    border-top:0px;
+    font-size: 0.9rem;
+    line-height: 1.25rem; 
+    font-weight: 700; 
+    color: #ffffff; 
+    transition-duration: 75ms; 
+    transition-delay: 75ms; 
+    background: #3D9BC2;
+    border-color: #1F83AC;
+    cursor:pointer;
+}
+.nav-join-team-bttn:hover { 
+ background: #1F83AC;
+ border-color: #177197;
+ }
