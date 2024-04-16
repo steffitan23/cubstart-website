@@ -287,3 +287,14 @@
  background: #1F83AC;
  border-color: #177197;
  }
+
+ .Navbar .banner {
+  width:100%;
+  font-size:1.03em;
+  letter-spacing:0.01em;
+  font-weight:600;
+  font-family: "Oxygen", sans-serif;
+  border:none;
+  padding:12px;
+  background-image: linear-gradient(to right, #66c8f2, #117ead);
+ }

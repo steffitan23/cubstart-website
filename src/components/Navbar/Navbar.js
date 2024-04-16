@@ -22,9 +22,11 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="nav-wrapper">
+      <div class="banner">Interested in joining our course staff? Apply <a style={{"color":"#fff", "borderBottom":"1px solid #fff", "paddingBottom":"0px"}} href="https://docs.google.com/forms/d/1DjvGXO1VjnS1D-b2fyuBfdEXFCaW7K7UmrFz4Dvb_SU/edit">here!</a></div>
         <div className="grad-bar"></div>
         <Router>
           <nav className="navbar">
+            
             <div className="logo-wrapper">
             <a href="/"><img
                 id="logo"
@@ -59,7 +61,7 @@ function Navbar() {
                 <Link to="/info">Course Info</Link>
               </li>
               <li className="nav-item" style={{"marginTop":"-1px"}}>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKcm7m6R5XDwqFMHPZCIT52Pry65of0kPO2dYkiWK6PHTtzA/viewform?usp=sf_link"><button style={{"marginTop":"-20px", "borderRadius":"30px"}} className="nav-join-team-bttn">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKcm7m6R5XDwqFMHPZCIT52Pry65of0kPO2dYkiWK6PHTtzA/viewform?usp=sf_link"><button style={{"marginTop":"-20px", "borderRadius":"30px", "opacity":"1"}} className="nav-join-team-bttn">
                   Join Our Team!
               </button></a>
                 {/* <a href="https://google.com">Apply to be a TA!</a> */}
