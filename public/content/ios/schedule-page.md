@@ -20,6 +20,6 @@ Join the [Ed](https://edstem.org/us/join/mtSMbK) and [Gradescope](https://www.gr
 | 9    | No Lecture (Spring Recess) | No Discussion | No HW |
 | 10   | SwiftData [Slides](https://drive.google.com/file/d/1SujPLfvSydh68nGtQFlrN6h4Um7_Z63v/view?usp=sharing) [Recording](https://youtu.be/d4o4qymeo9k?si=EHCTAQNRNdHjiSJX) | Discussion 9/OH  | [HW 8: SwiftData](https://drive.google.com/file/d/1gmfCu7ozTGDYNAtFEVZAGg11UteF5E7Y/view?usp=sharing)  |
 | 11   | Firebase [Slides](https://drive.google.com/file/d/179hG_c7sIlD1hHa_N95UTEzEKyy2H-aw/view?usp=sharing) | Final Project OH | No HW |
-| 12   | Framework Integration [Slides](https://drive.google.com/file/d/1NQYPMVIVRFMCnyMOLAyG9gOJBX3SIXd9/view?usp=sharing) | Final Project OH/Comprehensive Review | Work on Final Project |
+| 12   | Framework Integration [Slides](https://drive.google.com/file/d/1NQYPMVIVRFMCnyMOLAyG9gOJBX3SIXd9/view?usp=sharing) [Recording](https://youtu.be/jabr0bkPDoI) | Final Project OH/Comprehensive Review | Work on Final Project |
 | 13   | In-Class Final Project OH | Final Project OH | Work on Final Project |
 | 13   | No Lecture (Demo Week) | | [Final Project](https://calhacks.notion.site/SP24-Cubstart-Final-Project-Spec-68f84323618743709c76a6ff8da2b976?pvs=4) |
