@@ -297,4 +297,22 @@
   border:none;
   padding:12px;
   background-image: linear-gradient(to right, #66c8f2, #117ead);
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+ }
+ .banner .text {
+  max-width:50%;
+  display:block;
+ }
+ @media (max-width: 475px) {
+  .Navbar .banner {
+    display:block;
+  }
+  .banner .text {
+    margin-left:0%;
+    max-width:60%;
+   }
  }
