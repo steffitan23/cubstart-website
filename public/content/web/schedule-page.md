@@ -26,9 +26,9 @@ Join the [Ed](https://edstem.org/us/join/RDVU5J) and [Gradescope](https://www.gr
 | 9    | *Spring Break*   | *Spring Break*           | *Spring Break* |
 | 10   | *Canceled - Moved to Lab* | Lecture & Lab 9: React Part I [Slides](https://docs.google.com/presentation/d/1Acq_bQXCexFC3whng5EyEaFiWmqTx8qsN9TpLvFFPdw/edit) | [Final Project](#/hw/web/spec)   |
 | 11   | Lecture 10: React Part II [Slides](https://docs.google.com/presentation/d/1olL1RT1HI9hGdr8FANC4IHuITz8cqN6lAPivgh9YNBs/edit?usp=sharing)  | Lab 10: React Practice (Optional) [Starter](assets/lab10/lab10-starter.zip) [Solution](assets/lab10/lab10-solution.zip) | [Final Project](#/hw/web/spec) + [HW 8: Social Media Website (Optional)](#/hw/web/hw8)|
-| 12   | TBD: Project OH        | TBD: Project OH                     | [Final Project](#/hw/web/spec)  |
-| 13   | OPTIONAL Project OH        | OPTIONAL Project OH                     | [Final Project](#/hw/web/spec)  |
-| 14   | Demo Day: May 3rd 🎉  |
+| 12   | OPTIONAL Project OH        | OPTIONAL Project OH OH                     | [Final Project](#/hw/web/spec)  |
+| 13   | OPTIONAL Project OH        | *Canceled - No OH*               | [Final Project](#/hw/web/spec)  |
+| 14   | 🎉 Demo Day: May 3rd, 1-3pm @ Woz  |
 
 
 [comment]: <> "Note: removed HW 8: Create your own API in SP24"
