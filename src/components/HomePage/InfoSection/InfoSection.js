@@ -7,7 +7,7 @@ function InfoSection(props) {
         <div className="info-section desc-section">
             <div className="desc-text">
             <h2>What is Cubstart?</h2>
-            <p>Cubstart is a student-run course as part of the <b><a href="https://decal.berkeley.edu/about/decal-program">DeCal Program</a></b> at University of California, Berkeley. We're run by members of <b><a href="https://calhacks.io">Cal Hacks</a></b>, the world's largest collegiate hackathon. We've been running since Fall 2020, with the aim of supporting underrepresented minorities and beginner to intermediate developers in their journeys in STEM. </p>
+            <p>Cubstart is a student-run course as part of the <b><a href="https://decal.berkeley.edu/about/decal-program">DeCal Program</a></b> at University of California, Berkeley. We're run by members of <b><a href="https://hackberkeley.org">Hackathons at Berkeley</a></b>, the world's largest collegiate hackathon. We've been running since Fall 2020, with the aim of supporting underrepresented minorities and beginner to intermediate developers in their journeys in STEM. </p>
 
             <p>We have 2 tracks, <b>iOS</b> development and <b>Web</b> development, so students can choose the platform they prefer!</p>
 
