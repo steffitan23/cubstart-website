@@ -1,13 +1,6 @@
 {
   "lecturers": [
     {
-      "image": "assets/staff/andy.jpg",
-      "name": "Andy Huang",
-      "title": "Course Lead & iOS Lecturer",
-      "description": "Hi there! I'm Andy, a fourth year studying CS. I like playing badminton and eating hot pot! 🍲🏸",
-      "social": "@andyy_huang"
-    },
-    {
       "image": "assets/staff/justin.jpg",
       "name": "Justin Wong",
       "title": "iOS Lecturer",
@@ -17,16 +10,30 @@
     {
       "image": "assets/staff/madhav.jpg",
       "name": "Madhav Varshney",
-      "title": "Web Lead & Lecturer",
+      "title": "Web Lecturer",
       "description": "Hello! I'm Madhav, a fourth-year CS major. I enjoy building stuff, often webapps, and like to hike or play musical instruments in my free time. I'm excited to meet you all!",
       "social": "@madhavarshney"
     },
     {
+      "image": "https://res.cloudinary.com/netzero/image/upload/v1722987433/unnamed_by5why.jpg",
+      "name": "Oliver Carmont",
+      "title": "Web Lecturer",
+      "description": "Heyo! I'm Oliver, I'm a senior CS major. From Spain, share a love for travelling, and duh web dev 🖥️ Reach me at oliver@cubstart.com",
+      "social": "@oliver.cz"
+    },
+    {
       "image": "assets/staff/jessica.jpg",
       "name": "Jessica Ng",
-      "title": "Web Lead & Lecturer",
+      "title": "Web Lead",
       "description": "Hi, I'm Jessica, a second-year CS major! You can usually find me reading, crocheting, playing Tetris, or binge-watching Singles Inferno. I'm super excited to meet everyone :)",
       "social": "@jessican_1212"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/sampoder/pfp/03137b40b2c1794c2fccab796960e88a2f12f5bc/public/images/Screenshot%202024-07-27%20at%209.29.02%E2%80%AFAM.png",
+      "name": "Sam Poder",
+      "title": "Web Lecturer",
+      "description": "Hey there! I'm Sam, a second-year CS / Linguistics major. I enjoying making things and going on random public transit adventures. Going to be a fun year!",
+      "social": "@sam_poder"
     }
   ],
   "tas": [
@@ -53,6 +60,12 @@
     }
   ],
   "archives": [
+    {
+      "image": "assets/staff/andy.jpg",
+      "name": "Andy Huang",
+      "title": "Course Lead & iOS Lecturer",
+      "social": "@andyy_huang"
+    },
     {
       "image": "assets/staff/steffi.jpg",
       "name": "Steffi Tan",
