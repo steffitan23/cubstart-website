@@ -22,7 +22,6 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="nav-wrapper">
-      <div className="banner"><div className="text">Interested in joining our course staff? Apply <a style={{"color":"#fff", "borderBottom":"1px solid #fff", "paddingBottom":"0px"}} href="https://docs.google.com/forms/d/1DjvGXO1VjnS1D-b2fyuBfdEXFCaW7K7UmrFz4Dvb_SU/edit">here!</a></div></div>
         <div className="grad-bar"></div>
         <Router>
           <nav className="navbar">

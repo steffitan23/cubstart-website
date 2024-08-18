@@ -12,7 +12,7 @@ function SchedulePage(props) {
         .then((res) => res.text())
         .then((text) => setiOS(text));
 
-        fetch("content/web/schedule-page.md")
+        fetch("content/web/fa24-schedule-page.md")
         .then((res) => res.text())
         .then((text) => setWeb(text));
 
@@ -23,7 +23,7 @@ function SchedulePage(props) {
     <div className="text-wrapper">
         <div className="header">
             <h1>CS 198-075/750: Introduction to Building Apps</h1>
-            <h2>UC Berkeley | Spring 2024</h2>
+            <h2>UC Berkeley | Fall 2024</h2>
         </div>
         <div class="wrapper">
         <div class="tabs">

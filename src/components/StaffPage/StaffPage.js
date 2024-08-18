@@ -44,7 +44,6 @@ function StaffPage() {
     
     return (
     <div className="staff-wrapper">
-        <p style={{"paddingBottom":"10px", "fontSize":"1.17em", "marginBottom":"20px"}}>Interested in joining our team? <a style={{"paddingBottom": "1px", "borderBottom":"1px solid #23A6D5"}} href="https://docs.google.com/forms/d/e/1FAIpQLSfKcm7m6R5XDwqFMHPZCIT52Pry65of0kPO2dYkiWK6PHTtzA/viewform?usp=sf_link">Apply here!</a></p>
         <div className="header">
         <h1>Lecturers</h1>
         </div>

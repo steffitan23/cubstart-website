@@ -11,7 +11,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">What do you learn in this DeCal?</div>
-      <div className="accordion__content">By taking our DeCal, you'll get to start out by choosing a track: iOS development or web development. All the lectures and labs for the two tracks will be separate. <br/> <br/>Then, over the course of the semester, you'll build unique, resume-quality guided projects every week, learn about project ideation, crafting a project proposal, designing application mockups, developing full-stack web or iOS applications, pitching your final project to experts and professionals, and much more!</div>
+      <div className="accordion__content">By taking our DeCal, you'll get to start out by choosing a track: iOS development or web development. All the lectures and labs for the two tracks will be separate. <br/> <br/>Then, over the course of the semester, you'll build unique, guided mini-projects every week, learn about project ideation and design, craft a project proposal, designing application mockups, develop a full-stack resume-quality web or iOS application, pitch your final project to your peers hackathon-style, and much more!</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
@@ -32,7 +32,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">How do I apply?</div>
-      <div className="accordion__content">Spring 2024 enrollment is closed. See you next semester!</div>
+      <div className="accordion__content">Fall 2024 enrollment is open, no applications needed! Follow the steps above.</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>

@@ -47,7 +47,7 @@ function HomePage(props) {
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>
                 </div>*/}
                     
-                    <b>Spring 2024 enrollment is closed. See you next semester! </b>
+                    <b>Fall 2024 enrollment will open soon, stay tuned! </b>
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">
