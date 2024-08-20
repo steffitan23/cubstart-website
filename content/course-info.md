@@ -1,10 +1,10 @@
 **Course Designation:** CS 198-075 (iOS Track), CS 198-750 (Web Track)
 
-**Facilitators:** Andy Huang, Madhav Varshney, Jessica Ng
+**Facilitators:** Jessica Ng, Madhav Varshney, Justin Wong
 
 **EECS Dept. Sponsor:** Justin Yokota
 
-**Course Catalog:** Spring 2024
+**Course Catalog:** Fall 2024
 
 ## Course Overview
 
