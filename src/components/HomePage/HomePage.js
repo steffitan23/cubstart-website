@@ -11,9 +11,9 @@ function HomePage(props) {
 
     return (
     <div>
-        {/* <div className="banner">
-            <p>Enroll in Cubstart Sp24 NOW! Go to your CalCentral Enrollment Center and search 16666 for the Web Track OR 16649 for the iOS Track</p>
-        </div> */}
+        <div className="banner">
+            <p>Enroll in Cubstart Fall 24 NOW! Go to your CalCentral Enrollment Center and search 29886 for the Web Track OR 29885 for the iOS Track.</p>
+        </div>
     <div className="hero-wrapper">
         <div className="header">
             <div className='header-text'>
@@ -40,14 +40,10 @@ function HomePage(props) {
                         className="typing-text"
                         /></h1>
                     <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
-                    {/* <p><em>While preprequisites are not enforced, prior coding experience is highly recommmended.</em></p>
-                    <p>Cubstart is <u>open enrollment</u> for Spring 2024! Go to your CalCentral Enrollment Center and search <b>16666</b> for the Web Track (CS 198-750) OR <b>16649</b> for the iOS Track (CS 198-075).</p> */}
-                    {/*
-                    <div className='button-container'>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSco-puPnC9Se1k35ZDxzbOLbCqXUt2It2X23kLkFGkQ3F2snw/viewform" className="applybutton">APPLY NOW!</a>
-                </div>*/}
+                    <p><em>While preprequisites are not enforced, prior coding experience is highly recommmended.</em></p>
+                    <p>Cubstart Fall 24 enrollment in open! Go to your CalCentral Enrollment Center and search <b>29886</b> for the Web Track (CS 198-750) OR <b>29885</b> for the iOS Track (CS 198-075).</p>
                     
-                    <b>Fall 2024 enrollment will open soon, stay tuned! </b>
+                    {/* <b>Fall 2024 enrollment will open soon, stay tuned! </b> */}
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">

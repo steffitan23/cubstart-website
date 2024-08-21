@@ -32,7 +32,7 @@ function FAQPage(props) {
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
       <div className="accordion__title">How do I apply?</div>
-      <div className="accordion__content">Fall 2024 enrollment is open, no applications needed! Follow the steps above.</div>
+      <div className="accordion__content">Go to your CalCentral Enrollment Center and search 29886 for the Web Track OR 29885 for the iOS Track.</div>
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
