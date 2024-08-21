@@ -13,17 +13,17 @@ Join the [Ed](https://edstem.org/us/join/tyHBru) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                               | Lab Section | Homework/Project |
 |------|-----|-------|-------------|
-| 1    | Intro to HTML & CSS     | Lab 1: HTML & CSS   | HW 1: HTML Basics    |
-| 2    | CSS Basics                              | Lab 2: CSS Part 2 | HW 2: Personal Portfolio |
-| 3    | JavaScript Basics| Lab 3: DOM Manipulation with JS  | HW 3: JavaScript Playground  |
-| 4    | Intro to APIs     | Lab 4: GitHub Pages Deployment | HW 4: API Quiz on Gradescope |
-| 5    | APIs, Promises, & Fetch() | Lab 5: APIs + Frontend Practice  | HW 5: OpenWeatherMap API  |
+| 1    | HTML     | Lab 1: HTML   | HW 1: HTML Basics    |
+| 2    | CSS                              | Lab 2: CSS | HW 2: Personal Portfolio |
+| 3    | JavaScript | Lab 3: DOM Manipulation with JS  | HW 3: JavaScript Playground  |
+| 4    | Intro to APIs     | Lab 4: API Practice | HW 4: API Quiz on Gradescope |
+| 5    | APIs, Promises, & Fetch() | Lab 5: APIs + Frontend  | HW 5: OpenWeatherMap API  |
 | 6    | Node & Express    | Lab 6: Node & Express  | HW 6: Quizlet-ish Part 1 |
-| 7    | MongoDB, Mongoose   | Lab 7: MongoDB & Express + Pet Finder   | *No HW* |
-| 8    | Backends, Deployment, and Authentication  | Lab 7: Firebase  |  HW 8: Quizlet-ish Part 2 + Final Project Checkpoint
-| 9    | React I  | Lab 9: React I  |  *No HW*
-| 10   | React II | Lab 9: React II | HW 8: Social Media Website  |
-| 11   | TBD  | TBD| TBD |
-| 12   | Thanksgiving      |
+| 7    | MongoDB, Mongoose   | Lab 7: MongoDB & Express + Pet Finder   | HW 8: Quizlet-ish Part 2 |
+| 8    | Backends, Deployment, and Authentication  | Lab 7: Firebase  | *No HW* 
+| 9    | React I  | Lab 9: React I  |  HW 9: Social Media Website
+| 10   | React II | Lab 9: React II | Final Project Checkpoint |
+| 11   | OPTIONAL Project OH  | OPTIONAL Project OH| Final Project |
+| 12   | Thanksgiving      | | Final Project
 | 13   | OPTIONAL Project OH        |  OPTIONAL Project OH              | Final Project  |
 | 14   | 🎉 Demo Day  |
