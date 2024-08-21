@@ -8,18 +8,18 @@
       "social": "@j_wongwiz"
     },
     {
-      "image": "assets/staff/madhav.jpg",
-      "name": "Madhav Varshney",
-      "title": "Web Lecturer",
-      "description": "Hello! I'm Madhav, a fourth-year CS major. I enjoy building stuff, often webapps, and like to hike or play musical instruments in my free time. I'm excited to meet you all!",
-      "social": "@madhavarshney"
-    },
-    {
       "image": "https://res.cloudinary.com/netzero/image/upload/v1722987433/unnamed_by5why.jpg",
       "name": "Oliver Carmont",
       "title": "Web Lecturer",
       "description": "Heyo! I'm Oliver, I'm a senior CS major. From Spain, share a love for travelling, and duh web dev 🖥️ Reach me at oliver@cubstart.com",
       "social": "@oliver.cz"
+    },
+    {
+      "image": "assets/staff/kat.png",
+      "name": "Kat Cheng",
+      "title": "Web Lecturer",
+      "description": "Hiiii!! I'm Kat, a third-year majoring in EECS! When I'm not trying to catch up on sleep, I like to dance, play all the NYT Games (see if you can beat me in the Mini), and design things. I'm trying to be more outdoorsy, so if you have any hiking/scenic recs let me know!",
+      "social": "@itskatcheng"
     },
     {
       "image": "assets/staff/jessica.jpg",
@@ -41,11 +41,32 @@
       "image": "assets/staff/kaashvi.jpg",
       "name": "Kaashvi Agnihotri",
       "title": "iOS TA",
-      "description": "Hi, I'm Kaashvi! I'm a 3rd year CS student pursuing an English Minor. I like to draw, overanalyze murder mystery shows, and play the flute 🎶 Looking forward to meeting ya'll!",
+      "description": "Hi, I'm Kaashvi! I'm a 4th year CS Major, also pursuing DS and English Minors. You can find me drawing, playing video games, or overanalyzing mystery shows :sparkling_heart: Looking forward to meeting everybody!",
       "social": "@kashew_arts"
     },
     {
-      "image": "assets/staff/isha.jpg",
+      "image": "assets/staff/matthew.png",
+      "name": "Matthew Gerardi",
+      "title": "iOS TA",
+      "description": "Hi there! My name is Matthew and I'm a third year studying EECS. I love to play beach/indoor volleyball, pickleball, as well as electric guitar. Excited to meet you all and feel free to reach out to chat!",
+      "social": "@m.a.t.t_"
+    },
+    {
+      "image": "assets/staff/matthew.png",
+      "name": "Matthew Gerardi",
+      "title": "iOS TA",
+      "description": "Hi there! My name is Matthew and I'm a third year studying EECS. I love to play beach/indoor volleyball, pickleball, as well as electric guitar. Excited to meet you all and feel free to reach out to chat!",
+      "social": "@m.a.t.t_"
+    },
+    {
+      "image": "assets/staff/dylan.png",
+      "name": "Dylan Chhum",
+      "title": "iOS TA",
+      "description": "Hi, I'm Dylan! I am a 4th year EECS major. I love fishing and food. After every midterm or final you can find me at wingstop. Look forward to seeing everyone!",
+      "social": "@chhum_bucket"
+    },
+    {
+      "image": "assets/staff/isha.png",
       "name": "Isha Tailor",
       "title": "iOS TA",
       "description": "Hi guys! I'm Isha, a second-year from the Bay Area. I like reading, trying new food and coffee places, and practicing taekwondo in my free time. Feel free to contact me with anything!",
@@ -65,6 +86,12 @@
       "name": "Andy Huang",
       "title": "Course Lead & iOS Lecturer",
       "social": "@andyy_huang"
+    },
+    {
+      "image": "assets/staff/madhav.jpg",
+      "name": "Madhav Varshney",
+      "title": "Web Lecturer",
+      "social": "@madhavarshney"
     },
     {
       "image": "assets/staff/steffi.jpg",
