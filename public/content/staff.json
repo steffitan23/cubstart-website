@@ -52,6 +52,20 @@
       "social": "@m.a.t.t_"
     },
     {
+      "image": "assets/staff/oindree.png",
+      "name": "Oindree Chatterjee",
+      "title": "Web TA",
+      "description": "Heyyy! I'm Oindree, a second-year EECS major. Aside from my love for web dev, I enjoy hiking, photography, and watching sunsets by the ocean 🌅 I'm excited to meet you all, so please reach out if you have questions or want to chat!",
+      "social": "@oindree.c"
+    },
+    {
+      "image": "assets/staff/ahmed.png",
+      "name": "Ahmed Hugais",
+      "title": "Web TA",
+      "description": "Hi there! I'm Ahmed, a junior studying Computer Science from Yemen. I'm excited to embark on this journey with you as we dive into the fundamentals of web development. Outside of class, I enjoy working out, cooking, and going for walks. Feel free to reach out anytime about anything—I'd be happy to chat!",
+      "social": ""
+    },
+    {
       "image": "assets/staff/dylan.png",
       "name": "Dylan Chhum",
       "title": "iOS TA",
