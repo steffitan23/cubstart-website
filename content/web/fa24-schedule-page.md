@@ -2,7 +2,7 @@ Lecture: Mondays 5-6pm @ Moffit 101
 
 Lab: Fridays 5-6pm @ Moffit 101
 
-Office Hours (optional): Thursdays 6-7pm @ Moffit 101
+Office Hours (optional): Fridays 6-7pm @ Moffit 101
 
 *To get to Moffit 101, take the corridor to the right of the 3rd floor entrance*.
 

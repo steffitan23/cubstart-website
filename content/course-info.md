@@ -85,11 +85,11 @@ Homework assignments should be completed individually. You may only work in team
 
 Course policies are subject to change for DSP students.
 
-If you need any accommodations, please contact the course staff (cubstart@calhacks.io) with the subject line “[CUBSTART WEB/IOS] ACCOMMODATIONS REQUEST - YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
+If you need any accommodations, please contact the course staff (team@cubstart.com) with the subject line “[CUBSTART WEB/IOS] ACCOMMODATIONS REQUEST - YOUR FULL NAME.” Please include your letter of accommodations and in your own words, a description of what you need to be successful in this course. Additionally, please state which track you are enrolled in.
 
 ## Other Inquiries
 
-Any other inquiries should be directed to Ed or cubstart@calhacks.io with “[CUBSTART WEB]”  or "[CUBSTART IOS]" in the subject line.
+Any other inquiries should be directed to Ed or team@cubstart.com with “[CUBSTART WEB]”  or "[CUBSTART IOS]" in the subject line.
 
 ## Resources & Tools
 - Ed - Forum to discuss course content and assignments with your peers.
