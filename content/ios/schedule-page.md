@@ -9,7 +9,7 @@ OH: Fridays 6:00pm-7:00pm @ Moffit 102
 **Instruction begins on the week of September 9.**
 
 ## Announcements
-Join the [Ed](https://edstem.org/us/join/9rtEur) and [Gradescope](https://www.gradescope.com) with code XXXXXX.
+Join the [Ed](https://edstem.org/us/join/9rtEur) and [Gradescope](https://www.gradescope.com) with code VDEJBZ.
 
 | Week | Lecture | Lab Section | Homework/Project |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
