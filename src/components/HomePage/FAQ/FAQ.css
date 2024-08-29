@@ -34,7 +34,7 @@
     content: "";
     width: 16px;
     height: 2px;
-    background-color: #666;
+    background-color: #777;
     position: absolute;
     right: 0;
     top: 8px;
@@ -46,7 +46,7 @@
   
   .accordion__content {
     transform: translateY(50%);
-    color: #999;
+    color: #777;
     font-size: 16px;
     line-height: 1.5;
     max-height: 0;

@@ -59,12 +59,11 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
-              <li className="nav-item" style={{"marginTop":"-1px"}}>
+              {/*<li className="nav-item" style={{"marginTop":"-1px"}}>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKcm7m6R5XDwqFMHPZCIT52Pry65of0kPO2dYkiWK6PHTtzA/viewform?usp=sf_link"><button style={{"marginTop":"-20px", "borderRadius":"30px", "opacity":"1"}} className="nav-join-team-bttn">
                   Join Our Team!
-              </button></a>
-                {/* <a href="https://google.com">Apply to be a TA!</a> */}
-              </li>
+            </button></a>
+              </li>*/}
               {/* <li className="nav-item">
                 <Link to="/spec">Final Project</Link>
               </li> */}

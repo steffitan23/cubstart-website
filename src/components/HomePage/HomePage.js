@@ -40,10 +40,10 @@ function HomePage(props) {
                         className="typing-text"
                         /></h1>
                     <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
-                    <p><em>While preprequisites are not enforced, prior coding experience is highly recommmended.</em></p>
+                    <p><em>While preprequisites are not enforced, prior coding experience is recommmended.</em></p>
                     <p>Cubstart Fall 24 enrollment in open! Go to your CalCentral Enrollment Center and search <b>29886</b> for the Web Track (CS 198-750) OR <b>29885</b> for the iOS Track (CS 198-075).</p>
                     
-                    {/* <b>Fall 2024 enrollment will open soon, stay tuned! </b> */}
+                    <p >Got questions? Reach us at <a href="mailto:team@cubstart.com" style={{"color":"#3e9ec3", "fontWeight":"700"}}>team@cubstart.com</a></p>
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">
