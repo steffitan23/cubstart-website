@@ -36,11 +36,6 @@ function FAQPage(props) {
     </label>
     <label className="accordion__item">
       <input type="checkbox" name="accordion"/>
-      <div className="accordion__title">How can I contact you?</div>
-      <div className="accordion__content">Email us at <b style="color:#47a2c6;">team@cubstart.com</b></div>
-    </label>
-    <label className="accordion__item">
-      <input type="checkbox" name="accordion"/>
       <div className="accordion__title">Wow, this DeCal is so cool! Y'all are awesome!</div>
       <div className="accordion__content">Thanks, you're pretty cool too.</div>
     </label>
