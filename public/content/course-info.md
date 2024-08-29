@@ -6,6 +6,8 @@
 
 **Course Catalog:** Fall 2024
 
+**Contact:** team@cubstart.com
+
 ## Course Overview
 
 Central to many aspects of software engineering, full stack development using modern tech stacks is often overlooked by traditional course offerings. The difficulty of acquiring these developmental skillsets is undeniable, especially for those with no prior/limited experience wanting to break into tech. Cubstart provides unique weekly guided full-stack projects, mentorship, and technical workshops. The final project of the semester will be dedicated to applying your skills to develop a viable product/application with a team.
@@ -18,7 +20,7 @@ The course content is split into lectures, labs, homeworks, and a final project.
 
 _Prerequisites_
 
-For the Web track, we do not reforce prereqs, but prior coding experience of any kind is highly recommended (high school course, CS10, CS61A, etc). For the iOS track, we recommend that you have some prior coding experience and/or take some introductory programming course before or while you’re enrolled in Cubstart — e.g. CS61A.
+For the Web track, we do not reforce prereqs, but prior coding experience of any kind is recommended (high school course, CS10, CS61A, etc). For the iOS track, we recommend that you have some prior coding experience and/or take some introductory programming course before or while you’re enrolled in Cubstart — e.g. CS61A.
 
 _Textbooks and Required Materials_
 
@@ -75,7 +77,7 @@ The last 4 weeks will be dedicated to your final project, which is ideating and 
 
 ## Late Work
 
-No late work is accepted. Homework and the final project must be turned in on time or you will receive no credit. To request an extension, please create a private post on Ed, clearly stating which homework assignment you are referring to and the duration for which you need the extension. Please do not email cubstart@calhacks.io with extension requests.
+No late work is accepted. Homework and the final project must be turned in on time or you will receive no credit. To request an extension, please create a private post on Ed, clearly stating which homework assignment you are referring to and the duration for which you need the extension. Please do not email team@cubstart.com with extension requests.
 
 ## Academic Honesty
 
