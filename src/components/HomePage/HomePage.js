@@ -11,8 +11,8 @@ function HomePage(props) {
 
     return (
     <div>
-        <div className="banner">
-            <p>Enroll in Cubstart Fall 24 NOW! Go to your CalCentral Enrollment Center and search 29886 for the Web Track OR 29885 for the iOS Track.</p>
+        <div className="banner" style={{"padding":"0px"}}>
+            <p style={{"marginTop":"10px"}}>Enroll in Cubstart Fall 24 NOW!&nbsp;<a href="/#/enrollment-info" style={{"color":"#fff", "fontWeight":"900", "borderBottom":"1px solid #fff"}}>How do I Enroll?</a></p>
         </div>
     <div className="hero-wrapper">
         <div className="header">
@@ -39,11 +39,13 @@ function HomePage(props) {
                         repeat={Infinity}
                         className="typing-text"
                         /></h1>
-                    <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experiences to kickstart your resume, or if you have a desire to build but don’t know where to start, Cubstart is the course for you.</p>
-                    <p><em>While prerequisites are not enforced, prior coding experience is recommmended.</em></p>
-                    <p>Cubstart Fall 24 enrollment in open! Go to your CalCentral Enrollment Center and search <b>29886</b> for the Web Track (CS 198-750) OR <b>29885</b> for the iOS Track (CS 198-075).</p>
-                    
-                    <p >Got questions? Reach us at <a href="mailto:team@cubstart.com" style={{"color":"#3e9ec3", "fontWeight":"700"}}>team@cubstart.com</a></p>
+                    <p>Cubstart is a web/mobile development course for beginner to intermediate developers. Whether you need project experience, or don't know where to start, Cubstart is the course for you!</p>
+                    <div style={{"height":"7px"}}></div>
+                    <a href="/#/enrollment-info" style={{"color":"#3e9ec3", "borderBottom":"1px solid #3e9ec3", "fontWeight":"700", "letterSpacing":"0em", "fontSize":"1.15em"}}>How Do I Enroll?</a>
+                    <div style={{"height":"4px"}}></div>
+                    <p style={{"color":"#888", "fontSize":"0.97em"}}><em>While prerequisites are not enforced, prior coding experience is recommmended.</em></p>
+
+                    {/*<p >Got questions? Reach us at <a href="mailto:team@cubstart.com" style={{"color":"#3e9ec3", "fontWeight":"700"}}>team@cubstart.com</a></p>*/}
                     <br/>
                     <div className="stats-wrapper">
                         <div className="stats-item">

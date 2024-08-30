@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import SchedulePage from "../SchedulePage/SchedulePage";
 import CourseInfoPage  from "../CourseInfoPage/CourseInfo";
+import EnrollmentInfoPage  from "../EnrollmentInfoPage/EnrollmentInfo";
 import StaffPage from "../StaffPage/StaffPage";
 import HomePage from "../HomePage/HomePage";
 import {
@@ -59,11 +60,11 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
-              {/*<li className="nav-item" style={{"marginTop":"-1px"}}>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKcm7m6R5XDwqFMHPZCIT52Pry65of0kPO2dYkiWK6PHTtzA/viewform?usp=sf_link"><button style={{"marginTop":"-20px", "borderRadius":"30px", "opacity":"1"}} className="nav-join-team-bttn">
-                  Join Our Team!
+              <li className="nav-item" style={{"marginTop":"-1px"}}>
+              <a href="/#/enrollment-info"><button style={{"marginTop":"-20px", "borderRadius":"30px", "opacity":"1"}} className="nav-join-team-bttn">
+                  FA24 Enrollment Info
             </button></a>
-              </li>*/}
+              </li>
               {/* <li className="nav-item">
                 <Link to="/spec">Final Project</Link>
               </li> */}
@@ -74,6 +75,7 @@ function Navbar() {
             <Route path = '/schedule' element={ <SchedulePage/> } />
             <Route path = '/staff' element={ <StaffPage/> } />
             <Route path = '/info' element={ <CourseInfoPage/> } />
+            <Route path = '/enrollment-info' element={ <EnrollmentInfoPage/> } />
             <Route path = '/hw/:type/:id' element={ <HomeworkPage/> } />
             <Route path = '/lab/:type/:id' element={ <LabPage/> } />
             <Route path='/sponsorship' element={ <Sponsorship />}/>
