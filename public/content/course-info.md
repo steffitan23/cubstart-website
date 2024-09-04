@@ -34,9 +34,7 @@ The weekly lectures are intended to give an introduction to the contents covered
 
 Labs are a fun way to learn and practice the content in a more hands-on way! We have all sorts of exciting exercises for you to make your own demos and small apps. They also serve as a means of introducing the homework assignment (that was assigned the previous week) for those who are struggling to grasp certain concepts or haven't gotten around to doing the assigned homework. 
 
-**Web**: The **first hour of lab is required**. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
-
-**iOS**: Lab is **optional**.
+**Web & iOS**: The **first hour of lab/discussion is required**. The second half of lab serves as office hours / homework party and is optional, but highly recommended for those new to programming.
 
 ## Learning Goals
 - Achieving full-stack web development or iOS development proficiency
@@ -59,15 +57,17 @@ To earn a P, you will need >= 70%. This course is fast-paced and highly cumulati
 
 **Web**: You are allowed up to **4 unexcused absences across lectures and labs**.
 
-**iOS**: You are allowed up to **2 unexcused absences across lectures**.
+**iOS**: You are allowed up to **2 unexcused absences across lectures and labs/discussions each respectively**. If you are not able to attend the given lecture or lab/discussion, you may be given an alternative assignment to complete.
 
 If you have an extenuating circumstance and have used up your unexcused absences, please fill out our excused absences form. Your grade will not be impacted by the first two unexcused absences, nor by any excused absences.
 
 ## Homeworks
 
-The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow.
+**Web**:
+The weekly homeworks are mini-projects that have a detailed, step-by-step spec for you to follow. You have **2 homework drops** in total which do not impact your grade. Any additional incomplete homeworks will result in a NP. Homeworks are weighted equally.
 
-You have **2 homework drops** in total which do not impact your grade. Any additional incomplete homeworks will result in a NP. Homeworks are weighted equally.
+**iOS**: 
+There will be no drops for mini-projects. In the circumstance that you need additional time to complete, please ask us for an extension on Ed.
 
 ## Final Project
 
