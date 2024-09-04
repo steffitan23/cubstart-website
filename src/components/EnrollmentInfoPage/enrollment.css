@@ -1,0 +1,7 @@
+
+    @media (max-width:480px)  { 
+        .enrollment_header {
+            text-align:center !important;
+            padding-right:10px;
+        }
+    }

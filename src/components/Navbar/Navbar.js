@@ -27,7 +27,7 @@ function Navbar() {
         <Router>
           <nav className="navbar">
             
-            <div className="logo-wrapper">
+           <div className="logo-wrapper">
             <a href="/"><img
                 id="logo"
                 src="assets/cubstart_logo.png"
@@ -35,7 +35,7 @@ function Navbar() {
               /></a>
               <a href="/">
               <h3>The <p className="nav-cubstart-text">Cubstart Decal</p></h3></a>
-            </div>
+  </div>
             <div
               className={
                 openMobileTab ? "menu-toggle is-active" : "menu-toggle"
@@ -47,6 +47,9 @@ function Navbar() {
               <span className="bar"></span>
               <span className="bar"></span>
             </div>
+
+
+            
             <ul className={openMobileTab ? "nav mobile-nav" : "nav"}>
             <li className="nav-item">
                 <Link to="/">Home</Link>
@@ -60,7 +63,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link to="/info">Course Info</Link>
               </li>
-              <li className="nav-item" style={{"marginTop":"-1px"}}>
+             <li className="nav-item" style={{"marginTop":"-1px"}}>
               <a href="/#/enrollment-info"><button style={{"marginTop":"-20px", "borderRadius":"30px", "opacity":"1"}} className="nav-join-team-bttn">
                   FA24 Enrollment Info
             </button></a>

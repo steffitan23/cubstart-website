@@ -95,7 +95,7 @@
   }
 
   .navbar ul {
-    position: absolute;
+    /* position: absolute; */
     margin-right: 8%;
     list-style: none;
     display: flex;

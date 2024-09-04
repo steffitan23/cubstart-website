@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import "../SchedulePage/SchedulePage.css"
 import "../HomeworkPage/homework.css"
+import "./enrollment.css"
 import Footer from '../Footer/Footer';
 
 function EnrollmentInfoPage() {
@@ -27,11 +28,11 @@ function EnrollmentInfoPage() {
 
       <br/>
 
-      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 1: </h3><p style={{"marginTop":"19px"}}>Go to "Enrollment Center" in <a style={{"cursor":"pointer", "borderBottom":"1px solid #3e9ec3", "fontWeight":"600",}} target="_blank" href="https://calcentral.berkeley.edu/academics">CalCentral</a></p></div>
+      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 className="enrollment_header" style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 1: </h3><p style={{"marginTop":"19px"}}>Go to "Enrollment Center" in <a style={{"cursor":"pointer", "borderBottom":"1px solid #3e9ec3", "fontWeight":"600",}} target="_blank" href="https://calcentral.berkeley.edu/academics">CalCentral</a></p></div>
       
-      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 2: </h3><p style={{"marginTop":"19px"}}>Search for either <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>29886</span> for our <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>Web Track</span> (CS 198-750) or <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>29885</span> for our <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>iOS Track</span> (CS 198-075)</p></div>
+      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 className="enrollment_header" style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 2: </h3><p style={{"marginTop":"19px"}}>Search for either <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>29886</span> for our <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>Web Track</span> (CS 198-750) or <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>29885</span> for our <span style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>iOS Track</span> (CS 198-075)</p></div>
       
-      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 3: </h3><p style={{"marginTop":"19px"}}>Go through all the steps to enroll, leaving the permission number blank! Then you're <span style={{"color":"#3e9ec3", "fontWeight":"700", "letterSpacing":"-0.03em"}}>DONE!</span></p></div>
+      <div style={{ "display":"flex", "flexDirection":"row", "alignItems":"center"}}><h3 className="enrollment_header" style={{"color":"#3e9ec3", "marginRight":"10px",}}>Step 3: </h3><p style={{"marginTop":"19px"}}>Go through all the steps to enroll, leaving the permission number blank! Then you're <span style={{"color":"#3e9ec3", "fontWeight":"700", "letterSpacing":"-0.03em"}}>DONE!</span></p></div>
     
       <p>Got stuck? Ask us anything at <a href="mailto:team@cubstart.com" style={{"color":"#3e9ec3", "fontWeight":"600", "letterSpacing":"0em"}}>team@cubstart.com</a></p>
       
