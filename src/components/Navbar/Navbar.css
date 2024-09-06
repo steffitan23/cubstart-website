@@ -76,8 +76,12 @@
     font-weight: 100;
     font-size:0.85em;
     line-height:0.12;
-    width:125px;
+    width:175px;
     color: #a1a1a1; /* var(--main-color);*/
+  }
+
+  .logo-wrapper .subheader h3 {
+    margin-top: 10px;
   }
 
   #logo {
