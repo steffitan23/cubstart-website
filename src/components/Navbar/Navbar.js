@@ -34,7 +34,9 @@ function Navbar() {
                 alt="Cubstart Logo"
               /></a>
               <a href="/">
-              <h3>The <p className="nav-cubstart-text">Cubstart Decal</p></h3></a>
+              <h3>The <p className="nav-cubstart-text">Cubstart Decal</p><a href="https://hackberkeley.org"><h3 className="subheader"> by Hackathons @ Berkeley</h3></a></h3></a> 
+              
+              
   </div>
             <div
               className={
