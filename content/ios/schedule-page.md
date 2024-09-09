@@ -13,8 +13,8 @@ Join the [Ed](https://edstem.org/us/join/9rtEur) and [Gradescope](https://www.gr
 
 | Week | Lecture | Lab Section | Homework/Project |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1    | Motivation, Git, & Swift | Discussion 1: Xcode & Swift | HW 1: TBD |
-| 2    | More Swift & SwiftUI | Discussion 2  | [Mini Project 1: CalFinance](https://calhacks.notion.site/Mini-Project-1-CalFinance-e1d3ffaf400b4c679dd01609c764c0dd?pvs=4) |
+| 1    | Motivation, Git, & Swift | Discussion 1: Xcode & Swift | Homework 1 |
+| 2    | More Swift & SwiftUI | Discussion 2  | Mini Project 1: CalFinance |
 | 3    | Closures, Dataflow, & Lists | Discussion 3 | Mini Project 1|
 | 4    | Observation and MVVM | Discussion 4 | Mini Project 2: Class Planner  |
 | 5    | Navigation and Presentation | Discussion 5 | Mini Project 2 |
