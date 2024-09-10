@@ -13,7 +13,7 @@ Join the [Ed](https://edstem.org/us/join/9rtEur) and [Gradescope](https://www.gr
 
 | Week | Lecture | Lab Section | Homework/Project |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| 1    | Motivation, Git, & Swift [Slides](https://drive.google.com/file/d/1GuW3e5f9PlFAp6cmPt9mgZV7KEjML1rL/view?usp=sharing) | Discussion 1: Xcode & Swift | [Homework 1](https://calhacks.notion.site/HW-1-9ff3cbb742a440b4afac115ce0ed3876?pvs=4) |
+| 1    | Motivation, Git, & Swift [Slides](https://drive.google.com/file/d/1GuW3e5f9PlFAp6cmPt9mgZV7KEjML1rL/view?usp=sharing) [Recording](https://youtu.be/DkCzKvBstto?si=kKP4MiEbhiM5IP2S)| Discussion 1: Xcode & Swift | [Homework 1](https://calhacks.notion.site/HW-1-9ff3cbb742a440b4afac115ce0ed3876?pvs=4) |
 | 2    | More Swift & SwiftUI | Discussion 2  | Mini Project 1: CalFinance |
 | 3    | Closures, Dataflow, & Lists | Discussion 3 | Mini Project 1|
 | 4    | Observation and MVVM | Discussion 4 | Mini Project 2: Class Planner  |
