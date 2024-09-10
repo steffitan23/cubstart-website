@@ -6,15 +6,15 @@ First, install a code editor if you haven't already! Our recommendation is [VS C
 For this homework, you will be making a basic HTML website. We need to create a folder to hold all of this site's content, including its HTML file.
 
 1. First, if you haven't already, create a folder on your computer called **"cubstart_web"** or whatever you want to name it. This folder will hold all of your Cubstart-related projects.
-2. Open your code editor of choice in the "cubstart_web" folder and create a new folder. Name it **HW1**.
+2. Open the "cubstart_web" folder in the editor of your choice and create a new folder. Name it **HW1**.
 3. Inside of the "HW1" folder, create a new file and name it **index.html**.
     - Think of this as the homepage of your site!
-4. Create a new folder within your "cubstart_web" folder named "**assets**".
-    - This "assets" folder is where you can put images from your local computer that you want to display on your site (e.g. a selfie)
+4. Create a new folder within your "HW1" folder named "**assets**".
+    - This "assets" folder is where you can put images from your local computer that you want to display on your site.
 
 At the end of setup, your **cubstart_web** folder should look something like this:
 
-![](/assets/hw1-setup.png)
+<img src="/assets/hw1-setup.png" width="300"/>
 
 # Build Your Own Site
 
@@ -43,7 +43,7 @@ In VS Code, to get boilerplate HTML, you can type "html:5" in your HTML file and
 
 ## Requirements for Your Site
 
-To make sure you get the hang of the basics we covered in lecture, we'll be checking your final site for the following tags and elements:
+To make sure you get the hang of the basics we covered in lecture and lab, we'll be checking your final site for the following elements and styles:
 
 - A **title** tag in the HTML `<head>` → Name your site.
 - At least 2 sets of **div tags** → Organize your website into sections.
@@ -54,19 +54,15 @@ To make sure you get the hang of the basics we covered in lecture, we'll be chec
 - An **image** → Spice up your site with some visual elements! 🔥
     - Add an image to your "assets" folder and use a relative URL! Check out Lab 1 slides or make an Ed post for help. 
 - A **link** to a site of your choice → use the `<a>` tags to link your favorite Youtube videos, a Spotify playlist, your social media handles, etc.
+- Add some **color**! Use CSS selectors to make some text or a div a different color, and explore other CSS properties if you want to get a headstart on next week's content! (Intro to CSS is covered in Lab 1)
+
+If you're looking for some resources to get started, here are some good sites:
+- [W3Schools](https://www.w3schools.com/css/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Viewing Your Site
 
-Want to see what your site looks like in a web browser? 
-
-Double click on the **index.html** file and it should open your page on your default browser! Refresh the page to see your changes!
-    
-# Challenge!
-Do you know some CSS? We'll be going over how to beautify our website in a later HW, but if you want to challenge yourself and try it out right now, you can look up some resources on CSS and style your website! We're excited to see how creative you can be! :)
-
-If you're looking for some resources to get a headstart, here are some good sites:
-- [W3Schools](https://www.w3schools.com/css/)
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+To see what your site looks like in a browser, double click on the **index.html** file and it should open your page on your default browser! Refresh the page to see your changes!
 
 # Homework Submission!
 To submit the homework folder, you have to zip it first. 
