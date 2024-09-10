@@ -13,7 +13,7 @@ Join the [Ed](https://edstem.org/us/join/tyHBru) and [Gradescope](https://www.gr
 
 | Week | Lecture                                                                                                                               | Lab Section | Homework/Project |
 |------|-----|-------|-------------|
-| 1    | HTML     | Lab 1: HTML   | HW 1: HTML Basics    |
+| 1    | HTML[Slides](https://docs.google.com/presentation/d/1yn-vazOitq1sv8bdhDhS2NwQwJYMVNlrwgFbEfr30VM/edit?usp=sharing)     | Lab 1: HTML   | HW 1: HTML Basics    |
 | 2    | CSS                              | Lab 2: CSS | HW 2: Personal Portfolio |
 | 3    | JavaScript | Lab 3: DOM Manipulation with JS  | HW 3: JavaScript Playground  |
 | 4    | Intro to APIs     | Lab 4: API Practice | HW 4: API Quiz on Gradescope |
