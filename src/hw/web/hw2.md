@@ -16,12 +16,12 @@ Don't worry, we're going to customize it with our own information and style it h
 ## Setting up your Files
 Before we start building our website, we need to create a folder that will hold all of the site's content, with both the HTML and CSS files this time. 
 
-1. Download the skeleton for the homework [here](assets/hw2/sp24-hw2-skeleton.zip).
+1. Download the skeleton for the homework [here](assets/hw2/fa24-hw2-skeleton.zip).
 2. Unzip the file. 
 _**macOS:** Double-click the .zip file. The unzipped item appears in the same folder as the .zip file. If you want to, you can delete the .zip file._
 _**Windows:** To unzip the entire folder, right-click the .zip file. Select Extract All, and then follow the instructions._
 3. Run your text editor of choice. We like VSCode.
-4. Open the **sp24-hw2-skeleton** folder. We'll be editing **index.html** and **styles.css**. If the CSS file name is red, that means there are errors in that file. Don't worry, you will be fixing those errors later!
+4. Open the **fa24-hw2-skeleton** folder. We'll be editing **index.html** and **styles.css**. If the CSS file name is red, that means there are errors in that file. Don't worry, you will be fixing those errors later!
 
 ## Viewing Your Site
 
@@ -152,7 +152,7 @@ You've covered the basics of HTML/CSS, congratulations! Now, make the website yo
 To submit the homework folder, you have to zip it first. 
 
 **To zip a folder:**
-_**Windows:** Right-click the folder **sp24-hw2-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder **sp24-hw2-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
+_**Windows:** Right-click the folder **fa24-hw2-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder **fa24-hw2-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com/) and you're done!
