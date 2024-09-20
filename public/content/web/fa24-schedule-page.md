@@ -16,7 +16,7 @@ Lecture and lab recordings are posted [here](https://drive.google.com/drive/fold
 | Week | Lecture                                                                                                                               | Lab Section | Homework/Project |
 |------|-----|-------|-------------|
 | 1    | HTML[Slides](https://docs.google.com/presentation/d/1yn-vazOitq1sv8bdhDhS2NwQwJYMVNlrwgFbEfr30VM/edit?usp=sharing)     | Lab 1: HTML[Slides](https://docs.google.com/presentation/d/1__qgbZ8quPBOTlsgcXcf5AIWfBRUs-UrVX3Pc1m69HI/edit?usp=sharing)   | [HW 1: HTML Basics](#/hw/web/hw1)    |
-| 2    | CSS[Slides](https://docs.google.com/presentation/d/1jca2ANy5hidaWA8h_0QcvY_biS4LpiAavqL01NDH9Mk/edit?usp=sharing)                              | Lab 2: CSS | [HW 2: Personal Portfolio](#/hw/web/hw2) |
+| 2    | CSS[Slides](https://docs.google.com/presentation/d/1jca2ANy5hidaWA8h_0QcvY_biS4LpiAavqL01NDH9Mk/edit?usp=sharing)                              | Lab 2: CSS[Slides](https://docs.google.com/presentation/d/1ui-5rWP7jHs7qAFQeCzZFzpxk-JICk3fR3da8lSZZMA/edit?usp=sharing) | [HW 2: Personal Portfolio](#/hw/web/hw2) |
 | 3    | JavaScript | Lab 3: DOM Manipulation with JS  | HW 3: JavaScript Playground  |
 | 4    | Intro to APIs     | Lab 4: API Practice | HW 4: API Quiz on Gradescope |
 | 5    | APIs, Promises, & Fetch() | Lab 5: APIs + Frontend  | HW 5: OpenWeatherMap API  |
