@@ -57,7 +57,7 @@ To earn a P, you will need >= 70%. This course is fast-paced and highly cumulati
 
 **Web**: You are allowed up to **4 unexcused absences across lectures and labs**.
 
-**iOS**: You are allowed up to **2 unexcused absences across lectures and discussions each respectively**. If you are not able to attend the given lecture or discussion, you are given an alternative assignment to complete.
+**iOS**: You are allowed up to **2 unexcused absences across lectures and discussions each respectively**. If you are not able to attend a lecture or discussion, you can complete the corresponding alternative assignment on Ed. Completing alternative assignments will treat you as if you were there.
 
 If you have an extenuating circumstance and have used up your unexcused absences, please fill out our excused absences form. Your grade will not be impacted by the first two unexcused absences, nor by any excused absences.
 
