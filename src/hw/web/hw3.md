@@ -4,7 +4,7 @@ This week's homework is intended to set you up for the more complex JavaScript-h
 
 For this project, there won't be any use of external libraries, so the skeleton simply includes the basic web file structure that we covered in lecture (HTML, CSS, JavaScript).
 
-**Download the homework skeleton [here](assets/hw3/sp24-hw3-skeleton.zip).**
+**Download the homework skeleton [here](assets/hw3/fa24-hw3-skeleton.zip).**
 
 ## Part 1: Creating a Counter
 **index.html** is your landing page. Notice how we have linked to the two HTML pages (index and playground) in the navigation bar using the anchor (a) tag! Navigate to the **playground.html** page. In this part, you'll be creating a simple counter application with three main features: a button to +1, a button to -1, and the number displayed depending on the button presses.
@@ -150,7 +150,7 @@ inputTask.addEventListener("input", () => {
 To submit the homework folder, you have to zip it first. 
 
 **To zip a folder:**
-_**Windows:** Right-click the folder **hw3-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
-_**macOS:** Control-click the folder **hw3-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
+_**Windows:** Right-click the folder **fa24-hw3-skeleton**, select (or point to) Send to, and then select Compressed (zipped) folder._
+_**macOS:** Control-click the folder **fa24-hw3-skeleton** or tap it using two fingers, then choose Compress from the shortcut menu._
 
 Upload the .zip file to [Gradescope](https://www.gradescope.com) :)
